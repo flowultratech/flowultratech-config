@@ -1,8 +1,8 @@
 {
  "app": "flow-reno",
  "version": 5,
- "build": 92,
- "label": "2.1.8",
+ "build": 93,
+ "label": "2.1.9",
  "ops": {
   "mnPlan": {
    "id": "mnPlan",
@@ -13445,22 +13445,56 @@
       "parts": [
        {
         "when": {
-         "op": "eq",
-         "a": "{values.cellRefs}",
-         "b": "1"
+         "op": "and",
+         "list": [
+          {
+           "op": "eq",
+           "a": "{values.cellRefs}",
+           "b": "1"
+          },
+          {
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{item.arc}",
+            "b": "ไทม์แลปส์กล้องนิ่ง"
+           }
+          }
+         ]
         },
         "value": "\n\nImages 1-6 = this part's 6 beats in order, one photo per beat (silent guide): beat N looks like image N. Copy their room, objects (colour, material), people, outfits, light and angle; their looks beat the wording. Each beat is one live shot filling the whole 9:16 frame edge to edge, never a plain band or border; never show the photos themselves, side by side or as a grid, even at 0 s. "
        },
        {
         "when": {
-         "op": "not",
-         "a": {
-          "op": "eq",
-          "a": "{values.cellRefs}",
-          "b": "1"
-         }
+         "op": "and",
+         "list": [
+          {
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{values.cellRefs}",
+            "b": "1"
+           }
+          },
+          {
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{item.arc}",
+            "b": "ไทม์แลปส์กล้องนิ่ง"
+           }
+          }
+         ]
         },
         "value": "\n\nImage 1 = this part's storyboard (silent guide); its 6 pictures are the 6 beats, left before right, top to bottom. Copy its room, objects (colour, material), people, outfits, light and (not in time-lapse) each beat's angle; its looks beat the wording. Never show the storyboard on screen, even at 0 s: frame 1 is live full-screen footage of beat 1. "
+       },
+       {
+        "when": {
+         "op": "eq",
+         "a": "{item.arc}",
+         "b": "ไทม์แลปส์กล้องนิ่ง"
+        },
+        "value": "\n\nImage 1 is the exact first frame of this part; the given last frame is its exact final frame. One locked camera, upright picture, same framing first to last: no zoom, pan, tilt or reframing. Spread the work evenly over the whole clip: something visibly advances every second; never hold still and then jump; reach the last frame only in the final second. Everything already built stays in place (floors, roof, walls, fence); nothing disappears, shrinks or is rebuilt differently. "
        }
       ]
      },
@@ -16410,22 +16444,56 @@
       "parts": [
        {
         "when": {
-         "op": "eq",
-         "a": "{values.cellRefs}",
-         "b": "1"
+         "op": "and",
+         "list": [
+          {
+           "op": "eq",
+           "a": "{values.cellRefs}",
+           "b": "1"
+          },
+          {
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{item.arc}",
+            "b": "ไทม์แลปส์กล้องนิ่ง"
+           }
+          }
+         ]
         },
         "value": "\n\nImages 1-6 = this part's 6 beats in order, one photo per beat (silent guide): beat N looks like image N. Copy their room, objects (colour, material), people, outfits, light and angle; their looks beat the wording. Each beat is one live shot filling the whole 9:16 frame edge to edge, never a plain band or border; never show the photos themselves, side by side or as a grid, even at 0 s. "
        },
        {
         "when": {
-         "op": "not",
-         "a": {
-          "op": "eq",
-          "a": "{values.cellRefs}",
-          "b": "1"
-         }
+         "op": "and",
+         "list": [
+          {
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{values.cellRefs}",
+            "b": "1"
+           }
+          },
+          {
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{item.arc}",
+            "b": "ไทม์แลปส์กล้องนิ่ง"
+           }
+          }
+         ]
         },
         "value": "\n\nImage 1 = this part's storyboard (silent guide); its 6 pictures are the 6 beats, left before right, top to bottom. Copy its room, objects (colour, material), people, outfits, light and (not in time-lapse) each beat's angle; its looks beat the wording. Never show the storyboard on screen, even at 0 s: frame 1 is live full-screen footage of beat 1. "
+       },
+       {
+        "when": {
+         "op": "eq",
+         "a": "{item.arc}",
+         "b": "ไทม์แลปส์กล้องนิ่ง"
+        },
+        "value": "\n\nImage 1 is the exact first frame of this part; the given last frame is its exact final frame. One locked camera, upright picture, same framing first to last: no zoom, pan, tilt or reframing. Spread the work evenly over the whole clip: something visibly advances every second; never hold still and then jump; reach the last frame only in the final second. Everything already built stays in place (floors, roof, walls, fence); nothing disappears, shrinks or is rebuilt differently. "
        }
       ]
      },
@@ -19375,22 +19443,56 @@
       "parts": [
        {
         "when": {
-         "op": "eq",
-         "a": "{values.cellRefs}",
-         "b": "1"
+         "op": "and",
+         "list": [
+          {
+           "op": "eq",
+           "a": "{values.cellRefs}",
+           "b": "1"
+          },
+          {
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{item.arc}",
+            "b": "ไทม์แลปส์กล้องนิ่ง"
+           }
+          }
+         ]
         },
         "value": "\n\nImages 1-6 = this part's 6 beats in order, one photo per beat (silent guide): beat N looks like image N. Copy their room, objects (colour, material), people, outfits, light and angle; their looks beat the wording. Each beat is one live shot filling the whole 9:16 frame edge to edge, never a plain band or border; never show the photos themselves, side by side or as a grid, even at 0 s. "
        },
        {
         "when": {
-         "op": "not",
-         "a": {
-          "op": "eq",
-          "a": "{values.cellRefs}",
-          "b": "1"
-         }
+         "op": "and",
+         "list": [
+          {
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{values.cellRefs}",
+            "b": "1"
+           }
+          },
+          {
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{item.arc}",
+            "b": "ไทม์แลปส์กล้องนิ่ง"
+           }
+          }
+         ]
         },
         "value": "\n\nImage 1 = this part's storyboard (silent guide); its 6 pictures are the 6 beats, left before right, top to bottom. Copy its room, objects (colour, material), people, outfits, light and (not in time-lapse) each beat's angle; its looks beat the wording. Never show the storyboard on screen, even at 0 s: frame 1 is live full-screen footage of beat 1. "
+       },
+       {
+        "when": {
+         "op": "eq",
+         "a": "{item.arc}",
+         "b": "ไทม์แลปส์กล้องนิ่ง"
+        },
+        "value": "\n\nImage 1 is the exact first frame of this part; the given last frame is its exact final frame. One locked camera, upright picture, same framing first to last: no zoom, pan, tilt or reframing. Spread the work evenly over the whole clip: something visibly advances every second; never hold still and then jump; reach the last frame only in the final second. Everything already built stays in place (floors, roof, walls, fence); nothing disappears, shrinks or is rebuilt differently. "
        }
       ]
      },
@@ -22340,22 +22442,56 @@
       "parts": [
        {
         "when": {
-         "op": "eq",
-         "a": "{values.cellRefs}",
-         "b": "1"
+         "op": "and",
+         "list": [
+          {
+           "op": "eq",
+           "a": "{values.cellRefs}",
+           "b": "1"
+          },
+          {
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{item.arc}",
+            "b": "ไทม์แลปส์กล้องนิ่ง"
+           }
+          }
+         ]
         },
         "value": "\n\nImages 1-6 = this part's 6 beats in order, one photo per beat (silent guide): beat N looks like image N. Copy their room, objects (colour, material), people, outfits, light and angle; their looks beat the wording. Each beat is one live shot filling the whole 9:16 frame edge to edge, never a plain band or border; never show the photos themselves, side by side or as a grid, even at 0 s. "
        },
        {
         "when": {
-         "op": "not",
-         "a": {
-          "op": "eq",
-          "a": "{values.cellRefs}",
-          "b": "1"
-         }
+         "op": "and",
+         "list": [
+          {
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{values.cellRefs}",
+            "b": "1"
+           }
+          },
+          {
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{item.arc}",
+            "b": "ไทม์แลปส์กล้องนิ่ง"
+           }
+          }
+         ]
         },
         "value": "\n\nImage 1 = this part's storyboard (silent guide); its 6 pictures are the 6 beats, left before right, top to bottom. Copy its room, objects (colour, material), people, outfits, light and (not in time-lapse) each beat's angle; its looks beat the wording. Never show the storyboard on screen, even at 0 s: frame 1 is live full-screen footage of beat 1. "
+       },
+       {
+        "when": {
+         "op": "eq",
+         "a": "{item.arc}",
+         "b": "ไทม์แลปส์กล้องนิ่ง"
+        },
+        "value": "\n\nImage 1 is the exact first frame of this part; the given last frame is its exact final frame. One locked camera, upright picture, same framing first to last: no zoom, pan, tilt or reframing. Spread the work evenly over the whole clip: something visibly advances every second; never hold still and then jump; reach the last frame only in the final second. Everything already built stays in place (floors, roof, walls, fence); nothing disappears, shrinks or is rebuilt differently. "
        }
       ]
      },
@@ -25306,22 +25442,56 @@
       "parts": [
        {
         "when": {
-         "op": "eq",
-         "a": "{values.cellRefs}",
-         "b": "1"
+         "op": "and",
+         "list": [
+          {
+           "op": "eq",
+           "a": "{values.cellRefs}",
+           "b": "1"
+          },
+          {
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{item.arc}",
+            "b": "ไทม์แลปส์กล้องนิ่ง"
+           }
+          }
+         ]
         },
         "value": "\n\nImages 1-6 = this part's 6 beats in order, one photo per beat (silent guide): beat N looks like image N. Copy their room, objects (colour, material), people, outfits, light and angle; their looks beat the wording. Each beat is one live shot filling the whole 9:16 frame edge to edge, never a plain band or border; never show the photos themselves, side by side or as a grid, even at 0 s. "
        },
        {
         "when": {
-         "op": "not",
-         "a": {
-          "op": "eq",
-          "a": "{values.cellRefs}",
-          "b": "1"
-         }
+         "op": "and",
+         "list": [
+          {
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{values.cellRefs}",
+            "b": "1"
+           }
+          },
+          {
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{item.arc}",
+            "b": "ไทม์แลปส์กล้องนิ่ง"
+           }
+          }
+         ]
         },
         "value": "\n\nImage 1 = this part's storyboard (silent guide); its 6 pictures are the 6 beats, left before right, top to bottom. Copy its room, objects (colour, material), people, outfits, light and (not in time-lapse) each beat's angle; its looks beat the wording. Never show the storyboard on screen, even at 0 s: frame 1 is live full-screen footage of beat 1. "
+       },
+       {
+        "when": {
+         "op": "eq",
+         "a": "{item.arc}",
+         "b": "ไทม์แลปส์กล้องนิ่ง"
+        },
+        "value": "\n\nImage 1 is the exact first frame of this part; the given last frame is its exact final frame. One locked camera, upright picture, same framing first to last: no zoom, pan, tilt or reframing. Spread the work evenly over the whole clip: something visibly advances every second; never hold still and then jump; reach the last frame only in the final second. Everything already built stays in place (floors, roof, walls, fence); nothing disappears, shrinks or is rebuilt differently. "
        }
       ]
      },
@@ -28270,22 +28440,56 @@
       "parts": [
        {
         "when": {
-         "op": "eq",
-         "a": "{values.cellRefs}",
-         "b": "1"
+         "op": "and",
+         "list": [
+          {
+           "op": "eq",
+           "a": "{values.cellRefs}",
+           "b": "1"
+          },
+          {
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{item.arc}",
+            "b": "ไทม์แลปส์กล้องนิ่ง"
+           }
+          }
+         ]
         },
         "value": "\n\nImages 1-6 = this part's 6 beats in order, one photo per beat (silent guide): beat N looks like image N. Copy their room, objects (colour, material), people, outfits, light and angle; their looks beat the wording. Each beat is one live shot filling the whole 9:16 frame edge to edge, never a plain band or border; never show the photos themselves, side by side or as a grid, even at 0 s. "
        },
        {
         "when": {
-         "op": "not",
-         "a": {
-          "op": "eq",
-          "a": "{values.cellRefs}",
-          "b": "1"
-         }
+         "op": "and",
+         "list": [
+          {
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{values.cellRefs}",
+            "b": "1"
+           }
+          },
+          {
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{item.arc}",
+            "b": "ไทม์แลปส์กล้องนิ่ง"
+           }
+          }
+         ]
         },
         "value": "\n\nImage 1 = this part's storyboard (silent guide); its 6 pictures are the 6 beats, left before right, top to bottom. Copy its room, objects (colour, material), people, outfits, light and (not in time-lapse) each beat's angle; its looks beat the wording. Never show the storyboard on screen, even at 0 s: frame 1 is live full-screen footage of beat 1. "
+       },
+       {
+        "when": {
+         "op": "eq",
+         "a": "{item.arc}",
+         "b": "ไทม์แลปส์กล้องนิ่ง"
+        },
+        "value": "\n\nImage 1 is the exact first frame of this part; the given last frame is its exact final frame. One locked camera, upright picture, same framing first to last: no zoom, pan, tilt or reframing. Spread the work evenly over the whole clip: something visibly advances every second; never hold still and then jump; reach the last frame only in the final second. Everything already built stays in place (floors, roof, walls, fence); nothing disappears, shrinks or is rebuilt differently. "
        }
       ]
      },
