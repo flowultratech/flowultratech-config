@@ -1,8 +1,8 @@
 {
  "app": "flow-reno",
  "version": 5,
- "build": 94,
- "label": "2.2.0",
+ "build": 95,
+ "label": "2.2.1",
  "ops": {
   "mnPlan": {
    "id": "mnPlan",
@@ -32064,6 +32064,6 @@
   }
  },
  "access": {
-  "hash": "c997f14932257592b74e09b1fafa49646cd683a40a7d8c03fea70dc45be6449e"
+  "hash": "a11f4e1a63c6929c8169968d19fe49712f72972f45c4754a4fa17aecaa3b4a45"
  }
 }
