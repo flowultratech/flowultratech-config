@@ -1,8 +1,8 @@
 {
  "app": "flow-reno",
  "version": 5,
- "build": 109,
- "label": "2.5.7",
+ "build": 110,
+ "label": "2.5.8",
  "ops": {
   "mnPlan": {
    "id": "mnPlan",
@@ -13480,7 +13480,7 @@
           "b": "ไทม์แลปส์กล้องนิ่ง"
          }
         },
-        "value": "FRAME RULE: every frame is one full-screen shot. Each beat is its own short shot with a clean cut to the next; never morph or warp one shot into another, never a split screen, collage, grid or small boxes.\n\n"
+        "value": "FRAME RULE: every frame is one full-screen shot. Each beat is its own short shot with a clean cut; never morph between shots, never a split screen, grid or small boxes.\n\n"
        },
        {
         "when": {
@@ -16479,7 +16479,7 @@
           "b": "ไทม์แลปส์กล้องนิ่ง"
          }
         },
-        "value": "FRAME RULE: every frame is one full-screen shot. Each beat is its own short shot with a clean cut to the next; never morph or warp one shot into another, never a split screen, collage, grid or small boxes.\n\n"
+        "value": "FRAME RULE: every frame is one full-screen shot. Each beat is its own short shot with a clean cut; never morph between shots, never a split screen, grid or small boxes.\n\n"
        },
        {
         "when": {
@@ -19478,7 +19478,7 @@
           "b": "ไทม์แลปส์กล้องนิ่ง"
          }
         },
-        "value": "FRAME RULE: every frame is one full-screen shot. Each beat is its own short shot with a clean cut to the next; never morph or warp one shot into another, never a split screen, collage, grid or small boxes.\n\n"
+        "value": "FRAME RULE: every frame is one full-screen shot. Each beat is its own short shot with a clean cut; never morph between shots, never a split screen, grid or small boxes.\n\n"
        },
        {
         "when": {
@@ -22477,7 +22477,7 @@
           "b": "ไทม์แลปส์กล้องนิ่ง"
          }
         },
-        "value": "FRAME RULE: every frame is one full-screen shot. Each beat is its own short shot with a clean cut to the next; never morph or warp one shot into another, never a split screen, collage, grid or small boxes.\n\n"
+        "value": "FRAME RULE: every frame is one full-screen shot. Each beat is its own short shot with a clean cut; never morph between shots, never a split screen, grid or small boxes.\n\n"
        },
        {
         "when": {
@@ -25477,7 +25477,7 @@
           "b": "ไทม์แลปส์กล้องนิ่ง"
          }
         },
-        "value": "FRAME RULE: every frame is one full-screen shot. Each beat is its own short shot with a clean cut to the next; never morph or warp one shot into another, never a split screen, collage, grid or small boxes.\n\n"
+        "value": "FRAME RULE: every frame is one full-screen shot. Each beat is its own short shot with a clean cut; never morph between shots, never a split screen, grid or small boxes.\n\n"
        },
        {
         "when": {
@@ -28476,7 +28476,7 @@
           "b": "ไทม์แลปส์กล้องนิ่ง"
          }
         },
-        "value": "FRAME RULE: every frame is one full-screen shot. Each beat is its own short shot with a clean cut to the next; never morph or warp one shot into another, never a split screen, collage, grid or small boxes.\n\n"
+        "value": "FRAME RULE: every frame is one full-screen shot. Each beat is its own short shot with a clean cut; never morph between shots, never a split screen, grid or small boxes.\n\n"
        },
        {
         "when": {
@@ -32474,8 +32474,8 @@
    "เสียงผู้ชาย": "\n\nNarrator: an adult man's voice (male) only; a female narrator fails the clip."
   },
   "vVoice": {
-   "เสียงผู้หญิง": "one fixed narrator for the whole clip: a Thai woman about 30, medium pitch, warm and friendly, steady pace, close microphone, dry recording with no room echo; the very same voice in every part; female voice only",
-   "เสียงผู้ชาย": "one fixed narrator for the whole clip: a Thai man about 35, medium-low pitch, warm and friendly, steady pace, close microphone, dry recording with no room echo; the very same voice in every part; male voice only"
+   "เสียงผู้หญิง": "one fixed narrator for the whole clip: a Thai woman about 30, medium pitch, slightly soft, warm and friendly, close microphone, dry recording with no room echo; VOICE CONTINUITY (critical): every part is the same take: exact same speaker, pitch, timbre, accent and pace; never change the voice; female voice only",
+   "เสียงผู้ชาย": "one fixed narrator for the whole clip: a Thai man about 35, medium-low pitch, slightly husky, warm and friendly, close microphone, dry recording with no room echo; VOICE CONTINUITY (critical): every part is the same take: exact same speaker, pitch, timbre, accent and pace; never change the voice; male voice only"
   },
   "vAccent": {
    "มาตรฐาน": "Thai",
