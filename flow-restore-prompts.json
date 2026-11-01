@@ -1,8 +1,8 @@
 {
  "app": "flow-reno",
  "version": 5,
- "build": 111,
- "label": "2.5.9",
+ "build": 112,
+ "label": "2.5.10",
  "ops": {
   "mnPlan": {
    "id": "mnPlan",
@@ -1322,7 +1322,7 @@
      },
      "\n\nกฎความตรงกันของบทไทย-อังกฤษ: s*en ต้องแปลตรงจาก s*th ฉากเดียวกันเท่านั้น ห้ามเติมสี วัสดุ ยี่ห้อ หรือรายละเอียดที่ s*th ไม่มี · สิ่งของหลักของงาน (เช่น ถังน้ำ ก๊อก สระ ผนัง พื้น) ให้ระบุสีและวัสดุใน s*th ตั้งแต่ฉากแรกที่เห็น แล้วใช้สีและวัสดุเดิมทุกฉาก ทั้ง s*th และ s*en · สีหรือวัสดุใหม่ที่งานทำ (สีทาผนัง พื้นใหม่ กระเบื้อง ม่าน) ระบุครั้งแรกที่ทำ แล้วทุกฉากหลังจากนั้นใช้สีและวัสดุเดิมตรงกับคำบรรยายห้อง (finished) ห้ามเปลี่ยนสีกลางคลิป",
      "\n\nสัดส่วนระยะภาพ (เน้นภาพใกล้ ภาพชัดและเพี้ยนน้อย): ทุกฉากเป็นภาพใกล้ เห็นมือ เครื่องมือ และผิวงานที่กำลังเปลี่ยน เพราะภาพที่เห็นห้องมากทำให้ห้องเปลี่ยนไปในแต่ละช่วง · ฉากแรกและฉากสุดท้ายของแต่ละช่วง (บอร์ดวาดเป็นภาพซ้ายบนและขวาล่าง) ถอยออกได้นิดเดียวให้เห็นบริเวณที่ทำงานกับมือช่าง ห้ามเห็นเพดาน มุมห้อง หรือผนังทั้งด้าน ฉากสุดท้ายของช่วงต้องเห็นงานคืบหน้าจากฉากแรกชัด ยกเว้นฉากแรกของคลิปกับฉากสุดท้ายของคลิปเป็นภาพกว้างเห็นทั้งห้อง มุมเดียวกัน ไว้เทียบก่อน/หลัง · ฉากแรกของคลิปเป็นภาพตั้งกล้องนิ่งที่มุมห้อง เห็นหน้าต่าง ประตู และของหลักครบ บรรยายสภาพก่อนทำ ห้ามการกระทำที่บังกล้อง (มือเปิดประตู เดินเข้ามา ของบังหน้ากล้อง) · cam ของฉากแรกและฉากสุดท้ายของคลิป = จุดเดิมก่อน / หลัง · ทั้งคลิปมีภาพกว้างเห็นทั้งห้องแค่ 2 ฉากนี้ เพราะภาพกว้างคนตัวเล็ก ของเยอะ วิดีโอเพี้ยนง่าย + 4 ฉากกลางเป็นภาพใกล้ทั้ง 4 ฉาก (มือสวมถุงมือกำลังทำ เครื่องมือแตะผิว พื้นผิวที่กำลังเปลี่ยน ของที่ใช้) คนละจุดหรือคนละขั้น ห้ามภาพกว้างของห้องซ้ำกันหลายฉาก เพราะบอร์ดที่ภาพหน้าตาคล้ายกันทำให้วิดีโอออกมาเป็นภาพแบ่งจอ · ภาพใกล้ไม่ต้องเห็นหน้าคน · camN ของภาพใกล้ใช้ ส่องจุดเสียใกล้ ๆ, ตามมือช่าง หรือ ชิดจุดสัมผัส · s*th ของภาพใกล้บอกให้ชัดว่าอะไรเต็มเฟรม เช่น มือสวมถุงมือปาดปูนบนรอยร้าว เต็มเฟรม · สองฉากติดกันห้ามมีระยะภาพ มุม หรือท่าทางเหมือนกัน · ฉากแรกและฉากสุดท้ายของช่วง (ยกเว้นฉากเปิดและฉากปิดคลิป) ถ่ายชิดจุดงาน ไม่เห็นทั้งห้อง: camN ใช้ ตามมือช่าง, ชิดจุดสัมผัส หรือ ผ่านไหล่ช่างแบบชิด · ถอยกว้างเห็นทั้งห้อง, เดินชมผลงาน และ ตั้งนิ่งเห็นช่างทำ ใช้ได้แค่ฉากเปิดและฉากปิดคลิป · งานใหญ่ (เช่น ปูพื้นทั้งห้อง ทาสีทั้งห้อง) ทำต่อเนื่องหลายช่วงตามเวลาจริง 6 ฉากในช่วงเดียวกันอยู่ขั้นงานเดียวกันและคืบหน้าทีละนิด ห้ามเขียน แถวสุดท้าย เสร็จ หรือ ครบทั้งห้อง ก่อนถึงช่วงที่งานนั้นเสร็จจริง · ทุกฉากต้องมีความคืบหน้าของงานที่มองเห็นได้ต่างจากฉากก่อนหน้า ห้ามเขียนฉากที่คนทำท่าเดิมในที่เดิมซ้ำ · ถ้าเลือกไทม์แลปส์ หรือมุมกล้องหลักแบบตั้งนิ่ง/มองจากด้านบน ให้ยึดกฎนั้นก่อนสัดส่วนนี้",
-     "\n\nล็อกห้อง: ฉากแรกของคลิปต้องระบุตำแหน่งหน้าต่าง ประตู สีผนัง และพื้นของห้อง แล้วทุกฉากต่อมาอ้างถึงหน้าต่างและประตูบานเดิมในตำแหน่งเดิม ห้ามย้ายหรือเพิ่มหน้าต่าง/ประตู (ยกเว้นงานนั้นคือการเปลี่ยนหน้าต่างหรือประตู)\n\nล็อกงานเดียวทั้งคลิป: คลิปหลายช่วงเล่างานชิ้นเดียวในสถานที่เดียว ทุกช่วงต้องเป็นอาคาร ห้อง ผนัง และโครงเดิม ต่อเนื่องจากช่วงก่อน ห้ามเปิดปัญหาใหม่บนผนังหรือสถานที่อื่น ห้ามตัดไปตัวอย่างวัสดุเก่าคนละที่ ถ้าต้องเล่าปัญหาหลายอย่าง ให้อยู่บนงานชิ้นเดิมในจุดที่มองเห็นจากฉากเดียวกัน · งานสร้าง ติดตั้ง หรือรีโนเวท ต้องเห็นงานคืบหน้าจนเสร็จจริงภายในคลิป ห้ามจบที่แผ่นเดียวหรือโครงที่ยังเปิดอยู่ · งานสร้างใหม่ที่ไม่มีของเก่า: ห้ามตัดไปภาพไม้ผุ ผนังเก่า อิฐ ปูนร้าว หรือของเก่าอื่น เล่าปัญหาด้วยเสียงอย่างเดียว ภาพทุกฉากอยู่ที่งานนี้ · ห้ามมีแผ่นตัวอย่าง โบรชัวร์ หรือป้ายสินค้าถือในฉาก · ถ้าผู้ใช้ไม่ได้เลือกตอนจบ งานสร้าง ติดตั้ง และรีโนเวทให้จบแบบเห็นงานเสร็จทั้งด้านนอกและด้านในพร้อมใช้งาน · ทรงหลังคา จำนวนบานประตู แบบประตู มือจับ ผนังด้านใน พื้น และเพดาน ระบุแบบเดียวในคำบรรยายห้อง แล้วใช้แบบเดิมทุกฉาก · งานสร้างด้วยแผ่นผนังสำเร็จ: ผนังด้านในเป็นแผ่นชนิดเดียวกันที่เห็นตอนติดตั้ง ห้ามเปลี่ยนเป็นปูนหรือกระเบื้อง ถ้าผู้ใช้ไม่ได้ขอ · ขนาดด้านในเท่าตัวงานด้านนอก · ฉากหลังทุกฉากตรงกับ site ในคำบรรยายห้อง ตั้งแต่ฉากแรกถึงฉากปิด พื้นลาน รั้ว กำแพง ต้นไม้ และอาคารข้างเคียงห้ามเปลี่ยน · งานก่อสร้างเรียงขั้น ผนัง → หลังคา → ประตู → ภายใน ส่วนที่เสร็จแล้วต้องอยู่ทุกฉากต่อมา เช่น มีหลังคาแล้วห้ามกลับไปเห็นท้องฟ้าเหนือผนัง และเรื่องภายในห้องต้องถ่ายในห้อง · ฉากไหนพูดถึงของชิ้นไหน ภาพฉากนั้นต้องเห็นชิ้นนั้น · งานที่ชื่อขึ้นต้นด้วยสร้าง คืองานสร้างใหม่ที่ไม่มีของเก่า · ทุก s*th บอกขั้นงานชัดเจน ก่อนถึงช่วงสุดท้ายห้ามเห็นงานเสร็จ ฉากแรกเป็นพื้นที่ก่อนเริ่มงาน",
+     "\n\nล็อกห้อง: ฉากแรกของคลิปต้องระบุตำแหน่งหน้าต่าง ประตู สีผนัง และพื้นของห้อง แล้วทุกฉากต่อมาอ้างถึงหน้าต่างและประตูบานเดิมในตำแหน่งเดิม ห้ามย้ายหรือเพิ่มหน้าต่าง/ประตู (ยกเว้นงานนั้นคือการเปลี่ยนหน้าต่างหรือประตู)\n\nล็อกงานเดียวทั้งคลิป: คลิปหลายช่วงเล่างานชิ้นเดียวในสถานที่เดียว ทุกช่วงต้องเป็นอาคาร ห้อง ผนัง และโครงเดิม ต่อเนื่องจากช่วงก่อน ห้ามเปิดปัญหาใหม่บนผนังหรือสถานที่อื่น ห้ามตัดไปตัวอย่างวัสดุเก่าคนละที่ ถ้าต้องเล่าปัญหาหลายอย่าง ให้อยู่บนงานชิ้นเดิมในจุดที่มองเห็นจากฉากเดียวกัน · งานสร้าง ติดตั้ง หรือรีโนเวท ต้องเห็นงานคืบหน้าจนเสร็จจริงภายในคลิป ห้ามจบที่แผ่นเดียวหรือโครงที่ยังเปิดอยู่ · งานสร้างใหม่ที่ไม่มีของเก่า: ห้ามตัดไปภาพไม้ผุ ผนังเก่า อิฐ ปูนร้าว หรือของเก่าอื่น เล่าปัญหาด้วยเสียงอย่างเดียว ภาพทุกฉากอยู่ที่งานนี้ · ห้ามมีแผ่นตัวอย่าง โบรชัวร์ หรือป้ายสินค้าถือในฉาก · ถ้าผู้ใช้ไม่ได้เลือกตอนจบ งานสร้าง ติดตั้ง และรีโนเวทให้จบแบบเห็นงานเสร็จทั้งด้านนอกและด้านในพร้อมใช้งาน · ทรงหลังคา จำนวนบานประตู แบบประตู มือจับ ผนังด้านใน พื้น และเพดาน ระบุแบบเดียวในคำบรรยายห้อง แล้วใช้แบบเดิมทุกฉาก · งานสร้างด้วยแผ่นผนังสำเร็จ: ผนังด้านในเป็นแผ่นชนิดเดียวกันที่เห็นตอนติดตั้ง ห้ามเปลี่ยนเป็นปูนหรือกระเบื้อง ถ้าผู้ใช้ไม่ได้ขอ · ขนาดด้านในเท่าตัวงานด้านนอก · ฉากหลังทุกฉากตรงกับ site ในคำบรรยายห้อง ตั้งแต่ฉากแรกถึงฉากปิด พื้นลาน รั้ว กำแพง ต้นไม้ และอาคารข้างเคียงห้ามเปลี่ยน · งานก่อสร้างเรียงขั้น ผนัง → หลังคา → ประตู → ภายใน ส่วนที่เสร็จแล้วต้องอยู่ทุกฉากต่อมา เช่น มีหลังคาแล้วห้ามกลับไปเห็นท้องฟ้าเหนือผนัง และเรื่องภายในห้องต้องถ่ายในห้อง · ฉากไหนพูดถึงของชิ้นไหน ภาพฉากนั้นต้องเห็นชิ้นนั้น · ฉากละ 1 ภาพ: คำบรรยายภาษาอังกฤษ (sNen) แต่ละฉากไม่เกิน 22 คำ และไม่ต้องอธิบายห้องซ้ำ เพราะมีคำบรรยายห้องแล้ว · งานที่ชื่อขึ้นต้นด้วยสร้าง คืองานสร้างใหม่ที่ไม่มีของเก่า · ทุก s*th บอกขั้นงานชัดเจน ก่อนถึงช่วงสุดท้ายห้ามเห็นงานเสร็จ ฉากแรกเป็นพื้นที่ก่อนเริ่มงาน",
      "\n\nขอบเขตงาน (ให้ดูเป็นงานจริงที่ถ่ายเก็บไว้ ไม่ใช่สรุปรวบ): 1 ช่วง = งานเดียวที่จุดเดียวเสมอ · 6 ฉากในช่วงเดียวกันคืองานเดียวกันที่จุดเดียวกัน ต่อกันเหมือนถ่ายเก็บทีละขั้น (เช่น บีบ → เกลี่ย → ปาด → ขัด) เปลี่ยนแค่มุมกล้องและระยะ ห้ามสลับไปงานอื่นกลางช่วง · งานเดียว (เช่น ล้างแอร์ ขัดห้องน้ำ ทาสีผนัง ซ่อมรอยร้าว) ทั้งคลิปทำงานนั้นงานเดียว คลิปยิ่งยาวยิ่งเล่าละเอียดขึ้น: สภาพก่อนทำ เตรียมเครื่องมือและวัสดุ ลงมือทีละขั้น เก็บงาน ผลลัพธ์ · ลำดับงานจริงในประเภทงานคือขั้นตอนของงานนั้น ใช้เรียงฉากและช่วง · งานใหญ่ที่ชื่องานบอกเอง (เช่น รีโนเวททั้งห้อง ซ่อมทั้งบ้าน) ทำได้หลายงานย่อย เรียงแบบช่างทำจริง (เช่น ขูดสีเก่า → ซ่อมผนัง → ทาสี → ปูพื้น → จัดของเข้าที่) ช่วงละ 1 งานย่อย งานย่อยใหญ่ใช้หลายช่วงต่อกันได้ · ผลสะสม: ช่วงถัดไปเริ่มจากสภาพที่ช่วงก่อนทำเสร็จ สิ่งที่ทำเสร็จแล้วคงสภาพใหม่ทุกฉากหลังจากนั้น ห้ามย้อนกลับ ส่วนที่ยังไม่ได้ทำคงสภาพเดิม · ห้องเดิมทุกช่วง: หน้าต่าง ประตู เพดาน และเฟอร์นิเจอร์ชิ้นใหญ่อยู่ที่เดิม ย้ายได้เฉพาะของที่งานนั้นต้องย้าย · ของหลักของงาน (ตามคำบรรยายห้อง) รูปแบบ วัสดุ สี จำนวนบาน ชั้น ราว ลิ้นชักเดิมทุกช่วง: งานจัดระเบียบหรือทำความสะอาดเปลี่ยนแค่ของข้างในและความสะอาด ห้ามเปลี่ยนเป็นของใหม่ · งานทาสีหรือปูพื้นทั้งห้อง: ช่วงแรกของงานนั้นย้ายเตียง ตู้ และของออกจากห้องก่อน ห้องว่างจนงานผนัง/พื้นเสร็จ แล้วค่อยยกกลับหรือวางของใหม่ในช่วงจัดห้อง · คำบรรยายห้อง (room) ส่วน finished ใส่เฉพาะสิ่งที่งานในคลิปนี้เปลี่ยน · ยกเว้นโครงเรื่องไทม์แลปส์: เล่าทั้งงานตามเวลาจริงได้ แต่ห้องและมุมกล้องคงเดิมตลอด · โหมดไทม์แลปส์กล้องนิ่ง: ทั้งคลิปคือกล้องตัวเดียวตั้งนิ่งที่จุดเดิม บนพื้นที่เดิม ของรอบ ๆ (รั้ว กำแพง ต้นไม้ บ้านข้าง ๆ ของที่อยู่หน้ากล้อง) อยู่ที่เดิมทุกฉาก และ s*en ทุกฉากต้องบอกของเหล่านี้ให้เห็นว่าเป็นที่เดิม · แบ่งความคืบหน้าเท่า ๆ กันทุกช่วงตามลำดับงานจริง (งานโครงสร้างที่เพิ่มชั้นหรือขยายขนาด เช่น ขึ้นชั้น 2 มุงหลังคา ต้องขึ้นครบตามแบบก่อนถึงช่วงรองสุดท้าย และฉากสุดท้ายของทุกช่วงบอกให้ชัดว่าตึกขึ้นถึงชั้นไหน) ฉากแรกของช่วงคือสภาพเดียวกับฉากสุดท้ายของช่วงก่อน และแต่ละช่วงไปต่อได้แค่ขั้นถัดไปของงาน · งานเสร็จสมบูรณ์ได้แค่ฉากสุดท้ายของช่วงสุดท้าย ห้ามฉากไหนข้ามไปเป็นผลงานเสร็จหรือย้ายไปที่อื่นก่อนหน้านั้น · งานใหญ่ในคลิปสั้น ให้เร่งความเร็วไทม์แลปส์ ห้ามข้ามขั้น · ไทม์แลปส์ต้องจบที่งานเสร็จ 100% แบบส่งมอบแล้ว: ช่วงรองสุดท้ายทำงานเก็บรายละเอียดใหญ่ให้เสร็จ (ทาสีทั้งหมด ติดประตูหน้าต่าง ทำรั้วและประตูรั้ว เทลาน ปูหญ้า จัดสวน และปรับพื้นที่ดินทั้งหมดในภาพรวมถึงหน้ากล้องให้เรียบร้อย) ช่วงสุดท้ายเหลือแค่เก็บนั่งร้าน เก็บเครื่องมือ ขนเศษวัสดุออก ทำความสะอาด เปิดไฟ ฉากสุดท้ายไม่มีคนงาน · คลิปช่วงเดียวหรือสองช่วง เร่งความเร็วให้ถึงงานเสร็จ 100% ในฉากสุดท้าย"
     ]
    },
@@ -13480,7 +13480,7 @@
           "b": "ไทม์แลปส์กล้องนิ่ง"
          }
         },
-        "value": "FRAME RULE: every frame is one full-screen shot. Each beat is its own short shot with a clean cut; never morph between shots, never a split screen, grid or small boxes.\n\n"
+        "value": "FRAME RULE: each beat is one full-screen shot with a clean cut; no morphing, split screen, grid or small boxes.\n\n"
        },
        {
         "when": {
@@ -13636,7 +13636,7 @@
           }
          ]
         },
-        "value": "\nRoom (same in every part; ground, fence, walls and neighbours never change; finished parts keep their new colour and material): {item.room}"
+        "value": "\nRoom (site never changes; finished parts stay finished): {item.room}"
        }
       ]
      },
@@ -13663,7 +13663,7 @@
           }
          ]
         },
-        "value": "\n\nImages 1-6 = this part's 6 beats in order, one photo per beat (silent guide): beat N looks like image N. Copy their room, objects (colour, material), people, outfits, light and angle; their looks beat the wording. Each beat is one live shot filling the whole 9:16 frame; never show the photos themselves or a grid, even at 0 s. The product appears only as a real object inside the shot, never as an overlaid picture. "
+        "value": "\n\nImages 1-6 = the 6 beats in order (silent guide): copy each image's room, objects, people, outfits, light and angle; they beat the wording. Never show the photos or a grid, even at 0 s. The product is a real object in the shot, never overlaid. "
        },
        {
         "when": {
@@ -13713,6 +13713,686 @@
          }
         },
         "value": "\nPart 6 is not the end: the job is mid-way; stop where the last beat says, no early finished reveal."
+       }
+      ]
+     },
+     {
+      "op": "concat",
+      "parts": [
+       "\n\nCast: ",
+       {
+        "op": "block",
+        "sep": "",
+        "parts": [
+         {
+          "when": {
+           "op": "or",
+           "list": [
+            {
+             "op": "eq",
+             "a": "{item.castKind}",
+             "b": "auto"
+            },
+            {
+             "op": "eq",
+             "a": "{item.castKind}",
+             "b": "human"
+            },
+            {
+             "op": "eq",
+             "a": "{item.castKind}",
+             "b": ""
+            },
+            {
+             "op": "eq",
+             "a": "{item.castKind}",
+             "b": "animalToon"
+            },
+            {
+             "op": "eq",
+             "a": "{item.castKind}",
+             "b": "petCameo"
+            }
+           ]
+          },
+          "value": {
+           "op": "lookup",
+           "table": "vPeople",
+           "key": "{item.people}|{item.peopleSrc}",
+           "fallback": ""
+          }
+         }
+        ]
+       },
+       {
+        "op": "block",
+        "sep": "",
+        "parts": [
+         {
+          "when": {
+           "op": "not",
+           "a": {
+            "op": "or",
+            "list": [
+             {
+              "op": "eq",
+              "a": "{item.castKind}",
+              "b": "auto"
+             },
+             {
+              "op": "eq",
+              "a": "{item.castKind}",
+              "b": "human"
+             },
+             {
+              "op": "eq",
+              "a": "{item.castKind}",
+              "b": ""
+             },
+             {
+              "op": "eq",
+              "a": "{item.castKind}",
+              "b": "animalToon"
+             },
+             {
+              "op": "eq",
+              "a": "{item.castKind}",
+              "b": "petCameo"
+             }
+            ]
+           }
+          },
+          "value": {
+           "op": "lookup",
+           "table": "vCast",
+           "key": "{item.castKind}",
+           "fallback": ""
+          }
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "op": "block",
+      "sep": "",
+      "parts": [
+       {
+        "when": {
+         "op": "and",
+         "list": [
+          {
+           "op": "and",
+           "list": [
+            {
+             "op": "or",
+             "list": [
+              {
+               "op": "eq",
+               "a": "{item.castKind}",
+               "b": "auto"
+              },
+              {
+               "op": "eq",
+               "a": "{item.castKind}",
+               "b": "human"
+              },
+              {
+               "op": "eq",
+               "a": "{item.castKind}",
+               "b": ""
+              },
+              {
+               "op": "eq",
+               "a": "{item.castKind}",
+               "b": "animalToon"
+              },
+              {
+               "op": "eq",
+               "a": "{item.castKind}",
+               "b": "petCameo"
+              }
+             ]
+            },
+            {
+             "op": "not",
+             "a": {
+              "op": "eq",
+              "a": "{item.people}",
+              "b": "ไม่มีคน"
+             }
+            },
+            {
+             "op": "not",
+             "a": {
+              "op": "eq",
+              "a": "{item.arc}",
+              "b": "ไทม์แลปส์กล้องนิ่ง"
+             }
+            }
+           ]
+          },
+          {
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{item.look}",
+            "b": ""
+           }
+          }
+         ]
+        },
+        "value": "\nLook (same person in every part): {item.look}"
+       },
+       {
+        "when": {
+         "op": "and",
+         "list": [
+          {
+           "op": "and",
+           "list": [
+            {
+             "op": "or",
+             "list": [
+              {
+               "op": "eq",
+               "a": "{item.castKind}",
+               "b": "auto"
+              },
+              {
+               "op": "eq",
+               "a": "{item.castKind}",
+               "b": "human"
+              },
+              {
+               "op": "eq",
+               "a": "{item.castKind}",
+               "b": ""
+              },
+              {
+               "op": "eq",
+               "a": "{item.castKind}",
+               "b": "animalToon"
+              },
+              {
+               "op": "eq",
+               "a": "{item.castKind}",
+               "b": "petCameo"
+              }
+             ]
+            },
+            {
+             "op": "not",
+             "a": {
+              "op": "eq",
+              "a": "{item.people}",
+              "b": "ไม่มีคน"
+             }
+            },
+            {
+             "op": "not",
+             "a": {
+              "op": "eq",
+              "a": "{item.arc}",
+              "b": "ไทม์แลปส์กล้องนิ่ง"
+             }
+            }
+           ]
+          },
+          {
+           "op": "eq",
+           "a": "{item.charGender}",
+           "b": "หญิง"
+          }
+         ]
+        },
+        "value": "\nThe worker is a woman (set by the user)."
+       },
+       {
+        "when": {
+         "op": "and",
+         "list": [
+          {
+           "op": "and",
+           "list": [
+            {
+             "op": "or",
+             "list": [
+              {
+               "op": "eq",
+               "a": "{item.castKind}",
+               "b": "auto"
+              },
+              {
+               "op": "eq",
+               "a": "{item.castKind}",
+               "b": "human"
+              },
+              {
+               "op": "eq",
+               "a": "{item.castKind}",
+               "b": ""
+              },
+              {
+               "op": "eq",
+               "a": "{item.castKind}",
+               "b": "animalToon"
+              },
+              {
+               "op": "eq",
+               "a": "{item.castKind}",
+               "b": "petCameo"
+              }
+             ]
+            },
+            {
+             "op": "not",
+             "a": {
+              "op": "eq",
+              "a": "{item.people}",
+              "b": "ไม่มีคน"
+             }
+            },
+            {
+             "op": "not",
+             "a": {
+              "op": "eq",
+              "a": "{item.arc}",
+              "b": "ไทม์แลปส์กล้องนิ่ง"
+             }
+            }
+           ]
+          },
+          {
+           "op": "eq",
+           "a": "{item.charGender}",
+           "b": "ชาย"
+          }
+         ]
+        },
+        "value": "\nThe worker is a man (set by the user)."
+       },
+       {
+        "when": {
+         "op": "and",
+         "list": [
+          {
+           "op": "or",
+           "list": [
+            {
+             "op": "eq",
+             "a": "{item.castKind}",
+             "b": "auto"
+            },
+            {
+             "op": "eq",
+             "a": "{item.castKind}",
+             "b": "human"
+            },
+            {
+             "op": "eq",
+             "a": "{item.castKind}",
+             "b": ""
+            },
+            {
+             "op": "eq",
+             "a": "{item.castKind}",
+             "b": "animalToon"
+            },
+            {
+             "op": "eq",
+             "a": "{item.castKind}",
+             "b": "petCameo"
+            }
+           ]
+          },
+          {
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{item.arc}",
+            "b": "ไทม์แลปส์กล้องนิ่ง"
+           }
+          },
+          {
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{item.charLook}",
+            "b": ""
+           }
+          }
+         ]
+        },
+        "value": "\nUser's outfit (in Thai), exact in every beat: {item.charLook}"
+       },
+       {
+        "when": {
+         "op": "and",
+         "list": [
+          {
+           "op": "or",
+           "list": [
+            {
+             "op": "eq",
+             "a": "{values.svAudio}",
+             "b": "ไม่มีเสียงพากย์"
+            },
+            {
+             "op": "eq",
+             "a": "{values.svAudio}",
+             "b": "ASMR"
+            }
+           ]
+          },
+          {
+           "op": "or",
+           "list": [
+            {
+             "op": "eq",
+             "a": "{item.castKind}",
+             "b": "auto"
+            },
+            {
+             "op": "eq",
+             "a": "{item.castKind}",
+             "b": "human"
+            },
+            {
+             "op": "eq",
+             "a": "{item.castKind}",
+             "b": ""
+            },
+            {
+             "op": "eq",
+             "a": "{item.castKind}",
+             "b": "animalToon"
+            },
+            {
+             "op": "eq",
+             "a": "{item.castKind}",
+             "b": "petCameo"
+            }
+           ]
+          },
+          {
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{item.people}",
+            "b": "ไม่มีคน"
+           }
+          }
+         ]
+        },
+        "value": "\nNobody speaks: mouths stay closed the whole clip."
+       }
+      ]
+     },
+     {
+      "op": "block",
+      "sep": "",
+      "parts": [
+       {
+        "when": {
+         "op": "refsFilled",
+         "key": "prod",
+         "from": "products",
+         "slot": "image"
+        },
+        "value": "\n\nProduct: same shape, colours, logo and label as its photo in every shot; ignore its background and ad text."
+       },
+       {
+        "when": {
+         "op": "and",
+         "list": [
+          {
+           "op": "refsFilled",
+           "key": "prod",
+           "from": "products",
+           "slot": "room1"
+          },
+          {
+           "op": "eq",
+           "a": "{item.sceneMode}",
+           "b": "custom"
+          }
+         ]
+        },
+        "value": "\nRoom: the room photo is the actual room; windows, furniture, floor, walls and light stay, changed only by the work."
+       }
+      ]
+     },
+     "\n\nNo on-screen text, titles or subtitles.",
+     {
+      "op": "block",
+      "sep": "",
+      "parts": [
+       {
+        "when": {
+         "op": "eq",
+         "a": "{values.svTextOn}",
+         "b": "หัวเรื่องค้างทั้งคลิป"
+        },
+        "value": ""
+       },
+       {
+        "when": {
+         "op": "eq",
+         "a": "{values.svTextOn}",
+         "b": "ซับไตเติ้ลรายฉาก"
+        },
+        "value": ""
+       },
+       {
+        "when": {
+         "op": "or",
+         "list": [
+          {
+           "op": "or",
+           "list": [
+            {
+             "op": "eq",
+             "a": "{values.svTextOn}",
+             "b": "ป้าย BEFORE / AFTER"
+            },
+            {
+             "op": "eq",
+             "a": "{values.svTextOn}",
+             "b": "ขั้นตอน STEP 1 / 2 / 3"
+            }
+           ]
+          },
+          {
+           "op": "eq",
+           "a": "{values.svTextOn}",
+           "b": "ป้ายเวลา/ราคาท้ายคลิป"
+          },
+          {
+           "op": "eq",
+           "a": "{values.svTextOn}",
+           "b": "ป้ายเรียกลูกค้าท้ายคลิป"
+          }
+         ]
+        },
+        "value": ""
+       }
+      ]
+     },
+     {
+      "op": "block",
+      "sep": "",
+      "parts": [
+       {
+        "when": {
+         "op": "and",
+         "list": [
+          {
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{values.svAudio}",
+            "b": "ไม่มีเสียงพากย์"
+           }
+          },
+          {
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{values.svAudio}",
+            "b": "ASMR"
+           }
+          }
+         ]
+        },
+        "value": {
+         "op": "concat",
+         "parts": [
+          "\n\nSound: ",
+          {
+           "op": "block",
+           "sep": "",
+           "parts": [
+            {
+             "when": "values.svLang=English",
+             "value": "English"
+            },
+            {
+             "when": {
+              "op": "not",
+              "a": {
+               "op": "eq",
+               "a": "{values.svLang}",
+               "b": "English"
+              }
+             },
+             "value": {
+              "op": "lookup",
+              "table": "vAccent",
+              "key": "{values.svAccent}",
+              "fallback": "Thai"
+             }
+            }
+           ]
+          },
+          {
+           "op": "block",
+           "sep": "",
+           "parts": [
+            {
+             "when": {
+              "op": "eq",
+              "a": "{values.svSec}",
+              "b": "60"
+             },
+             "value": " voice-over from 0.0s, no gaps; say every word and finish the closing line 1.5 s before the end, never cut off, then silence on the final shot, which shows the finished work with no hands. Voice: "
+            },
+            {
+             "when": {
+              "op": "not",
+              "a": {
+               "op": "eq",
+               "a": "{values.svSec}",
+               "b": "60"
+              }
+             },
+             "value": " voice-over from 0.0s to the end, no gaps. Voice: "
+            }
+           ]
+          },
+          {
+           "op": "block",
+           "sep": "",
+           "parts": [
+            {
+             "when": "values.svVoice!=สุ่มตามสินค้า",
+             "value": {
+              "op": "lookup",
+              "table": "vVoice",
+              "key": "{values.svVoice}",
+              "fallback": "warm, friendly adult woman; female voice only"
+             }
+            },
+            {
+             "when": "values.svVoice=สุ่มตามสินค้า",
+             "value": {
+              "op": "lookup",
+              "table": "vVoice",
+              "key": {
+               "op": "matchTable",
+               "value": "{item.voice}",
+               "table": [
+                {
+                 "any": [
+                  "ชาย"
+                 ],
+                 "value": "เสียงผู้ชาย"
+                },
+                {
+                 "any": [
+                  "หญิง"
+                 ],
+                 "value": "เสียงผู้หญิง"
+                }
+               ],
+               "fallback": "เสียงผู้หญิง"
+              },
+              "fallback": "warm, friendly adult woman; female voice only"
+             }
+            }
+           ]
+          },
+          ". Script: \"{item.vo31} {item.vo32} {item.vo33} {item.vo34} {item.vo35} {item.vo36}\". No background music."
+         ]
+        }
+       },
+       {
+        "when": {
+         "op": "eq",
+         "a": "{values.svAudio}",
+         "b": "ไม่มีเสียงพากย์"
+        },
+        "value": "\n\nSound: quiet room tone and the real noises of the work only; no music at all. Nobody speaks, in any language."
+       },
+       {
+        "when": {
+         "op": "eq",
+         "a": "{values.svAudio}",
+         "b": "ASMR"
+        },
+        "value": "\n\nSound: ASMR, close and crisp real sounds of exactly what each beat shows (the tool, material and action on screen), timed to the action, over quiet room tone. No music at all: no song, singing, humming, whistling, melody or vocals. No human voice."
+       }
+      ]
+     },
+     {
+      "op": "concat",
+      "parts": [
+       "\n\nAvoid: objects changing colour or material, camera gear in shot, extra fingers",
+       "",
+       {
+        "op": "block",
+        "sep": "",
+        "parts": [
+         {
+          "when": {
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{values.svAudio}",
+            "b": "มีเสียงพากย์"
+           }
+          },
+          "value": ", talking, speech, voice-over, lip-sync"
+         }
+        ]
+       },
+       ", music, singing, humming",
+       ".",
+       {
+        "op": "lookup",
+        "table": "vCastNeg",
+        "key": "{item.castKind}",
+        "fallback": ""
        }
       ]
      },
@@ -15606,6 +16286,458 @@
         "value": "\n→ {item.s36en}"
        }
       ]
+     }
+    ]
+   },
+   "refs": {
+    "op": "lookupRefs",
+    "from": "tasks",
+    "by": "{item.id}",
+    "slot": "board6",
+    "also": [
+     {
+      "from": "tasks",
+      "by": "{item.id}",
+      "slot": "board5"
+     },
+     {
+      "from": "products",
+      "by": "{item.refs.prod}",
+      "slot": "image"
+     },
+     {
+      "from": "products",
+      "by": "{item.refs.prod}",
+      "slot": "room1",
+      "when": {
+       "op": "eq",
+       "a": "{item.sceneMode}",
+       "b": "custom"
+      }
+     },
+     {
+      "from": "characters",
+      "by": "{values.charId}",
+      "slot": "face",
+      "when": {
+       "op": "and",
+       "list": [
+        {
+         "op": "eq",
+         "a": "{item.peopleSrc}",
+         "b": "ใช้รูปใบหน้าที่แนบ — ล็อกหน้าเป็นคนเดิมทุกช็อต"
+        },
+        {
+         "op": "not",
+         "a": {
+          "op": "or",
+          "list": [
+           {
+            "op": "eq",
+            "a": "{item.people}",
+            "b": "ไม่มีคน"
+           },
+           {
+            "op": "eq",
+            "a": "{item.people}",
+            "b": "เห็นแต่มือ ไม่เห็นหน้า"
+           },
+           {
+            "op": "eq",
+            "a": "{item.people}",
+            "b": "เห็นตัว ไม่เห็นหน้า"
+           },
+           {
+            "op": "eq",
+            "a": "{item.people}",
+            "b": "ทีมช่างเบลอเคลื่อนไหวเร็ว"
+           }
+          ]
+         }
+        },
+        {
+         "op": "or",
+         "list": [
+          {
+           "op": "eq",
+           "a": "{item.castKind}",
+           "b": "auto"
+          },
+          {
+           "op": "eq",
+           "a": "{item.castKind}",
+           "b": "human"
+          },
+          {
+           "op": "eq",
+           "a": "{item.castKind}",
+           "b": ""
+          },
+          {
+           "op": "eq",
+           "a": "{item.castKind}",
+           "b": "animalToon"
+          },
+          {
+           "op": "eq",
+           "a": "{item.castKind}",
+           "b": "petCameo"
+          }
+         ]
+        }
+       ]
+      }
+     },
+     {
+      "from": "products",
+      "by": "{item.refs.prod}",
+      "slot": "image2"
+     },
+     {
+      "from": "products",
+      "by": "{item.refs.prod}",
+      "slot": "room2",
+      "when": {
+       "op": "eq",
+       "a": "{item.sceneMode}",
+       "b": "custom"
+      }
+     },
+     {
+      "from": "products",
+      "by": "{item.refs.prod}",
+      "slot": "image3"
+     },
+     {
+      "from": "products",
+      "by": "{item.refs.prod}",
+      "slot": "image4"
+     },
+     {
+      "from": "products",
+      "by": "{item.refs.prod}",
+      "slot": "image5"
+     }
+    ]
+   },
+   "when": "values.svSec>50",
+   "where": "s31en!=",
+   "model": "Omni 1.1 Flash",
+   "aspectRatio": "9:16",
+   "durationSeconds": 10,
+   "startFrame": {
+    "op": "cond",
+    "when": {
+     "op": "eq",
+     "a": "{item.arc}",
+     "b": "ไทม์แลปส์กล้องนิ่ง"
+    },
+    "then": "{item.slots.video5}"
+   },
+   "tailTrim": 0.1
+  },
+  "mnVideo5": {
+   "id": "mnVideo5",
+   "type": "video",
+   "prompt": {
+    "op": "concat",
+    "parts": [
+     {
+      "op": "block",
+      "sep": "",
+      "parts": [
+       {
+        "when": {
+         "op": "or",
+         "list": [
+          {
+           "op": "eq",
+           "a": "{values.svAudio}",
+           "b": "ไม่มีเสียงพากย์"
+          },
+          {
+           "op": "eq",
+           "a": "{values.svAudio}",
+           "b": "ASMR"
+          }
+         ]
+        },
+        "value": "SOUND RULE FIRST: nobody speaks; no narration, dialogue or lip-sync, never read on-screen text aloud.\n\n"
+       },
+       {
+        "when": {
+         "op": "and",
+         "list": [
+          {
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{values.svAudio}",
+            "b": "ไม่มีเสียงพากย์"
+           }
+          },
+          {
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{values.svAudio}",
+            "b": "ASMR"
+           }
+          }
+         ]
+        },
+        "value": "SOUND RULE: speak only the script below, never on-screen text.\n\n"
+       }
+      ]
+     },
+     {
+      "op": "block",
+      "sep": "",
+      "parts": [
+       {
+        "when": {
+         "op": "not",
+         "a": {
+          "op": "eq",
+          "a": "{item.arc}",
+          "b": "ไทม์แลปส์กล้องนิ่ง"
+         }
+        },
+        "value": "FRAME RULE: each beat is one full-screen shot with a clean cut; no morphing, split screen, grid or small boxes.\n\n"
+       },
+       {
+        "when": {
+         "op": "eq",
+         "a": "{item.arc}",
+         "b": "ไทม์แลปส์กล้องนิ่ง"
+        },
+        "value": "FRAME RULE: one full-screen view from one camera, first frame to last; never cut to, morph into or end on a split screen, collage, grid or small boxes.\n\n"
+       }
+      ]
+     },
+     "PART 5, picks up where part 4 ended: same place, light, objects and people; no restart.\n\n",
+     {
+      "op": "concat",
+      "parts": [
+       "Vertical 9:16 phone footage, ",
+       {
+        "op": "block",
+        "sep": "",
+        "parts": [
+         {
+          "when": {
+           "op": "eq",
+           "a": "{values.partSec}",
+           "b": "8"
+          },
+          "value": "8 s"
+         },
+         {
+          "when": {
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{values.partSec}",
+            "b": "8"
+           }
+          },
+          "value": "10 s"
+         }
+        ]
+       },
+       ", real home repair in a lived-in @NAT_HOUSE_EN@, all in focus, true colours; light and mood: {item.palette}; same light direction, colour and exposure every part; ",
+       {
+        "op": "block",
+        "sep": "",
+        "parts": [
+         {
+          "when": {
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{item.arc}",
+            "b": "ไทม์แลปส์กล้องนิ่ง"
+           }
+          },
+          "value": "one steady shot per beat, small slow camera moves; whole room only in the clip's first and last shots, other beats close"
+         },
+         {
+          "when": {
+           "op": "eq",
+           "a": "{item.arc}",
+           "b": "ไทม์แลปส์กล้องนิ่ง"
+          },
+          "value": "one continuous shot through the beats"
+         }
+        ]
+       },
+       "."
+      ]
+     },
+     {
+      "op": "block",
+      "sep": "",
+      "parts": [
+       {
+        "when": {
+         "op": "and",
+         "list": [
+          {
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{item.camMode}",
+            "b": ""
+           }
+          },
+          {
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{item.arc}",
+            "b": "ไทม์แลปส์กล้องนิ่ง"
+           }
+          }
+         ]
+        },
+        "value": {
+         "op": "lookup",
+         "table": "vCamMode",
+         "key": "{item.camMode}",
+         "fallback": ""
+        }
+       },
+       {
+        "when": {
+         "op": "eq",
+         "a": "{item.arc}",
+         "b": "ไทม์แลปส์กล้องนิ่ง"
+        },
+        "value": {
+         "op": "lookup",
+         "table": "vCamMode",
+         "key": "ตั้งนิ่งเห็นทั้งพื้นที่",
+         "fallback": ""
+        }
+       }
+      ]
+     },
+     {
+      "op": "block",
+      "sep": "",
+      "parts": [
+       {
+        "when": {
+         "op": "and",
+         "list": [
+          {
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{item.room}",
+            "b": ""
+           }
+          },
+          {
+           "op": "not",
+           "a": {
+            "op": "and",
+            "list": [
+             {
+              "op": "refsFilled",
+              "key": "prod",
+              "from": "products",
+              "slot": "room1"
+             },
+             {
+              "op": "eq",
+              "a": "{item.sceneMode}",
+              "b": "custom"
+             }
+            ]
+           }
+          }
+         ]
+        },
+        "value": "\nRoom (site never changes; finished parts stay finished): {item.room}"
+       }
+      ]
+     },
+     {
+      "op": "block",
+      "sep": "",
+      "parts": [
+       {
+        "when": {
+         "op": "and",
+         "list": [
+          {
+           "op": "eq",
+           "a": "{values.cellRefs}",
+           "b": "1"
+          },
+          {
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{item.arc}",
+            "b": "ไทม์แลปส์กล้องนิ่ง"
+           }
+          }
+         ]
+        },
+        "value": "\n\nImages 1-6 = the 6 beats in order (silent guide): copy each image's room, objects, people, outfits, light and angle; they beat the wording. Never show the photos or a grid, even at 0 s. The product is a real object in the shot, never overlaid. "
+       },
+       {
+        "when": {
+         "op": "and",
+         "list": [
+          {
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{values.cellRefs}",
+            "b": "1"
+           }
+          },
+          {
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{item.arc}",
+            "b": "ไทม์แลปส์กล้องนิ่ง"
+           }
+          }
+         ]
+        },
+        "value": "\n\nImage 1 = this part's storyboard (silent guide); its 6 pictures are the 6 beats, left before right, top to bottom. Copy its room, objects (colour, material), people, outfits, light and (not in time-lapse) each beat's angle; its looks beat the wording. Never show the storyboard on screen, even at 0 s: frame 1 is live full-screen footage of beat 1. "
+       },
+       {
+        "when": {
+         "op": "eq",
+         "a": "{item.arc}",
+         "b": "ไทม์แลปส์กล้องนิ่ง"
+        },
+        "value": "\n\nImage 1 is the exact first frame of this part; the given last frame is its exact final frame. One locked camera, upright picture, same framing first to last: no zoom, pan, tilt or reframing. Spread the work evenly over the whole clip: something visibly advances every second; never hold still and then jump; reach the last frame only in the final second. Everything already built stays in place (floors, roof, walls, fence); nothing disappears, shrinks or is rebuilt differently. "
+       }
+      ]
+     },
+     {
+      "op": "block",
+      "sep": "",
+      "parts": [
+       {
+        "when": {
+         "op": "not",
+         "a": {
+          "op": "eq",
+          "a": "{values.svSec}",
+          "b": "50"
+         }
+        },
+        "value": "\nPart 5 is not the end: the job is mid-way; stop where the last beat says, no early finished reveal."
+       }
+      ]
      },
      {
       "op": "concat",
@@ -16174,7 +17306,7 @@
              "when": {
               "op": "eq",
               "a": "{values.svSec}",
-              "b": "60"
+              "b": "50"
              },
              "value": " voice-over from 0.0s, no gaps; say every word and finish the closing line 1.5 s before the end, never cut off, then silence on the final shot, which shows the finished work with no hands. Voice: "
             },
@@ -16184,7 +17316,7 @@
               "a": {
                "op": "eq",
                "a": "{values.svSec}",
-               "b": "60"
+               "b": "50"
               }
              },
              "value": " voice-over from 0.0s to the end, no gaps. Voice: "
@@ -16233,7 +17365,7 @@
             }
            ]
           },
-          ". Script: \"{item.vo31} {item.vo32} {item.vo33} {item.vo34} {item.vo35} {item.vo36}\". No background music."
+          ". Script: \"{item.vo25} {item.vo26} {item.vo27} {item.vo28} {item.vo29} {item.vo30}\". No background music."
          ]
         }
        },
@@ -16259,7 +17391,7 @@
       "op": "concat",
       "parts": [
        "\n\nAvoid: objects changing colour or material, camera gear in shot, extra fingers",
-       ", any on-screen writing",
+       "",
        {
         "op": "block",
         "sep": "",
@@ -16284,458 +17416,6 @@
         "table": "vCastNeg",
         "key": "{item.castKind}",
         "fallback": ""
-       }
-      ]
-     }
-    ]
-   },
-   "refs": {
-    "op": "lookupRefs",
-    "from": "tasks",
-    "by": "{item.id}",
-    "slot": "board6",
-    "also": [
-     {
-      "from": "tasks",
-      "by": "{item.id}",
-      "slot": "board5"
-     },
-     {
-      "from": "products",
-      "by": "{item.refs.prod}",
-      "slot": "image"
-     },
-     {
-      "from": "products",
-      "by": "{item.refs.prod}",
-      "slot": "room1",
-      "when": {
-       "op": "eq",
-       "a": "{item.sceneMode}",
-       "b": "custom"
-      }
-     },
-     {
-      "from": "characters",
-      "by": "{values.charId}",
-      "slot": "face",
-      "when": {
-       "op": "and",
-       "list": [
-        {
-         "op": "eq",
-         "a": "{item.peopleSrc}",
-         "b": "ใช้รูปใบหน้าที่แนบ — ล็อกหน้าเป็นคนเดิมทุกช็อต"
-        },
-        {
-         "op": "not",
-         "a": {
-          "op": "or",
-          "list": [
-           {
-            "op": "eq",
-            "a": "{item.people}",
-            "b": "ไม่มีคน"
-           },
-           {
-            "op": "eq",
-            "a": "{item.people}",
-            "b": "เห็นแต่มือ ไม่เห็นหน้า"
-           },
-           {
-            "op": "eq",
-            "a": "{item.people}",
-            "b": "เห็นตัว ไม่เห็นหน้า"
-           },
-           {
-            "op": "eq",
-            "a": "{item.people}",
-            "b": "ทีมช่างเบลอเคลื่อนไหวเร็ว"
-           }
-          ]
-         }
-        },
-        {
-         "op": "or",
-         "list": [
-          {
-           "op": "eq",
-           "a": "{item.castKind}",
-           "b": "auto"
-          },
-          {
-           "op": "eq",
-           "a": "{item.castKind}",
-           "b": "human"
-          },
-          {
-           "op": "eq",
-           "a": "{item.castKind}",
-           "b": ""
-          },
-          {
-           "op": "eq",
-           "a": "{item.castKind}",
-           "b": "animalToon"
-          },
-          {
-           "op": "eq",
-           "a": "{item.castKind}",
-           "b": "petCameo"
-          }
-         ]
-        }
-       ]
-      }
-     },
-     {
-      "from": "products",
-      "by": "{item.refs.prod}",
-      "slot": "image2"
-     },
-     {
-      "from": "products",
-      "by": "{item.refs.prod}",
-      "slot": "room2",
-      "when": {
-       "op": "eq",
-       "a": "{item.sceneMode}",
-       "b": "custom"
-      }
-     },
-     {
-      "from": "products",
-      "by": "{item.refs.prod}",
-      "slot": "image3"
-     },
-     {
-      "from": "products",
-      "by": "{item.refs.prod}",
-      "slot": "image4"
-     },
-     {
-      "from": "products",
-      "by": "{item.refs.prod}",
-      "slot": "image5"
-     }
-    ]
-   },
-   "when": "values.svSec>50",
-   "where": "s31en!=",
-   "model": "Omni 1.1 Flash",
-   "aspectRatio": "9:16",
-   "durationSeconds": 10,
-   "startFrame": {
-    "op": "cond",
-    "when": {
-     "op": "eq",
-     "a": "{item.arc}",
-     "b": "ไทม์แลปส์กล้องนิ่ง"
-    },
-    "then": "{item.slots.video5}"
-   },
-   "tailTrim": 0.1
-  },
-  "mnVideo5": {
-   "id": "mnVideo5",
-   "type": "video",
-   "prompt": {
-    "op": "concat",
-    "parts": [
-     {
-      "op": "block",
-      "sep": "",
-      "parts": [
-       {
-        "when": {
-         "op": "or",
-         "list": [
-          {
-           "op": "eq",
-           "a": "{values.svAudio}",
-           "b": "ไม่มีเสียงพากย์"
-          },
-          {
-           "op": "eq",
-           "a": "{values.svAudio}",
-           "b": "ASMR"
-          }
-         ]
-        },
-        "value": "SOUND RULE FIRST: nobody speaks; no narration, dialogue or lip-sync, never read on-screen text aloud.\n\n"
-       },
-       {
-        "when": {
-         "op": "and",
-         "list": [
-          {
-           "op": "not",
-           "a": {
-            "op": "eq",
-            "a": "{values.svAudio}",
-            "b": "ไม่มีเสียงพากย์"
-           }
-          },
-          {
-           "op": "not",
-           "a": {
-            "op": "eq",
-            "a": "{values.svAudio}",
-            "b": "ASMR"
-           }
-          }
-         ]
-        },
-        "value": "SOUND RULE: speak only the script below, never on-screen text.\n\n"
-       }
-      ]
-     },
-     {
-      "op": "block",
-      "sep": "",
-      "parts": [
-       {
-        "when": {
-         "op": "not",
-         "a": {
-          "op": "eq",
-          "a": "{item.arc}",
-          "b": "ไทม์แลปส์กล้องนิ่ง"
-         }
-        },
-        "value": "FRAME RULE: every frame is one full-screen shot. Each beat is its own short shot with a clean cut; never morph between shots, never a split screen, grid or small boxes.\n\n"
-       },
-       {
-        "when": {
-         "op": "eq",
-         "a": "{item.arc}",
-         "b": "ไทม์แลปส์กล้องนิ่ง"
-        },
-        "value": "FRAME RULE: one full-screen view from one camera, first frame to last; never cut to, morph into or end on a split screen, collage, grid or small boxes.\n\n"
-       }
-      ]
-     },
-     "PART 5, picks up where part 4 ended: same place, light, objects and people; no restart.\n\n",
-     {
-      "op": "concat",
-      "parts": [
-       "Vertical 9:16 phone footage, ",
-       {
-        "op": "block",
-        "sep": "",
-        "parts": [
-         {
-          "when": {
-           "op": "eq",
-           "a": "{values.partSec}",
-           "b": "8"
-          },
-          "value": "8 s"
-         },
-         {
-          "when": {
-           "op": "not",
-           "a": {
-            "op": "eq",
-            "a": "{values.partSec}",
-            "b": "8"
-           }
-          },
-          "value": "10 s"
-         }
-        ]
-       },
-       ", real home repair in a lived-in @NAT_HOUSE_EN@, all in focus, true colours; light and mood: {item.palette}; same light direction, colour and exposure every part; ",
-       {
-        "op": "block",
-        "sep": "",
-        "parts": [
-         {
-          "when": {
-           "op": "not",
-           "a": {
-            "op": "eq",
-            "a": "{item.arc}",
-            "b": "ไทม์แลปส์กล้องนิ่ง"
-           }
-          },
-          "value": "one steady shot per beat, small slow camera moves; whole room only in the clip's first and last shots, other beats close"
-         },
-         {
-          "when": {
-           "op": "eq",
-           "a": "{item.arc}",
-           "b": "ไทม์แลปส์กล้องนิ่ง"
-          },
-          "value": "one continuous shot through the beats"
-         }
-        ]
-       },
-       "."
-      ]
-     },
-     {
-      "op": "block",
-      "sep": "",
-      "parts": [
-       {
-        "when": {
-         "op": "and",
-         "list": [
-          {
-           "op": "not",
-           "a": {
-            "op": "eq",
-            "a": "{item.camMode}",
-            "b": ""
-           }
-          },
-          {
-           "op": "not",
-           "a": {
-            "op": "eq",
-            "a": "{item.arc}",
-            "b": "ไทม์แลปส์กล้องนิ่ง"
-           }
-          }
-         ]
-        },
-        "value": {
-         "op": "lookup",
-         "table": "vCamMode",
-         "key": "{item.camMode}",
-         "fallback": ""
-        }
-       },
-       {
-        "when": {
-         "op": "eq",
-         "a": "{item.arc}",
-         "b": "ไทม์แลปส์กล้องนิ่ง"
-        },
-        "value": {
-         "op": "lookup",
-         "table": "vCamMode",
-         "key": "ตั้งนิ่งเห็นทั้งพื้นที่",
-         "fallback": ""
-        }
-       }
-      ]
-     },
-     {
-      "op": "block",
-      "sep": "",
-      "parts": [
-       {
-        "when": {
-         "op": "and",
-         "list": [
-          {
-           "op": "not",
-           "a": {
-            "op": "eq",
-            "a": "{item.room}",
-            "b": ""
-           }
-          },
-          {
-           "op": "not",
-           "a": {
-            "op": "and",
-            "list": [
-             {
-              "op": "refsFilled",
-              "key": "prod",
-              "from": "products",
-              "slot": "room1"
-             },
-             {
-              "op": "eq",
-              "a": "{item.sceneMode}",
-              "b": "custom"
-             }
-            ]
-           }
-          }
-         ]
-        },
-        "value": "\nRoom (same in every part; ground, fence, walls and neighbours never change; finished parts keep their new colour and material): {item.room}"
-       }
-      ]
-     },
-     {
-      "op": "block",
-      "sep": "",
-      "parts": [
-       {
-        "when": {
-         "op": "and",
-         "list": [
-          {
-           "op": "eq",
-           "a": "{values.cellRefs}",
-           "b": "1"
-          },
-          {
-           "op": "not",
-           "a": {
-            "op": "eq",
-            "a": "{item.arc}",
-            "b": "ไทม์แลปส์กล้องนิ่ง"
-           }
-          }
-         ]
-        },
-        "value": "\n\nImages 1-6 = this part's 6 beats in order, one photo per beat (silent guide): beat N looks like image N. Copy their room, objects (colour, material), people, outfits, light and angle; their looks beat the wording. Each beat is one live shot filling the whole 9:16 frame; never show the photos themselves or a grid, even at 0 s. The product appears only as a real object inside the shot, never as an overlaid picture. "
-       },
-       {
-        "when": {
-         "op": "and",
-         "list": [
-          {
-           "op": "not",
-           "a": {
-            "op": "eq",
-            "a": "{values.cellRefs}",
-            "b": "1"
-           }
-          },
-          {
-           "op": "not",
-           "a": {
-            "op": "eq",
-            "a": "{item.arc}",
-            "b": "ไทม์แลปส์กล้องนิ่ง"
-           }
-          }
-         ]
-        },
-        "value": "\n\nImage 1 = this part's storyboard (silent guide); its 6 pictures are the 6 beats, left before right, top to bottom. Copy its room, objects (colour, material), people, outfits, light and (not in time-lapse) each beat's angle; its looks beat the wording. Never show the storyboard on screen, even at 0 s: frame 1 is live full-screen footage of beat 1. "
-       },
-       {
-        "when": {
-         "op": "eq",
-         "a": "{item.arc}",
-         "b": "ไทม์แลปส์กล้องนิ่ง"
-        },
-        "value": "\n\nImage 1 is the exact first frame of this part; the given last frame is its exact final frame. One locked camera, upright picture, same framing first to last: no zoom, pan, tilt or reframing. Spread the work evenly over the whole clip: something visibly advances every second; never hold still and then jump; reach the last frame only in the final second. Everything already built stays in place (floors, roof, walls, fence); nothing disappears, shrinks or is rebuilt differently. "
-       }
-      ]
-     },
-     {
-      "op": "block",
-      "sep": "",
-      "parts": [
-       {
-        "when": {
-         "op": "not",
-         "a": {
-          "op": "eq",
-          "a": "{values.svSec}",
-          "b": "50"
-         }
-        },
-        "value": "\nPart 5 is not the end: the job is mid-way; stop where the last beat says, no early finished reveal."
        }
       ]
      },
@@ -18629,6 +19309,458 @@
         "value": "\n→ {item.s30en}"
        }
       ]
+     }
+    ]
+   },
+   "refs": {
+    "op": "lookupRefs",
+    "from": "tasks",
+    "by": "{item.id}",
+    "slot": "board5",
+    "also": [
+     {
+      "from": "tasks",
+      "by": "{item.id}",
+      "slot": "board4"
+     },
+     {
+      "from": "products",
+      "by": "{item.refs.prod}",
+      "slot": "image"
+     },
+     {
+      "from": "products",
+      "by": "{item.refs.prod}",
+      "slot": "room1",
+      "when": {
+       "op": "eq",
+       "a": "{item.sceneMode}",
+       "b": "custom"
+      }
+     },
+     {
+      "from": "characters",
+      "by": "{values.charId}",
+      "slot": "face",
+      "when": {
+       "op": "and",
+       "list": [
+        {
+         "op": "eq",
+         "a": "{item.peopleSrc}",
+         "b": "ใช้รูปใบหน้าที่แนบ — ล็อกหน้าเป็นคนเดิมทุกช็อต"
+        },
+        {
+         "op": "not",
+         "a": {
+          "op": "or",
+          "list": [
+           {
+            "op": "eq",
+            "a": "{item.people}",
+            "b": "ไม่มีคน"
+           },
+           {
+            "op": "eq",
+            "a": "{item.people}",
+            "b": "เห็นแต่มือ ไม่เห็นหน้า"
+           },
+           {
+            "op": "eq",
+            "a": "{item.people}",
+            "b": "เห็นตัว ไม่เห็นหน้า"
+           },
+           {
+            "op": "eq",
+            "a": "{item.people}",
+            "b": "ทีมช่างเบลอเคลื่อนไหวเร็ว"
+           }
+          ]
+         }
+        },
+        {
+         "op": "or",
+         "list": [
+          {
+           "op": "eq",
+           "a": "{item.castKind}",
+           "b": "auto"
+          },
+          {
+           "op": "eq",
+           "a": "{item.castKind}",
+           "b": "human"
+          },
+          {
+           "op": "eq",
+           "a": "{item.castKind}",
+           "b": ""
+          },
+          {
+           "op": "eq",
+           "a": "{item.castKind}",
+           "b": "animalToon"
+          },
+          {
+           "op": "eq",
+           "a": "{item.castKind}",
+           "b": "petCameo"
+          }
+         ]
+        }
+       ]
+      }
+     },
+     {
+      "from": "products",
+      "by": "{item.refs.prod}",
+      "slot": "image2"
+     },
+     {
+      "from": "products",
+      "by": "{item.refs.prod}",
+      "slot": "room2",
+      "when": {
+       "op": "eq",
+       "a": "{item.sceneMode}",
+       "b": "custom"
+      }
+     },
+     {
+      "from": "products",
+      "by": "{item.refs.prod}",
+      "slot": "image3"
+     },
+     {
+      "from": "products",
+      "by": "{item.refs.prod}",
+      "slot": "image4"
+     },
+     {
+      "from": "products",
+      "by": "{item.refs.prod}",
+      "slot": "image5"
+     }
+    ]
+   },
+   "when": "values.svSec>40",
+   "where": "s25en!=",
+   "model": "Omni 1.1 Flash",
+   "aspectRatio": "9:16",
+   "durationSeconds": 10,
+   "startFrame": {
+    "op": "cond",
+    "when": {
+     "op": "eq",
+     "a": "{item.arc}",
+     "b": "ไทม์แลปส์กล้องนิ่ง"
+    },
+    "then": "{item.slots.video4}"
+   },
+   "tailTrim": 0.1
+  },
+  "mnVideo4": {
+   "id": "mnVideo4",
+   "type": "video",
+   "prompt": {
+    "op": "concat",
+    "parts": [
+     {
+      "op": "block",
+      "sep": "",
+      "parts": [
+       {
+        "when": {
+         "op": "or",
+         "list": [
+          {
+           "op": "eq",
+           "a": "{values.svAudio}",
+           "b": "ไม่มีเสียงพากย์"
+          },
+          {
+           "op": "eq",
+           "a": "{values.svAudio}",
+           "b": "ASMR"
+          }
+         ]
+        },
+        "value": "SOUND RULE FIRST: nobody speaks; no narration, dialogue or lip-sync, never read on-screen text aloud.\n\n"
+       },
+       {
+        "when": {
+         "op": "and",
+         "list": [
+          {
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{values.svAudio}",
+            "b": "ไม่มีเสียงพากย์"
+           }
+          },
+          {
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{values.svAudio}",
+            "b": "ASMR"
+           }
+          }
+         ]
+        },
+        "value": "SOUND RULE: speak only the script below, never on-screen text.\n\n"
+       }
+      ]
+     },
+     {
+      "op": "block",
+      "sep": "",
+      "parts": [
+       {
+        "when": {
+         "op": "not",
+         "a": {
+          "op": "eq",
+          "a": "{item.arc}",
+          "b": "ไทม์แลปส์กล้องนิ่ง"
+         }
+        },
+        "value": "FRAME RULE: each beat is one full-screen shot with a clean cut; no morphing, split screen, grid or small boxes.\n\n"
+       },
+       {
+        "when": {
+         "op": "eq",
+         "a": "{item.arc}",
+         "b": "ไทม์แลปส์กล้องนิ่ง"
+        },
+        "value": "FRAME RULE: one full-screen view from one camera, first frame to last; never cut to, morph into or end on a split screen, collage, grid or small boxes.\n\n"
+       }
+      ]
+     },
+     "PART 4, picks up where part 3 ended: same place, light, objects and people; no restart.\n\n",
+     {
+      "op": "concat",
+      "parts": [
+       "Vertical 9:16 phone footage, ",
+       {
+        "op": "block",
+        "sep": "",
+        "parts": [
+         {
+          "when": {
+           "op": "eq",
+           "a": "{values.partSec}",
+           "b": "8"
+          },
+          "value": "8 s"
+         },
+         {
+          "when": {
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{values.partSec}",
+            "b": "8"
+           }
+          },
+          "value": "10 s"
+         }
+        ]
+       },
+       ", real home repair in a lived-in @NAT_HOUSE_EN@, all in focus, true colours; light and mood: {item.palette}; same light direction, colour and exposure every part; ",
+       {
+        "op": "block",
+        "sep": "",
+        "parts": [
+         {
+          "when": {
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{item.arc}",
+            "b": "ไทม์แลปส์กล้องนิ่ง"
+           }
+          },
+          "value": "one steady shot per beat, small slow camera moves; whole room only in the clip's first and last shots, other beats close"
+         },
+         {
+          "when": {
+           "op": "eq",
+           "a": "{item.arc}",
+           "b": "ไทม์แลปส์กล้องนิ่ง"
+          },
+          "value": "one continuous shot through the beats"
+         }
+        ]
+       },
+       "."
+      ]
+     },
+     {
+      "op": "block",
+      "sep": "",
+      "parts": [
+       {
+        "when": {
+         "op": "and",
+         "list": [
+          {
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{item.camMode}",
+            "b": ""
+           }
+          },
+          {
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{item.arc}",
+            "b": "ไทม์แลปส์กล้องนิ่ง"
+           }
+          }
+         ]
+        },
+        "value": {
+         "op": "lookup",
+         "table": "vCamMode",
+         "key": "{item.camMode}",
+         "fallback": ""
+        }
+       },
+       {
+        "when": {
+         "op": "eq",
+         "a": "{item.arc}",
+         "b": "ไทม์แลปส์กล้องนิ่ง"
+        },
+        "value": {
+         "op": "lookup",
+         "table": "vCamMode",
+         "key": "ตั้งนิ่งเห็นทั้งพื้นที่",
+         "fallback": ""
+        }
+       }
+      ]
+     },
+     {
+      "op": "block",
+      "sep": "",
+      "parts": [
+       {
+        "when": {
+         "op": "and",
+         "list": [
+          {
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{item.room}",
+            "b": ""
+           }
+          },
+          {
+           "op": "not",
+           "a": {
+            "op": "and",
+            "list": [
+             {
+              "op": "refsFilled",
+              "key": "prod",
+              "from": "products",
+              "slot": "room1"
+             },
+             {
+              "op": "eq",
+              "a": "{item.sceneMode}",
+              "b": "custom"
+             }
+            ]
+           }
+          }
+         ]
+        },
+        "value": "\nRoom (site never changes; finished parts stay finished): {item.room}"
+       }
+      ]
+     },
+     {
+      "op": "block",
+      "sep": "",
+      "parts": [
+       {
+        "when": {
+         "op": "and",
+         "list": [
+          {
+           "op": "eq",
+           "a": "{values.cellRefs}",
+           "b": "1"
+          },
+          {
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{item.arc}",
+            "b": "ไทม์แลปส์กล้องนิ่ง"
+           }
+          }
+         ]
+        },
+        "value": "\n\nImages 1-6 = the 6 beats in order (silent guide): copy each image's room, objects, people, outfits, light and angle; they beat the wording. Never show the photos or a grid, even at 0 s. The product is a real object in the shot, never overlaid. "
+       },
+       {
+        "when": {
+         "op": "and",
+         "list": [
+          {
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{values.cellRefs}",
+            "b": "1"
+           }
+          },
+          {
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{item.arc}",
+            "b": "ไทม์แลปส์กล้องนิ่ง"
+           }
+          }
+         ]
+        },
+        "value": "\n\nImage 1 = this part's storyboard (silent guide); its 6 pictures are the 6 beats, left before right, top to bottom. Copy its room, objects (colour, material), people, outfits, light and (not in time-lapse) each beat's angle; its looks beat the wording. Never show the storyboard on screen, even at 0 s: frame 1 is live full-screen footage of beat 1. "
+       },
+       {
+        "when": {
+         "op": "eq",
+         "a": "{item.arc}",
+         "b": "ไทม์แลปส์กล้องนิ่ง"
+        },
+        "value": "\n\nImage 1 is the exact first frame of this part; the given last frame is its exact final frame. One locked camera, upright picture, same framing first to last: no zoom, pan, tilt or reframing. Spread the work evenly over the whole clip: something visibly advances every second; never hold still and then jump; reach the last frame only in the final second. Everything already built stays in place (floors, roof, walls, fence); nothing disappears, shrinks or is rebuilt differently. "
+       }
+      ]
+     },
+     {
+      "op": "block",
+      "sep": "",
+      "parts": [
+       {
+        "when": {
+         "op": "not",
+         "a": {
+          "op": "eq",
+          "a": "{values.svSec}",
+          "b": "40"
+         }
+        },
+        "value": "\nPart 4 is not the end: the job is mid-way; stop where the last beat says, no early finished reveal."
+       }
+      ]
      },
      {
       "op": "concat",
@@ -19197,7 +20329,7 @@
              "when": {
               "op": "eq",
               "a": "{values.svSec}",
-              "b": "50"
+              "b": "40"
              },
              "value": " voice-over from 0.0s, no gaps; say every word and finish the closing line 1.5 s before the end, never cut off, then silence on the final shot, which shows the finished work with no hands. Voice: "
             },
@@ -19207,7 +20339,7 @@
               "a": {
                "op": "eq",
                "a": "{values.svSec}",
-               "b": "50"
+               "b": "40"
               }
              },
              "value": " voice-over from 0.0s to the end, no gaps. Voice: "
@@ -19256,7 +20388,7 @@
             }
            ]
           },
-          ". Script: \"{item.vo25} {item.vo26} {item.vo27} {item.vo28} {item.vo29} {item.vo30}\". No background music."
+          ". Script: \"{item.vo19} {item.vo20} {item.vo21} {item.vo22} {item.vo23} {item.vo24}\". No background music."
          ]
         }
        },
@@ -19282,7 +20414,7 @@
       "op": "concat",
       "parts": [
        "\n\nAvoid: objects changing colour or material, camera gear in shot, extra fingers",
-       ", any on-screen writing",
+       "",
        {
         "op": "block",
         "sep": "",
@@ -19307,458 +20439,6 @@
         "table": "vCastNeg",
         "key": "{item.castKind}",
         "fallback": ""
-       }
-      ]
-     }
-    ]
-   },
-   "refs": {
-    "op": "lookupRefs",
-    "from": "tasks",
-    "by": "{item.id}",
-    "slot": "board5",
-    "also": [
-     {
-      "from": "tasks",
-      "by": "{item.id}",
-      "slot": "board4"
-     },
-     {
-      "from": "products",
-      "by": "{item.refs.prod}",
-      "slot": "image"
-     },
-     {
-      "from": "products",
-      "by": "{item.refs.prod}",
-      "slot": "room1",
-      "when": {
-       "op": "eq",
-       "a": "{item.sceneMode}",
-       "b": "custom"
-      }
-     },
-     {
-      "from": "characters",
-      "by": "{values.charId}",
-      "slot": "face",
-      "when": {
-       "op": "and",
-       "list": [
-        {
-         "op": "eq",
-         "a": "{item.peopleSrc}",
-         "b": "ใช้รูปใบหน้าที่แนบ — ล็อกหน้าเป็นคนเดิมทุกช็อต"
-        },
-        {
-         "op": "not",
-         "a": {
-          "op": "or",
-          "list": [
-           {
-            "op": "eq",
-            "a": "{item.people}",
-            "b": "ไม่มีคน"
-           },
-           {
-            "op": "eq",
-            "a": "{item.people}",
-            "b": "เห็นแต่มือ ไม่เห็นหน้า"
-           },
-           {
-            "op": "eq",
-            "a": "{item.people}",
-            "b": "เห็นตัว ไม่เห็นหน้า"
-           },
-           {
-            "op": "eq",
-            "a": "{item.people}",
-            "b": "ทีมช่างเบลอเคลื่อนไหวเร็ว"
-           }
-          ]
-         }
-        },
-        {
-         "op": "or",
-         "list": [
-          {
-           "op": "eq",
-           "a": "{item.castKind}",
-           "b": "auto"
-          },
-          {
-           "op": "eq",
-           "a": "{item.castKind}",
-           "b": "human"
-          },
-          {
-           "op": "eq",
-           "a": "{item.castKind}",
-           "b": ""
-          },
-          {
-           "op": "eq",
-           "a": "{item.castKind}",
-           "b": "animalToon"
-          },
-          {
-           "op": "eq",
-           "a": "{item.castKind}",
-           "b": "petCameo"
-          }
-         ]
-        }
-       ]
-      }
-     },
-     {
-      "from": "products",
-      "by": "{item.refs.prod}",
-      "slot": "image2"
-     },
-     {
-      "from": "products",
-      "by": "{item.refs.prod}",
-      "slot": "room2",
-      "when": {
-       "op": "eq",
-       "a": "{item.sceneMode}",
-       "b": "custom"
-      }
-     },
-     {
-      "from": "products",
-      "by": "{item.refs.prod}",
-      "slot": "image3"
-     },
-     {
-      "from": "products",
-      "by": "{item.refs.prod}",
-      "slot": "image4"
-     },
-     {
-      "from": "products",
-      "by": "{item.refs.prod}",
-      "slot": "image5"
-     }
-    ]
-   },
-   "when": "values.svSec>40",
-   "where": "s25en!=",
-   "model": "Omni 1.1 Flash",
-   "aspectRatio": "9:16",
-   "durationSeconds": 10,
-   "startFrame": {
-    "op": "cond",
-    "when": {
-     "op": "eq",
-     "a": "{item.arc}",
-     "b": "ไทม์แลปส์กล้องนิ่ง"
-    },
-    "then": "{item.slots.video4}"
-   },
-   "tailTrim": 0.1
-  },
-  "mnVideo4": {
-   "id": "mnVideo4",
-   "type": "video",
-   "prompt": {
-    "op": "concat",
-    "parts": [
-     {
-      "op": "block",
-      "sep": "",
-      "parts": [
-       {
-        "when": {
-         "op": "or",
-         "list": [
-          {
-           "op": "eq",
-           "a": "{values.svAudio}",
-           "b": "ไม่มีเสียงพากย์"
-          },
-          {
-           "op": "eq",
-           "a": "{values.svAudio}",
-           "b": "ASMR"
-          }
-         ]
-        },
-        "value": "SOUND RULE FIRST: nobody speaks; no narration, dialogue or lip-sync, never read on-screen text aloud.\n\n"
-       },
-       {
-        "when": {
-         "op": "and",
-         "list": [
-          {
-           "op": "not",
-           "a": {
-            "op": "eq",
-            "a": "{values.svAudio}",
-            "b": "ไม่มีเสียงพากย์"
-           }
-          },
-          {
-           "op": "not",
-           "a": {
-            "op": "eq",
-            "a": "{values.svAudio}",
-            "b": "ASMR"
-           }
-          }
-         ]
-        },
-        "value": "SOUND RULE: speak only the script below, never on-screen text.\n\n"
-       }
-      ]
-     },
-     {
-      "op": "block",
-      "sep": "",
-      "parts": [
-       {
-        "when": {
-         "op": "not",
-         "a": {
-          "op": "eq",
-          "a": "{item.arc}",
-          "b": "ไทม์แลปส์กล้องนิ่ง"
-         }
-        },
-        "value": "FRAME RULE: every frame is one full-screen shot. Each beat is its own short shot with a clean cut; never morph between shots, never a split screen, grid or small boxes.\n\n"
-       },
-       {
-        "when": {
-         "op": "eq",
-         "a": "{item.arc}",
-         "b": "ไทม์แลปส์กล้องนิ่ง"
-        },
-        "value": "FRAME RULE: one full-screen view from one camera, first frame to last; never cut to, morph into or end on a split screen, collage, grid or small boxes.\n\n"
-       }
-      ]
-     },
-     "PART 4, picks up where part 3 ended: same place, light, objects and people; no restart.\n\n",
-     {
-      "op": "concat",
-      "parts": [
-       "Vertical 9:16 phone footage, ",
-       {
-        "op": "block",
-        "sep": "",
-        "parts": [
-         {
-          "when": {
-           "op": "eq",
-           "a": "{values.partSec}",
-           "b": "8"
-          },
-          "value": "8 s"
-         },
-         {
-          "when": {
-           "op": "not",
-           "a": {
-            "op": "eq",
-            "a": "{values.partSec}",
-            "b": "8"
-           }
-          },
-          "value": "10 s"
-         }
-        ]
-       },
-       ", real home repair in a lived-in @NAT_HOUSE_EN@, all in focus, true colours; light and mood: {item.palette}; same light direction, colour and exposure every part; ",
-       {
-        "op": "block",
-        "sep": "",
-        "parts": [
-         {
-          "when": {
-           "op": "not",
-           "a": {
-            "op": "eq",
-            "a": "{item.arc}",
-            "b": "ไทม์แลปส์กล้องนิ่ง"
-           }
-          },
-          "value": "one steady shot per beat, small slow camera moves; whole room only in the clip's first and last shots, other beats close"
-         },
-         {
-          "when": {
-           "op": "eq",
-           "a": "{item.arc}",
-           "b": "ไทม์แลปส์กล้องนิ่ง"
-          },
-          "value": "one continuous shot through the beats"
-         }
-        ]
-       },
-       "."
-      ]
-     },
-     {
-      "op": "block",
-      "sep": "",
-      "parts": [
-       {
-        "when": {
-         "op": "and",
-         "list": [
-          {
-           "op": "not",
-           "a": {
-            "op": "eq",
-            "a": "{item.camMode}",
-            "b": ""
-           }
-          },
-          {
-           "op": "not",
-           "a": {
-            "op": "eq",
-            "a": "{item.arc}",
-            "b": "ไทม์แลปส์กล้องนิ่ง"
-           }
-          }
-         ]
-        },
-        "value": {
-         "op": "lookup",
-         "table": "vCamMode",
-         "key": "{item.camMode}",
-         "fallback": ""
-        }
-       },
-       {
-        "when": {
-         "op": "eq",
-         "a": "{item.arc}",
-         "b": "ไทม์แลปส์กล้องนิ่ง"
-        },
-        "value": {
-         "op": "lookup",
-         "table": "vCamMode",
-         "key": "ตั้งนิ่งเห็นทั้งพื้นที่",
-         "fallback": ""
-        }
-       }
-      ]
-     },
-     {
-      "op": "block",
-      "sep": "",
-      "parts": [
-       {
-        "when": {
-         "op": "and",
-         "list": [
-          {
-           "op": "not",
-           "a": {
-            "op": "eq",
-            "a": "{item.room}",
-            "b": ""
-           }
-          },
-          {
-           "op": "not",
-           "a": {
-            "op": "and",
-            "list": [
-             {
-              "op": "refsFilled",
-              "key": "prod",
-              "from": "products",
-              "slot": "room1"
-             },
-             {
-              "op": "eq",
-              "a": "{item.sceneMode}",
-              "b": "custom"
-             }
-            ]
-           }
-          }
-         ]
-        },
-        "value": "\nRoom (same in every part; ground, fence, walls and neighbours never change; finished parts keep their new colour and material): {item.room}"
-       }
-      ]
-     },
-     {
-      "op": "block",
-      "sep": "",
-      "parts": [
-       {
-        "when": {
-         "op": "and",
-         "list": [
-          {
-           "op": "eq",
-           "a": "{values.cellRefs}",
-           "b": "1"
-          },
-          {
-           "op": "not",
-           "a": {
-            "op": "eq",
-            "a": "{item.arc}",
-            "b": "ไทม์แลปส์กล้องนิ่ง"
-           }
-          }
-         ]
-        },
-        "value": "\n\nImages 1-6 = this part's 6 beats in order, one photo per beat (silent guide): beat N looks like image N. Copy their room, objects (colour, material), people, outfits, light and angle; their looks beat the wording. Each beat is one live shot filling the whole 9:16 frame; never show the photos themselves or a grid, even at 0 s. The product appears only as a real object inside the shot, never as an overlaid picture. "
-       },
-       {
-        "when": {
-         "op": "and",
-         "list": [
-          {
-           "op": "not",
-           "a": {
-            "op": "eq",
-            "a": "{values.cellRefs}",
-            "b": "1"
-           }
-          },
-          {
-           "op": "not",
-           "a": {
-            "op": "eq",
-            "a": "{item.arc}",
-            "b": "ไทม์แลปส์กล้องนิ่ง"
-           }
-          }
-         ]
-        },
-        "value": "\n\nImage 1 = this part's storyboard (silent guide); its 6 pictures are the 6 beats, left before right, top to bottom. Copy its room, objects (colour, material), people, outfits, light and (not in time-lapse) each beat's angle; its looks beat the wording. Never show the storyboard on screen, even at 0 s: frame 1 is live full-screen footage of beat 1. "
-       },
-       {
-        "when": {
-         "op": "eq",
-         "a": "{item.arc}",
-         "b": "ไทม์แลปส์กล้องนิ่ง"
-        },
-        "value": "\n\nImage 1 is the exact first frame of this part; the given last frame is its exact final frame. One locked camera, upright picture, same framing first to last: no zoom, pan, tilt or reframing. Spread the work evenly over the whole clip: something visibly advances every second; never hold still and then jump; reach the last frame only in the final second. Everything already built stays in place (floors, roof, walls, fence); nothing disappears, shrinks or is rebuilt differently. "
-       }
-      ]
-     },
-     {
-      "op": "block",
-      "sep": "",
-      "parts": [
-       {
-        "when": {
-         "op": "not",
-         "a": {
-          "op": "eq",
-          "a": "{values.svSec}",
-          "b": "40"
-         }
-        },
-        "value": "\nPart 4 is not the end: the job is mid-way; stop where the last beat says, no early finished reveal."
        }
       ]
      },
@@ -21652,6 +22332,458 @@
         "value": "\n→ {item.s24en}"
        }
       ]
+     }
+    ]
+   },
+   "refs": {
+    "op": "lookupRefs",
+    "from": "tasks",
+    "by": "{item.id}",
+    "slot": "board4",
+    "also": [
+     {
+      "from": "tasks",
+      "by": "{item.id}",
+      "slot": "board3"
+     },
+     {
+      "from": "products",
+      "by": "{item.refs.prod}",
+      "slot": "image"
+     },
+     {
+      "from": "products",
+      "by": "{item.refs.prod}",
+      "slot": "room1",
+      "when": {
+       "op": "eq",
+       "a": "{item.sceneMode}",
+       "b": "custom"
+      }
+     },
+     {
+      "from": "characters",
+      "by": "{values.charId}",
+      "slot": "face",
+      "when": {
+       "op": "and",
+       "list": [
+        {
+         "op": "eq",
+         "a": "{item.peopleSrc}",
+         "b": "ใช้รูปใบหน้าที่แนบ — ล็อกหน้าเป็นคนเดิมทุกช็อต"
+        },
+        {
+         "op": "not",
+         "a": {
+          "op": "or",
+          "list": [
+           {
+            "op": "eq",
+            "a": "{item.people}",
+            "b": "ไม่มีคน"
+           },
+           {
+            "op": "eq",
+            "a": "{item.people}",
+            "b": "เห็นแต่มือ ไม่เห็นหน้า"
+           },
+           {
+            "op": "eq",
+            "a": "{item.people}",
+            "b": "เห็นตัว ไม่เห็นหน้า"
+           },
+           {
+            "op": "eq",
+            "a": "{item.people}",
+            "b": "ทีมช่างเบลอเคลื่อนไหวเร็ว"
+           }
+          ]
+         }
+        },
+        {
+         "op": "or",
+         "list": [
+          {
+           "op": "eq",
+           "a": "{item.castKind}",
+           "b": "auto"
+          },
+          {
+           "op": "eq",
+           "a": "{item.castKind}",
+           "b": "human"
+          },
+          {
+           "op": "eq",
+           "a": "{item.castKind}",
+           "b": ""
+          },
+          {
+           "op": "eq",
+           "a": "{item.castKind}",
+           "b": "animalToon"
+          },
+          {
+           "op": "eq",
+           "a": "{item.castKind}",
+           "b": "petCameo"
+          }
+         ]
+        }
+       ]
+      }
+     },
+     {
+      "from": "products",
+      "by": "{item.refs.prod}",
+      "slot": "image2"
+     },
+     {
+      "from": "products",
+      "by": "{item.refs.prod}",
+      "slot": "room2",
+      "when": {
+       "op": "eq",
+       "a": "{item.sceneMode}",
+       "b": "custom"
+      }
+     },
+     {
+      "from": "products",
+      "by": "{item.refs.prod}",
+      "slot": "image3"
+     },
+     {
+      "from": "products",
+      "by": "{item.refs.prod}",
+      "slot": "image4"
+     },
+     {
+      "from": "products",
+      "by": "{item.refs.prod}",
+      "slot": "image5"
+     }
+    ]
+   },
+   "when": "values.svSec>30",
+   "where": "s19en!=",
+   "model": "Omni 1.1 Flash",
+   "aspectRatio": "9:16",
+   "durationSeconds": 10,
+   "startFrame": {
+    "op": "cond",
+    "when": {
+     "op": "eq",
+     "a": "{item.arc}",
+     "b": "ไทม์แลปส์กล้องนิ่ง"
+    },
+    "then": "{item.slots.video3}"
+   },
+   "tailTrim": 0.1
+  },
+  "mnVideo3": {
+   "id": "mnVideo3",
+   "type": "video",
+   "prompt": {
+    "op": "concat",
+    "parts": [
+     {
+      "op": "block",
+      "sep": "",
+      "parts": [
+       {
+        "when": {
+         "op": "or",
+         "list": [
+          {
+           "op": "eq",
+           "a": "{values.svAudio}",
+           "b": "ไม่มีเสียงพากย์"
+          },
+          {
+           "op": "eq",
+           "a": "{values.svAudio}",
+           "b": "ASMR"
+          }
+         ]
+        },
+        "value": "SOUND RULE FIRST: nobody speaks; no narration, dialogue or lip-sync, never read on-screen text aloud.\n\n"
+       },
+       {
+        "when": {
+         "op": "and",
+         "list": [
+          {
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{values.svAudio}",
+            "b": "ไม่มีเสียงพากย์"
+           }
+          },
+          {
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{values.svAudio}",
+            "b": "ASMR"
+           }
+          }
+         ]
+        },
+        "value": "SOUND RULE: speak only the script below, never on-screen text.\n\n"
+       }
+      ]
+     },
+     {
+      "op": "block",
+      "sep": "",
+      "parts": [
+       {
+        "when": {
+         "op": "not",
+         "a": {
+          "op": "eq",
+          "a": "{item.arc}",
+          "b": "ไทม์แลปส์กล้องนิ่ง"
+         }
+        },
+        "value": "FRAME RULE: each beat is one full-screen shot with a clean cut; no morphing, split screen, grid or small boxes.\n\n"
+       },
+       {
+        "when": {
+         "op": "eq",
+         "a": "{item.arc}",
+         "b": "ไทม์แลปส์กล้องนิ่ง"
+        },
+        "value": "FRAME RULE: one full-screen view from one camera, first frame to last; never cut to, morph into or end on a split screen, collage, grid or small boxes.\n\n"
+       }
+      ]
+     },
+     "PART 3, picks up where part 2 ended: same place, light, objects and people; no restart.\n\n",
+     {
+      "op": "concat",
+      "parts": [
+       "Vertical 9:16 phone footage, ",
+       {
+        "op": "block",
+        "sep": "",
+        "parts": [
+         {
+          "when": {
+           "op": "eq",
+           "a": "{values.partSec}",
+           "b": "8"
+          },
+          "value": "8 s"
+         },
+         {
+          "when": {
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{values.partSec}",
+            "b": "8"
+           }
+          },
+          "value": "10 s"
+         }
+        ]
+       },
+       ", real home repair in a lived-in @NAT_HOUSE_EN@, all in focus, true colours; light and mood: {item.palette}; same light direction, colour and exposure every part; ",
+       {
+        "op": "block",
+        "sep": "",
+        "parts": [
+         {
+          "when": {
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{item.arc}",
+            "b": "ไทม์แลปส์กล้องนิ่ง"
+           }
+          },
+          "value": "one steady shot per beat, small slow camera moves; whole room only in the clip's first and last shots, other beats close"
+         },
+         {
+          "when": {
+           "op": "eq",
+           "a": "{item.arc}",
+           "b": "ไทม์แลปส์กล้องนิ่ง"
+          },
+          "value": "one continuous shot through the beats"
+         }
+        ]
+       },
+       "."
+      ]
+     },
+     {
+      "op": "block",
+      "sep": "",
+      "parts": [
+       {
+        "when": {
+         "op": "and",
+         "list": [
+          {
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{item.camMode}",
+            "b": ""
+           }
+          },
+          {
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{item.arc}",
+            "b": "ไทม์แลปส์กล้องนิ่ง"
+           }
+          }
+         ]
+        },
+        "value": {
+         "op": "lookup",
+         "table": "vCamMode",
+         "key": "{item.camMode}",
+         "fallback": ""
+        }
+       },
+       {
+        "when": {
+         "op": "eq",
+         "a": "{item.arc}",
+         "b": "ไทม์แลปส์กล้องนิ่ง"
+        },
+        "value": {
+         "op": "lookup",
+         "table": "vCamMode",
+         "key": "ตั้งนิ่งเห็นทั้งพื้นที่",
+         "fallback": ""
+        }
+       }
+      ]
+     },
+     {
+      "op": "block",
+      "sep": "",
+      "parts": [
+       {
+        "when": {
+         "op": "and",
+         "list": [
+          {
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{item.room}",
+            "b": ""
+           }
+          },
+          {
+           "op": "not",
+           "a": {
+            "op": "and",
+            "list": [
+             {
+              "op": "refsFilled",
+              "key": "prod",
+              "from": "products",
+              "slot": "room1"
+             },
+             {
+              "op": "eq",
+              "a": "{item.sceneMode}",
+              "b": "custom"
+             }
+            ]
+           }
+          }
+         ]
+        },
+        "value": "\nRoom (site never changes; finished parts stay finished): {item.room}"
+       }
+      ]
+     },
+     {
+      "op": "block",
+      "sep": "",
+      "parts": [
+       {
+        "when": {
+         "op": "and",
+         "list": [
+          {
+           "op": "eq",
+           "a": "{values.cellRefs}",
+           "b": "1"
+          },
+          {
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{item.arc}",
+            "b": "ไทม์แลปส์กล้องนิ่ง"
+           }
+          }
+         ]
+        },
+        "value": "\n\nImages 1-6 = the 6 beats in order (silent guide): copy each image's room, objects, people, outfits, light and angle; they beat the wording. Never show the photos or a grid, even at 0 s. The product is a real object in the shot, never overlaid. "
+       },
+       {
+        "when": {
+         "op": "and",
+         "list": [
+          {
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{values.cellRefs}",
+            "b": "1"
+           }
+          },
+          {
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{item.arc}",
+            "b": "ไทม์แลปส์กล้องนิ่ง"
+           }
+          }
+         ]
+        },
+        "value": "\n\nImage 1 = this part's storyboard (silent guide); its 6 pictures are the 6 beats, left before right, top to bottom. Copy its room, objects (colour, material), people, outfits, light and (not in time-lapse) each beat's angle; its looks beat the wording. Never show the storyboard on screen, even at 0 s: frame 1 is live full-screen footage of beat 1. "
+       },
+       {
+        "when": {
+         "op": "eq",
+         "a": "{item.arc}",
+         "b": "ไทม์แลปส์กล้องนิ่ง"
+        },
+        "value": "\n\nImage 1 is the exact first frame of this part; the given last frame is its exact final frame. One locked camera, upright picture, same framing first to last: no zoom, pan, tilt or reframing. Spread the work evenly over the whole clip: something visibly advances every second; never hold still and then jump; reach the last frame only in the final second. Everything already built stays in place (floors, roof, walls, fence); nothing disappears, shrinks or is rebuilt differently. "
+       }
+      ]
+     },
+     {
+      "op": "block",
+      "sep": "",
+      "parts": [
+       {
+        "when": {
+         "op": "not",
+         "a": {
+          "op": "eq",
+          "a": "{values.svSec}",
+          "b": "30"
+         }
+        },
+        "value": "\nPart 3 is not the end: the job is mid-way; stop where the last beat says, no early finished reveal."
+       }
+      ]
      },
      {
       "op": "concat",
@@ -22220,7 +23352,7 @@
              "when": {
               "op": "eq",
               "a": "{values.svSec}",
-              "b": "40"
+              "b": "30"
              },
              "value": " voice-over from 0.0s, no gaps; say every word and finish the closing line 1.5 s before the end, never cut off, then silence on the final shot, which shows the finished work with no hands. Voice: "
             },
@@ -22230,7 +23362,7 @@
               "a": {
                "op": "eq",
                "a": "{values.svSec}",
-               "b": "40"
+               "b": "30"
               }
              },
              "value": " voice-over from 0.0s to the end, no gaps. Voice: "
@@ -22279,7 +23411,7 @@
             }
            ]
           },
-          ". Script: \"{item.vo19} {item.vo20} {item.vo21} {item.vo22} {item.vo23} {item.vo24}\". No background music."
+          ". Script: \"{item.vo13} {item.vo14} {item.vo15} {item.vo16} {item.vo17} {item.vo18}\". No background music."
          ]
         }
        },
@@ -22305,7 +23437,7 @@
       "op": "concat",
       "parts": [
        "\n\nAvoid: objects changing colour or material, camera gear in shot, extra fingers",
-       ", any on-screen writing",
+       "",
        {
         "op": "block",
         "sep": "",
@@ -22330,458 +23462,6 @@
         "table": "vCastNeg",
         "key": "{item.castKind}",
         "fallback": ""
-       }
-      ]
-     }
-    ]
-   },
-   "refs": {
-    "op": "lookupRefs",
-    "from": "tasks",
-    "by": "{item.id}",
-    "slot": "board4",
-    "also": [
-     {
-      "from": "tasks",
-      "by": "{item.id}",
-      "slot": "board3"
-     },
-     {
-      "from": "products",
-      "by": "{item.refs.prod}",
-      "slot": "image"
-     },
-     {
-      "from": "products",
-      "by": "{item.refs.prod}",
-      "slot": "room1",
-      "when": {
-       "op": "eq",
-       "a": "{item.sceneMode}",
-       "b": "custom"
-      }
-     },
-     {
-      "from": "characters",
-      "by": "{values.charId}",
-      "slot": "face",
-      "when": {
-       "op": "and",
-       "list": [
-        {
-         "op": "eq",
-         "a": "{item.peopleSrc}",
-         "b": "ใช้รูปใบหน้าที่แนบ — ล็อกหน้าเป็นคนเดิมทุกช็อต"
-        },
-        {
-         "op": "not",
-         "a": {
-          "op": "or",
-          "list": [
-           {
-            "op": "eq",
-            "a": "{item.people}",
-            "b": "ไม่มีคน"
-           },
-           {
-            "op": "eq",
-            "a": "{item.people}",
-            "b": "เห็นแต่มือ ไม่เห็นหน้า"
-           },
-           {
-            "op": "eq",
-            "a": "{item.people}",
-            "b": "เห็นตัว ไม่เห็นหน้า"
-           },
-           {
-            "op": "eq",
-            "a": "{item.people}",
-            "b": "ทีมช่างเบลอเคลื่อนไหวเร็ว"
-           }
-          ]
-         }
-        },
-        {
-         "op": "or",
-         "list": [
-          {
-           "op": "eq",
-           "a": "{item.castKind}",
-           "b": "auto"
-          },
-          {
-           "op": "eq",
-           "a": "{item.castKind}",
-           "b": "human"
-          },
-          {
-           "op": "eq",
-           "a": "{item.castKind}",
-           "b": ""
-          },
-          {
-           "op": "eq",
-           "a": "{item.castKind}",
-           "b": "animalToon"
-          },
-          {
-           "op": "eq",
-           "a": "{item.castKind}",
-           "b": "petCameo"
-          }
-         ]
-        }
-       ]
-      }
-     },
-     {
-      "from": "products",
-      "by": "{item.refs.prod}",
-      "slot": "image2"
-     },
-     {
-      "from": "products",
-      "by": "{item.refs.prod}",
-      "slot": "room2",
-      "when": {
-       "op": "eq",
-       "a": "{item.sceneMode}",
-       "b": "custom"
-      }
-     },
-     {
-      "from": "products",
-      "by": "{item.refs.prod}",
-      "slot": "image3"
-     },
-     {
-      "from": "products",
-      "by": "{item.refs.prod}",
-      "slot": "image4"
-     },
-     {
-      "from": "products",
-      "by": "{item.refs.prod}",
-      "slot": "image5"
-     }
-    ]
-   },
-   "when": "values.svSec>30",
-   "where": "s19en!=",
-   "model": "Omni 1.1 Flash",
-   "aspectRatio": "9:16",
-   "durationSeconds": 10,
-   "startFrame": {
-    "op": "cond",
-    "when": {
-     "op": "eq",
-     "a": "{item.arc}",
-     "b": "ไทม์แลปส์กล้องนิ่ง"
-    },
-    "then": "{item.slots.video3}"
-   },
-   "tailTrim": 0.1
-  },
-  "mnVideo3": {
-   "id": "mnVideo3",
-   "type": "video",
-   "prompt": {
-    "op": "concat",
-    "parts": [
-     {
-      "op": "block",
-      "sep": "",
-      "parts": [
-       {
-        "when": {
-         "op": "or",
-         "list": [
-          {
-           "op": "eq",
-           "a": "{values.svAudio}",
-           "b": "ไม่มีเสียงพากย์"
-          },
-          {
-           "op": "eq",
-           "a": "{values.svAudio}",
-           "b": "ASMR"
-          }
-         ]
-        },
-        "value": "SOUND RULE FIRST: nobody speaks; no narration, dialogue or lip-sync, never read on-screen text aloud.\n\n"
-       },
-       {
-        "when": {
-         "op": "and",
-         "list": [
-          {
-           "op": "not",
-           "a": {
-            "op": "eq",
-            "a": "{values.svAudio}",
-            "b": "ไม่มีเสียงพากย์"
-           }
-          },
-          {
-           "op": "not",
-           "a": {
-            "op": "eq",
-            "a": "{values.svAudio}",
-            "b": "ASMR"
-           }
-          }
-         ]
-        },
-        "value": "SOUND RULE: speak only the script below, never on-screen text.\n\n"
-       }
-      ]
-     },
-     {
-      "op": "block",
-      "sep": "",
-      "parts": [
-       {
-        "when": {
-         "op": "not",
-         "a": {
-          "op": "eq",
-          "a": "{item.arc}",
-          "b": "ไทม์แลปส์กล้องนิ่ง"
-         }
-        },
-        "value": "FRAME RULE: every frame is one full-screen shot. Each beat is its own short shot with a clean cut; never morph between shots, never a split screen, grid or small boxes.\n\n"
-       },
-       {
-        "when": {
-         "op": "eq",
-         "a": "{item.arc}",
-         "b": "ไทม์แลปส์กล้องนิ่ง"
-        },
-        "value": "FRAME RULE: one full-screen view from one camera, first frame to last; never cut to, morph into or end on a split screen, collage, grid or small boxes.\n\n"
-       }
-      ]
-     },
-     "PART 3, picks up where part 2 ended: same place, light, objects and people; no restart.\n\n",
-     {
-      "op": "concat",
-      "parts": [
-       "Vertical 9:16 phone footage, ",
-       {
-        "op": "block",
-        "sep": "",
-        "parts": [
-         {
-          "when": {
-           "op": "eq",
-           "a": "{values.partSec}",
-           "b": "8"
-          },
-          "value": "8 s"
-         },
-         {
-          "when": {
-           "op": "not",
-           "a": {
-            "op": "eq",
-            "a": "{values.partSec}",
-            "b": "8"
-           }
-          },
-          "value": "10 s"
-         }
-        ]
-       },
-       ", real home repair in a lived-in @NAT_HOUSE_EN@, all in focus, true colours; light and mood: {item.palette}; same light direction, colour and exposure every part; ",
-       {
-        "op": "block",
-        "sep": "",
-        "parts": [
-         {
-          "when": {
-           "op": "not",
-           "a": {
-            "op": "eq",
-            "a": "{item.arc}",
-            "b": "ไทม์แลปส์กล้องนิ่ง"
-           }
-          },
-          "value": "one steady shot per beat, small slow camera moves; whole room only in the clip's first and last shots, other beats close"
-         },
-         {
-          "when": {
-           "op": "eq",
-           "a": "{item.arc}",
-           "b": "ไทม์แลปส์กล้องนิ่ง"
-          },
-          "value": "one continuous shot through the beats"
-         }
-        ]
-       },
-       "."
-      ]
-     },
-     {
-      "op": "block",
-      "sep": "",
-      "parts": [
-       {
-        "when": {
-         "op": "and",
-         "list": [
-          {
-           "op": "not",
-           "a": {
-            "op": "eq",
-            "a": "{item.camMode}",
-            "b": ""
-           }
-          },
-          {
-           "op": "not",
-           "a": {
-            "op": "eq",
-            "a": "{item.arc}",
-            "b": "ไทม์แลปส์กล้องนิ่ง"
-           }
-          }
-         ]
-        },
-        "value": {
-         "op": "lookup",
-         "table": "vCamMode",
-         "key": "{item.camMode}",
-         "fallback": ""
-        }
-       },
-       {
-        "when": {
-         "op": "eq",
-         "a": "{item.arc}",
-         "b": "ไทม์แลปส์กล้องนิ่ง"
-        },
-        "value": {
-         "op": "lookup",
-         "table": "vCamMode",
-         "key": "ตั้งนิ่งเห็นทั้งพื้นที่",
-         "fallback": ""
-        }
-       }
-      ]
-     },
-     {
-      "op": "block",
-      "sep": "",
-      "parts": [
-       {
-        "when": {
-         "op": "and",
-         "list": [
-          {
-           "op": "not",
-           "a": {
-            "op": "eq",
-            "a": "{item.room}",
-            "b": ""
-           }
-          },
-          {
-           "op": "not",
-           "a": {
-            "op": "and",
-            "list": [
-             {
-              "op": "refsFilled",
-              "key": "prod",
-              "from": "products",
-              "slot": "room1"
-             },
-             {
-              "op": "eq",
-              "a": "{item.sceneMode}",
-              "b": "custom"
-             }
-            ]
-           }
-          }
-         ]
-        },
-        "value": "\nRoom (same in every part; ground, fence, walls and neighbours never change; finished parts keep their new colour and material): {item.room}"
-       }
-      ]
-     },
-     {
-      "op": "block",
-      "sep": "",
-      "parts": [
-       {
-        "when": {
-         "op": "and",
-         "list": [
-          {
-           "op": "eq",
-           "a": "{values.cellRefs}",
-           "b": "1"
-          },
-          {
-           "op": "not",
-           "a": {
-            "op": "eq",
-            "a": "{item.arc}",
-            "b": "ไทม์แลปส์กล้องนิ่ง"
-           }
-          }
-         ]
-        },
-        "value": "\n\nImages 1-6 = this part's 6 beats in order, one photo per beat (silent guide): beat N looks like image N. Copy their room, objects (colour, material), people, outfits, light and angle; their looks beat the wording. Each beat is one live shot filling the whole 9:16 frame; never show the photos themselves or a grid, even at 0 s. The product appears only as a real object inside the shot, never as an overlaid picture. "
-       },
-       {
-        "when": {
-         "op": "and",
-         "list": [
-          {
-           "op": "not",
-           "a": {
-            "op": "eq",
-            "a": "{values.cellRefs}",
-            "b": "1"
-           }
-          },
-          {
-           "op": "not",
-           "a": {
-            "op": "eq",
-            "a": "{item.arc}",
-            "b": "ไทม์แลปส์กล้องนิ่ง"
-           }
-          }
-         ]
-        },
-        "value": "\n\nImage 1 = this part's storyboard (silent guide); its 6 pictures are the 6 beats, left before right, top to bottom. Copy its room, objects (colour, material), people, outfits, light and (not in time-lapse) each beat's angle; its looks beat the wording. Never show the storyboard on screen, even at 0 s: frame 1 is live full-screen footage of beat 1. "
-       },
-       {
-        "when": {
-         "op": "eq",
-         "a": "{item.arc}",
-         "b": "ไทม์แลปส์กล้องนิ่ง"
-        },
-        "value": "\n\nImage 1 is the exact first frame of this part; the given last frame is its exact final frame. One locked camera, upright picture, same framing first to last: no zoom, pan, tilt or reframing. Spread the work evenly over the whole clip: something visibly advances every second; never hold still and then jump; reach the last frame only in the final second. Everything already built stays in place (floors, roof, walls, fence); nothing disappears, shrinks or is rebuilt differently. "
-       }
-      ]
-     },
-     {
-      "op": "block",
-      "sep": "",
-      "parts": [
-       {
-        "when": {
-         "op": "not",
-         "a": {
-          "op": "eq",
-          "a": "{values.svSec}",
-          "b": "30"
-         }
-        },
-        "value": "\nPart 3 is not the end: the job is mid-way; stop where the last beat says, no early finished reveal."
        }
       ]
      },
@@ -24675,6 +25355,459 @@
         "value": "\n→ {item.s18en}"
        }
       ]
+     }
+    ]
+   },
+   "refs": {
+    "op": "lookupRefs",
+    "from": "tasks",
+    "by": "{item.id}",
+    "slot": "board3",
+    "also": [
+     {
+      "from": "tasks",
+      "by": "{item.id}",
+      "slot": "board2",
+      "when": "values.svSec>10"
+     },
+     {
+      "from": "products",
+      "by": "{item.refs.prod}",
+      "slot": "image"
+     },
+     {
+      "from": "products",
+      "by": "{item.refs.prod}",
+      "slot": "room1",
+      "when": {
+       "op": "eq",
+       "a": "{item.sceneMode}",
+       "b": "custom"
+      }
+     },
+     {
+      "from": "characters",
+      "by": "{values.charId}",
+      "slot": "face",
+      "when": {
+       "op": "and",
+       "list": [
+        {
+         "op": "eq",
+         "a": "{item.peopleSrc}",
+         "b": "ใช้รูปใบหน้าที่แนบ — ล็อกหน้าเป็นคนเดิมทุกช็อต"
+        },
+        {
+         "op": "not",
+         "a": {
+          "op": "or",
+          "list": [
+           {
+            "op": "eq",
+            "a": "{item.people}",
+            "b": "ไม่มีคน"
+           },
+           {
+            "op": "eq",
+            "a": "{item.people}",
+            "b": "เห็นแต่มือ ไม่เห็นหน้า"
+           },
+           {
+            "op": "eq",
+            "a": "{item.people}",
+            "b": "เห็นตัว ไม่เห็นหน้า"
+           },
+           {
+            "op": "eq",
+            "a": "{item.people}",
+            "b": "ทีมช่างเบลอเคลื่อนไหวเร็ว"
+           }
+          ]
+         }
+        },
+        {
+         "op": "or",
+         "list": [
+          {
+           "op": "eq",
+           "a": "{item.castKind}",
+           "b": "auto"
+          },
+          {
+           "op": "eq",
+           "a": "{item.castKind}",
+           "b": "human"
+          },
+          {
+           "op": "eq",
+           "a": "{item.castKind}",
+           "b": ""
+          },
+          {
+           "op": "eq",
+           "a": "{item.castKind}",
+           "b": "animalToon"
+          },
+          {
+           "op": "eq",
+           "a": "{item.castKind}",
+           "b": "petCameo"
+          }
+         ]
+        }
+       ]
+      }
+     },
+     {
+      "from": "products",
+      "by": "{item.refs.prod}",
+      "slot": "image2"
+     },
+     {
+      "from": "products",
+      "by": "{item.refs.prod}",
+      "slot": "room2",
+      "when": {
+       "op": "eq",
+       "a": "{item.sceneMode}",
+       "b": "custom"
+      }
+     },
+     {
+      "from": "products",
+      "by": "{item.refs.prod}",
+      "slot": "image3"
+     },
+     {
+      "from": "products",
+      "by": "{item.refs.prod}",
+      "slot": "image4"
+     },
+     {
+      "from": "products",
+      "by": "{item.refs.prod}",
+      "slot": "image5"
+     }
+    ]
+   },
+   "when": "values.svSec>20",
+   "where": "s13en!=",
+   "model": "Omni 1.1 Flash",
+   "aspectRatio": "9:16",
+   "durationSeconds": 10,
+   "startFrame": {
+    "op": "cond",
+    "when": {
+     "op": "eq",
+     "a": "{item.arc}",
+     "b": "ไทม์แลปส์กล้องนิ่ง"
+    },
+    "then": "{item.slots.video2}"
+   },
+   "tailTrim": 0.1
+  },
+  "mnVideo2": {
+   "id": "mnVideo2",
+   "type": "video",
+   "prompt": {
+    "op": "concat",
+    "parts": [
+     {
+      "op": "block",
+      "sep": "",
+      "parts": [
+       {
+        "when": {
+         "op": "or",
+         "list": [
+          {
+           "op": "eq",
+           "a": "{values.svAudio}",
+           "b": "ไม่มีเสียงพากย์"
+          },
+          {
+           "op": "eq",
+           "a": "{values.svAudio}",
+           "b": "ASMR"
+          }
+         ]
+        },
+        "value": "SOUND RULE FIRST: nobody speaks; no narration, dialogue or lip-sync, never read on-screen text aloud.\n\n"
+       },
+       {
+        "when": {
+         "op": "and",
+         "list": [
+          {
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{values.svAudio}",
+            "b": "ไม่มีเสียงพากย์"
+           }
+          },
+          {
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{values.svAudio}",
+            "b": "ASMR"
+           }
+          }
+         ]
+        },
+        "value": "SOUND RULE: speak only the script below, never on-screen text.\n\n"
+       }
+      ]
+     },
+     {
+      "op": "block",
+      "sep": "",
+      "parts": [
+       {
+        "when": {
+         "op": "not",
+         "a": {
+          "op": "eq",
+          "a": "{item.arc}",
+          "b": "ไทม์แลปส์กล้องนิ่ง"
+         }
+        },
+        "value": "FRAME RULE: each beat is one full-screen shot with a clean cut; no morphing, split screen, grid or small boxes.\n\n"
+       },
+       {
+        "when": {
+         "op": "eq",
+         "a": "{item.arc}",
+         "b": "ไทม์แลปส์กล้องนิ่ง"
+        },
+        "value": "FRAME RULE: one full-screen view from one camera, first frame to last; never cut to, morph into or end on a split screen, collage, grid or small boxes.\n\n"
+       }
+      ]
+     },
+     "PART 2, picks up where part 1 ended: same place, light, objects and people; no restart.\n\n",
+     {
+      "op": "concat",
+      "parts": [
+       "Vertical 9:16 phone footage, ",
+       {
+        "op": "block",
+        "sep": "",
+        "parts": [
+         {
+          "when": {
+           "op": "eq",
+           "a": "{values.partSec}",
+           "b": "8"
+          },
+          "value": "8 s"
+         },
+         {
+          "when": {
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{values.partSec}",
+            "b": "8"
+           }
+          },
+          "value": "10 s"
+         }
+        ]
+       },
+       ", real home repair in a lived-in @NAT_HOUSE_EN@, all in focus, true colours; light and mood: {item.palette}; same light direction, colour and exposure every part; ",
+       {
+        "op": "block",
+        "sep": "",
+        "parts": [
+         {
+          "when": {
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{item.arc}",
+            "b": "ไทม์แลปส์กล้องนิ่ง"
+           }
+          },
+          "value": "one steady shot per beat, small slow camera moves; whole room only in the clip's first and last shots, other beats close"
+         },
+         {
+          "when": {
+           "op": "eq",
+           "a": "{item.arc}",
+           "b": "ไทม์แลปส์กล้องนิ่ง"
+          },
+          "value": "one continuous shot through the beats"
+         }
+        ]
+       },
+       "."
+      ]
+     },
+     {
+      "op": "block",
+      "sep": "",
+      "parts": [
+       {
+        "when": {
+         "op": "and",
+         "list": [
+          {
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{item.camMode}",
+            "b": ""
+           }
+          },
+          {
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{item.arc}",
+            "b": "ไทม์แลปส์กล้องนิ่ง"
+           }
+          }
+         ]
+        },
+        "value": {
+         "op": "lookup",
+         "table": "vCamMode",
+         "key": "{item.camMode}",
+         "fallback": ""
+        }
+       },
+       {
+        "when": {
+         "op": "eq",
+         "a": "{item.arc}",
+         "b": "ไทม์แลปส์กล้องนิ่ง"
+        },
+        "value": {
+         "op": "lookup",
+         "table": "vCamMode",
+         "key": "ตั้งนิ่งเห็นทั้งพื้นที่",
+         "fallback": ""
+        }
+       }
+      ]
+     },
+     {
+      "op": "block",
+      "sep": "",
+      "parts": [
+       {
+        "when": {
+         "op": "and",
+         "list": [
+          {
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{item.room}",
+            "b": ""
+           }
+          },
+          {
+           "op": "not",
+           "a": {
+            "op": "and",
+            "list": [
+             {
+              "op": "refsFilled",
+              "key": "prod",
+              "from": "products",
+              "slot": "room1"
+             },
+             {
+              "op": "eq",
+              "a": "{item.sceneMode}",
+              "b": "custom"
+             }
+            ]
+           }
+          }
+         ]
+        },
+        "value": "\nRoom (site never changes; finished parts stay finished): {item.room}"
+       }
+      ]
+     },
+     {
+      "op": "block",
+      "sep": "",
+      "parts": [
+       {
+        "when": {
+         "op": "and",
+         "list": [
+          {
+           "op": "eq",
+           "a": "{values.cellRefs}",
+           "b": "1"
+          },
+          {
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{item.arc}",
+            "b": "ไทม์แลปส์กล้องนิ่ง"
+           }
+          }
+         ]
+        },
+        "value": "\n\nImages 1-6 = the 6 beats in order (silent guide): copy each image's room, objects, people, outfits, light and angle; they beat the wording. Never show the photos or a grid, even at 0 s. The product is a real object in the shot, never overlaid. "
+       },
+       {
+        "when": {
+         "op": "and",
+         "list": [
+          {
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{values.cellRefs}",
+            "b": "1"
+           }
+          },
+          {
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{item.arc}",
+            "b": "ไทม์แลปส์กล้องนิ่ง"
+           }
+          }
+         ]
+        },
+        "value": "\n\nImage 1 = this part's storyboard (silent guide); its 6 pictures are the 6 beats, left before right, top to bottom. Copy its room, objects (colour, material), people, outfits, light and (not in time-lapse) each beat's angle; its looks beat the wording. Never show the storyboard on screen, even at 0 s: frame 1 is live full-screen footage of beat 1. "
+       },
+       {
+        "when": {
+         "op": "eq",
+         "a": "{item.arc}",
+         "b": "ไทม์แลปส์กล้องนิ่ง"
+        },
+        "value": "\n\nImage 1 is the exact first frame of this part; the given last frame is its exact final frame. One locked camera, upright picture, same framing first to last: no zoom, pan, tilt or reframing. Spread the work evenly over the whole clip: something visibly advances every second; never hold still and then jump; reach the last frame only in the final second. Everything already built stays in place (floors, roof, walls, fence); nothing disappears, shrinks or is rebuilt differently. "
+       }
+      ]
+     },
+     {
+      "op": "block",
+      "sep": "",
+      "parts": [
+       {
+        "when": {
+         "op": "not",
+         "a": {
+          "op": "eq",
+          "a": "{values.svSec}",
+          "b": "20"
+         }
+        },
+        "value": "\nPart 2 is not the end: the job is mid-way; stop where the last beat says, no early finished reveal."
+       }
+      ]
      },
      {
       "op": "concat",
@@ -25243,7 +26376,7 @@
              "when": {
               "op": "eq",
               "a": "{values.svSec}",
-              "b": "30"
+              "b": "20"
              },
              "value": " voice-over from 0.0s, no gaps; say every word and finish the closing line 1.5 s before the end, never cut off, then silence on the final shot, which shows the finished work with no hands. Voice: "
             },
@@ -25253,7 +26386,7 @@
               "a": {
                "op": "eq",
                "a": "{values.svSec}",
-               "b": "30"
+               "b": "20"
               }
              },
              "value": " voice-over from 0.0s to the end, no gaps. Voice: "
@@ -25302,7 +26435,7 @@
             }
            ]
           },
-          ". Script: \"{item.vo13} {item.vo14} {item.vo15} {item.vo16} {item.vo17} {item.vo18}\". No background music."
+          ". Script: \"{item.vo7} {item.vo8} {item.vo9} {item.vo10} {item.vo11} {item.vo12}\". No background music."
          ]
         }
        },
@@ -25328,7 +26461,7 @@
       "op": "concat",
       "parts": [
        "\n\nAvoid: objects changing colour or material, camera gear in shot, extra fingers",
-       ", any on-screen writing",
+       "",
        {
         "op": "block",
         "sep": "",
@@ -25353,459 +26486,6 @@
         "table": "vCastNeg",
         "key": "{item.castKind}",
         "fallback": ""
-       }
-      ]
-     }
-    ]
-   },
-   "refs": {
-    "op": "lookupRefs",
-    "from": "tasks",
-    "by": "{item.id}",
-    "slot": "board3",
-    "also": [
-     {
-      "from": "tasks",
-      "by": "{item.id}",
-      "slot": "board2",
-      "when": "values.svSec>10"
-     },
-     {
-      "from": "products",
-      "by": "{item.refs.prod}",
-      "slot": "image"
-     },
-     {
-      "from": "products",
-      "by": "{item.refs.prod}",
-      "slot": "room1",
-      "when": {
-       "op": "eq",
-       "a": "{item.sceneMode}",
-       "b": "custom"
-      }
-     },
-     {
-      "from": "characters",
-      "by": "{values.charId}",
-      "slot": "face",
-      "when": {
-       "op": "and",
-       "list": [
-        {
-         "op": "eq",
-         "a": "{item.peopleSrc}",
-         "b": "ใช้รูปใบหน้าที่แนบ — ล็อกหน้าเป็นคนเดิมทุกช็อต"
-        },
-        {
-         "op": "not",
-         "a": {
-          "op": "or",
-          "list": [
-           {
-            "op": "eq",
-            "a": "{item.people}",
-            "b": "ไม่มีคน"
-           },
-           {
-            "op": "eq",
-            "a": "{item.people}",
-            "b": "เห็นแต่มือ ไม่เห็นหน้า"
-           },
-           {
-            "op": "eq",
-            "a": "{item.people}",
-            "b": "เห็นตัว ไม่เห็นหน้า"
-           },
-           {
-            "op": "eq",
-            "a": "{item.people}",
-            "b": "ทีมช่างเบลอเคลื่อนไหวเร็ว"
-           }
-          ]
-         }
-        },
-        {
-         "op": "or",
-         "list": [
-          {
-           "op": "eq",
-           "a": "{item.castKind}",
-           "b": "auto"
-          },
-          {
-           "op": "eq",
-           "a": "{item.castKind}",
-           "b": "human"
-          },
-          {
-           "op": "eq",
-           "a": "{item.castKind}",
-           "b": ""
-          },
-          {
-           "op": "eq",
-           "a": "{item.castKind}",
-           "b": "animalToon"
-          },
-          {
-           "op": "eq",
-           "a": "{item.castKind}",
-           "b": "petCameo"
-          }
-         ]
-        }
-       ]
-      }
-     },
-     {
-      "from": "products",
-      "by": "{item.refs.prod}",
-      "slot": "image2"
-     },
-     {
-      "from": "products",
-      "by": "{item.refs.prod}",
-      "slot": "room2",
-      "when": {
-       "op": "eq",
-       "a": "{item.sceneMode}",
-       "b": "custom"
-      }
-     },
-     {
-      "from": "products",
-      "by": "{item.refs.prod}",
-      "slot": "image3"
-     },
-     {
-      "from": "products",
-      "by": "{item.refs.prod}",
-      "slot": "image4"
-     },
-     {
-      "from": "products",
-      "by": "{item.refs.prod}",
-      "slot": "image5"
-     }
-    ]
-   },
-   "when": "values.svSec>20",
-   "where": "s13en!=",
-   "model": "Omni 1.1 Flash",
-   "aspectRatio": "9:16",
-   "durationSeconds": 10,
-   "startFrame": {
-    "op": "cond",
-    "when": {
-     "op": "eq",
-     "a": "{item.arc}",
-     "b": "ไทม์แลปส์กล้องนิ่ง"
-    },
-    "then": "{item.slots.video2}"
-   },
-   "tailTrim": 0.1
-  },
-  "mnVideo2": {
-   "id": "mnVideo2",
-   "type": "video",
-   "prompt": {
-    "op": "concat",
-    "parts": [
-     {
-      "op": "block",
-      "sep": "",
-      "parts": [
-       {
-        "when": {
-         "op": "or",
-         "list": [
-          {
-           "op": "eq",
-           "a": "{values.svAudio}",
-           "b": "ไม่มีเสียงพากย์"
-          },
-          {
-           "op": "eq",
-           "a": "{values.svAudio}",
-           "b": "ASMR"
-          }
-         ]
-        },
-        "value": "SOUND RULE FIRST: nobody speaks; no narration, dialogue or lip-sync, never read on-screen text aloud.\n\n"
-       },
-       {
-        "when": {
-         "op": "and",
-         "list": [
-          {
-           "op": "not",
-           "a": {
-            "op": "eq",
-            "a": "{values.svAudio}",
-            "b": "ไม่มีเสียงพากย์"
-           }
-          },
-          {
-           "op": "not",
-           "a": {
-            "op": "eq",
-            "a": "{values.svAudio}",
-            "b": "ASMR"
-           }
-          }
-         ]
-        },
-        "value": "SOUND RULE: speak only the script below, never on-screen text.\n\n"
-       }
-      ]
-     },
-     {
-      "op": "block",
-      "sep": "",
-      "parts": [
-       {
-        "when": {
-         "op": "not",
-         "a": {
-          "op": "eq",
-          "a": "{item.arc}",
-          "b": "ไทม์แลปส์กล้องนิ่ง"
-         }
-        },
-        "value": "FRAME RULE: every frame is one full-screen shot. Each beat is its own short shot with a clean cut; never morph between shots, never a split screen, grid or small boxes.\n\n"
-       },
-       {
-        "when": {
-         "op": "eq",
-         "a": "{item.arc}",
-         "b": "ไทม์แลปส์กล้องนิ่ง"
-        },
-        "value": "FRAME RULE: one full-screen view from one camera, first frame to last; never cut to, morph into or end on a split screen, collage, grid or small boxes.\n\n"
-       }
-      ]
-     },
-     "PART 2, picks up where part 1 ended: same place, light, objects and people; no restart.\n\n",
-     {
-      "op": "concat",
-      "parts": [
-       "Vertical 9:16 phone footage, ",
-       {
-        "op": "block",
-        "sep": "",
-        "parts": [
-         {
-          "when": {
-           "op": "eq",
-           "a": "{values.partSec}",
-           "b": "8"
-          },
-          "value": "8 s"
-         },
-         {
-          "when": {
-           "op": "not",
-           "a": {
-            "op": "eq",
-            "a": "{values.partSec}",
-            "b": "8"
-           }
-          },
-          "value": "10 s"
-         }
-        ]
-       },
-       ", real home repair in a lived-in @NAT_HOUSE_EN@, all in focus, true colours; light and mood: {item.palette}; same light direction, colour and exposure every part; ",
-       {
-        "op": "block",
-        "sep": "",
-        "parts": [
-         {
-          "when": {
-           "op": "not",
-           "a": {
-            "op": "eq",
-            "a": "{item.arc}",
-            "b": "ไทม์แลปส์กล้องนิ่ง"
-           }
-          },
-          "value": "one steady shot per beat, small slow camera moves; whole room only in the clip's first and last shots, other beats close"
-         },
-         {
-          "when": {
-           "op": "eq",
-           "a": "{item.arc}",
-           "b": "ไทม์แลปส์กล้องนิ่ง"
-          },
-          "value": "one continuous shot through the beats"
-         }
-        ]
-       },
-       "."
-      ]
-     },
-     {
-      "op": "block",
-      "sep": "",
-      "parts": [
-       {
-        "when": {
-         "op": "and",
-         "list": [
-          {
-           "op": "not",
-           "a": {
-            "op": "eq",
-            "a": "{item.camMode}",
-            "b": ""
-           }
-          },
-          {
-           "op": "not",
-           "a": {
-            "op": "eq",
-            "a": "{item.arc}",
-            "b": "ไทม์แลปส์กล้องนิ่ง"
-           }
-          }
-         ]
-        },
-        "value": {
-         "op": "lookup",
-         "table": "vCamMode",
-         "key": "{item.camMode}",
-         "fallback": ""
-        }
-       },
-       {
-        "when": {
-         "op": "eq",
-         "a": "{item.arc}",
-         "b": "ไทม์แลปส์กล้องนิ่ง"
-        },
-        "value": {
-         "op": "lookup",
-         "table": "vCamMode",
-         "key": "ตั้งนิ่งเห็นทั้งพื้นที่",
-         "fallback": ""
-        }
-       }
-      ]
-     },
-     {
-      "op": "block",
-      "sep": "",
-      "parts": [
-       {
-        "when": {
-         "op": "and",
-         "list": [
-          {
-           "op": "not",
-           "a": {
-            "op": "eq",
-            "a": "{item.room}",
-            "b": ""
-           }
-          },
-          {
-           "op": "not",
-           "a": {
-            "op": "and",
-            "list": [
-             {
-              "op": "refsFilled",
-              "key": "prod",
-              "from": "products",
-              "slot": "room1"
-             },
-             {
-              "op": "eq",
-              "a": "{item.sceneMode}",
-              "b": "custom"
-             }
-            ]
-           }
-          }
-         ]
-        },
-        "value": "\nRoom (same in every part; ground, fence, walls and neighbours never change; finished parts keep their new colour and material): {item.room}"
-       }
-      ]
-     },
-     {
-      "op": "block",
-      "sep": "",
-      "parts": [
-       {
-        "when": {
-         "op": "and",
-         "list": [
-          {
-           "op": "eq",
-           "a": "{values.cellRefs}",
-           "b": "1"
-          },
-          {
-           "op": "not",
-           "a": {
-            "op": "eq",
-            "a": "{item.arc}",
-            "b": "ไทม์แลปส์กล้องนิ่ง"
-           }
-          }
-         ]
-        },
-        "value": "\n\nImages 1-6 = this part's 6 beats in order, one photo per beat (silent guide): beat N looks like image N. Copy their room, objects (colour, material), people, outfits, light and angle; their looks beat the wording. Each beat is one live shot filling the whole 9:16 frame; never show the photos themselves or a grid, even at 0 s. The product appears only as a real object inside the shot, never as an overlaid picture. "
-       },
-       {
-        "when": {
-         "op": "and",
-         "list": [
-          {
-           "op": "not",
-           "a": {
-            "op": "eq",
-            "a": "{values.cellRefs}",
-            "b": "1"
-           }
-          },
-          {
-           "op": "not",
-           "a": {
-            "op": "eq",
-            "a": "{item.arc}",
-            "b": "ไทม์แลปส์กล้องนิ่ง"
-           }
-          }
-         ]
-        },
-        "value": "\n\nImage 1 = this part's storyboard (silent guide); its 6 pictures are the 6 beats, left before right, top to bottom. Copy its room, objects (colour, material), people, outfits, light and (not in time-lapse) each beat's angle; its looks beat the wording. Never show the storyboard on screen, even at 0 s: frame 1 is live full-screen footage of beat 1. "
-       },
-       {
-        "when": {
-         "op": "eq",
-         "a": "{item.arc}",
-         "b": "ไทม์แลปส์กล้องนิ่ง"
-        },
-        "value": "\n\nImage 1 is the exact first frame of this part; the given last frame is its exact final frame. One locked camera, upright picture, same framing first to last: no zoom, pan, tilt or reframing. Spread the work evenly over the whole clip: something visibly advances every second; never hold still and then jump; reach the last frame only in the final second. Everything already built stays in place (floors, roof, walls, fence); nothing disappears, shrinks or is rebuilt differently. "
-       }
-      ]
-     },
-     {
-      "op": "block",
-      "sep": "",
-      "parts": [
-       {
-        "when": {
-         "op": "not",
-         "a": {
-          "op": "eq",
-          "a": "{values.svSec}",
-          "b": "20"
-         }
-        },
-        "value": "\nPart 2 is not the end: the job is mid-way; stop where the last beat says, no early finished reveal."
        }
       ]
      },
@@ -27699,6 +28379,474 @@
         "value": "\n→ {item.s12en}"
        }
       ]
+     }
+    ]
+   },
+   "refs": {
+    "op": "lookupRefs",
+    "from": "tasks",
+    "by": "{item.id}",
+    "slot": "board2",
+    "also": [
+     {
+      "from": "tasks",
+      "by": "{item.id}",
+      "slot": "board"
+     },
+     {
+      "from": "products",
+      "by": "{item.refs.prod}",
+      "slot": "image"
+     },
+     {
+      "from": "products",
+      "by": "{item.refs.prod}",
+      "slot": "room1",
+      "when": {
+       "op": "eq",
+       "a": "{item.sceneMode}",
+       "b": "custom"
+      }
+     },
+     {
+      "from": "characters",
+      "by": "{values.charId}",
+      "slot": "face",
+      "when": {
+       "op": "and",
+       "list": [
+        {
+         "op": "eq",
+         "a": "{item.peopleSrc}",
+         "b": "ใช้รูปใบหน้าที่แนบ — ล็อกหน้าเป็นคนเดิมทุกช็อต"
+        },
+        {
+         "op": "not",
+         "a": {
+          "op": "or",
+          "list": [
+           {
+            "op": "eq",
+            "a": "{item.people}",
+            "b": "ไม่มีคน"
+           },
+           {
+            "op": "eq",
+            "a": "{item.people}",
+            "b": "เห็นแต่มือ ไม่เห็นหน้า"
+           },
+           {
+            "op": "eq",
+            "a": "{item.people}",
+            "b": "เห็นตัว ไม่เห็นหน้า"
+           },
+           {
+            "op": "eq",
+            "a": "{item.people}",
+            "b": "ทีมช่างเบลอเคลื่อนไหวเร็ว"
+           }
+          ]
+         }
+        },
+        {
+         "op": "or",
+         "list": [
+          {
+           "op": "eq",
+           "a": "{item.castKind}",
+           "b": "auto"
+          },
+          {
+           "op": "eq",
+           "a": "{item.castKind}",
+           "b": "human"
+          },
+          {
+           "op": "eq",
+           "a": "{item.castKind}",
+           "b": ""
+          },
+          {
+           "op": "eq",
+           "a": "{item.castKind}",
+           "b": "animalToon"
+          },
+          {
+           "op": "eq",
+           "a": "{item.castKind}",
+           "b": "petCameo"
+          }
+         ]
+        }
+       ]
+      }
+     },
+     {
+      "from": "products",
+      "by": "{item.refs.prod}",
+      "slot": "image2"
+     },
+     {
+      "from": "products",
+      "by": "{item.refs.prod}",
+      "slot": "room2",
+      "when": {
+       "op": "eq",
+       "a": "{item.sceneMode}",
+       "b": "custom"
+      }
+     },
+     {
+      "from": "products",
+      "by": "{item.refs.prod}",
+      "slot": "image3"
+     },
+     {
+      "from": "products",
+      "by": "{item.refs.prod}",
+      "slot": "image4"
+     },
+     {
+      "from": "products",
+      "by": "{item.refs.prod}",
+      "slot": "image5"
+     }
+    ]
+   },
+   "when": "values.svSec>10",
+   "where": "s7en!=",
+   "model": "Omni 1.1 Flash",
+   "aspectRatio": "9:16",
+   "durationSeconds": 10,
+   "startFrame": {
+    "op": "cond",
+    "when": {
+     "op": "eq",
+     "a": "{item.arc}",
+     "b": "ไทม์แลปส์กล้องนิ่ง"
+    },
+    "then": "{item.slots.video}"
+   },
+   "tailTrim": 0.1
+  },
+  "mnVideo": {
+   "id": "mnVideo",
+   "type": "video",
+   "prompt": {
+    "op": "concat",
+    "parts": [
+     {
+      "op": "block",
+      "sep": "",
+      "parts": [
+       {
+        "when": {
+         "op": "or",
+         "list": [
+          {
+           "op": "eq",
+           "a": "{values.svAudio}",
+           "b": "ไม่มีเสียงพากย์"
+          },
+          {
+           "op": "eq",
+           "a": "{values.svAudio}",
+           "b": "ASMR"
+          }
+         ]
+        },
+        "value": "SOUND RULE FIRST: nobody speaks; no narration, dialogue or lip-sync, never read on-screen text aloud.\n\n"
+       },
+       {
+        "when": {
+         "op": "and",
+         "list": [
+          {
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{values.svAudio}",
+            "b": "ไม่มีเสียงพากย์"
+           }
+          },
+          {
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{values.svAudio}",
+            "b": "ASMR"
+           }
+          }
+         ]
+        },
+        "value": "SOUND RULE: speak only the script below, never on-screen text.\n\n"
+       }
+      ]
+     },
+     {
+      "op": "block",
+      "sep": "",
+      "parts": [
+       {
+        "when": {
+         "op": "not",
+         "a": {
+          "op": "eq",
+          "a": "{item.arc}",
+          "b": "ไทม์แลปส์กล้องนิ่ง"
+         }
+        },
+        "value": "FRAME RULE: each beat is one full-screen shot with a clean cut; no morphing, split screen, grid or small boxes.\n\n"
+       },
+       {
+        "when": {
+         "op": "eq",
+         "a": "{item.arc}",
+         "b": "ไทม์แลปส์กล้องนิ่ง"
+        },
+        "value": "FRAME RULE: one full-screen view from one camera, first frame to last; never cut to, morph into or end on a split screen, collage, grid or small boxes.\n\n"
+       }
+      ]
+     },
+     {
+      "op": "concat",
+      "parts": [
+       "Vertical 9:16 phone footage, ",
+       {
+        "op": "block",
+        "sep": "",
+        "parts": [
+         {
+          "when": {
+           "op": "eq",
+           "a": "{values.partSec}",
+           "b": "8"
+          },
+          "value": "8 s"
+         },
+         {
+          "when": {
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{values.partSec}",
+            "b": "8"
+           }
+          },
+          "value": "10 s"
+         }
+        ]
+       },
+       ", real home repair in a lived-in @NAT_HOUSE_EN@, all in focus, true colours; light and mood: {item.palette}; same light direction, colour and exposure every part; ",
+       {
+        "op": "block",
+        "sep": "",
+        "parts": [
+         {
+          "when": {
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{item.arc}",
+            "b": "ไทม์แลปส์กล้องนิ่ง"
+           }
+          },
+          "value": "one steady shot per beat, small slow camera moves; whole room only in the clip's first and last shots, other beats close"
+         },
+         {
+          "when": {
+           "op": "eq",
+           "a": "{item.arc}",
+           "b": "ไทม์แลปส์กล้องนิ่ง"
+          },
+          "value": "one continuous shot through the beats"
+         }
+        ]
+       },
+       "."
+      ]
+     },
+     {
+      "op": "block",
+      "sep": "",
+      "parts": [
+       {
+        "when": {
+         "op": "and",
+         "list": [
+          {
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{item.camMode}",
+            "b": ""
+           }
+          },
+          {
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{item.arc}",
+            "b": "ไทม์แลปส์กล้องนิ่ง"
+           }
+          }
+         ]
+        },
+        "value": {
+         "op": "lookup",
+         "table": "vCamMode",
+         "key": "{item.camMode}",
+         "fallback": ""
+        }
+       },
+       {
+        "when": {
+         "op": "eq",
+         "a": "{item.arc}",
+         "b": "ไทม์แลปส์กล้องนิ่ง"
+        },
+        "value": {
+         "op": "lookup",
+         "table": "vCamMode",
+         "key": "ตั้งนิ่งเห็นทั้งพื้นที่",
+         "fallback": ""
+        }
+       }
+      ]
+     },
+     {
+      "op": "block",
+      "sep": "",
+      "parts": [
+       {
+        "when": {
+         "op": "and",
+         "list": [
+          {
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{item.room}",
+            "b": ""
+           }
+          },
+          {
+           "op": "not",
+           "a": {
+            "op": "and",
+            "list": [
+             {
+              "op": "refsFilled",
+              "key": "prod",
+              "from": "products",
+              "slot": "room1"
+             },
+             {
+              "op": "eq",
+              "a": "{item.sceneMode}",
+              "b": "custom"
+             }
+            ]
+           }
+          }
+         ]
+        },
+        "value": "\nRoom (site never changes; finished parts stay finished): {item.room}"
+       }
+      ]
+     },
+     {
+      "op": "block",
+      "sep": "",
+      "parts": [
+       {
+        "when": {
+         "op": "and",
+         "list": [
+          {
+           "op": "eq",
+           "a": "{values.cellRefs}",
+           "b": "1"
+          },
+          {
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{item.arc}",
+            "b": "ไทม์แลปส์กล้องนิ่ง"
+           }
+          }
+         ]
+        },
+        "value": "\n\nImages 1-6 = the 6 beats in order (silent guide): copy each image's room, objects, people, outfits, light and angle; they beat the wording. Never show the photos or a grid, even at 0 s. The product is a real object in the shot, never overlaid. "
+       },
+       {
+        "when": {
+         "op": "and",
+         "list": [
+          {
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{values.cellRefs}",
+            "b": "1"
+           }
+          },
+          {
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{item.arc}",
+            "b": "ไทม์แลปส์กล้องนิ่ง"
+           }
+          }
+         ]
+        },
+        "value": "\n\nImage 1 = this part's storyboard (silent guide); its 6 pictures are the 6 beats, left before right, top to bottom. Copy its room, objects (colour, material), people, outfits, light and (not in time-lapse) each beat's angle; its looks beat the wording. Never show the storyboard on screen, even at 0 s: frame 1 is live full-screen footage of beat 1. "
+       },
+       {
+        "when": {
+         "op": "eq",
+         "a": "{item.arc}",
+         "b": "ไทม์แลปส์กล้องนิ่ง"
+        },
+        "value": "\n\nImage 1 is the exact first frame of this part; the given last frame is its exact final frame. One locked camera, upright picture, same framing first to last: no zoom, pan, tilt or reframing. Spread the work evenly over the whole clip: something visibly advances every second; never hold still and then jump; reach the last frame only in the final second. Everything already built stays in place (floors, roof, walls, fence); nothing disappears, shrinks or is rebuilt differently. "
+       }
+      ]
+     },
+     {
+      "op": "block",
+      "sep": "",
+      "parts": [
+       {
+        "when": {
+         "op": "not",
+         "a": {
+          "op": "eq",
+          "a": "{item.arc}",
+          "b": "ไทม์แลปส์กล้องนิ่ง"
+         }
+        },
+        "value": "\nBeat 1 opens the clip: locked-off wide shot of the whole room, nothing in front of the lens."
+       }
+      ]
+     },
+     {
+      "op": "block",
+      "sep": "",
+      "parts": [
+       {
+        "when": {
+         "op": "not",
+         "a": {
+          "op": "eq",
+          "a": "{values.svSec}",
+          "b": "10"
+         }
+        },
+        "value": "\nPart 1 is not the end: the job is mid-way; stop where the last beat says, no early finished reveal."
+       }
+      ]
      },
      {
       "op": "concat",
@@ -28143,7 +29291,7 @@
           }
          ]
         },
-        "value": "\nRoom: the room photo is the actual room; windows, furniture, floor, walls and light stay, changed only by the work."
+        "value": "\nRoom: the room photo is the actual room; windows, furniture, floor, walls and light stay, changed only by the work; the first beat shows it exactly as photographed."
        }
       ]
      },
@@ -28267,7 +29415,7 @@
              "when": {
               "op": "eq",
               "a": "{values.svSec}",
-              "b": "20"
+              "b": "10"
              },
              "value": " voice-over from 0.0s, no gaps; say every word and finish the closing line 1.5 s before the end, never cut off, then silence on the final shot, which shows the finished work with no hands. Voice: "
             },
@@ -28277,7 +29425,7 @@
               "a": {
                "op": "eq",
                "a": "{values.svSec}",
-               "b": "20"
+               "b": "10"
               }
              },
              "value": " voice-over from 0.0s to the end, no gaps. Voice: "
@@ -28326,7 +29474,7 @@
             }
            ]
           },
-          ". Script: \"{item.vo7} {item.vo8} {item.vo9} {item.vo10} {item.vo11} {item.vo12}\". No background music."
+          ". Script: \"{item.vo1} {item.vo2} {item.vo3} {item.vo4} {item.vo5} {item.vo6}\". No background music."
          ]
         }
        },
@@ -28352,7 +29500,7 @@
       "op": "concat",
       "parts": [
        "\n\nAvoid: objects changing colour or material, camera gear in shot, extra fingers",
-       ", any on-screen writing",
+       "",
        {
         "op": "block",
         "sep": "",
@@ -28377,474 +29525,6 @@
         "table": "vCastNeg",
         "key": "{item.castKind}",
         "fallback": ""
-       }
-      ]
-     }
-    ]
-   },
-   "refs": {
-    "op": "lookupRefs",
-    "from": "tasks",
-    "by": "{item.id}",
-    "slot": "board2",
-    "also": [
-     {
-      "from": "tasks",
-      "by": "{item.id}",
-      "slot": "board"
-     },
-     {
-      "from": "products",
-      "by": "{item.refs.prod}",
-      "slot": "image"
-     },
-     {
-      "from": "products",
-      "by": "{item.refs.prod}",
-      "slot": "room1",
-      "when": {
-       "op": "eq",
-       "a": "{item.sceneMode}",
-       "b": "custom"
-      }
-     },
-     {
-      "from": "characters",
-      "by": "{values.charId}",
-      "slot": "face",
-      "when": {
-       "op": "and",
-       "list": [
-        {
-         "op": "eq",
-         "a": "{item.peopleSrc}",
-         "b": "ใช้รูปใบหน้าที่แนบ — ล็อกหน้าเป็นคนเดิมทุกช็อต"
-        },
-        {
-         "op": "not",
-         "a": {
-          "op": "or",
-          "list": [
-           {
-            "op": "eq",
-            "a": "{item.people}",
-            "b": "ไม่มีคน"
-           },
-           {
-            "op": "eq",
-            "a": "{item.people}",
-            "b": "เห็นแต่มือ ไม่เห็นหน้า"
-           },
-           {
-            "op": "eq",
-            "a": "{item.people}",
-            "b": "เห็นตัว ไม่เห็นหน้า"
-           },
-           {
-            "op": "eq",
-            "a": "{item.people}",
-            "b": "ทีมช่างเบลอเคลื่อนไหวเร็ว"
-           }
-          ]
-         }
-        },
-        {
-         "op": "or",
-         "list": [
-          {
-           "op": "eq",
-           "a": "{item.castKind}",
-           "b": "auto"
-          },
-          {
-           "op": "eq",
-           "a": "{item.castKind}",
-           "b": "human"
-          },
-          {
-           "op": "eq",
-           "a": "{item.castKind}",
-           "b": ""
-          },
-          {
-           "op": "eq",
-           "a": "{item.castKind}",
-           "b": "animalToon"
-          },
-          {
-           "op": "eq",
-           "a": "{item.castKind}",
-           "b": "petCameo"
-          }
-         ]
-        }
-       ]
-      }
-     },
-     {
-      "from": "products",
-      "by": "{item.refs.prod}",
-      "slot": "image2"
-     },
-     {
-      "from": "products",
-      "by": "{item.refs.prod}",
-      "slot": "room2",
-      "when": {
-       "op": "eq",
-       "a": "{item.sceneMode}",
-       "b": "custom"
-      }
-     },
-     {
-      "from": "products",
-      "by": "{item.refs.prod}",
-      "slot": "image3"
-     },
-     {
-      "from": "products",
-      "by": "{item.refs.prod}",
-      "slot": "image4"
-     },
-     {
-      "from": "products",
-      "by": "{item.refs.prod}",
-      "slot": "image5"
-     }
-    ]
-   },
-   "when": "values.svSec>10",
-   "where": "s7en!=",
-   "model": "Omni 1.1 Flash",
-   "aspectRatio": "9:16",
-   "durationSeconds": 10,
-   "startFrame": {
-    "op": "cond",
-    "when": {
-     "op": "eq",
-     "a": "{item.arc}",
-     "b": "ไทม์แลปส์กล้องนิ่ง"
-    },
-    "then": "{item.slots.video}"
-   },
-   "tailTrim": 0.1
-  },
-  "mnVideo": {
-   "id": "mnVideo",
-   "type": "video",
-   "prompt": {
-    "op": "concat",
-    "parts": [
-     {
-      "op": "block",
-      "sep": "",
-      "parts": [
-       {
-        "when": {
-         "op": "or",
-         "list": [
-          {
-           "op": "eq",
-           "a": "{values.svAudio}",
-           "b": "ไม่มีเสียงพากย์"
-          },
-          {
-           "op": "eq",
-           "a": "{values.svAudio}",
-           "b": "ASMR"
-          }
-         ]
-        },
-        "value": "SOUND RULE FIRST: nobody speaks; no narration, dialogue or lip-sync, never read on-screen text aloud.\n\n"
-       },
-       {
-        "when": {
-         "op": "and",
-         "list": [
-          {
-           "op": "not",
-           "a": {
-            "op": "eq",
-            "a": "{values.svAudio}",
-            "b": "ไม่มีเสียงพากย์"
-           }
-          },
-          {
-           "op": "not",
-           "a": {
-            "op": "eq",
-            "a": "{values.svAudio}",
-            "b": "ASMR"
-           }
-          }
-         ]
-        },
-        "value": "SOUND RULE: speak only the script below, never on-screen text.\n\n"
-       }
-      ]
-     },
-     {
-      "op": "block",
-      "sep": "",
-      "parts": [
-       {
-        "when": {
-         "op": "not",
-         "a": {
-          "op": "eq",
-          "a": "{item.arc}",
-          "b": "ไทม์แลปส์กล้องนิ่ง"
-         }
-        },
-        "value": "FRAME RULE: every frame is one full-screen shot. Each beat is its own short shot with a clean cut; never morph between shots, never a split screen, grid or small boxes.\n\n"
-       },
-       {
-        "when": {
-         "op": "eq",
-         "a": "{item.arc}",
-         "b": "ไทม์แลปส์กล้องนิ่ง"
-        },
-        "value": "FRAME RULE: one full-screen view from one camera, first frame to last; never cut to, morph into or end on a split screen, collage, grid or small boxes.\n\n"
-       }
-      ]
-     },
-     {
-      "op": "concat",
-      "parts": [
-       "Vertical 9:16 phone footage, ",
-       {
-        "op": "block",
-        "sep": "",
-        "parts": [
-         {
-          "when": {
-           "op": "eq",
-           "a": "{values.partSec}",
-           "b": "8"
-          },
-          "value": "8 s"
-         },
-         {
-          "when": {
-           "op": "not",
-           "a": {
-            "op": "eq",
-            "a": "{values.partSec}",
-            "b": "8"
-           }
-          },
-          "value": "10 s"
-         }
-        ]
-       },
-       ", real home repair in a lived-in @NAT_HOUSE_EN@, all in focus, true colours; light and mood: {item.palette}; same light direction, colour and exposure every part; ",
-       {
-        "op": "block",
-        "sep": "",
-        "parts": [
-         {
-          "when": {
-           "op": "not",
-           "a": {
-            "op": "eq",
-            "a": "{item.arc}",
-            "b": "ไทม์แลปส์กล้องนิ่ง"
-           }
-          },
-          "value": "one steady shot per beat, small slow camera moves; whole room only in the clip's first and last shots, other beats close"
-         },
-         {
-          "when": {
-           "op": "eq",
-           "a": "{item.arc}",
-           "b": "ไทม์แลปส์กล้องนิ่ง"
-          },
-          "value": "one continuous shot through the beats"
-         }
-        ]
-       },
-       "."
-      ]
-     },
-     {
-      "op": "block",
-      "sep": "",
-      "parts": [
-       {
-        "when": {
-         "op": "and",
-         "list": [
-          {
-           "op": "not",
-           "a": {
-            "op": "eq",
-            "a": "{item.camMode}",
-            "b": ""
-           }
-          },
-          {
-           "op": "not",
-           "a": {
-            "op": "eq",
-            "a": "{item.arc}",
-            "b": "ไทม์แลปส์กล้องนิ่ง"
-           }
-          }
-         ]
-        },
-        "value": {
-         "op": "lookup",
-         "table": "vCamMode",
-         "key": "{item.camMode}",
-         "fallback": ""
-        }
-       },
-       {
-        "when": {
-         "op": "eq",
-         "a": "{item.arc}",
-         "b": "ไทม์แลปส์กล้องนิ่ง"
-        },
-        "value": {
-         "op": "lookup",
-         "table": "vCamMode",
-         "key": "ตั้งนิ่งเห็นทั้งพื้นที่",
-         "fallback": ""
-        }
-       }
-      ]
-     },
-     {
-      "op": "block",
-      "sep": "",
-      "parts": [
-       {
-        "when": {
-         "op": "and",
-         "list": [
-          {
-           "op": "not",
-           "a": {
-            "op": "eq",
-            "a": "{item.room}",
-            "b": ""
-           }
-          },
-          {
-           "op": "not",
-           "a": {
-            "op": "and",
-            "list": [
-             {
-              "op": "refsFilled",
-              "key": "prod",
-              "from": "products",
-              "slot": "room1"
-             },
-             {
-              "op": "eq",
-              "a": "{item.sceneMode}",
-              "b": "custom"
-             }
-            ]
-           }
-          }
-         ]
-        },
-        "value": "\nRoom (same in every part; ground, fence, walls and neighbours never change; finished parts keep their new colour and material): {item.room}"
-       }
-      ]
-     },
-     {
-      "op": "block",
-      "sep": "",
-      "parts": [
-       {
-        "when": {
-         "op": "and",
-         "list": [
-          {
-           "op": "eq",
-           "a": "{values.cellRefs}",
-           "b": "1"
-          },
-          {
-           "op": "not",
-           "a": {
-            "op": "eq",
-            "a": "{item.arc}",
-            "b": "ไทม์แลปส์กล้องนิ่ง"
-           }
-          }
-         ]
-        },
-        "value": "\n\nImages 1-6 = this part's 6 beats in order, one photo per beat (silent guide): beat N looks like image N. Copy their room, objects (colour, material), people, outfits, light and angle; their looks beat the wording. Each beat is one live shot filling the whole 9:16 frame; never show the photos themselves or a grid, even at 0 s. The product appears only as a real object inside the shot, never as an overlaid picture. "
-       },
-       {
-        "when": {
-         "op": "and",
-         "list": [
-          {
-           "op": "not",
-           "a": {
-            "op": "eq",
-            "a": "{values.cellRefs}",
-            "b": "1"
-           }
-          },
-          {
-           "op": "not",
-           "a": {
-            "op": "eq",
-            "a": "{item.arc}",
-            "b": "ไทม์แลปส์กล้องนิ่ง"
-           }
-          }
-         ]
-        },
-        "value": "\n\nImage 1 = this part's storyboard (silent guide); its 6 pictures are the 6 beats, left before right, top to bottom. Copy its room, objects (colour, material), people, outfits, light and (not in time-lapse) each beat's angle; its looks beat the wording. Never show the storyboard on screen, even at 0 s: frame 1 is live full-screen footage of beat 1. "
-       },
-       {
-        "when": {
-         "op": "eq",
-         "a": "{item.arc}",
-         "b": "ไทม์แลปส์กล้องนิ่ง"
-        },
-        "value": "\n\nImage 1 is the exact first frame of this part; the given last frame is its exact final frame. One locked camera, upright picture, same framing first to last: no zoom, pan, tilt or reframing. Spread the work evenly over the whole clip: something visibly advances every second; never hold still and then jump; reach the last frame only in the final second. Everything already built stays in place (floors, roof, walls, fence); nothing disappears, shrinks or is rebuilt differently. "
-       }
-      ]
-     },
-     {
-      "op": "block",
-      "sep": "",
-      "parts": [
-       {
-        "when": {
-         "op": "not",
-         "a": {
-          "op": "eq",
-          "a": "{item.arc}",
-          "b": "ไทม์แลปส์กล้องนิ่ง"
-         }
-        },
-        "value": "\nBeat 1 opens the clip: locked-off wide shot of the whole room, nothing in front of the lens."
-       }
-      ]
-     },
-     {
-      "op": "block",
-      "sep": "",
-      "parts": [
-       {
-        "when": {
-         "op": "not",
-         "a": {
-          "op": "eq",
-          "a": "{values.svSec}",
-          "b": "10"
-         }
-        },
-        "value": "\nPart 1 is not the end: the job is mid-way; stop where the last beat says, no early finished reveal."
        }
       ]
      },
@@ -30736,686 +31416,6 @@
          "b": "ไทม์แลปส์กล้องนิ่ง"
         },
         "value": "\n→ {item.s6en}"
-       }
-      ]
-     },
-     {
-      "op": "concat",
-      "parts": [
-       "\n\nCast: ",
-       {
-        "op": "block",
-        "sep": "",
-        "parts": [
-         {
-          "when": {
-           "op": "or",
-           "list": [
-            {
-             "op": "eq",
-             "a": "{item.castKind}",
-             "b": "auto"
-            },
-            {
-             "op": "eq",
-             "a": "{item.castKind}",
-             "b": "human"
-            },
-            {
-             "op": "eq",
-             "a": "{item.castKind}",
-             "b": ""
-            },
-            {
-             "op": "eq",
-             "a": "{item.castKind}",
-             "b": "animalToon"
-            },
-            {
-             "op": "eq",
-             "a": "{item.castKind}",
-             "b": "petCameo"
-            }
-           ]
-          },
-          "value": {
-           "op": "lookup",
-           "table": "vPeople",
-           "key": "{item.people}|{item.peopleSrc}",
-           "fallback": ""
-          }
-         }
-        ]
-       },
-       {
-        "op": "block",
-        "sep": "",
-        "parts": [
-         {
-          "when": {
-           "op": "not",
-           "a": {
-            "op": "or",
-            "list": [
-             {
-              "op": "eq",
-              "a": "{item.castKind}",
-              "b": "auto"
-             },
-             {
-              "op": "eq",
-              "a": "{item.castKind}",
-              "b": "human"
-             },
-             {
-              "op": "eq",
-              "a": "{item.castKind}",
-              "b": ""
-             },
-             {
-              "op": "eq",
-              "a": "{item.castKind}",
-              "b": "animalToon"
-             },
-             {
-              "op": "eq",
-              "a": "{item.castKind}",
-              "b": "petCameo"
-             }
-            ]
-           }
-          },
-          "value": {
-           "op": "lookup",
-           "table": "vCast",
-           "key": "{item.castKind}",
-           "fallback": ""
-          }
-         }
-        ]
-       }
-      ]
-     },
-     {
-      "op": "block",
-      "sep": "",
-      "parts": [
-       {
-        "when": {
-         "op": "and",
-         "list": [
-          {
-           "op": "and",
-           "list": [
-            {
-             "op": "or",
-             "list": [
-              {
-               "op": "eq",
-               "a": "{item.castKind}",
-               "b": "auto"
-              },
-              {
-               "op": "eq",
-               "a": "{item.castKind}",
-               "b": "human"
-              },
-              {
-               "op": "eq",
-               "a": "{item.castKind}",
-               "b": ""
-              },
-              {
-               "op": "eq",
-               "a": "{item.castKind}",
-               "b": "animalToon"
-              },
-              {
-               "op": "eq",
-               "a": "{item.castKind}",
-               "b": "petCameo"
-              }
-             ]
-            },
-            {
-             "op": "not",
-             "a": {
-              "op": "eq",
-              "a": "{item.people}",
-              "b": "ไม่มีคน"
-             }
-            },
-            {
-             "op": "not",
-             "a": {
-              "op": "eq",
-              "a": "{item.arc}",
-              "b": "ไทม์แลปส์กล้องนิ่ง"
-             }
-            }
-           ]
-          },
-          {
-           "op": "not",
-           "a": {
-            "op": "eq",
-            "a": "{item.look}",
-            "b": ""
-           }
-          }
-         ]
-        },
-        "value": "\nLook (same person in every part): {item.look}"
-       },
-       {
-        "when": {
-         "op": "and",
-         "list": [
-          {
-           "op": "and",
-           "list": [
-            {
-             "op": "or",
-             "list": [
-              {
-               "op": "eq",
-               "a": "{item.castKind}",
-               "b": "auto"
-              },
-              {
-               "op": "eq",
-               "a": "{item.castKind}",
-               "b": "human"
-              },
-              {
-               "op": "eq",
-               "a": "{item.castKind}",
-               "b": ""
-              },
-              {
-               "op": "eq",
-               "a": "{item.castKind}",
-               "b": "animalToon"
-              },
-              {
-               "op": "eq",
-               "a": "{item.castKind}",
-               "b": "petCameo"
-              }
-             ]
-            },
-            {
-             "op": "not",
-             "a": {
-              "op": "eq",
-              "a": "{item.people}",
-              "b": "ไม่มีคน"
-             }
-            },
-            {
-             "op": "not",
-             "a": {
-              "op": "eq",
-              "a": "{item.arc}",
-              "b": "ไทม์แลปส์กล้องนิ่ง"
-             }
-            }
-           ]
-          },
-          {
-           "op": "eq",
-           "a": "{item.charGender}",
-           "b": "หญิง"
-          }
-         ]
-        },
-        "value": "\nThe worker is a woman (set by the user)."
-       },
-       {
-        "when": {
-         "op": "and",
-         "list": [
-          {
-           "op": "and",
-           "list": [
-            {
-             "op": "or",
-             "list": [
-              {
-               "op": "eq",
-               "a": "{item.castKind}",
-               "b": "auto"
-              },
-              {
-               "op": "eq",
-               "a": "{item.castKind}",
-               "b": "human"
-              },
-              {
-               "op": "eq",
-               "a": "{item.castKind}",
-               "b": ""
-              },
-              {
-               "op": "eq",
-               "a": "{item.castKind}",
-               "b": "animalToon"
-              },
-              {
-               "op": "eq",
-               "a": "{item.castKind}",
-               "b": "petCameo"
-              }
-             ]
-            },
-            {
-             "op": "not",
-             "a": {
-              "op": "eq",
-              "a": "{item.people}",
-              "b": "ไม่มีคน"
-             }
-            },
-            {
-             "op": "not",
-             "a": {
-              "op": "eq",
-              "a": "{item.arc}",
-              "b": "ไทม์แลปส์กล้องนิ่ง"
-             }
-            }
-           ]
-          },
-          {
-           "op": "eq",
-           "a": "{item.charGender}",
-           "b": "ชาย"
-          }
-         ]
-        },
-        "value": "\nThe worker is a man (set by the user)."
-       },
-       {
-        "when": {
-         "op": "and",
-         "list": [
-          {
-           "op": "or",
-           "list": [
-            {
-             "op": "eq",
-             "a": "{item.castKind}",
-             "b": "auto"
-            },
-            {
-             "op": "eq",
-             "a": "{item.castKind}",
-             "b": "human"
-            },
-            {
-             "op": "eq",
-             "a": "{item.castKind}",
-             "b": ""
-            },
-            {
-             "op": "eq",
-             "a": "{item.castKind}",
-             "b": "animalToon"
-            },
-            {
-             "op": "eq",
-             "a": "{item.castKind}",
-             "b": "petCameo"
-            }
-           ]
-          },
-          {
-           "op": "not",
-           "a": {
-            "op": "eq",
-            "a": "{item.arc}",
-            "b": "ไทม์แลปส์กล้องนิ่ง"
-           }
-          },
-          {
-           "op": "not",
-           "a": {
-            "op": "eq",
-            "a": "{item.charLook}",
-            "b": ""
-           }
-          }
-         ]
-        },
-        "value": "\nUser's outfit (in Thai), exact in every beat: {item.charLook}"
-       },
-       {
-        "when": {
-         "op": "and",
-         "list": [
-          {
-           "op": "or",
-           "list": [
-            {
-             "op": "eq",
-             "a": "{values.svAudio}",
-             "b": "ไม่มีเสียงพากย์"
-            },
-            {
-             "op": "eq",
-             "a": "{values.svAudio}",
-             "b": "ASMR"
-            }
-           ]
-          },
-          {
-           "op": "or",
-           "list": [
-            {
-             "op": "eq",
-             "a": "{item.castKind}",
-             "b": "auto"
-            },
-            {
-             "op": "eq",
-             "a": "{item.castKind}",
-             "b": "human"
-            },
-            {
-             "op": "eq",
-             "a": "{item.castKind}",
-             "b": ""
-            },
-            {
-             "op": "eq",
-             "a": "{item.castKind}",
-             "b": "animalToon"
-            },
-            {
-             "op": "eq",
-             "a": "{item.castKind}",
-             "b": "petCameo"
-            }
-           ]
-          },
-          {
-           "op": "not",
-           "a": {
-            "op": "eq",
-            "a": "{item.people}",
-            "b": "ไม่มีคน"
-           }
-          }
-         ]
-        },
-        "value": "\nNobody speaks: mouths stay closed the whole clip."
-       }
-      ]
-     },
-     {
-      "op": "block",
-      "sep": "",
-      "parts": [
-       {
-        "when": {
-         "op": "refsFilled",
-         "key": "prod",
-         "from": "products",
-         "slot": "image"
-        },
-        "value": "\n\nProduct: same shape, colours, logo and label as its photo in every shot; ignore its background and ad text."
-       },
-       {
-        "when": {
-         "op": "and",
-         "list": [
-          {
-           "op": "refsFilled",
-           "key": "prod",
-           "from": "products",
-           "slot": "room1"
-          },
-          {
-           "op": "eq",
-           "a": "{item.sceneMode}",
-           "b": "custom"
-          }
-         ]
-        },
-        "value": "\nRoom: the room photo is the actual room; windows, furniture, floor, walls and light stay, changed only by the work; the first beat shows it exactly as photographed."
-       }
-      ]
-     },
-     "\n\nNo on-screen text, titles or subtitles.",
-     {
-      "op": "block",
-      "sep": "",
-      "parts": [
-       {
-        "when": {
-         "op": "eq",
-         "a": "{values.svTextOn}",
-         "b": "หัวเรื่องค้างทั้งคลิป"
-        },
-        "value": ""
-       },
-       {
-        "when": {
-         "op": "eq",
-         "a": "{values.svTextOn}",
-         "b": "ซับไตเติ้ลรายฉาก"
-        },
-        "value": ""
-       },
-       {
-        "when": {
-         "op": "or",
-         "list": [
-          {
-           "op": "or",
-           "list": [
-            {
-             "op": "eq",
-             "a": "{values.svTextOn}",
-             "b": "ป้าย BEFORE / AFTER"
-            },
-            {
-             "op": "eq",
-             "a": "{values.svTextOn}",
-             "b": "ขั้นตอน STEP 1 / 2 / 3"
-            }
-           ]
-          },
-          {
-           "op": "eq",
-           "a": "{values.svTextOn}",
-           "b": "ป้ายเวลา/ราคาท้ายคลิป"
-          },
-          {
-           "op": "eq",
-           "a": "{values.svTextOn}",
-           "b": "ป้ายเรียกลูกค้าท้ายคลิป"
-          }
-         ]
-        },
-        "value": ""
-       }
-      ]
-     },
-     {
-      "op": "block",
-      "sep": "",
-      "parts": [
-       {
-        "when": {
-         "op": "and",
-         "list": [
-          {
-           "op": "not",
-           "a": {
-            "op": "eq",
-            "a": "{values.svAudio}",
-            "b": "ไม่มีเสียงพากย์"
-           }
-          },
-          {
-           "op": "not",
-           "a": {
-            "op": "eq",
-            "a": "{values.svAudio}",
-            "b": "ASMR"
-           }
-          }
-         ]
-        },
-        "value": {
-         "op": "concat",
-         "parts": [
-          "\n\nSound: ",
-          {
-           "op": "block",
-           "sep": "",
-           "parts": [
-            {
-             "when": "values.svLang=English",
-             "value": "English"
-            },
-            {
-             "when": {
-              "op": "not",
-              "a": {
-               "op": "eq",
-               "a": "{values.svLang}",
-               "b": "English"
-              }
-             },
-             "value": {
-              "op": "lookup",
-              "table": "vAccent",
-              "key": "{values.svAccent}",
-              "fallback": "Thai"
-             }
-            }
-           ]
-          },
-          {
-           "op": "block",
-           "sep": "",
-           "parts": [
-            {
-             "when": {
-              "op": "eq",
-              "a": "{values.svSec}",
-              "b": "10"
-             },
-             "value": " voice-over from 0.0s, no gaps; say every word and finish the closing line 1.5 s before the end, never cut off, then silence on the final shot, which shows the finished work with no hands. Voice: "
-            },
-            {
-             "when": {
-              "op": "not",
-              "a": {
-               "op": "eq",
-               "a": "{values.svSec}",
-               "b": "10"
-              }
-             },
-             "value": " voice-over from 0.0s to the end, no gaps. Voice: "
-            }
-           ]
-          },
-          {
-           "op": "block",
-           "sep": "",
-           "parts": [
-            {
-             "when": "values.svVoice!=สุ่มตามสินค้า",
-             "value": {
-              "op": "lookup",
-              "table": "vVoice",
-              "key": "{values.svVoice}",
-              "fallback": "warm, friendly adult woman; female voice only"
-             }
-            },
-            {
-             "when": "values.svVoice=สุ่มตามสินค้า",
-             "value": {
-              "op": "lookup",
-              "table": "vVoice",
-              "key": {
-               "op": "matchTable",
-               "value": "{item.voice}",
-               "table": [
-                {
-                 "any": [
-                  "ชาย"
-                 ],
-                 "value": "เสียงผู้ชาย"
-                },
-                {
-                 "any": [
-                  "หญิง"
-                 ],
-                 "value": "เสียงผู้หญิง"
-                }
-               ],
-               "fallback": "เสียงผู้หญิง"
-              },
-              "fallback": "warm, friendly adult woman; female voice only"
-             }
-            }
-           ]
-          },
-          ". Script: \"{item.vo1} {item.vo2} {item.vo3} {item.vo4} {item.vo5} {item.vo6}\". No background music."
-         ]
-        }
-       },
-       {
-        "when": {
-         "op": "eq",
-         "a": "{values.svAudio}",
-         "b": "ไม่มีเสียงพากย์"
-        },
-        "value": "\n\nSound: quiet room tone and the real noises of the work only; no music at all. Nobody speaks, in any language."
-       },
-       {
-        "when": {
-         "op": "eq",
-         "a": "{values.svAudio}",
-         "b": "ASMR"
-        },
-        "value": "\n\nSound: ASMR, close and crisp real sounds of exactly what each beat shows (the tool, material and action on screen), timed to the action, over quiet room tone. No music at all: no song, singing, humming, whistling, melody or vocals. No human voice."
-       }
-      ]
-     },
-     {
-      "op": "concat",
-      "parts": [
-       "\n\nAvoid: objects changing colour or material, camera gear in shot, extra fingers",
-       ", any on-screen writing",
-       {
-        "op": "block",
-        "sep": "",
-        "parts": [
-         {
-          "when": {
-           "op": "not",
-           "a": {
-            "op": "eq",
-            "a": "{values.svAudio}",
-            "b": "มีเสียงพากย์"
-           }
-          },
-          "value": ", talking, speech, voice-over, lip-sync"
-         }
-        ]
-       },
-       ", music, singing, humming",
-       ".",
-       {
-        "op": "lookup",
-        "table": "vCastNeg",
-        "key": "{item.castKind}",
-        "fallback": ""
        }
       ]
      }
