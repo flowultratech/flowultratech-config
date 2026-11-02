@@ -1,8 +1,8 @@
 {
  "app": "flow-reno",
  "version": 5,
- "build": 120,
- "label": "2.5.17",
+ "build": 121,
+ "label": "2.5.18",
  "ops": {
   "mnPlan": {
    "id": "mnPlan",
@@ -14011,7 +14011,7 @@
          "a": "{item.arc}",
          "b": "af:sf01"
         },
-        "value": "\n\nImages 1-6 = six waypoints of one unbroken walk (silent guide): copy their room, objects, person, outfit and light; glide from one to the next with no cut; never show the photos or a grid. Image 7, if given, is the finished design: every background matches it. "
+        "value": "\n\nImage 1 is the exact first frame of this part: the same take carries on from it with no cut, same person, outfit, place and view; the owner keeps talking and acts out the beats below. "
        }
       ]
      },
@@ -16920,9 +16920,19 @@
    "startFrame": {
     "op": "cond",
     "when": {
-     "op": "eq",
-     "a": "{item.arc}",
-     "b": "ไทม์แลปส์กล้องนิ่ง"
+     "op": "or",
+     "list": [
+      {
+       "op": "eq",
+       "a": "{item.arc}",
+       "b": "ไทม์แลปส์กล้องนิ่ง"
+      },
+      {
+       "op": "eq",
+       "a": "{item.arc}",
+       "b": "af:sf01"
+      }
+     ]
     },
     "then": "{item.slots.video5}"
    },
@@ -17286,7 +17296,7 @@
          "a": "{item.arc}",
          "b": "af:sf01"
         },
-        "value": "\n\nImages 1-6 = six waypoints of one unbroken walk (silent guide): copy their room, objects, person, outfit and light; glide from one to the next with no cut; never show the photos or a grid. Image 7, if given, is the finished design: every background matches it. "
+        "value": "\n\nImage 1 is the exact first frame of this part: the same take carries on from it with no cut, same person, outfit, place and view; the owner keeps talking and acts out the beats below. "
        }
       ]
      },
@@ -20195,9 +20205,19 @@
    "startFrame": {
     "op": "cond",
     "when": {
-     "op": "eq",
-     "a": "{item.arc}",
-     "b": "ไทม์แลปส์กล้องนิ่ง"
+     "op": "or",
+     "list": [
+      {
+       "op": "eq",
+       "a": "{item.arc}",
+       "b": "ไทม์แลปส์กล้องนิ่ง"
+      },
+      {
+       "op": "eq",
+       "a": "{item.arc}",
+       "b": "af:sf01"
+      }
+     ]
     },
     "then": "{item.slots.video4}"
    },
@@ -20561,7 +20581,7 @@
          "a": "{item.arc}",
          "b": "af:sf01"
         },
-        "value": "\n\nImages 1-6 = six waypoints of one unbroken walk (silent guide): copy their room, objects, person, outfit and light; glide from one to the next with no cut; never show the photos or a grid. Image 7, if given, is the finished design: every background matches it. "
+        "value": "\n\nImage 1 is the exact first frame of this part: the same take carries on from it with no cut, same person, outfit, place and view; the owner keeps talking and acts out the beats below. "
        }
       ]
      },
@@ -23470,9 +23490,19 @@
    "startFrame": {
     "op": "cond",
     "when": {
-     "op": "eq",
-     "a": "{item.arc}",
-     "b": "ไทม์แลปส์กล้องนิ่ง"
+     "op": "or",
+     "list": [
+      {
+       "op": "eq",
+       "a": "{item.arc}",
+       "b": "ไทม์แลปส์กล้องนิ่ง"
+      },
+      {
+       "op": "eq",
+       "a": "{item.arc}",
+       "b": "af:sf01"
+      }
+     ]
     },
     "then": "{item.slots.video3}"
    },
@@ -23836,7 +23866,7 @@
          "a": "{item.arc}",
          "b": "af:sf01"
         },
-        "value": "\n\nImages 1-6 = six waypoints of one unbroken walk (silent guide): copy their room, objects, person, outfit and light; glide from one to the next with no cut; never show the photos or a grid. Image 7, if given, is the finished design: every background matches it. "
+        "value": "\n\nImage 1 is the exact first frame of this part: the same take carries on from it with no cut, same person, outfit, place and view; the owner keeps talking and acts out the beats below. "
        }
       ]
      },
@@ -26746,9 +26776,19 @@
    "startFrame": {
     "op": "cond",
     "when": {
-     "op": "eq",
-     "a": "{item.arc}",
-     "b": "ไทม์แลปส์กล้องนิ่ง"
+     "op": "or",
+     "list": [
+      {
+       "op": "eq",
+       "a": "{item.arc}",
+       "b": "ไทม์แลปส์กล้องนิ่ง"
+      },
+      {
+       "op": "eq",
+       "a": "{item.arc}",
+       "b": "af:sf01"
+      }
+     ]
     },
     "then": "{item.slots.video2}"
    },
@@ -27112,7 +27152,7 @@
          "a": "{item.arc}",
          "b": "af:sf01"
         },
-        "value": "\n\nImages 1-6 = six waypoints of one unbroken walk (silent guide): copy their room, objects, person, outfit and light; glide from one to the next with no cut; never show the photos or a grid. Image 7, if given, is the finished design: every background matches it. "
+        "value": "\n\nImage 1 is the exact first frame of this part: the same take carries on from it with no cut, same person, outfit, place and view; the owner keeps talking and acts out the beats below. "
        }
       ]
      },
@@ -30021,9 +30061,19 @@
    "startFrame": {
     "op": "cond",
     "when": {
-     "op": "eq",
-     "a": "{item.arc}",
-     "b": "ไทม์แลปส์กล้องนิ่ง"
+     "op": "or",
+     "list": [
+      {
+       "op": "eq",
+       "a": "{item.arc}",
+       "b": "ไทม์แลปส์กล้องนิ่ง"
+      },
+      {
+       "op": "eq",
+       "a": "{item.arc}",
+       "b": "af:sf01"
+      }
+     ]
     },
     "then": "{item.slots.video}"
    },
@@ -30386,7 +30436,7 @@
          "a": "{item.arc}",
          "b": "af:sf01"
         },
-        "value": "\n\nImages 1-6 = six waypoints of one unbroken walk (silent guide): copy their room, objects, person, outfit and light; glide from one to the next with no cut; never show the photos or a grid. Image 7, if given, is the finished design: every background matches it. "
+        "value": "\n\nImages 1-6 = six waypoints of one unbroken take (silent guide): copy their room, objects, person, outfit and light; glide from one to the next with no cut; never show the photos or a grid. Image 7, if given, is the finished design: every background matches it. "
        }
       ]
      },
