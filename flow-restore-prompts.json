@@ -1,8 +1,8 @@
 {
  "app": "flow-reno",
  "version": 5,
- "build": 123,
- "label": "2.5.20",
+ "build": 124,
+ "label": "2.5.21",
  "ops": {
   "mnPlan": {
    "id": "mnPlan",
@@ -14011,7 +14011,7 @@
          "a": "{item.arc}",
          "b": "af:sf01"
         },
-        "value": "\n\nImage 1 is the exact first frame of this part; the given last frame is its exact final frame: the same take carries on between them with no cut, same person, outfit, place and view; the owner keeps talking; the camera only sways gently, never pans or closes in; nothing behind the owner changes. "
+        "value": "\n\nImage 1 is the exact first frame of this part; the given last frame is its exact final frame: the same take carries on between them with no cut, same person, outfit, place and view; the owner keeps talking; the camera only sways gently, never pans or closes in; nothing behind the owner changes; any door stays exactly as in Image 1, never swinging, closing or vanishing. "
        }
       ]
      },
@@ -14614,7 +14614,31 @@
               "a": "{values.svSec}",
               "b": "60"
              },
-             "value": " voice-over from 0.0s, no gaps; say every word and finish the closing line 1.5 s before the end, never cut off, then silence on the final shot, which shows the complete finished work, roof and walls done, no bare frame, no people or hands. Voice: "
+             "value": {
+              "op": "block",
+              "sep": "",
+              "parts": [
+               {
+                "when": {
+                 "op": "not",
+                 "a": {
+                  "op": "eq",
+                  "a": "{item.arc}",
+                  "b": "af:sf01"
+                 }
+                },
+                "value": " voice-over from 0.0s, no gaps; say every word and finish the closing line 1.5 s before the end, never cut off, then silence on the final shot, which shows the complete finished work, roof and walls done, no bare frame, no people or hands. Voice: "
+               },
+               {
+                "when": {
+                 "op": "eq",
+                 "a": "{item.arc}",
+                 "b": "af:sf01"
+                },
+                "value": " voice-over from 0.0s, no gaps; say every word and finish the closing line 1 s before the end, never cut off, then the owner smiles at the lens to the final frame. Voice: "
+               }
+              ]
+             }
             },
             {
              "when": {
@@ -14753,7 +14777,7 @@
           }
          ]
         },
-        "value": " The last beat is the whole work from that same view, nobody in it, held to the final frame; never end on a close-up of the surface."
+        "value": " The owner stays in frame to the final frame, smiling at the lens with a thumbs-up toward the work; never end on a close-up of the surface."
        },
        {
         "when": {
@@ -17335,7 +17359,7 @@
          "a": "{item.arc}",
          "b": "af:sf01"
         },
-        "value": "\n\nImage 1 is the exact first frame of this part; the given last frame is its exact final frame: the same take carries on between them with no cut, same person, outfit, place and view; the owner keeps talking; the camera only sways gently, never pans or closes in; nothing behind the owner changes. "
+        "value": "\n\nImage 1 is the exact first frame of this part; the given last frame is its exact final frame: the same take carries on between them with no cut, same person, outfit, place and view; the owner keeps talking; the camera only sways gently, never pans or closes in; nothing behind the owner changes; any door stays exactly as in Image 1, never swinging, closing or vanishing. "
        }
       ]
      },
@@ -17938,7 +17962,31 @@
               "a": "{values.svSec}",
               "b": "50"
              },
-             "value": " voice-over from 0.0s, no gaps; say every word and finish the closing line 1.5 s before the end, never cut off, then silence on the final shot, which shows the complete finished work, roof and walls done, no bare frame, no people or hands. Voice: "
+             "value": {
+              "op": "block",
+              "sep": "",
+              "parts": [
+               {
+                "when": {
+                 "op": "not",
+                 "a": {
+                  "op": "eq",
+                  "a": "{item.arc}",
+                  "b": "af:sf01"
+                 }
+                },
+                "value": " voice-over from 0.0s, no gaps; say every word and finish the closing line 1.5 s before the end, never cut off, then silence on the final shot, which shows the complete finished work, roof and walls done, no bare frame, no people or hands. Voice: "
+               },
+               {
+                "when": {
+                 "op": "eq",
+                 "a": "{item.arc}",
+                 "b": "af:sf01"
+                },
+                "value": " voice-over from 0.0s, no gaps; say every word and finish the closing line 1 s before the end, never cut off, then the owner smiles at the lens to the final frame. Voice: "
+               }
+              ]
+             }
             },
             {
              "when": {
@@ -18077,7 +18125,7 @@
           }
          ]
         },
-        "value": " The last beat is the whole work from that same view, nobody in it, held to the final frame; never end on a close-up of the surface."
+        "value": " The owner stays in frame to the final frame, smiling at the lens with a thumbs-up toward the work; never end on a close-up of the surface."
        },
        {
         "when": {
@@ -20659,7 +20707,7 @@
          "a": "{item.arc}",
          "b": "af:sf01"
         },
-        "value": "\n\nImage 1 is the exact first frame of this part; the given last frame is its exact final frame: the same take carries on between them with no cut, same person, outfit, place and view; the owner keeps talking; the camera only sways gently, never pans or closes in; nothing behind the owner changes. "
+        "value": "\n\nImage 1 is the exact first frame of this part; the given last frame is its exact final frame: the same take carries on between them with no cut, same person, outfit, place and view; the owner keeps talking; the camera only sways gently, never pans or closes in; nothing behind the owner changes; any door stays exactly as in Image 1, never swinging, closing or vanishing. "
        }
       ]
      },
@@ -21262,7 +21310,31 @@
               "a": "{values.svSec}",
               "b": "40"
              },
-             "value": " voice-over from 0.0s, no gaps; say every word and finish the closing line 1.5 s before the end, never cut off, then silence on the final shot, which shows the complete finished work, roof and walls done, no bare frame, no people or hands. Voice: "
+             "value": {
+              "op": "block",
+              "sep": "",
+              "parts": [
+               {
+                "when": {
+                 "op": "not",
+                 "a": {
+                  "op": "eq",
+                  "a": "{item.arc}",
+                  "b": "af:sf01"
+                 }
+                },
+                "value": " voice-over from 0.0s, no gaps; say every word and finish the closing line 1.5 s before the end, never cut off, then silence on the final shot, which shows the complete finished work, roof and walls done, no bare frame, no people or hands. Voice: "
+               },
+               {
+                "when": {
+                 "op": "eq",
+                 "a": "{item.arc}",
+                 "b": "af:sf01"
+                },
+                "value": " voice-over from 0.0s, no gaps; say every word and finish the closing line 1 s before the end, never cut off, then the owner smiles at the lens to the final frame. Voice: "
+               }
+              ]
+             }
             },
             {
              "when": {
@@ -21401,7 +21473,7 @@
           }
          ]
         },
-        "value": " The last beat is the whole work from that same view, nobody in it, held to the final frame; never end on a close-up of the surface."
+        "value": " The owner stays in frame to the final frame, smiling at the lens with a thumbs-up toward the work; never end on a close-up of the surface."
        },
        {
         "when": {
@@ -23983,7 +24055,7 @@
          "a": "{item.arc}",
          "b": "af:sf01"
         },
-        "value": "\n\nImage 1 is the exact first frame of this part; the given last frame is its exact final frame: the same take carries on between them with no cut, same person, outfit, place and view; the owner keeps talking; the camera only sways gently, never pans or closes in; nothing behind the owner changes. "
+        "value": "\n\nImage 1 is the exact first frame of this part; the given last frame is its exact final frame: the same take carries on between them with no cut, same person, outfit, place and view; the owner keeps talking; the camera only sways gently, never pans or closes in; nothing behind the owner changes; any door stays exactly as in Image 1, never swinging, closing or vanishing. "
        }
       ]
      },
@@ -24586,7 +24658,31 @@
               "a": "{values.svSec}",
               "b": "30"
              },
-             "value": " voice-over from 0.0s, no gaps; say every word and finish the closing line 1.5 s before the end, never cut off, then silence on the final shot, which shows the complete finished work, roof and walls done, no bare frame, no people or hands. Voice: "
+             "value": {
+              "op": "block",
+              "sep": "",
+              "parts": [
+               {
+                "when": {
+                 "op": "not",
+                 "a": {
+                  "op": "eq",
+                  "a": "{item.arc}",
+                  "b": "af:sf01"
+                 }
+                },
+                "value": " voice-over from 0.0s, no gaps; say every word and finish the closing line 1.5 s before the end, never cut off, then silence on the final shot, which shows the complete finished work, roof and walls done, no bare frame, no people or hands. Voice: "
+               },
+               {
+                "when": {
+                 "op": "eq",
+                 "a": "{item.arc}",
+                 "b": "af:sf01"
+                },
+                "value": " voice-over from 0.0s, no gaps; say every word and finish the closing line 1 s before the end, never cut off, then the owner smiles at the lens to the final frame. Voice: "
+               }
+              ]
+             }
             },
             {
              "when": {
@@ -24725,7 +24821,7 @@
           }
          ]
         },
-        "value": " The last beat is the whole work from that same view, nobody in it, held to the final frame; never end on a close-up of the surface."
+        "value": " The owner stays in frame to the final frame, smiling at the lens with a thumbs-up toward the work; never end on a close-up of the surface."
        },
        {
         "when": {
@@ -27308,7 +27404,7 @@
          "a": "{item.arc}",
          "b": "af:sf01"
         },
-        "value": "\n\nImage 1 is the exact first frame of this part; the given last frame is its exact final frame: the same take carries on between them with no cut, same person, outfit, place and view; the owner keeps talking; the camera only sways gently, never pans or closes in; nothing behind the owner changes. "
+        "value": "\n\nImage 1 is the exact first frame of this part; the given last frame is its exact final frame: the same take carries on between them with no cut, same person, outfit, place and view; the owner keeps talking; the camera only sways gently, never pans or closes in; nothing behind the owner changes; any door stays exactly as in Image 1, never swinging, closing or vanishing. "
        }
       ]
      },
@@ -27911,7 +28007,31 @@
               "a": "{values.svSec}",
               "b": "20"
              },
-             "value": " voice-over from 0.0s, no gaps; say every word and finish the closing line 1.5 s before the end, never cut off, then silence on the final shot, which shows the complete finished work, roof and walls done, no bare frame, no people or hands. Voice: "
+             "value": {
+              "op": "block",
+              "sep": "",
+              "parts": [
+               {
+                "when": {
+                 "op": "not",
+                 "a": {
+                  "op": "eq",
+                  "a": "{item.arc}",
+                  "b": "af:sf01"
+                 }
+                },
+                "value": " voice-over from 0.0s, no gaps; say every word and finish the closing line 1.5 s before the end, never cut off, then silence on the final shot, which shows the complete finished work, roof and walls done, no bare frame, no people or hands. Voice: "
+               },
+               {
+                "when": {
+                 "op": "eq",
+                 "a": "{item.arc}",
+                 "b": "af:sf01"
+                },
+                "value": " voice-over from 0.0s, no gaps; say every word and finish the closing line 1 s before the end, never cut off, then the owner smiles at the lens to the final frame. Voice: "
+               }
+              ]
+             }
             },
             {
              "when": {
@@ -28050,7 +28170,7 @@
           }
          ]
         },
-        "value": " The last beat is the whole work from that same view, nobody in it, held to the final frame; never end on a close-up of the surface."
+        "value": " The owner stays in frame to the final frame, smiling at the lens with a thumbs-up toward the work; never end on a close-up of the surface."
        },
        {
         "when": {
@@ -30631,7 +30751,7 @@
          "a": "{item.arc}",
          "b": "af:sf01"
         },
-        "value": "\n\nImage 1 is the exact first frame of this part; the given last frame is its exact final frame: one unbroken selfie take between them, same person, outfit, place and view; the camera only sways gently, never pans or closes in; nothing behind the owner changes. "
+        "value": "\n\nImage 1 is the exact first frame of this part; the given last frame is its exact final frame: one unbroken selfie take between them, same person, outfit, place and view; the camera only sways gently, never pans or closes in; nothing behind the owner changes; any door stays exactly as in Image 1, never swinging, closing or vanishing. "
        }
       ]
      },
@@ -31264,7 +31384,31 @@
               "a": "{values.svSec}",
               "b": "10"
              },
-             "value": " voice-over from 0.0s, no gaps; say every word and finish the closing line 1.5 s before the end, never cut off, then silence on the final shot, which shows the complete finished work, roof and walls done, no bare frame, no people or hands. Voice: "
+             "value": {
+              "op": "block",
+              "sep": "",
+              "parts": [
+               {
+                "when": {
+                 "op": "not",
+                 "a": {
+                  "op": "eq",
+                  "a": "{item.arc}",
+                  "b": "af:sf01"
+                 }
+                },
+                "value": " voice-over from 0.0s, no gaps; say every word and finish the closing line 1.5 s before the end, never cut off, then silence on the final shot, which shows the complete finished work, roof and walls done, no bare frame, no people or hands. Voice: "
+               },
+               {
+                "when": {
+                 "op": "eq",
+                 "a": "{item.arc}",
+                 "b": "af:sf01"
+                },
+                "value": " voice-over from 0.0s, no gaps; say every word and finish the closing line 1 s before the end, never cut off, then the owner smiles at the lens to the final frame. Voice: "
+               }
+              ]
+             }
             },
             {
              "when": {
@@ -31403,7 +31547,7 @@
           }
          ]
         },
-        "value": " The last beat is the whole work from that same view, nobody in it, held to the final frame; never end on a close-up of the surface."
+        "value": " The owner stays in frame to the final frame, smiling at the lens with a thumbs-up toward the work; never end on a close-up of the surface."
        },
        {
         "when": {
@@ -34018,7 +34162,7 @@
        "a": "{item.arc}",
        "b": "af:sf01"
       },
-      "value": "รูปแนบรูปแรก = เฟรมเริ่มของช่วงสุดท้ายของคลิปเซลฟี่ · วาดภาพเดียวกันอีกครั้งเป็นเฟรมจบของคลิป ผลลัพธ์แนวตั้ง 9:16 หนึ่งภาพ\nเอาคนออกจากภาพ ไม่มีคน แขน หรือมือ ส่วนที่คนเคยบังให้เติมตามรูปแบบงานเสร็จที่แนบ\nกล้องเดิม ระยะเดิม ขอบภาพเดิม ตัวงาน พื้น ฉากหลัง และของทุกชิ้นอยู่ที่เดิม ห้ามซูม ห้ามครอป ห้ามเพิ่มหรือย้ายของ\nงานนี้: {item.productName}\nแบบของงาน: {item.room}\nภาพเดียวต่อเนื่องทั้งกรอบ ห้ามแบ่งภาพ ห้ามมีตัวหนังสือ ป้าย หรือโลโก้ในภาพ ห้ามเห็นโทรศัพท์หรือกล้อง · แสงธรรมชาติกลางวัน สีตามจริง คมชัดทั้งภาพ"
+      "value": "รูปแนบรูปแรก = เฟรมเริ่มของช่วงสุดท้ายของคลิปเซลฟี่ · วาดภาพเดียวกันอีกครั้งเป็นเฟรมจบของคลิป ผลลัพธ์แนวตั้ง 9:16 หนึ่งภาพ\nคนเดิม ยืนจุดเดิม หน้า ผม และชุดเดิมทุกอย่าง ยิ้มเข้ากล้อง ยกนิ้วโป้งให้ตัวงาน\nกล้องเดิม ระยะเดิม ขอบภาพเดิม ตัวงาน พื้น ฉากหลัง และของทุกชิ้นอยู่ที่เดิม ห้ามซูม ห้ามครอป ห้ามเพิ่มหรือย้ายของ ประตูอยู่ท่าเดียวกับรูปแบบงานเสร็จ\nงานนี้: {item.productName}\nแบบของงาน: {item.room}\nภาพเดียวต่อเนื่องทั้งกรอบ ห้ามแบ่งภาพ ห้ามมีตัวหนังสือ ป้าย หรือโลโก้ในภาพ ห้ามเห็นโทรศัพท์หรือกล้อง · แสงธรรมชาติกลางวัน สีตามจริง คมชัดทั้งภาพ"
      }
     ]
    }
@@ -34206,7 +34350,7 @@
        "a": "{item.arc}",
        "b": "af:sf01"
       },
-      "value": "วาดภาพถ่ายจริงแนวตั้ง 9:16 หนึ่งภาพเต็มกรอบ เป็นเฟรมแรกของคลิปเซลฟี่ เจ้าของยืนหน้างานถือมือถือเซลฟี่เอง\nรูปแบบงานเสร็จที่แนบ (ภาพงานไม่มีคน) คือมุมกล้องของทั้งคลิป: ตัวงาน พื้น และฉากหลังต้องเหมือนรูปนั้นทุกอย่าง ห้ามเปลี่ยนรูปทรง ห้ามเพิ่มหรือย้ายของ\nคน: {item.look} · ชุดลำลองแบบอยู่บ้าน หน้าหันเข้ากล้อง ยืนชิดขอบภาพด้านหนึ่ง บังตัวงานไม่เกิน 1 ใน 3 เห็นตัวงานครบทั้งชิ้นข้างตัว\nงานนี้: {item.productName}\nแบบของงาน: {item.room}\nภาพเดียวต่อเนื่องทั้งกรอบ ห้ามแบ่งภาพ ห้ามมีตัวหนังสือ ป้าย หรือโลโก้ในภาพ ห้ามเห็นโทรศัพท์หรือกล้อง · แสงธรรมชาติกลางวัน สีตามจริง คมชัดทั้งภาพ"
+      "value": "วาดภาพถ่ายจริงแนวตั้ง 9:16 หนึ่งภาพเต็มกรอบ เป็นเฟรมแรกของคลิปเซลฟี่ เจ้าของยืนหน้างานถือมือถือเซลฟี่เอง\nรูปแบบงานเสร็จที่แนบ (ภาพงานไม่มีคน) คือมุมกล้องของทั้งคลิป: ตัวงาน พื้น และฉากหลังต้องเหมือนรูปนั้นทุกอย่าง ห้ามเปลี่ยนรูปทรง ห้ามเพิ่มหรือย้ายของ ประตูอยู่ท่าเดียวกับรูปนั้น\nคน: {item.look} · ชุดลำลองแบบอยู่บ้าน หน้าหันเข้ากล้อง ยืนชิดขอบภาพด้านหนึ่ง บังตัวงานไม่เกิน 1 ใน 3 เห็นตัวงานครบทั้งชิ้นข้างตัว\nงานนี้: {item.productName}\nแบบของงาน: {item.room}\nภาพเดียวต่อเนื่องทั้งกรอบ ห้ามแบ่งภาพ ห้ามมีตัวหนังสือ ป้าย หรือโลโก้ในภาพ ห้ามเห็นโทรศัพท์หรือกล้อง · แสงธรรมชาติกลางวัน สีตามจริง คมชัดทั้งภาพ"
      }
     ]
    }
@@ -34393,7 +34537,7 @@
        "a": "{item.arc}",
        "b": "af:sf01"
       },
-      "value": "รูปแนบรูปแรก = เฟรมเริ่มของช่วงที่ {values.stagePart} จาก {values.stageParts} ของคลิปเซลฟี่ · วาดภาพเดียวกันอีกครั้งเป็นเฟรมจบของช่วงนี้ ผลลัพธ์แนวตั้ง 9:16 หนึ่งภาพ\nกล้องเดิม ระยะเดิม ขอบภาพเดิม ตัวงาน พื้น ฉากหลัง และของทุกชิ้นอยู่ที่เดิม ห้ามซูม ห้ามครอป ห้ามเพิ่มหรือย้ายของ\nคนเดิม ยืนจุดเดิม หน้า ผม และชุดเดิมทุกอย่าง ต่างจากรูปแรกแค่ท่ามือและปากเล็กน้อย\nงานนี้: {item.productName}\nแบบของงาน: {item.room}\nภาพเดียวต่อเนื่องทั้งกรอบ ห้ามแบ่งภาพ ห้ามมีตัวหนังสือ ป้าย หรือโลโก้ในภาพ ห้ามเห็นโทรศัพท์หรือกล้อง · แสงธรรมชาติกลางวัน สีตามจริง คมชัดทั้งภาพ"
+      "value": "รูปแนบรูปแรก = เฟรมเริ่มของช่วงที่ {values.stagePart} จาก {values.stageParts} ของคลิปเซลฟี่ · วาดภาพเดียวกันอีกครั้งเป็นเฟรมจบของช่วงนี้ ผลลัพธ์แนวตั้ง 9:16 หนึ่งภาพ\nกล้องเดิม ระยะเดิม ขอบภาพเดิม ตัวงาน พื้น ฉากหลัง และของทุกชิ้นอยู่ที่เดิม ห้ามซูม ห้ามครอป ห้ามเพิ่มหรือย้ายของ ประตูอยู่ท่าเดียวกับรูปแบบงานเสร็จ\nคนเดิม ยืนจุดเดิม หน้า ผม และชุดเดิมทุกอย่าง ต่างจากรูปแรกแค่ท่ามือและปากเล็กน้อย\nงานนี้: {item.productName}\nแบบของงาน: {item.room}\nภาพเดียวต่อเนื่องทั้งกรอบ ห้ามแบ่งภาพ ห้ามมีตัวหนังสือ ป้าย หรือโลโก้ในภาพ ห้ามเห็นโทรศัพท์หรือกล้อง · แสงธรรมชาติกลางวัน สีตามจริง คมชัดทั้งภาพ"
      }
     ]
    }
@@ -34471,7 +34615,7 @@
      },
      "\nเห็นงานทั้งชิ้นชัดทุกส่วน พร้อมพื้นและฉากหลังรอบงาน กำหนดให้ชัดเจนว่า ประตู มือจับ วงกบ หลังคา ขอบ พื้น และสีแต่ละส่วนเป็นแบบไหน",
      "\nงานสร้างใหม่ต้องเสร็จสมบูรณ์: หลังคาคลุมเต็มพื้นที่ ไม่เห็นท้องฟ้าผ่านหลังคา ผนังครบ ไม่เหลือโครงเปล่า ของติดตั้งครบ ดูน่าใช้ทันที\nรอบงานตาม site ในคำบรรยาย ถ้าแนบรูปพื้นที่จริงให้ใช้ที่ในรูปนั้น ฉากหลังนี้จะใช้ทุกฉาก จึงต้องเห็นพื้น รั้ว กำแพง หรืออาคารข้างเคียงชัด",
-     "\nถ้ามีประตู ให้เปิดประตูไว้ครึ่งบาน เห็นด้านในพร้อมใช้งานครบตามหน้าที่ของพื้นที่นั้น เช่น ห้องน้ำเห็นชักโครก อ่างล้างหน้า และฝักบัว ห้องครัวเห็นตู้ เคาน์เตอร์ อ่างล้าง และเตา",
+     "\nถ้ามีประตู ให้เปิดประตูสุดจนบานแนบผนังด้านนอก เห็นบานประตูทั้งบานชัด เห็นด้านในพร้อมใช้งานครบตามหน้าที่ของพื้นที่นั้น เช่น ห้องน้ำเห็นชักโครก อ่างล้างหน้า และฝักบัว ห้องครัวเห็นตู้ เคาน์เตอร์ อ่างล้าง และเตา",
      "\nผนังด้านในใช้วัสดุตามคำบรรยาย งานสร้างด้วยแผ่นผนังสำเร็จห้ามเปลี่ยนด้านในเป็นปูนหรือกระเบื้อง · ขนาดด้านในเท่าตัวงานด้านนอก",
      "\nสินค้าในรูปแนบต้องใช้จริงในงาน สี ลาย ผิว และรูปทรงตรงรูป ไม่เอาฉากหลังในรูปสินค้ามา",
      "\nงานทำความสะอาดหรือจัดระเบียบ: เป็นพื้นที่เดิมที่สะอาดและเป็นระเบียบ ของเดิมทุกชิ้นอยู่ที่เดิม",
@@ -34818,7 +34962,7 @@
    "af:sp01": "โครงเรื่อง (ผู้ใช้เลือก) ชี้ปัญหาทีละจุด: ฉากแรกมือแตะสินค้าแล้วพูดปัญหาที่เจอ จากนั้นมือพาไปชี้จุดปัญหาจุดที่ 1 ใกล้ ๆ บอกว่าทำไมวิธีเดิมไม่ได้ผล มือถือสินค้าเล็งไปที่จุดนั้นแล้วบอกจุดเด่น ต่อด้วยจุดปัญหาจุดที่ 2 แบบเดียวกัน ทุกจุดอยู่ในสถานที่เดียวกันกับฉากแรก แล้วกลับมาแตะสินค้าปิดการขาย\n★ ข้อยกเว้นเฉพาะคลิปนี้ ใช้แทนกฎ \"ฉากลงมือต้องเห็นสินค้าถูกใช้จนเกิดผล\" และกฎ \"ฉากท้ายเห็นผลต่างในจุดเดิม\": คลิปนี้ไม่ต้องเห็นการลงมือครบทุกขั้น แต่ถ้าเป็นงานสร้าง ติดตั้ง หรือรีโนเวท ฉากท้ายต้องเห็นงานเสร็จสมบูรณ์ งานยังเป็นการซ่อม ทำความสะอาด จัดระเบียบ หรือรีโนเวทพื้นที่หรือของจริง สภาพจริงของปัญหาต้องเห็นชัดในภาพ และสินค้าอยู่ในคลิปตั้งแต่ฉากแรก\nแนวชี้จุดขาย: POV มุมสายตาคนถือมือถือ ภาพบ้านจริงไม่จัดแสง s*en ทุกฉากเห็นมือชี้ แตะ หรือผายไปที่จุดนั้นหรือที่สินค้า เห็นแค่มือไม่เห็นหน้า มือไม่เกินสองข้าง ฉากแรกและฉากสุดท้ายเป็นมุมเดียวกัน เห็นสินค้าวางอยู่ชัด ยี่ห้ออ่านออก มือแตะสินค้า สินค้าต้องคงรูปทรง สีและขนาดเดิม vo ทุกฉากเป็นคำขายจากคนถือกล้อง พูดถึงปัญหา เหตุผลที่วิธีเดิมไม่ได้ผล และจุดเด่นของสินค้า ห้ามเล่าขั้นตอนแบบสอนทำ ผลลัพธ์บอกด้วยเสียงได้ แต่พูดเฉพาะสิ่งที่สินค้าทำได้จริงจากข้อมูลสินค้า ห้ามแต่งตัวเลขหรือสรรพคุณ ฉากท้ายชวนซื้อตรง ๆ ไม่เกิน 8 คำ ถ้าผู้ใช้กรอกคำปิดมาให้ใช้คำนั้น",
    "af:sp02": "โครงเรื่อง (ผู้ใช้เลือก) ชี้จุดที่วิธีเดิมไปไม่ถึง: ฉากแรกมือแตะสินค้าแล้วถามผู้ชมว่าจุดนี้ทำยังไง มือชี้ซอกหรือมุมที่มือและของเดิมเข้าไม่ถึง ลองเอื้อมให้เห็นว่าไม่ถึง แล้วถือสินค้าเล็งไปที่จุดนั้นและบอกว่าส่วนไหนของสินค้าช่วยได้ ปิดด้วยการกลับมาแตะสินค้า\n★ ข้อยกเว้นเฉพาะคลิปนี้ ใช้แทนกฎ \"ฉากลงมือต้องเห็นสินค้าถูกใช้จนเกิดผล\" และกฎ \"ฉากท้ายเห็นผลต่างในจุดเดิม\": คลิปนี้ไม่ต้องเห็นการลงมือครบทุกขั้น แต่ถ้าเป็นงานสร้าง ติดตั้ง หรือรีโนเวท ฉากท้ายต้องเห็นงานเสร็จสมบูรณ์ งานยังเป็นการซ่อม ทำความสะอาด จัดระเบียบ หรือรีโนเวทพื้นที่หรือของจริง สภาพจริงของปัญหาต้องเห็นชัดในภาพ และสินค้าอยู่ในคลิปตั้งแต่ฉากแรก\nแนวชี้จุดขาย: POV มุมสายตาคนถือมือถือ ภาพบ้านจริงไม่จัดแสง s*en ทุกฉากเห็นมือชี้ แตะ หรือผายไปที่จุดนั้นหรือที่สินค้า เห็นแค่มือไม่เห็นหน้า มือไม่เกินสองข้าง ฉากแรกและฉากสุดท้ายเป็นมุมเดียวกัน เห็นสินค้าวางอยู่ชัด ยี่ห้ออ่านออก มือแตะสินค้า สินค้าต้องคงรูปทรง สีและขนาดเดิม vo ทุกฉากเป็นคำขายจากคนถือกล้อง พูดถึงปัญหา เหตุผลที่วิธีเดิมไม่ได้ผล และจุดเด่นของสินค้า ห้ามเล่าขั้นตอนแบบสอนทำ ผลลัพธ์บอกด้วยเสียงได้ แต่พูดเฉพาะสิ่งที่สินค้าทำได้จริงจากข้อมูลสินค้า ห้ามแต่งตัวเลขหรือสรรพคุณ ฉากท้ายชวนซื้อตรง ๆ ไม่เกิน 8 คำ ถ้าผู้ใช้กรอกคำปิดมาให้ใช้คำนั้น",
    "af:sp03": "โครงเรื่อง (ผู้ใช้เลือก) ชี้จุดเด่นบนตัวสินค้า: ฉากแรกมือแตะสินค้าและชี้จุดปัญหาในพื้นที่จริงหนึ่งจุด จากนั้นกลับมาที่สินค้า มือชี้ หมุน หรือกดทีละส่วน เล่าว่าส่วนนั้นแก้ปัญหาได้ยังไง ฉากท้ายกลับมามุมแรก มือแตะสินค้าปิดการขาย\n★ ข้อยกเว้นเฉพาะคลิปนี้ ใช้แทนกฎ \"ฉากลงมือต้องเห็นสินค้าถูกใช้จนเกิดผล\" และกฎ \"ฉากท้ายเห็นผลต่างในจุดเดิม\": คลิปนี้ไม่ต้องเห็นการลงมือครบทุกขั้น แต่ถ้าเป็นงานสร้าง ติดตั้ง หรือรีโนเวท ฉากท้ายต้องเห็นงานเสร็จสมบูรณ์ งานยังเป็นการซ่อม ทำความสะอาด จัดระเบียบ หรือรีโนเวทพื้นที่หรือของจริง สภาพจริงของปัญหาต้องเห็นชัดในภาพ และสินค้าอยู่ในคลิปตั้งแต่ฉากแรก\nแนวชี้จุดขาย: POV มุมสายตาคนถือมือถือ ภาพบ้านจริงไม่จัดแสง s*en ทุกฉากเห็นมือชี้ แตะ หรือผายไปที่จุดนั้นหรือที่สินค้า เห็นแค่มือไม่เห็นหน้า มือไม่เกินสองข้าง ฉากแรกและฉากสุดท้ายเป็นมุมเดียวกัน เห็นสินค้าวางอยู่ชัด ยี่ห้ออ่านออก มือแตะสินค้า สินค้าต้องคงรูปทรง สีและขนาดเดิม vo ทุกฉากเป็นคำขายจากคนถือกล้อง พูดถึงปัญหา เหตุผลที่วิธีเดิมไม่ได้ผล และจุดเด่นของสินค้า ห้ามเล่าขั้นตอนแบบสอนทำ ผลลัพธ์บอกด้วยเสียงได้ แต่พูดเฉพาะสิ่งที่สินค้าทำได้จริงจากข้อมูลสินค้า ห้ามแต่งตัวเลขหรือสรรพคุณ ฉากท้ายชวนซื้อตรง ๆ ไม่เกิน 8 คำ ถ้าผู้ใช้กรอกคำปิดมาให้ใช้คำนั้น",
-   "af:sf01": "โครงเรื่อง (ผู้ใช้เลือก) เซลฟี่พาชมงานเสร็จ ★ ข้อยกเว้นเฉพาะแนวนี้ ใช้แทนกฎลำดับงาน กฎฉากแรกก่อนเริ่มงาน กฎห้ามเห็นงานเสร็จ กฎสัดส่วนระยะภาพ และกฎ vo จบห้วน: ทุกฉากเป็นงานที่เสร็จสมบูรณ์แล้ว ไม่มีสภาพเก่า การติดตั้ง ช่าง หรือเครื่องมือ\nแต่ละช่วงคือเทคเดียวไม่ตัดภาพ เจ้าของถือมือถือเซลฟี่เอง ไม่เห็นโทรศัพท์ คนเดียวชุดลำลองแบบอยู่บ้าน ไม่ใช่ชุดช่าง: ★ สำคัญกว่าตอนจบที่เลือก: ทั้งคลิปยืนจุดเดียวหน้างาน ด้านหลังคนคือตัวงานมุมเดียวกันทุกช่วง คนดูต้องรู้ทันทีว่าเป็นห้องอะไร เช่น ครัวต้องเห็นหลังคา ผนัง เคาน์เตอร์ เตา และอ่างล้าง ห้ามเดินอ้อมไปด้านอื่น ห้ามเข้าออกระหว่างนอกกับใน · ทุกฉากคือภาพเดียวกัน หน้าคนคู่กับตัวงานมุมเดิม ระยะเดิม ต่างแค่มือชี้ไปส่วนต่าง ๆ ของงานจากจุดที่ยืน และคำพูด ห้ามภาพใกล้ผิววัสดุหรือของชิ้นเดียว ห้ามหันกล้องไปด้านอื่น · ยกเว้นฉากสุดท้ายของคลิป: ตัวงานมุมเดียวกัน ไม่มีคนในภาพ · ประตูเปิดหรือปิดเหมือนเดิมทุกฉาก\nvo เป็นประโยคเต็มต่อเนื่องแบบเจ้าของเล่าให้เพื่อนฟัง ใช้ ผม หรือ เรา ลงท้ายครับหรือค่ะตามเพศ บอกว่าเอาสินค้ามาทำอะไร แล้วดีขึ้นยังไง ห้ามคำโฆษณาเกินจริง จุดเด่นพูดเท่าที่เห็นในภาพ ประโยคปิดต้องชวนซื้อตรง ๆ เช่น สนใจกดสั่งซื้อได้เลยครับ ห้ามปิดกว้าง ๆ เช่น ใครชอบลองดู\nงานเสร็จต้องน่าอยู่ มีของแต่งจริง เช่น ต้นไม้ โคมไฟ และของใช้ตามหน้าที่พื้นที่"
+   "af:sf01": "โครงเรื่อง (ผู้ใช้เลือก) เซลฟี่พาชมงานเสร็จ ★ ข้อยกเว้นเฉพาะแนวนี้ ใช้แทนกฎลำดับงาน กฎฉากแรกก่อนเริ่มงาน กฎห้ามเห็นงานเสร็จ กฎสัดส่วนระยะภาพ และกฎ vo จบห้วน: ทุกฉากเป็นงานที่เสร็จสมบูรณ์แล้ว ไม่มีสภาพเก่า การติดตั้ง ช่าง หรือเครื่องมือ\nแต่ละช่วงคือเทคเดียวไม่ตัดภาพ เจ้าของถือมือถือเซลฟี่เอง ไม่เห็นโทรศัพท์ คนเดียวชุดลำลองแบบอยู่บ้าน ไม่ใช่ชุดช่าง: ★ สำคัญกว่าตอนจบที่เลือก: ทั้งคลิปยืนจุดเดียวหน้างาน ด้านหลังคนคือตัวงานมุมเดียวกันทุกช่วง คนดูต้องรู้ทันทีว่าเป็นห้องอะไร เช่น ครัวต้องเห็นหลังคา ผนัง เคาน์เตอร์ เตา และอ่างล้าง ห้ามเดินอ้อมไปด้านอื่น ห้ามเข้าออกระหว่างนอกกับใน · ทุกฉากคือภาพเดียวกัน หน้าคนคู่กับตัวงานมุมเดิม ระยะเดิม ต่างแค่มือชี้ไปส่วนต่าง ๆ ของงานจากจุดที่ยืน และคำพูด ห้ามภาพใกล้ผิววัสดุหรือของชิ้นเดียว ห้ามหันกล้องไปด้านอื่น · ฉากสุดท้ายของคลิป: คนเดิมจุดเดิม ยิ้มยกนิ้วชวนซื้อ · ประตูเปิดสุดแนบผนังเหมือนรูปแบบงานทุกฉาก vo ห้ามพูดถึงการเปิดหรือปิดประตู\nvo เป็นประโยคเต็มต่อเนื่องแบบเจ้าของเล่าให้เพื่อนฟัง ใช้ ผม หรือ เรา ลงท้ายครับหรือค่ะตามเพศ บอกว่าเอาสินค้ามาทำอะไร แล้วดีขึ้นยังไง ห้ามคำโฆษณาเกินจริง จุดเด่นพูดเท่าที่เห็นในภาพ ประโยคปิดต้องชวนซื้อตรง ๆ เช่น สนใจกดสั่งซื้อได้เลยครับ ห้ามปิดกว้าง ๆ เช่น ใครชอบลองดู\nงานเสร็จต้องน่าอยู่ มีของแต่งจริง เช่น ต้นไม้ โคมไฟ และของใช้ตามหน้าที่พื้นที่"
   },
   "camPlan": {
    "ตั้งนิ่งเห็นทั้งพื้นที่": "มุมกล้องหลักแบบตั้งกล้องนิ่ง: มุมเดียวตลอดคลิป เห็นพื้นที่ทั้งหมด; camN ของทุกฉากเป็นมุมเดิม เปลี่ยนได้แค่งานที่ทำเสร็จแล้วในเฟรม; แม้ฉากโชว์รายละเอียดก็ใช้มุมกว้างเดียวกันนี้ (ยกของ/มือมาใกล้กล้องแทน) ห้ามสลับไปมุมอื่น ทั้งโคลสอัพและมาโคร แม้แต่ฉากเดียว",
