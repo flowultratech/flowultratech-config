@@ -1,8 +1,8 @@
 {
  "app": "flow-reno",
  "version": 5,
- "build": 126,
- "label": "2.5.23",
+ "build": 127,
+ "label": "2.5.24",
  "ops": {
   "mnPlan": {
    "id": "mnPlan",
