@@ -1,8 +1,8 @@
 {
  "app": "flow-reno",
  "version": 5,
- "build": 130,
- "label": "3.0.1",
+ "build": 132,
+ "label": "3.0.2",
  "ops": {
   "mnPlan": {
    "id": "mnPlan",
@@ -7897,7 +7897,7 @@
          "a": "{item.arc}",
          "b": "af:wk01"
         },
-        "value": "\nแนวนี้ใช้แทนกฎระยะภาพข้างบน: มุมสายตาคนถือมือถือเดินชมงานที่เสร็จแล้ว เห็นแต่มือและแขนเสื้อ ไม่เห็นหน้า ไม่เห็นโทรศัพท์ · ระยะภาพแต่ละภาพตามบทและมุมกล้องของฉากนั้น: ภาพกว้างเห็นงานทั้งหมด ภาพเข้าใกล้ส่วนเด่น ภาพใกล้มากที่ผิววัสดุมีมือลูบ ภาพกลางหรือใกล้ที่จุดอื่นของงาน ภาพถอยกว้าง · ห้ามสองภาพติดกันเป็นมุมเดียวกัน · สถานที่เดียวกัน แสงเดิมทุกภาพ · ไม่มีเครื่องมือหรือแผ่นวัสดุหลวม"
+        "value": "\nแนวนี้ใช้แทนกฎระยะภาพข้างบน: มุมสายตาคนถือมือถือเดินชมงานที่เสร็จแล้ว เห็นแต่มือและแขนเสื้อ ไม่เห็นหน้า ไม่เห็นโทรศัพท์ · ระยะภาพแต่ละภาพตามบทและมุมกล้องของฉากนั้น: ภาพกว้างเห็นงานทั้งหมด ภาพเข้าใกล้ส่วนเด่น ภาพใกล้มากที่ผิววัสดุมีมือลูบ ภาพกลางหรือใกล้ที่จุดอื่นของงาน ภาพถอยกว้าง · ห้ามสองภาพติดกันเป็นมุมเดียวกัน · สถานที่เดียวกัน แสงเดิมทุกภาพ · ไม่มีเครื่องมือหรือแผ่นวัสดุหลวม · ตัวอาคารเดียวกับภาพต้นแบบทุกภาพ: ทรงหลังคา ตำแหน่งประตูและหน้าต่าง สี ของแต่งอยู่ที่เดิม ห้ามสร้างหลังใหม่ · ประตูอยู่สภาพเดียวกับภาพต้นแบบ ห้ามมือเปิดหรือปิดประตู · ห้องปิดห้ามเห็นภายใน ถ่ายเฉพาะด้านนอก · 6 ภาพคือตำแหน่งต่อเนื่องของกล้องที่เดินบนเส้นทางเดียวในเทคเดียว ภาพถัดไปอยู่ใกล้ตำแหน่งภาพก่อนหน้า ไม่ใช่ที่ใหม่"
        }
       ]
      },
@@ -9071,7 +9071,7 @@
          "a": "{item.arc}",
          "b": "af:wk01"
         },
-        "value": "\nแนวนี้ใช้แทนกฎระยะภาพข้างบน: มุมสายตาคนถือมือถือเดินชมงานที่เสร็จแล้ว เห็นแต่มือและแขนเสื้อ ไม่เห็นหน้า ไม่เห็นโทรศัพท์ · ระยะภาพแต่ละภาพตามบทและมุมกล้องของฉากนั้น: ภาพกว้างเห็นงานทั้งหมด ภาพเข้าใกล้ส่วนเด่น ภาพใกล้มากที่ผิววัสดุมีมือลูบ ภาพกลางหรือใกล้ที่จุดอื่นของงาน ภาพถอยกว้าง · ห้ามสองภาพติดกันเป็นมุมเดียวกัน · สถานที่เดียวกัน แสงเดิมทุกภาพ · ไม่มีเครื่องมือหรือแผ่นวัสดุหลวม"
+        "value": "\nแนวนี้ใช้แทนกฎระยะภาพข้างบน: มุมสายตาคนถือมือถือเดินชมงานที่เสร็จแล้ว เห็นแต่มือและแขนเสื้อ ไม่เห็นหน้า ไม่เห็นโทรศัพท์ · ระยะภาพแต่ละภาพตามบทและมุมกล้องของฉากนั้น: ภาพกว้างเห็นงานทั้งหมด ภาพเข้าใกล้ส่วนเด่น ภาพใกล้มากที่ผิววัสดุมีมือลูบ ภาพกลางหรือใกล้ที่จุดอื่นของงาน ภาพถอยกว้าง · ห้ามสองภาพติดกันเป็นมุมเดียวกัน · สถานที่เดียวกัน แสงเดิมทุกภาพ · ไม่มีเครื่องมือหรือแผ่นวัสดุหลวม · ตัวอาคารเดียวกับภาพต้นแบบทุกภาพ: ทรงหลังคา ตำแหน่งประตูและหน้าต่าง สี ของแต่งอยู่ที่เดิม ห้ามสร้างหลังใหม่ · ประตูอยู่สภาพเดียวกับภาพต้นแบบ ห้ามมือเปิดหรือปิดประตู · ห้องปิดห้ามเห็นภายใน ถ่ายเฉพาะด้านนอก · 6 ภาพคือตำแหน่งต่อเนื่องของกล้องที่เดินบนเส้นทางเดียวในเทคเดียว ภาพถัดไปอยู่ใกล้ตำแหน่งภาพก่อนหน้า ไม่ใช่ที่ใหม่"
        }
       ]
      },
@@ -10245,7 +10245,7 @@
          "a": "{item.arc}",
          "b": "af:wk01"
         },
-        "value": "\nแนวนี้ใช้แทนกฎระยะภาพข้างบน: มุมสายตาคนถือมือถือเดินชมงานที่เสร็จแล้ว เห็นแต่มือและแขนเสื้อ ไม่เห็นหน้า ไม่เห็นโทรศัพท์ · ระยะภาพแต่ละภาพตามบทและมุมกล้องของฉากนั้น: ภาพกว้างเห็นงานทั้งหมด ภาพเข้าใกล้ส่วนเด่น ภาพใกล้มากที่ผิววัสดุมีมือลูบ ภาพกลางหรือใกล้ที่จุดอื่นของงาน ภาพถอยกว้าง · ห้ามสองภาพติดกันเป็นมุมเดียวกัน · สถานที่เดียวกัน แสงเดิมทุกภาพ · ไม่มีเครื่องมือหรือแผ่นวัสดุหลวม"
+        "value": "\nแนวนี้ใช้แทนกฎระยะภาพข้างบน: มุมสายตาคนถือมือถือเดินชมงานที่เสร็จแล้ว เห็นแต่มือและแขนเสื้อ ไม่เห็นหน้า ไม่เห็นโทรศัพท์ · ระยะภาพแต่ละภาพตามบทและมุมกล้องของฉากนั้น: ภาพกว้างเห็นงานทั้งหมด ภาพเข้าใกล้ส่วนเด่น ภาพใกล้มากที่ผิววัสดุมีมือลูบ ภาพกลางหรือใกล้ที่จุดอื่นของงาน ภาพถอยกว้าง · ห้ามสองภาพติดกันเป็นมุมเดียวกัน · สถานที่เดียวกัน แสงเดิมทุกภาพ · ไม่มีเครื่องมือหรือแผ่นวัสดุหลวม · ตัวอาคารเดียวกับภาพต้นแบบทุกภาพ: ทรงหลังคา ตำแหน่งประตูและหน้าต่าง สี ของแต่งอยู่ที่เดิม ห้ามสร้างหลังใหม่ · ประตูอยู่สภาพเดียวกับภาพต้นแบบ ห้ามมือเปิดหรือปิดประตู · ห้องปิดห้ามเห็นภายใน ถ่ายเฉพาะด้านนอก · 6 ภาพคือตำแหน่งต่อเนื่องของกล้องที่เดินบนเส้นทางเดียวในเทคเดียว ภาพถัดไปอยู่ใกล้ตำแหน่งภาพก่อนหน้า ไม่ใช่ที่ใหม่"
        }
       ]
      },
@@ -11419,7 +11419,7 @@
          "a": "{item.arc}",
          "b": "af:wk01"
         },
-        "value": "\nแนวนี้ใช้แทนกฎระยะภาพข้างบน: มุมสายตาคนถือมือถือเดินชมงานที่เสร็จแล้ว เห็นแต่มือและแขนเสื้อ ไม่เห็นหน้า ไม่เห็นโทรศัพท์ · ระยะภาพแต่ละภาพตามบทและมุมกล้องของฉากนั้น: ภาพกว้างเห็นงานทั้งหมด ภาพเข้าใกล้ส่วนเด่น ภาพใกล้มากที่ผิววัสดุมีมือลูบ ภาพกลางหรือใกล้ที่จุดอื่นของงาน ภาพถอยกว้าง · ห้ามสองภาพติดกันเป็นมุมเดียวกัน · สถานที่เดียวกัน แสงเดิมทุกภาพ · ไม่มีเครื่องมือหรือแผ่นวัสดุหลวม"
+        "value": "\nแนวนี้ใช้แทนกฎระยะภาพข้างบน: มุมสายตาคนถือมือถือเดินชมงานที่เสร็จแล้ว เห็นแต่มือและแขนเสื้อ ไม่เห็นหน้า ไม่เห็นโทรศัพท์ · ระยะภาพแต่ละภาพตามบทและมุมกล้องของฉากนั้น: ภาพกว้างเห็นงานทั้งหมด ภาพเข้าใกล้ส่วนเด่น ภาพใกล้มากที่ผิววัสดุมีมือลูบ ภาพกลางหรือใกล้ที่จุดอื่นของงาน ภาพถอยกว้าง · ห้ามสองภาพติดกันเป็นมุมเดียวกัน · สถานที่เดียวกัน แสงเดิมทุกภาพ · ไม่มีเครื่องมือหรือแผ่นวัสดุหลวม · ตัวอาคารเดียวกับภาพต้นแบบทุกภาพ: ทรงหลังคา ตำแหน่งประตูและหน้าต่าง สี ของแต่งอยู่ที่เดิม ห้ามสร้างหลังใหม่ · ประตูอยู่สภาพเดียวกับภาพต้นแบบ ห้ามมือเปิดหรือปิดประตู · ห้องปิดห้ามเห็นภายใน ถ่ายเฉพาะด้านนอก · 6 ภาพคือตำแหน่งต่อเนื่องของกล้องที่เดินบนเส้นทางเดียวในเทคเดียว ภาพถัดไปอยู่ใกล้ตำแหน่งภาพก่อนหน้า ไม่ใช่ที่ใหม่"
        }
       ]
      },
@@ -12592,7 +12592,7 @@
          "a": "{item.arc}",
          "b": "af:wk01"
         },
-        "value": "\nแนวนี้ใช้แทนกฎระยะภาพข้างบน: มุมสายตาคนถือมือถือเดินชมงานที่เสร็จแล้ว เห็นแต่มือและแขนเสื้อ ไม่เห็นหน้า ไม่เห็นโทรศัพท์ · ระยะภาพแต่ละภาพตามบทและมุมกล้องของฉากนั้น: ภาพกว้างเห็นงานทั้งหมด ภาพเข้าใกล้ส่วนเด่น ภาพใกล้มากที่ผิววัสดุมีมือลูบ ภาพกลางหรือใกล้ที่จุดอื่นของงาน ภาพถอยกว้าง · ห้ามสองภาพติดกันเป็นมุมเดียวกัน · สถานที่เดียวกัน แสงเดิมทุกภาพ · ไม่มีเครื่องมือหรือแผ่นวัสดุหลวม"
+        "value": "\nแนวนี้ใช้แทนกฎระยะภาพข้างบน: มุมสายตาคนถือมือถือเดินชมงานที่เสร็จแล้ว เห็นแต่มือและแขนเสื้อ ไม่เห็นหน้า ไม่เห็นโทรศัพท์ · ระยะภาพแต่ละภาพตามบทและมุมกล้องของฉากนั้น: ภาพกว้างเห็นงานทั้งหมด ภาพเข้าใกล้ส่วนเด่น ภาพใกล้มากที่ผิววัสดุมีมือลูบ ภาพกลางหรือใกล้ที่จุดอื่นของงาน ภาพถอยกว้าง · ห้ามสองภาพติดกันเป็นมุมเดียวกัน · สถานที่เดียวกัน แสงเดิมทุกภาพ · ไม่มีเครื่องมือหรือแผ่นวัสดุหลวม · ตัวอาคารเดียวกับภาพต้นแบบทุกภาพ: ทรงหลังคา ตำแหน่งประตูและหน้าต่าง สี ของแต่งอยู่ที่เดิม ห้ามสร้างหลังใหม่ · ประตูอยู่สภาพเดียวกับภาพต้นแบบ ห้ามมือเปิดหรือปิดประตู · ห้องปิดห้ามเห็นภายใน ถ่ายเฉพาะด้านนอก · 6 ภาพคือตำแหน่งต่อเนื่องของกล้องที่เดินบนเส้นทางเดียวในเทคเดียว ภาพถัดไปอยู่ใกล้ตำแหน่งภาพก่อนหน้า ไม่ใช่ที่ใหม่"
        }
       ]
      },
@@ -13615,7 +13615,7 @@
          "a": "{item.arc}",
          "b": "af:wk01"
         },
-        "value": "\nแนวนี้ใช้แทนกฎระยะภาพข้างบน: มุมสายตาคนถือมือถือเดินชมงานที่เสร็จแล้ว เห็นแต่มือและแขนเสื้อ ไม่เห็นหน้า ไม่เห็นโทรศัพท์ · ระยะภาพแต่ละภาพตามบทและมุมกล้องของฉากนั้น: ภาพกว้างเห็นงานทั้งหมด ภาพเข้าใกล้ส่วนเด่น ภาพใกล้มากที่ผิววัสดุมีมือลูบ ภาพกลางหรือใกล้ที่จุดอื่นของงาน ภาพถอยกว้าง · ห้ามสองภาพติดกันเป็นมุมเดียวกัน · สถานที่เดียวกัน แสงเดิมทุกภาพ · ไม่มีเครื่องมือหรือแผ่นวัสดุหลวม"
+        "value": "\nแนวนี้ใช้แทนกฎระยะภาพข้างบน: มุมสายตาคนถือมือถือเดินชมงานที่เสร็จแล้ว เห็นแต่มือและแขนเสื้อ ไม่เห็นหน้า ไม่เห็นโทรศัพท์ · ระยะภาพแต่ละภาพตามบทและมุมกล้องของฉากนั้น: ภาพกว้างเห็นงานทั้งหมด ภาพเข้าใกล้ส่วนเด่น ภาพใกล้มากที่ผิววัสดุมีมือลูบ ภาพกลางหรือใกล้ที่จุดอื่นของงาน ภาพถอยกว้าง · ห้ามสองภาพติดกันเป็นมุมเดียวกัน · สถานที่เดียวกัน แสงเดิมทุกภาพ · ไม่มีเครื่องมือหรือแผ่นวัสดุหลวม · ตัวอาคารเดียวกับภาพต้นแบบทุกภาพ: ทรงหลังคา ตำแหน่งประตูและหน้าต่าง สี ของแต่งอยู่ที่เดิม ห้ามสร้างหลังใหม่ · ประตูอยู่สภาพเดียวกับภาพต้นแบบ ห้ามมือเปิดหรือปิดประตู · ห้องปิดห้ามเห็นภายใน ถ่ายเฉพาะด้านนอก · 6 ภาพคือตำแหน่งต่อเนื่องของกล้องที่เดินบนเส้นทางเดียวในเทคเดียว ภาพถัดไปอยู่ใกล้ตำแหน่งภาพก่อนหน้า ไม่ใช่ที่ใหม่"
        }
       ]
      },
@@ -13951,10 +13951,26 @@
             "a": "{item.arc}",
             "b": "af:sf01"
            }
+          },
+          {
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{item.arc}",
+            "b": "af:wk01"
+           }
           }
          ]
         },
         "value": "FRAME RULE: each beat is one full-screen shot with a clean cut; no morphing, split screen, grid or small boxes.\n\n"
+       },
+       {
+        "when": {
+         "op": "eq",
+         "a": "{item.arc}",
+         "b": "af:wk01"
+        },
+        "value": "FRAME RULE: one unbroken full-screen handheld take with NO cuts between beats; the camera walks and moves through the beats in order and never jumps to another place; no morphing, split screen, grid or small boxes.\n\n"
        },
        {
         "when": {
@@ -14028,10 +14044,26 @@
               "a": "{item.arc}",
               "b": "af:sf01"
              }
+            },
+            {
+             "op": "not",
+             "a": {
+              "op": "eq",
+              "a": "{item.arc}",
+              "b": "af:wk01"
+             }
             }
            ]
           },
           "value": "one steady shot per beat, small slow camera moves; whole room only in the clip's first and last shots, other beats close"
+         },
+         {
+          "when": {
+           "op": "eq",
+           "a": "{item.arc}",
+           "b": "af:wk01"
+          },
+          "value": "one unbroken handheld walking take, smooth and slow, travelling from beat to beat; the whole building only at the very start and the very end, every beat between is a medium or close view"
          },
          {
           "when": {
@@ -14186,6 +14218,32 @@
          "op": "and",
          "list": [
           {
+           "op": "eq",
+           "a": "{values.cellRefs}",
+           "b": "1"
+          },
+          {
+           "op": "eq",
+           "a": "{item.arc}",
+           "b": "af:wk01"
+          },
+          {
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{item.slots.design}",
+            "b": ""
+           }
+          }
+         ]
+        },
+        "value": "\nImage 7 = the finished building (identity only, never shown as a photo): every shot is this same building, same roof shape, door, window, colours and objects in the same places; never a different building."
+       },
+       {
+        "when": {
+         "op": "and",
+         "list": [
+          {
            "op": "and",
            "list": [
             {
@@ -14217,6 +14275,35 @@
          ]
         },
         "value": "\n\nImage 1 = this part's storyboard (silent guide); its 6 pictures are the 6 beats, left before right, top to bottom. Copy its room, objects (colour, material), people, outfits, light and (not in time-lapse) each beat's angle; its looks beat the wording. Never show the storyboard on screen, even at 0 s: frame 1 is live full-screen footage of beat 1. "
+       },
+       {
+        "when": {
+         "op": "and",
+         "list": [
+          {
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{values.cellRefs}",
+            "b": "1"
+           }
+          },
+          {
+           "op": "eq",
+           "a": "{item.arc}",
+           "b": "af:wk01"
+          },
+          {
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{item.slots.design}",
+            "b": ""
+           }
+          }
+         ]
+        },
+        "value": "\nImage 2 = the finished building (identity only, never shown as a photo): every shot is this same building, same roof shape, door, window, colours and objects in the same places; never a different building."
        },
        {
         "when": {
@@ -17089,9 +17176,19 @@
          }
         },
         {
-         "op": "eq",
-         "a": "{item.arc}",
-         "b": "af:sf01"
+         "op": "or",
+         "list": [
+          {
+           "op": "eq",
+           "a": "{item.arc}",
+           "b": "af:sf01"
+          },
+          {
+           "op": "eq",
+           "a": "{item.arc}",
+           "b": "af:wk01"
+          }
+         ]
         }
        ]
       }
@@ -17324,10 +17421,26 @@
             "a": "{item.arc}",
             "b": "af:sf01"
            }
+          },
+          {
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{item.arc}",
+            "b": "af:wk01"
+           }
           }
          ]
         },
         "value": "FRAME RULE: each beat is one full-screen shot with a clean cut; no morphing, split screen, grid or small boxes.\n\n"
+       },
+       {
+        "when": {
+         "op": "eq",
+         "a": "{item.arc}",
+         "b": "af:wk01"
+        },
+        "value": "FRAME RULE: one unbroken full-screen handheld take with NO cuts between beats; the camera walks and moves through the beats in order and never jumps to another place; no morphing, split screen, grid or small boxes.\n\n"
        },
        {
         "when": {
@@ -17401,10 +17514,26 @@
               "a": "{item.arc}",
               "b": "af:sf01"
              }
+            },
+            {
+             "op": "not",
+             "a": {
+              "op": "eq",
+              "a": "{item.arc}",
+              "b": "af:wk01"
+             }
             }
            ]
           },
           "value": "one steady shot per beat, small slow camera moves; whole room only in the clip's first and last shots, other beats close"
+         },
+         {
+          "when": {
+           "op": "eq",
+           "a": "{item.arc}",
+           "b": "af:wk01"
+          },
+          "value": "one unbroken handheld walking take, smooth and slow, travelling from beat to beat; the whole building only at the very start and the very end, every beat between is a medium or close view"
          },
          {
           "when": {
@@ -17559,6 +17688,32 @@
          "op": "and",
          "list": [
           {
+           "op": "eq",
+           "a": "{values.cellRefs}",
+           "b": "1"
+          },
+          {
+           "op": "eq",
+           "a": "{item.arc}",
+           "b": "af:wk01"
+          },
+          {
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{item.slots.design}",
+            "b": ""
+           }
+          }
+         ]
+        },
+        "value": "\nImage 7 = the finished building (identity only, never shown as a photo): every shot is this same building, same roof shape, door, window, colours and objects in the same places; never a different building."
+       },
+       {
+        "when": {
+         "op": "and",
+         "list": [
+          {
            "op": "and",
            "list": [
             {
@@ -17590,6 +17745,35 @@
          ]
         },
         "value": "\n\nImage 1 = this part's storyboard (silent guide); its 6 pictures are the 6 beats, left before right, top to bottom. Copy its room, objects (colour, material), people, outfits, light and (not in time-lapse) each beat's angle; its looks beat the wording. Never show the storyboard on screen, even at 0 s: frame 1 is live full-screen footage of beat 1. "
+       },
+       {
+        "when": {
+         "op": "and",
+         "list": [
+          {
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{values.cellRefs}",
+            "b": "1"
+           }
+          },
+          {
+           "op": "eq",
+           "a": "{item.arc}",
+           "b": "af:wk01"
+          },
+          {
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{item.slots.design}",
+            "b": ""
+           }
+          }
+         ]
+        },
+        "value": "\nImage 2 = the finished building (identity only, never shown as a photo): every shot is this same building, same roof shape, door, window, colours and objects in the same places; never a different building."
        },
        {
         "when": {
@@ -20462,9 +20646,19 @@
          }
         },
         {
-         "op": "eq",
-         "a": "{item.arc}",
-         "b": "af:sf01"
+         "op": "or",
+         "list": [
+          {
+           "op": "eq",
+           "a": "{item.arc}",
+           "b": "af:sf01"
+          },
+          {
+           "op": "eq",
+           "a": "{item.arc}",
+           "b": "af:wk01"
+          }
+         ]
         }
        ]
       }
@@ -20697,10 +20891,26 @@
             "a": "{item.arc}",
             "b": "af:sf01"
            }
+          },
+          {
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{item.arc}",
+            "b": "af:wk01"
+           }
           }
          ]
         },
         "value": "FRAME RULE: each beat is one full-screen shot with a clean cut; no morphing, split screen, grid or small boxes.\n\n"
+       },
+       {
+        "when": {
+         "op": "eq",
+         "a": "{item.arc}",
+         "b": "af:wk01"
+        },
+        "value": "FRAME RULE: one unbroken full-screen handheld take with NO cuts between beats; the camera walks and moves through the beats in order and never jumps to another place; no morphing, split screen, grid or small boxes.\n\n"
        },
        {
         "when": {
@@ -20774,10 +20984,26 @@
               "a": "{item.arc}",
               "b": "af:sf01"
              }
+            },
+            {
+             "op": "not",
+             "a": {
+              "op": "eq",
+              "a": "{item.arc}",
+              "b": "af:wk01"
+             }
             }
            ]
           },
           "value": "one steady shot per beat, small slow camera moves; whole room only in the clip's first and last shots, other beats close"
+         },
+         {
+          "when": {
+           "op": "eq",
+           "a": "{item.arc}",
+           "b": "af:wk01"
+          },
+          "value": "one unbroken handheld walking take, smooth and slow, travelling from beat to beat; the whole building only at the very start and the very end, every beat between is a medium or close view"
          },
          {
           "when": {
@@ -20932,6 +21158,32 @@
          "op": "and",
          "list": [
           {
+           "op": "eq",
+           "a": "{values.cellRefs}",
+           "b": "1"
+          },
+          {
+           "op": "eq",
+           "a": "{item.arc}",
+           "b": "af:wk01"
+          },
+          {
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{item.slots.design}",
+            "b": ""
+           }
+          }
+         ]
+        },
+        "value": "\nImage 7 = the finished building (identity only, never shown as a photo): every shot is this same building, same roof shape, door, window, colours and objects in the same places; never a different building."
+       },
+       {
+        "when": {
+         "op": "and",
+         "list": [
+          {
            "op": "and",
            "list": [
             {
@@ -20963,6 +21215,35 @@
          ]
         },
         "value": "\n\nImage 1 = this part's storyboard (silent guide); its 6 pictures are the 6 beats, left before right, top to bottom. Copy its room, objects (colour, material), people, outfits, light and (not in time-lapse) each beat's angle; its looks beat the wording. Never show the storyboard on screen, even at 0 s: frame 1 is live full-screen footage of beat 1. "
+       },
+       {
+        "when": {
+         "op": "and",
+         "list": [
+          {
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{values.cellRefs}",
+            "b": "1"
+           }
+          },
+          {
+           "op": "eq",
+           "a": "{item.arc}",
+           "b": "af:wk01"
+          },
+          {
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{item.slots.design}",
+            "b": ""
+           }
+          }
+         ]
+        },
+        "value": "\nImage 2 = the finished building (identity only, never shown as a photo): every shot is this same building, same roof shape, door, window, colours and objects in the same places; never a different building."
        },
        {
         "when": {
@@ -23835,9 +24116,19 @@
          }
         },
         {
-         "op": "eq",
-         "a": "{item.arc}",
-         "b": "af:sf01"
+         "op": "or",
+         "list": [
+          {
+           "op": "eq",
+           "a": "{item.arc}",
+           "b": "af:sf01"
+          },
+          {
+           "op": "eq",
+           "a": "{item.arc}",
+           "b": "af:wk01"
+          }
+         ]
         }
        ]
       }
@@ -24070,10 +24361,26 @@
             "a": "{item.arc}",
             "b": "af:sf01"
            }
+          },
+          {
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{item.arc}",
+            "b": "af:wk01"
+           }
           }
          ]
         },
         "value": "FRAME RULE: each beat is one full-screen shot with a clean cut; no morphing, split screen, grid or small boxes.\n\n"
+       },
+       {
+        "when": {
+         "op": "eq",
+         "a": "{item.arc}",
+         "b": "af:wk01"
+        },
+        "value": "FRAME RULE: one unbroken full-screen handheld take with NO cuts between beats; the camera walks and moves through the beats in order and never jumps to another place; no morphing, split screen, grid or small boxes.\n\n"
        },
        {
         "when": {
@@ -24147,10 +24454,26 @@
               "a": "{item.arc}",
               "b": "af:sf01"
              }
+            },
+            {
+             "op": "not",
+             "a": {
+              "op": "eq",
+              "a": "{item.arc}",
+              "b": "af:wk01"
+             }
             }
            ]
           },
           "value": "one steady shot per beat, small slow camera moves; whole room only in the clip's first and last shots, other beats close"
+         },
+         {
+          "when": {
+           "op": "eq",
+           "a": "{item.arc}",
+           "b": "af:wk01"
+          },
+          "value": "one unbroken handheld walking take, smooth and slow, travelling from beat to beat; the whole building only at the very start and the very end, every beat between is a medium or close view"
          },
          {
           "when": {
@@ -24305,6 +24628,32 @@
          "op": "and",
          "list": [
           {
+           "op": "eq",
+           "a": "{values.cellRefs}",
+           "b": "1"
+          },
+          {
+           "op": "eq",
+           "a": "{item.arc}",
+           "b": "af:wk01"
+          },
+          {
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{item.slots.design}",
+            "b": ""
+           }
+          }
+         ]
+        },
+        "value": "\nImage 7 = the finished building (identity only, never shown as a photo): every shot is this same building, same roof shape, door, window, colours and objects in the same places; never a different building."
+       },
+       {
+        "when": {
+         "op": "and",
+         "list": [
+          {
            "op": "and",
            "list": [
             {
@@ -24336,6 +24685,35 @@
          ]
         },
         "value": "\n\nImage 1 = this part's storyboard (silent guide); its 6 pictures are the 6 beats, left before right, top to bottom. Copy its room, objects (colour, material), people, outfits, light and (not in time-lapse) each beat's angle; its looks beat the wording. Never show the storyboard on screen, even at 0 s: frame 1 is live full-screen footage of beat 1. "
+       },
+       {
+        "when": {
+         "op": "and",
+         "list": [
+          {
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{values.cellRefs}",
+            "b": "1"
+           }
+          },
+          {
+           "op": "eq",
+           "a": "{item.arc}",
+           "b": "af:wk01"
+          },
+          {
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{item.slots.design}",
+            "b": ""
+           }
+          }
+         ]
+        },
+        "value": "\nImage 2 = the finished building (identity only, never shown as a photo): every shot is this same building, same roof shape, door, window, colours and objects in the same places; never a different building."
        },
        {
         "when": {
@@ -27208,9 +27586,19 @@
          }
         },
         {
-         "op": "eq",
-         "a": "{item.arc}",
-         "b": "af:sf01"
+         "op": "or",
+         "list": [
+          {
+           "op": "eq",
+           "a": "{item.arc}",
+           "b": "af:sf01"
+          },
+          {
+           "op": "eq",
+           "a": "{item.arc}",
+           "b": "af:wk01"
+          }
+         ]
         }
        ]
       }
@@ -27444,10 +27832,26 @@
             "a": "{item.arc}",
             "b": "af:sf01"
            }
+          },
+          {
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{item.arc}",
+            "b": "af:wk01"
+           }
           }
          ]
         },
         "value": "FRAME RULE: each beat is one full-screen shot with a clean cut; no morphing, split screen, grid or small boxes.\n\n"
+       },
+       {
+        "when": {
+         "op": "eq",
+         "a": "{item.arc}",
+         "b": "af:wk01"
+        },
+        "value": "FRAME RULE: one unbroken full-screen handheld take with NO cuts between beats; the camera walks and moves through the beats in order and never jumps to another place; no morphing, split screen, grid or small boxes.\n\n"
        },
        {
         "when": {
@@ -27521,10 +27925,26 @@
               "a": "{item.arc}",
               "b": "af:sf01"
              }
+            },
+            {
+             "op": "not",
+             "a": {
+              "op": "eq",
+              "a": "{item.arc}",
+              "b": "af:wk01"
+             }
             }
            ]
           },
           "value": "one steady shot per beat, small slow camera moves; whole room only in the clip's first and last shots, other beats close"
+         },
+         {
+          "when": {
+           "op": "eq",
+           "a": "{item.arc}",
+           "b": "af:wk01"
+          },
+          "value": "one unbroken handheld walking take, smooth and slow, travelling from beat to beat; the whole building only at the very start and the very end, every beat between is a medium or close view"
          },
          {
           "when": {
@@ -27679,6 +28099,32 @@
          "op": "and",
          "list": [
           {
+           "op": "eq",
+           "a": "{values.cellRefs}",
+           "b": "1"
+          },
+          {
+           "op": "eq",
+           "a": "{item.arc}",
+           "b": "af:wk01"
+          },
+          {
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{item.slots.design}",
+            "b": ""
+           }
+          }
+         ]
+        },
+        "value": "\nImage 7 = the finished building (identity only, never shown as a photo): every shot is this same building, same roof shape, door, window, colours and objects in the same places; never a different building."
+       },
+       {
+        "when": {
+         "op": "and",
+         "list": [
+          {
            "op": "and",
            "list": [
             {
@@ -27710,6 +28156,35 @@
          ]
         },
         "value": "\n\nImage 1 = this part's storyboard (silent guide); its 6 pictures are the 6 beats, left before right, top to bottom. Copy its room, objects (colour, material), people, outfits, light and (not in time-lapse) each beat's angle; its looks beat the wording. Never show the storyboard on screen, even at 0 s: frame 1 is live full-screen footage of beat 1. "
+       },
+       {
+        "when": {
+         "op": "and",
+         "list": [
+          {
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{values.cellRefs}",
+            "b": "1"
+           }
+          },
+          {
+           "op": "eq",
+           "a": "{item.arc}",
+           "b": "af:wk01"
+          },
+          {
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{item.slots.design}",
+            "b": ""
+           }
+          }
+         ]
+        },
+        "value": "\nImage 2 = the finished building (identity only, never shown as a photo): every shot is this same building, same roof shape, door, window, colours and objects in the same places; never a different building."
        },
        {
         "when": {
@@ -30582,9 +31057,19 @@
          }
         },
         {
-         "op": "eq",
-         "a": "{item.arc}",
-         "b": "af:sf01"
+         "op": "or",
+         "list": [
+          {
+           "op": "eq",
+           "a": "{item.arc}",
+           "b": "af:sf01"
+          },
+          {
+           "op": "eq",
+           "a": "{item.arc}",
+           "b": "af:wk01"
+          }
+         ]
         }
        ]
       }
@@ -30817,10 +31302,26 @@
             "a": "{item.arc}",
             "b": "af:sf01"
            }
+          },
+          {
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{item.arc}",
+            "b": "af:wk01"
+           }
           }
          ]
         },
         "value": "FRAME RULE: each beat is one full-screen shot with a clean cut; no morphing, split screen, grid or small boxes.\n\n"
+       },
+       {
+        "when": {
+         "op": "eq",
+         "a": "{item.arc}",
+         "b": "af:wk01"
+        },
+        "value": "FRAME RULE: one unbroken full-screen handheld take with NO cuts between beats; the camera walks and moves through the beats in order and never jumps to another place; no morphing, split screen, grid or small boxes.\n\n"
        },
        {
         "when": {
@@ -30893,10 +31394,26 @@
               "a": "{item.arc}",
               "b": "af:sf01"
              }
+            },
+            {
+             "op": "not",
+             "a": {
+              "op": "eq",
+              "a": "{item.arc}",
+              "b": "af:wk01"
+             }
             }
            ]
           },
           "value": "one steady shot per beat, small slow camera moves; whole room only in the clip's first and last shots, other beats close"
+         },
+         {
+          "when": {
+           "op": "eq",
+           "a": "{item.arc}",
+           "b": "af:wk01"
+          },
+          "value": "one unbroken handheld walking take, smooth and slow, travelling from beat to beat; the whole building only at the very start and the very end, every beat between is a medium or close view"
          },
          {
           "when": {
@@ -31051,6 +31568,32 @@
          "op": "and",
          "list": [
           {
+           "op": "eq",
+           "a": "{values.cellRefs}",
+           "b": "1"
+          },
+          {
+           "op": "eq",
+           "a": "{item.arc}",
+           "b": "af:wk01"
+          },
+          {
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{item.slots.design}",
+            "b": ""
+           }
+          }
+         ]
+        },
+        "value": "\nImage 7 = the finished building (identity only, never shown as a photo): every shot is this same building, same roof shape, door, window, colours and objects in the same places; never a different building."
+       },
+       {
+        "when": {
+         "op": "and",
+         "list": [
+          {
            "op": "and",
            "list": [
             {
@@ -31082,6 +31625,35 @@
          ]
         },
         "value": "\n\nImage 1 = this part's storyboard (silent guide); its 6 pictures are the 6 beats, left before right, top to bottom. Copy its room, objects (colour, material), people, outfits, light and (not in time-lapse) each beat's angle; its looks beat the wording. Never show the storyboard on screen, even at 0 s: frame 1 is live full-screen footage of beat 1. "
+       },
+       {
+        "when": {
+         "op": "and",
+         "list": [
+          {
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{values.cellRefs}",
+            "b": "1"
+           }
+          },
+          {
+           "op": "eq",
+           "a": "{item.arc}",
+           "b": "af:wk01"
+          },
+          {
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{item.slots.design}",
+            "b": ""
+           }
+          }
+         ]
+        },
+        "value": "\nImage 2 = the finished building (identity only, never shown as a photo): every shot is this same building, same roof shape, door, window, colours and objects in the same places; never a different building."
        },
        {
         "when": {
@@ -33992,9 +34564,19 @@
          }
         },
         {
-         "op": "eq",
-         "a": "{item.arc}",
-         "b": "af:sf01"
+         "op": "or",
+         "list": [
+          {
+           "op": "eq",
+           "a": "{item.arc}",
+           "b": "af:sf01"
+          },
+          {
+           "op": "eq",
+           "a": "{item.arc}",
+           "b": "af:wk01"
+          }
+         ]
         }
        ]
       }
@@ -35493,7 +36075,7 @@
    "af:sp02": "โครงเรื่อง (ผู้ใช้เลือก) ชี้จุดที่วิธีเดิมไปไม่ถึง: ฉากแรกมือแตะสินค้าแล้วถามผู้ชมว่าจุดนี้ทำยังไง มือชี้ซอกหรือมุมที่มือและของเดิมเข้าไม่ถึง ลองเอื้อมให้เห็นว่าไม่ถึง แล้วถือสินค้าเล็งไปที่จุดนั้นและบอกว่าส่วนไหนของสินค้าช่วยได้ ปิดด้วยการกลับมาแตะสินค้า\n★ ข้อยกเว้นเฉพาะคลิปนี้ ใช้แทนกฎ \"ฉากลงมือต้องเห็นสินค้าถูกใช้จนเกิดผล\" และกฎ \"ฉากท้ายเห็นผลต่างในจุดเดิม\": คลิปนี้ไม่ต้องเห็นการลงมือครบทุกขั้น แต่ถ้าเป็นงานสร้าง ติดตั้ง หรือรีโนเวท ฉากท้ายต้องเห็นงานเสร็จสมบูรณ์ งานยังเป็นการซ่อม ทำความสะอาด จัดระเบียบ หรือรีโนเวทพื้นที่หรือของจริง สภาพจริงของปัญหาต้องเห็นชัดในภาพ และสินค้าอยู่ในคลิปตั้งแต่ฉากแรก\nแนวชี้จุดขาย: POV มุมสายตาคนถือมือถือ ภาพบ้านจริงไม่จัดแสง s*en ทุกฉากเห็นมือชี้ แตะ หรือผายไปที่จุดนั้นหรือที่สินค้า เห็นแค่มือไม่เห็นหน้า มือไม่เกินสองข้าง ฉากแรกและฉากสุดท้ายเป็นมุมเดียวกัน เห็นสินค้าวางอยู่ชัด ยี่ห้ออ่านออก มือแตะสินค้า สินค้าต้องคงรูปทรง สีและขนาดเดิม vo ทุกฉากเป็นคำขายจากคนถือกล้อง พูดถึงปัญหา เหตุผลที่วิธีเดิมไม่ได้ผล และจุดเด่นของสินค้า ห้ามเล่าขั้นตอนแบบสอนทำ ผลลัพธ์บอกด้วยเสียงได้ แต่พูดเฉพาะสิ่งที่สินค้าทำได้จริงจากข้อมูลสินค้า ห้ามแต่งตัวเลขหรือสรรพคุณ ฉากท้ายชวนซื้อตรง ๆ ไม่เกิน 8 คำ ถ้าผู้ใช้กรอกคำปิดมาให้ใช้คำนั้น",
    "af:sp03": "โครงเรื่อง (ผู้ใช้เลือก) ชี้จุดเด่นบนตัวสินค้า: ฉากแรกมือแตะสินค้าและชี้จุดปัญหาในพื้นที่จริงหนึ่งจุด จากนั้นกลับมาที่สินค้า มือชี้ หมุน หรือกดทีละส่วน เล่าว่าส่วนนั้นแก้ปัญหาได้ยังไง ฉากท้ายกลับมามุมแรก มือแตะสินค้าปิดการขาย\n★ ข้อยกเว้นเฉพาะคลิปนี้ ใช้แทนกฎ \"ฉากลงมือต้องเห็นสินค้าถูกใช้จนเกิดผล\" และกฎ \"ฉากท้ายเห็นผลต่างในจุดเดิม\": คลิปนี้ไม่ต้องเห็นการลงมือครบทุกขั้น แต่ถ้าเป็นงานสร้าง ติดตั้ง หรือรีโนเวท ฉากท้ายต้องเห็นงานเสร็จสมบูรณ์ งานยังเป็นการซ่อม ทำความสะอาด จัดระเบียบ หรือรีโนเวทพื้นที่หรือของจริง สภาพจริงของปัญหาต้องเห็นชัดในภาพ และสินค้าอยู่ในคลิปตั้งแต่ฉากแรก\nแนวชี้จุดขาย: POV มุมสายตาคนถือมือถือ ภาพบ้านจริงไม่จัดแสง s*en ทุกฉากเห็นมือชี้ แตะ หรือผายไปที่จุดนั้นหรือที่สินค้า เห็นแค่มือไม่เห็นหน้า มือไม่เกินสองข้าง ฉากแรกและฉากสุดท้ายเป็นมุมเดียวกัน เห็นสินค้าวางอยู่ชัด ยี่ห้ออ่านออก มือแตะสินค้า สินค้าต้องคงรูปทรง สีและขนาดเดิม vo ทุกฉากเป็นคำขายจากคนถือกล้อง พูดถึงปัญหา เหตุผลที่วิธีเดิมไม่ได้ผล และจุดเด่นของสินค้า ห้ามเล่าขั้นตอนแบบสอนทำ ผลลัพธ์บอกด้วยเสียงได้ แต่พูดเฉพาะสิ่งที่สินค้าทำได้จริงจากข้อมูลสินค้า ห้ามแต่งตัวเลขหรือสรรพคุณ ฉากท้ายชวนซื้อตรง ๆ ไม่เกิน 8 คำ ถ้าผู้ใช้กรอกคำปิดมาให้ใช้คำนั้น",
    "af:sf01": "โครงเรื่อง (ผู้ใช้เลือก) เซลฟี่พาชมงานเสร็จ ★ ข้อยกเว้นเฉพาะแนวนี้ ใช้แทนกฎลำดับงาน กฎฉากแรกก่อนเริ่มงาน กฎห้ามเห็นงานเสร็จ กฎสัดส่วนระยะภาพ และกฎ vo จบห้วน: ทุกฉากเป็นงานที่เสร็จสมบูรณ์แล้ว ไม่มีสภาพเก่า การติดตั้ง ช่าง หรือเครื่องมือ\nแต่ละช่วงคือเทคเดียวไม่ตัดภาพ เจ้าของถือมือถือเซลฟี่เอง ไม่เห็นโทรศัพท์ คนเดียวชุดลำลองแบบอยู่บ้าน ไม่ใช่ชุดช่าง: ★ สำคัญกว่าตอนจบที่เลือก: ทั้งคลิปยืนจุดเดียวหน้างาน ด้านหลังคนคือตัวงานมุมเดียวกันทุกช่วง คนดูต้องรู้ทันทีว่าเป็นห้องอะไร เช่น ครัวต้องเห็นหลังคา ผนัง เคาน์เตอร์ เตา และอ่างล้าง ห้ามเดินอ้อมไปด้านอื่น ห้ามเข้าออกระหว่างนอกกับใน · ทุกฉากคือภาพเดียวกัน หน้าคนคู่กับตัวงานมุมเดิม ระยะเดิม ต่างแค่มือชี้ไปส่วนต่าง ๆ ของงานจากจุดที่ยืน และคำพูด ห้ามภาพใกล้ผิววัสดุหรือของชิ้นเดียว ห้ามหันกล้องไปด้านอื่น · ฉากสุดท้ายของคลิป: คนเดิมจุดเดิม ยิ้มยกนิ้วชวนซื้อ · ประตูเปิดสุดแนบผนังเหมือนรูปแบบงานทุกฉาก vo ห้ามพูดถึงการเปิดหรือปิดประตู\nvo เป็นประโยคเต็มต่อเนื่องแบบเจ้าของเล่าให้เพื่อนฟัง ใช้ ผม หรือ เรา ลงท้ายครับหรือค่ะตามเพศ บอกว่าเอาสินค้ามาทำอะไร แล้วดีขึ้นยังไง ห้ามคำโฆษณาเกินจริง จุดเด่นพูดเท่าที่เห็นในภาพ ประโยคปิดต้องชวนซื้อตรง ๆ เช่น สนใจกดสั่งซื้อได้เลยครับ ห้ามปิดกว้าง ๆ เช่น ใครชอบลองดู\nงานเสร็จต้องน่าอยู่ มีของแต่งจริง เช่น ต้นไม้ โคมไฟ และของใช้ตามหน้าที่พื้นที่",
-   "af:wk01": "โครงเรื่อง (ผู้ใช้เลือก) เดินชมงานเสร็จ เข้าใกล้ผิววัสดุ ★ ข้อยกเว้นเฉพาะแนวนี้ ใช้แทนกฎลำดับงาน กฎฉากแรกก่อนเริ่มงาน กฎห้ามเห็นงานเสร็จ กฎสัดส่วนระยะภาพ และกฎ vo จบห้วน: ทุกฉากเป็นงานที่เสร็จสมบูรณ์แล้ว ไม่มีสภาพเก่า การติดตั้ง ช่าง หรือเครื่องมือ\nมุมสายตาคนถือมือถือเดินชมงานแบบเทคต่อเนื่อง เห็นแค่มือและแขนเสื้อ ไม่เห็นหน้า ไม่เห็นโทรศัพท์ มือไม่เกินสองข้าง ภาพบ้านจริงแสงธรรมชาติ ไม่จัดแสง ทั้งคลิปอยู่ในบริเวณงานเดียวกัน เดินได้เฉพาะในบริเวณนี้ ห้ามย้ายไปสถานที่อื่น\nระยะภาพต้องเปลี่ยนตลอดคลิป ห้ามภาพกว้างติดกันเกิน 2 ฉาก: ฉากแรกภาพกว้างเห็นงานทั้งหมด กล้องเดินเข้าหางาน (camN: เดินชม) · ฉากต่อมากล้องเข้าใกล้ส่วนเด่นของงาน มือผายหรือชี้ (camN: ซูมเข้า) · ฉากกลางภาพใกล้มากที่ผิววัสดุ มือลูบผิวให้เห็นลายและประกายแสง (camN: ลูบผิว หรือ มาโคร) · ฉากต่อมามือชี้จุดอื่นของงาน เช่น เตา ซิงก์ ประตู หรือไฟ ภาพกลางถึงใกล้ (camN: โคลสอัพ หรือ ติดตาม) · ฉากท้ายกล้องถอยกลับเป็นภาพกว้างเห็นงานทั้งหมดอีกครั้ง (camN: ถอยกว้าง) · คลิปยาวหลายช่วงให้วนลำดับนี้ซ้ำ โดยเปลี่ยนจุดที่เข้าไปดูทุกรอบ\ncamN ทุกฉากต้องเขียนด้วยคำในวงเล็บข้างบนเพื่อให้กล้องขยับจริง ห้ามเขียนว่านิ่งหรือตั้งกล้อง ห้ามภาพมุมเดียวกันซ้ำสองฉากติด\nสินค้าคือวัสดุที่ทำให้งานเสร็จนี้ ในฉากใกล้ต้องเห็นลายและสีตรงกับรูปสินค้า ห้ามแต่งสีหรือลายเอง\nvo ทุกฉากเป็นเสียงคนหลังกล้องเล่าให้เพื่อนฟังเป็นประโยคเต็มต่อเนื่อง ผู้ชมเห็นอะไรพูดแค่นั้น พูดถึงความสวยและจุดเด่นของวัสดุเท่าที่เห็นในภาพ ห้ามเล่าขั้นตอนติดตั้ง ห้ามแต่งตัวเลขหรือสรรพคุณ ประโยคปิดต้องชวนซื้อตรง ๆ เช่น สนใจกดสั่งซื้อได้เลยครับ ห้ามปิดกว้าง ๆ\nงานเสร็จต้องน่าอยู่ มีของแต่งจริง เช่น ต้นไม้ โคมไฟ และของใช้ตามหน้าที่พื้นที่"
+   "af:wk01": "โครงเรื่อง (ผู้ใช้เลือก) เดินชมงานเสร็จ เข้าใกล้ผิววัสดุ ★ ข้อยกเว้นเฉพาะแนวนี้ ใช้แทนกฎลำดับงาน กฎฉากแรกก่อนเริ่มงาน กฎห้ามเห็นงานเสร็จ กฎสัดส่วนระยะภาพ และกฎ vo จบห้วน: ทุกฉากเป็นงานที่เสร็จสมบูรณ์แล้ว ไม่มีสภาพเก่า การติดตั้ง ช่าง หรือเครื่องมือ\nมุมสายตาคนถือมือถือเดินชมงานแบบเทคต่อเนื่อง เห็นแค่มือและแขนเสื้อ ไม่เห็นหน้า ไม่เห็นโทรศัพท์ มือไม่เกินสองข้าง ภาพบ้านจริงแสงธรรมชาติ ไม่จัดแสง · แต่ละช่วง 10 วินาทีคือเทคเดียวต่อเนื่อง ไม่ตัดภาพ: กล้องเดินจากภาพหนึ่งไปอีกภาพอย่างต่อเนื่องบนเส้นทางเดินเส้นเดียว ฉากทั้ง 6 ของช่วงคือตำแหน่งต่อเนื่องของกล้องบนเส้นทางนั้น ไม่ใช่ภาพคนละที่ (ตัดภาพได้เฉพาะรอยต่อระหว่างช่วง)\n★ กันฉากเพี้ยน สำคัญที่สุดของแนวนี้: ทั้งคลิปคืออาคารหรืองานหลังเดียวกันตามคำบรรยายห้อง (room) และภาพต้นแบบ ทรงหลังคา ตำแหน่งประตูและหน้าต่าง สี และของแต่งอยู่ที่เดิมทุกฉาก ห้ามเปลี่ยนทรงหรือสร้างหลังใหม่ระหว่างฉาก · ประตูอยู่ในสภาพเดียวกับภาพต้นแบบทุกฉาก ห้ามมือเปิดหรือปิดประตู vo ห้ามพูดถึงการเปิดปิดประตู · ถ้างานเป็นห้องปิด (shape: closed room) ห้ามเข้าไปข้างใน ชมเฉพาะด้านนอก: ผนังลายไม้ ขอบประตู มือจับ หน้าต่าง ชายคา หลังคา ไฟข้างผนัง · ถ้างานเปิดโล่ง (shape: open-front) เดินชมจุดต่าง ๆ ในพื้นที่ได้ แต่ห้ามเดินอ้อมไปด้านอื่นของอาคาร\nลำดับภาพวิ่งครั้งเดียวตลอดทั้งคลิป ไม่วนซ้ำทุกช่วง: ภาพกว้างเห็นงานทั้งหมดมีได้เฉพาะฉากแรกสุดและฉากสุดท้ายของทั้งคลิปเท่านั้น (camN: เดินชม ฉากแรก · ถอยกว้าง ฉากสุดท้าย) · ฉากที่อยู่ระหว่างนั้นทั้งหมดเป็นภาพกลางหรือภาพใกล้: เข้าใกล้ส่วนเด่นของงาน (camN: ซูมเข้า) · ผิววัสดุใกล้มาก มือลูบให้เห็นลายและประกายแสง (camN: ลูบผิว หรือ มาโคร) · มือชี้จุดอื่นของงานที่ต่างจากฉากก่อน (camN: โคลสอัพ หรือ ติดตาม) · คลิปยาวให้ไล่ดูจุดใหม่เรื่อย ๆ ทีละจุด ห้ามภาพมุมเดียวกันซ้ำสองฉากติด และห้ามกลับไปภาพกว้างกลางคลิป\ncamN ทุกฉากเขียนด้วยคำในวงเล็บข้างบนเพื่อให้กล้องขยับจริง ห้ามเขียนว่านิ่งหรือตั้งกล้อง\nสินค้าคือวัสดุที่ทำให้งานเสร็จนี้ ในฉากใกล้ต้องเห็นลายและสีตรงกับรูปสินค้า ห้ามแต่งสีหรือลายเอง\nvo ทุกฉากเป็นเสียงคนหลังกล้องเล่าให้เพื่อนฟังเป็นประโยคเต็มต่อเนื่อง ผู้ชมเห็นอะไรพูดแค่นั้น พูดถึงความสวยและจุดเด่นของวัสดุเท่าที่เห็นในภาพ ห้ามเล่าขั้นตอนติดตั้ง ห้ามแต่งตัวเลขหรือสรรพคุณ ประโยคปิดต้องชวนซื้อตรง ๆ เช่น สนใจกดสั่งซื้อได้เลยครับ ห้ามปิดกว้าง ๆ\nงานเสร็จต้องน่าอยู่ มีของแต่งจริง เช่น ต้นไม้ โคมไฟ และของใช้ตามหน้าที่พื้นที่"
   },
   "camPlan": {
    "ตั้งนิ่งเห็นทั้งพื้นที่": "มุมกล้องหลักแบบตั้งกล้องนิ่ง: มุมเดียวตลอดคลิป เห็นพื้นที่ทั้งหมด; camN ของทุกฉากเป็นมุมเดิม เปลี่ยนได้แค่งานที่ทำเสร็จแล้วในเฟรม; แม้ฉากโชว์รายละเอียดก็ใช้มุมกว้างเดียวกันนี้ (ยกของ/มือมาใกล้กล้องแทน) ห้ามสลับไปมุมอื่น ทั้งโคลสอัพและมาโคร แม้แต่ฉากเดียว",
