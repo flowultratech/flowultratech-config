@@ -1,8 +1,8 @@
 {
  "app": "flow-reno",
  "version": 5,
- "build": 139,
- "label": "3.0.7",
+ "build": 140,
+ "label": "3.0.8",
  "ops": {
   "mnPlan": {
    "id": "mnPlan",
@@ -15531,7 +15531,7 @@
               "ผ่านไหล่",
               "over-the-shoulder"
              ],
-             "value": "over the worker's shoulder"
+             "value": "first-person view from just behind the hands"
             },
             {
              "any": [
@@ -15543,13 +15543,13 @@
              "any": [
               "เห็นช่างทำ"
              ],
-             "value": "locked-off waist-up shot"
+             "value": "steady medium view of the hands"
             },
             {
              "any": [
               "จุดสัมผัส"
              ],
-             "value": "close where the tool meets the surface"
+             "value": "close on the point where the hand touches the surface"
             },
             {
              "any": [
@@ -15593,7 +15593,7 @@
               "ตามเครื่องมือ",
               "follow the tool"
              ],
-             "value": "rides along with the working tool"
+             "value": "rides along with the moving hand"
             },
             {
              "any": [
@@ -16108,7 +16108,7 @@
               "ผ่านไหล่",
               "over-the-shoulder"
              ],
-             "value": "over the worker's shoulder"
+             "value": "first-person view from just behind the hands"
             },
             {
              "any": [
@@ -16120,13 +16120,13 @@
              "any": [
               "เห็นช่างทำ"
              ],
-             "value": "locked-off waist-up shot"
+             "value": "steady medium view of the hands"
             },
             {
              "any": [
               "จุดสัมผัส"
              ],
-             "value": "close where the tool meets the surface"
+             "value": "close on the point where the hand touches the surface"
             },
             {
              "any": [
@@ -16170,7 +16170,7 @@
               "ตามเครื่องมือ",
               "follow the tool"
              ],
-             "value": "rides along with the working tool"
+             "value": "rides along with the moving hand"
             },
             {
              "any": [
@@ -16685,7 +16685,7 @@
               "ผ่านไหล่",
               "over-the-shoulder"
              ],
-             "value": "over the worker's shoulder"
+             "value": "first-person view from just behind the hands"
             },
             {
              "any": [
@@ -16697,13 +16697,13 @@
              "any": [
               "เห็นช่างทำ"
              ],
-             "value": "locked-off waist-up shot"
+             "value": "steady medium view of the hands"
             },
             {
              "any": [
               "จุดสัมผัส"
              ],
-             "value": "close where the tool meets the surface"
+             "value": "close on the point where the hand touches the surface"
             },
             {
              "any": [
@@ -16747,7 +16747,7 @@
               "ตามเครื่องมือ",
               "follow the tool"
              ],
-             "value": "rides along with the working tool"
+             "value": "rides along with the moving hand"
             },
             {
              "any": [
@@ -17262,7 +17262,7 @@
               "ผ่านไหล่",
               "over-the-shoulder"
              ],
-             "value": "over the worker's shoulder"
+             "value": "first-person view from just behind the hands"
             },
             {
              "any": [
@@ -17274,13 +17274,13 @@
              "any": [
               "เห็นช่างทำ"
              ],
-             "value": "locked-off waist-up shot"
+             "value": "steady medium view of the hands"
             },
             {
              "any": [
               "จุดสัมผัส"
              ],
-             "value": "close where the tool meets the surface"
+             "value": "close on the point where the hand touches the surface"
             },
             {
              "any": [
@@ -17324,7 +17324,7 @@
               "ตามเครื่องมือ",
               "follow the tool"
              ],
-             "value": "rides along with the working tool"
+             "value": "rides along with the moving hand"
             },
             {
              "any": [
@@ -17839,7 +17839,7 @@
               "ผ่านไหล่",
               "over-the-shoulder"
              ],
-             "value": "over the worker's shoulder"
+             "value": "first-person view from just behind the hands"
             },
             {
              "any": [
@@ -17851,13 +17851,13 @@
              "any": [
               "เห็นช่างทำ"
              ],
-             "value": "locked-off waist-up shot"
+             "value": "steady medium view of the hands"
             },
             {
              "any": [
               "จุดสัมผัส"
              ],
-             "value": "close where the tool meets the surface"
+             "value": "close on the point where the hand touches the surface"
             },
             {
              "any": [
@@ -17901,7 +17901,7 @@
               "ตามเครื่องมือ",
               "follow the tool"
              ],
-             "value": "rides along with the working tool"
+             "value": "rides along with the moving hand"
             },
             {
              "any": [
@@ -18416,7 +18416,7 @@
               "ผ่านไหล่",
               "over-the-shoulder"
              ],
-             "value": "over the worker's shoulder"
+             "value": "first-person view from just behind the hands"
             },
             {
              "any": [
@@ -18428,13 +18428,13 @@
              "any": [
               "เห็นช่างทำ"
              ],
-             "value": "locked-off waist-up shot"
+             "value": "steady medium view of the hands"
             },
             {
              "any": [
               "จุดสัมผัส"
              ],
-             "value": "close where the tool meets the surface"
+             "value": "close on the point where the hand touches the surface"
             },
             {
              "any": [
@@ -18478,7 +18478,7 @@
               "ตามเครื่องมือ",
               "follow the tool"
              ],
-             "value": "rides along with the working tool"
+             "value": "rides along with the moving hand"
             },
             {
              "any": [
@@ -20471,7 +20471,7 @@
               "ผ่านไหล่",
               "over-the-shoulder"
              ],
-             "value": "over the worker's shoulder"
+             "value": "first-person view from just behind the hands"
             },
             {
              "any": [
@@ -20483,13 +20483,13 @@
              "any": [
               "เห็นช่างทำ"
              ],
-             "value": "locked-off waist-up shot"
+             "value": "steady medium view of the hands"
             },
             {
              "any": [
               "จุดสัมผัส"
              ],
-             "value": "close where the tool meets the surface"
+             "value": "close on the point where the hand touches the surface"
             },
             {
              "any": [
@@ -20533,7 +20533,7 @@
               "ตามเครื่องมือ",
               "follow the tool"
              ],
-             "value": "rides along with the working tool"
+             "value": "rides along with the moving hand"
             },
             {
              "any": [
@@ -21048,7 +21048,7 @@
               "ผ่านไหล่",
               "over-the-shoulder"
              ],
-             "value": "over the worker's shoulder"
+             "value": "first-person view from just behind the hands"
             },
             {
              "any": [
@@ -21060,13 +21060,13 @@
              "any": [
               "เห็นช่างทำ"
              ],
-             "value": "locked-off waist-up shot"
+             "value": "steady medium view of the hands"
             },
             {
              "any": [
               "จุดสัมผัส"
              ],
-             "value": "close where the tool meets the surface"
+             "value": "close on the point where the hand touches the surface"
             },
             {
              "any": [
@@ -21110,7 +21110,7 @@
               "ตามเครื่องมือ",
               "follow the tool"
              ],
-             "value": "rides along with the working tool"
+             "value": "rides along with the moving hand"
             },
             {
              "any": [
@@ -21625,7 +21625,7 @@
               "ผ่านไหล่",
               "over-the-shoulder"
              ],
-             "value": "over the worker's shoulder"
+             "value": "first-person view from just behind the hands"
             },
             {
              "any": [
@@ -21637,13 +21637,13 @@
              "any": [
               "เห็นช่างทำ"
              ],
-             "value": "locked-off waist-up shot"
+             "value": "steady medium view of the hands"
             },
             {
              "any": [
               "จุดสัมผัส"
              ],
-             "value": "close where the tool meets the surface"
+             "value": "close on the point where the hand touches the surface"
             },
             {
              "any": [
@@ -21687,7 +21687,7 @@
               "ตามเครื่องมือ",
               "follow the tool"
              ],
-             "value": "rides along with the working tool"
+             "value": "rides along with the moving hand"
             },
             {
              "any": [
@@ -22202,7 +22202,7 @@
               "ผ่านไหล่",
               "over-the-shoulder"
              ],
-             "value": "over the worker's shoulder"
+             "value": "first-person view from just behind the hands"
             },
             {
              "any": [
@@ -22214,13 +22214,13 @@
              "any": [
               "เห็นช่างทำ"
              ],
-             "value": "locked-off waist-up shot"
+             "value": "steady medium view of the hands"
             },
             {
              "any": [
               "จุดสัมผัส"
              ],
-             "value": "close where the tool meets the surface"
+             "value": "close on the point where the hand touches the surface"
             },
             {
              "any": [
@@ -22264,7 +22264,7 @@
               "ตามเครื่องมือ",
               "follow the tool"
              ],
-             "value": "rides along with the working tool"
+             "value": "rides along with the moving hand"
             },
             {
              "any": [
@@ -22779,7 +22779,7 @@
               "ผ่านไหล่",
               "over-the-shoulder"
              ],
-             "value": "over the worker's shoulder"
+             "value": "first-person view from just behind the hands"
             },
             {
              "any": [
@@ -22791,13 +22791,13 @@
              "any": [
               "เห็นช่างทำ"
              ],
-             "value": "locked-off waist-up shot"
+             "value": "steady medium view of the hands"
             },
             {
              "any": [
               "จุดสัมผัส"
              ],
-             "value": "close where the tool meets the surface"
+             "value": "close on the point where the hand touches the surface"
             },
             {
              "any": [
@@ -22841,7 +22841,7 @@
               "ตามเครื่องมือ",
               "follow the tool"
              ],
-             "value": "rides along with the working tool"
+             "value": "rides along with the moving hand"
             },
             {
              "any": [
@@ -23356,7 +23356,7 @@
               "ผ่านไหล่",
               "over-the-shoulder"
              ],
-             "value": "over the worker's shoulder"
+             "value": "first-person view from just behind the hands"
             },
             {
              "any": [
@@ -23368,13 +23368,13 @@
              "any": [
               "เห็นช่างทำ"
              ],
-             "value": "locked-off waist-up shot"
+             "value": "steady medium view of the hands"
             },
             {
              "any": [
               "จุดสัมผัส"
              ],
-             "value": "close where the tool meets the surface"
+             "value": "close on the point where the hand touches the surface"
             },
             {
              "any": [
@@ -23418,7 +23418,7 @@
               "ตามเครื่องมือ",
               "follow the tool"
              ],
-             "value": "rides along with the working tool"
+             "value": "rides along with the moving hand"
             },
             {
              "any": [
@@ -25411,7 +25411,7 @@
               "ผ่านไหล่",
               "over-the-shoulder"
              ],
-             "value": "over the worker's shoulder"
+             "value": "first-person view from just behind the hands"
             },
             {
              "any": [
@@ -25423,13 +25423,13 @@
              "any": [
               "เห็นช่างทำ"
              ],
-             "value": "locked-off waist-up shot"
+             "value": "steady medium view of the hands"
             },
             {
              "any": [
               "จุดสัมผัส"
              ],
-             "value": "close where the tool meets the surface"
+             "value": "close on the point where the hand touches the surface"
             },
             {
              "any": [
@@ -25473,7 +25473,7 @@
               "ตามเครื่องมือ",
               "follow the tool"
              ],
-             "value": "rides along with the working tool"
+             "value": "rides along with the moving hand"
             },
             {
              "any": [
@@ -25988,7 +25988,7 @@
               "ผ่านไหล่",
               "over-the-shoulder"
              ],
-             "value": "over the worker's shoulder"
+             "value": "first-person view from just behind the hands"
             },
             {
              "any": [
@@ -26000,13 +26000,13 @@
              "any": [
               "เห็นช่างทำ"
              ],
-             "value": "locked-off waist-up shot"
+             "value": "steady medium view of the hands"
             },
             {
              "any": [
               "จุดสัมผัส"
              ],
-             "value": "close where the tool meets the surface"
+             "value": "close on the point where the hand touches the surface"
             },
             {
              "any": [
@@ -26050,7 +26050,7 @@
               "ตามเครื่องมือ",
               "follow the tool"
              ],
-             "value": "rides along with the working tool"
+             "value": "rides along with the moving hand"
             },
             {
              "any": [
@@ -26565,7 +26565,7 @@
               "ผ่านไหล่",
               "over-the-shoulder"
              ],
-             "value": "over the worker's shoulder"
+             "value": "first-person view from just behind the hands"
             },
             {
              "any": [
@@ -26577,13 +26577,13 @@
              "any": [
               "เห็นช่างทำ"
              ],
-             "value": "locked-off waist-up shot"
+             "value": "steady medium view of the hands"
             },
             {
              "any": [
               "จุดสัมผัส"
              ],
-             "value": "close where the tool meets the surface"
+             "value": "close on the point where the hand touches the surface"
             },
             {
              "any": [
@@ -26627,7 +26627,7 @@
               "ตามเครื่องมือ",
               "follow the tool"
              ],
-             "value": "rides along with the working tool"
+             "value": "rides along with the moving hand"
             },
             {
              "any": [
@@ -27142,7 +27142,7 @@
               "ผ่านไหล่",
               "over-the-shoulder"
              ],
-             "value": "over the worker's shoulder"
+             "value": "first-person view from just behind the hands"
             },
             {
              "any": [
@@ -27154,13 +27154,13 @@
              "any": [
               "เห็นช่างทำ"
              ],
-             "value": "locked-off waist-up shot"
+             "value": "steady medium view of the hands"
             },
             {
              "any": [
               "จุดสัมผัส"
              ],
-             "value": "close where the tool meets the surface"
+             "value": "close on the point where the hand touches the surface"
             },
             {
              "any": [
@@ -27204,7 +27204,7 @@
               "ตามเครื่องมือ",
               "follow the tool"
              ],
-             "value": "rides along with the working tool"
+             "value": "rides along with the moving hand"
             },
             {
              "any": [
@@ -27719,7 +27719,7 @@
               "ผ่านไหล่",
               "over-the-shoulder"
              ],
-             "value": "over the worker's shoulder"
+             "value": "first-person view from just behind the hands"
             },
             {
              "any": [
@@ -27731,13 +27731,13 @@
              "any": [
               "เห็นช่างทำ"
              ],
-             "value": "locked-off waist-up shot"
+             "value": "steady medium view of the hands"
             },
             {
              "any": [
               "จุดสัมผัส"
              ],
-             "value": "close where the tool meets the surface"
+             "value": "close on the point where the hand touches the surface"
             },
             {
              "any": [
@@ -27781,7 +27781,7 @@
               "ตามเครื่องมือ",
               "follow the tool"
              ],
-             "value": "rides along with the working tool"
+             "value": "rides along with the moving hand"
             },
             {
              "any": [
@@ -28296,7 +28296,7 @@
               "ผ่านไหล่",
               "over-the-shoulder"
              ],
-             "value": "over the worker's shoulder"
+             "value": "first-person view from just behind the hands"
             },
             {
              "any": [
@@ -28308,13 +28308,13 @@
              "any": [
               "เห็นช่างทำ"
              ],
-             "value": "locked-off waist-up shot"
+             "value": "steady medium view of the hands"
             },
             {
              "any": [
               "จุดสัมผัส"
              ],
-             "value": "close where the tool meets the surface"
+             "value": "close on the point where the hand touches the surface"
             },
             {
              "any": [
@@ -28358,7 +28358,7 @@
               "ตามเครื่องมือ",
               "follow the tool"
              ],
-             "value": "rides along with the working tool"
+             "value": "rides along with the moving hand"
             },
             {
              "any": [
@@ -30351,7 +30351,7 @@
               "ผ่านไหล่",
               "over-the-shoulder"
              ],
-             "value": "over the worker's shoulder"
+             "value": "first-person view from just behind the hands"
             },
             {
              "any": [
@@ -30363,13 +30363,13 @@
              "any": [
               "เห็นช่างทำ"
              ],
-             "value": "locked-off waist-up shot"
+             "value": "steady medium view of the hands"
             },
             {
              "any": [
               "จุดสัมผัส"
              ],
-             "value": "close where the tool meets the surface"
+             "value": "close on the point where the hand touches the surface"
             },
             {
              "any": [
@@ -30413,7 +30413,7 @@
               "ตามเครื่องมือ",
               "follow the tool"
              ],
-             "value": "rides along with the working tool"
+             "value": "rides along with the moving hand"
             },
             {
              "any": [
@@ -30928,7 +30928,7 @@
               "ผ่านไหล่",
               "over-the-shoulder"
              ],
-             "value": "over the worker's shoulder"
+             "value": "first-person view from just behind the hands"
             },
             {
              "any": [
@@ -30940,13 +30940,13 @@
              "any": [
               "เห็นช่างทำ"
              ],
-             "value": "locked-off waist-up shot"
+             "value": "steady medium view of the hands"
             },
             {
              "any": [
               "จุดสัมผัส"
              ],
-             "value": "close where the tool meets the surface"
+             "value": "close on the point where the hand touches the surface"
             },
             {
              "any": [
@@ -30990,7 +30990,7 @@
               "ตามเครื่องมือ",
               "follow the tool"
              ],
-             "value": "rides along with the working tool"
+             "value": "rides along with the moving hand"
             },
             {
              "any": [
@@ -31505,7 +31505,7 @@
               "ผ่านไหล่",
               "over-the-shoulder"
              ],
-             "value": "over the worker's shoulder"
+             "value": "first-person view from just behind the hands"
             },
             {
              "any": [
@@ -31517,13 +31517,13 @@
              "any": [
               "เห็นช่างทำ"
              ],
-             "value": "locked-off waist-up shot"
+             "value": "steady medium view of the hands"
             },
             {
              "any": [
               "จุดสัมผัส"
              ],
-             "value": "close where the tool meets the surface"
+             "value": "close on the point where the hand touches the surface"
             },
             {
              "any": [
@@ -31567,7 +31567,7 @@
               "ตามเครื่องมือ",
               "follow the tool"
              ],
-             "value": "rides along with the working tool"
+             "value": "rides along with the moving hand"
             },
             {
              "any": [
@@ -32082,7 +32082,7 @@
               "ผ่านไหล่",
               "over-the-shoulder"
              ],
-             "value": "over the worker's shoulder"
+             "value": "first-person view from just behind the hands"
             },
             {
              "any": [
@@ -32094,13 +32094,13 @@
              "any": [
               "เห็นช่างทำ"
              ],
-             "value": "locked-off waist-up shot"
+             "value": "steady medium view of the hands"
             },
             {
              "any": [
               "จุดสัมผัส"
              ],
-             "value": "close where the tool meets the surface"
+             "value": "close on the point where the hand touches the surface"
             },
             {
              "any": [
@@ -32144,7 +32144,7 @@
               "ตามเครื่องมือ",
               "follow the tool"
              ],
-             "value": "rides along with the working tool"
+             "value": "rides along with the moving hand"
             },
             {
              "any": [
@@ -32659,7 +32659,7 @@
               "ผ่านไหล่",
               "over-the-shoulder"
              ],
-             "value": "over the worker's shoulder"
+             "value": "first-person view from just behind the hands"
             },
             {
              "any": [
@@ -32671,13 +32671,13 @@
              "any": [
               "เห็นช่างทำ"
              ],
-             "value": "locked-off waist-up shot"
+             "value": "steady medium view of the hands"
             },
             {
              "any": [
               "จุดสัมผัส"
              ],
-             "value": "close where the tool meets the surface"
+             "value": "close on the point where the hand touches the surface"
             },
             {
              "any": [
@@ -32721,7 +32721,7 @@
               "ตามเครื่องมือ",
               "follow the tool"
              ],
-             "value": "rides along with the working tool"
+             "value": "rides along with the moving hand"
             },
             {
              "any": [
@@ -33236,7 +33236,7 @@
               "ผ่านไหล่",
               "over-the-shoulder"
              ],
-             "value": "over the worker's shoulder"
+             "value": "first-person view from just behind the hands"
             },
             {
              "any": [
@@ -33248,13 +33248,13 @@
              "any": [
               "เห็นช่างทำ"
              ],
-             "value": "locked-off waist-up shot"
+             "value": "steady medium view of the hands"
             },
             {
              "any": [
               "จุดสัมผัส"
              ],
-             "value": "close where the tool meets the surface"
+             "value": "close on the point where the hand touches the surface"
             },
             {
              "any": [
@@ -33298,7 +33298,7 @@
               "ตามเครื่องมือ",
               "follow the tool"
              ],
-             "value": "rides along with the working tool"
+             "value": "rides along with the moving hand"
             },
             {
              "any": [
@@ -35292,7 +35292,7 @@
               "ผ่านไหล่",
               "over-the-shoulder"
              ],
-             "value": "over the worker's shoulder"
+             "value": "first-person view from just behind the hands"
             },
             {
              "any": [
@@ -35304,13 +35304,13 @@
              "any": [
               "เห็นช่างทำ"
              ],
-             "value": "locked-off waist-up shot"
+             "value": "steady medium view of the hands"
             },
             {
              "any": [
               "จุดสัมผัส"
              ],
-             "value": "close where the tool meets the surface"
+             "value": "close on the point where the hand touches the surface"
             },
             {
              "any": [
@@ -35354,7 +35354,7 @@
               "ตามเครื่องมือ",
               "follow the tool"
              ],
-             "value": "rides along with the working tool"
+             "value": "rides along with the moving hand"
             },
             {
              "any": [
@@ -35869,7 +35869,7 @@
               "ผ่านไหล่",
               "over-the-shoulder"
              ],
-             "value": "over the worker's shoulder"
+             "value": "first-person view from just behind the hands"
             },
             {
              "any": [
@@ -35881,13 +35881,13 @@
              "any": [
               "เห็นช่างทำ"
              ],
-             "value": "locked-off waist-up shot"
+             "value": "steady medium view of the hands"
             },
             {
              "any": [
               "จุดสัมผัส"
              ],
-             "value": "close where the tool meets the surface"
+             "value": "close on the point where the hand touches the surface"
             },
             {
              "any": [
@@ -35931,7 +35931,7 @@
               "ตามเครื่องมือ",
               "follow the tool"
              ],
-             "value": "rides along with the working tool"
+             "value": "rides along with the moving hand"
             },
             {
              "any": [
@@ -36446,7 +36446,7 @@
               "ผ่านไหล่",
               "over-the-shoulder"
              ],
-             "value": "over the worker's shoulder"
+             "value": "first-person view from just behind the hands"
             },
             {
              "any": [
@@ -36458,13 +36458,13 @@
              "any": [
               "เห็นช่างทำ"
              ],
-             "value": "locked-off waist-up shot"
+             "value": "steady medium view of the hands"
             },
             {
              "any": [
               "จุดสัมผัส"
              ],
-             "value": "close where the tool meets the surface"
+             "value": "close on the point where the hand touches the surface"
             },
             {
              "any": [
@@ -36508,7 +36508,7 @@
               "ตามเครื่องมือ",
               "follow the tool"
              ],
-             "value": "rides along with the working tool"
+             "value": "rides along with the moving hand"
             },
             {
              "any": [
@@ -37023,7 +37023,7 @@
               "ผ่านไหล่",
               "over-the-shoulder"
              ],
-             "value": "over the worker's shoulder"
+             "value": "first-person view from just behind the hands"
             },
             {
              "any": [
@@ -37035,13 +37035,13 @@
              "any": [
               "เห็นช่างทำ"
              ],
-             "value": "locked-off waist-up shot"
+             "value": "steady medium view of the hands"
             },
             {
              "any": [
               "จุดสัมผัส"
              ],
-             "value": "close where the tool meets the surface"
+             "value": "close on the point where the hand touches the surface"
             },
             {
              "any": [
@@ -37085,7 +37085,7 @@
               "ตามเครื่องมือ",
               "follow the tool"
              ],
-             "value": "rides along with the working tool"
+             "value": "rides along with the moving hand"
             },
             {
              "any": [
@@ -37600,7 +37600,7 @@
               "ผ่านไหล่",
               "over-the-shoulder"
              ],
-             "value": "over the worker's shoulder"
+             "value": "first-person view from just behind the hands"
             },
             {
              "any": [
@@ -37612,13 +37612,13 @@
              "any": [
               "เห็นช่างทำ"
              ],
-             "value": "locked-off waist-up shot"
+             "value": "steady medium view of the hands"
             },
             {
              "any": [
               "จุดสัมผัส"
              ],
-             "value": "close where the tool meets the surface"
+             "value": "close on the point where the hand touches the surface"
             },
             {
              "any": [
@@ -37662,7 +37662,7 @@
               "ตามเครื่องมือ",
               "follow the tool"
              ],
-             "value": "rides along with the working tool"
+             "value": "rides along with the moving hand"
             },
             {
              "any": [
@@ -38177,7 +38177,7 @@
               "ผ่านไหล่",
               "over-the-shoulder"
              ],
-             "value": "over the worker's shoulder"
+             "value": "first-person view from just behind the hands"
             },
             {
              "any": [
@@ -38189,13 +38189,13 @@
              "any": [
               "เห็นช่างทำ"
              ],
-             "value": "locked-off waist-up shot"
+             "value": "steady medium view of the hands"
             },
             {
              "any": [
               "จุดสัมผัส"
              ],
-             "value": "close where the tool meets the surface"
+             "value": "close on the point where the hand touches the surface"
             },
             {
              "any": [
@@ -38239,7 +38239,7 @@
               "ตามเครื่องมือ",
               "follow the tool"
              ],
-             "value": "rides along with the working tool"
+             "value": "rides along with the moving hand"
             },
             {
              "any": [
@@ -40269,7 +40269,7 @@
               "ผ่านไหล่",
               "over-the-shoulder"
              ],
-             "value": "over the worker's shoulder"
+             "value": "first-person view from just behind the hands"
             },
             {
              "any": [
@@ -40281,13 +40281,13 @@
              "any": [
               "เห็นช่างทำ"
              ],
-             "value": "locked-off waist-up shot"
+             "value": "steady medium view of the hands"
             },
             {
              "any": [
               "จุดสัมผัส"
              ],
-             "value": "close where the tool meets the surface"
+             "value": "close on the point where the hand touches the surface"
             },
             {
              "any": [
@@ -40331,7 +40331,7 @@
               "ตามเครื่องมือ",
               "follow the tool"
              ],
-             "value": "rides along with the working tool"
+             "value": "rides along with the moving hand"
             },
             {
              "any": [
@@ -40846,7 +40846,7 @@
               "ผ่านไหล่",
               "over-the-shoulder"
              ],
-             "value": "over the worker's shoulder"
+             "value": "first-person view from just behind the hands"
             },
             {
              "any": [
@@ -40858,13 +40858,13 @@
              "any": [
               "เห็นช่างทำ"
              ],
-             "value": "locked-off waist-up shot"
+             "value": "steady medium view of the hands"
             },
             {
              "any": [
               "จุดสัมผัส"
              ],
-             "value": "close where the tool meets the surface"
+             "value": "close on the point where the hand touches the surface"
             },
             {
              "any": [
@@ -40908,7 +40908,7 @@
               "ตามเครื่องมือ",
               "follow the tool"
              ],
-             "value": "rides along with the working tool"
+             "value": "rides along with the moving hand"
             },
             {
              "any": [
@@ -41423,7 +41423,7 @@
               "ผ่านไหล่",
               "over-the-shoulder"
              ],
-             "value": "over the worker's shoulder"
+             "value": "first-person view from just behind the hands"
             },
             {
              "any": [
@@ -41435,13 +41435,13 @@
              "any": [
               "เห็นช่างทำ"
              ],
-             "value": "locked-off waist-up shot"
+             "value": "steady medium view of the hands"
             },
             {
              "any": [
               "จุดสัมผัส"
              ],
-             "value": "close where the tool meets the surface"
+             "value": "close on the point where the hand touches the surface"
             },
             {
              "any": [
@@ -41485,7 +41485,7 @@
               "ตามเครื่องมือ",
               "follow the tool"
              ],
-             "value": "rides along with the working tool"
+             "value": "rides along with the moving hand"
             },
             {
              "any": [
@@ -42000,7 +42000,7 @@
               "ผ่านไหล่",
               "over-the-shoulder"
              ],
-             "value": "over the worker's shoulder"
+             "value": "first-person view from just behind the hands"
             },
             {
              "any": [
@@ -42012,13 +42012,13 @@
              "any": [
               "เห็นช่างทำ"
              ],
-             "value": "locked-off waist-up shot"
+             "value": "steady medium view of the hands"
             },
             {
              "any": [
               "จุดสัมผัส"
              ],
-             "value": "close where the tool meets the surface"
+             "value": "close on the point where the hand touches the surface"
             },
             {
              "any": [
@@ -42062,7 +42062,7 @@
               "ตามเครื่องมือ",
               "follow the tool"
              ],
-             "value": "rides along with the working tool"
+             "value": "rides along with the moving hand"
             },
             {
              "any": [
@@ -42577,7 +42577,7 @@
               "ผ่านไหล่",
               "over-the-shoulder"
              ],
-             "value": "over the worker's shoulder"
+             "value": "first-person view from just behind the hands"
             },
             {
              "any": [
@@ -42589,13 +42589,13 @@
              "any": [
               "เห็นช่างทำ"
              ],
-             "value": "locked-off waist-up shot"
+             "value": "steady medium view of the hands"
             },
             {
              "any": [
               "จุดสัมผัส"
              ],
-             "value": "close where the tool meets the surface"
+             "value": "close on the point where the hand touches the surface"
             },
             {
              "any": [
@@ -42639,7 +42639,7 @@
               "ตามเครื่องมือ",
               "follow the tool"
              ],
-             "value": "rides along with the working tool"
+             "value": "rides along with the moving hand"
             },
             {
              "any": [
@@ -43154,7 +43154,7 @@
               "ผ่านไหล่",
               "over-the-shoulder"
              ],
-             "value": "over the worker's shoulder"
+             "value": "first-person view from just behind the hands"
             },
             {
              "any": [
@@ -43166,13 +43166,13 @@
              "any": [
               "เห็นช่างทำ"
              ],
-             "value": "locked-off waist-up shot"
+             "value": "steady medium view of the hands"
             },
             {
              "any": [
               "จุดสัมผัส"
              ],
-             "value": "close where the tool meets the surface"
+             "value": "close on the point where the hand touches the surface"
             },
             {
              "any": [
@@ -43216,7 +43216,7 @@
               "ตามเครื่องมือ",
               "follow the tool"
              ],
-             "value": "rides along with the working tool"
+             "value": "rides along with the moving hand"
             },
             {
              "any": [
@@ -45182,7 +45182,7 @@
     "KON": "คนไทย",
     "TH": "ไทย",
     "HOUSE_EN": "Thai house",
-    "HOUSE_TH": "แบบไทย",
+    "HOUSE_TH": "แบบไทย (บ้านปูนสีขาวหรือครีม หลังคากระเบื้องสีส้ม มีต้นกล้วยหรือมะม่วงในสวน)",
     "PLAN": "",
     "HOUSE_CUES": " · ถ้าเป็นบ้านหรือบริเวณบ้านให้ระบุลักษณะบ้านไทยจริงใน site: บ้านปูนสีขาวหรือครีม หลังคากระเบื้องลอนสีส้มหรือน้ำตาล รั้วปูนหรือรั้วเหล็ก ต้นกล้วย มะม่วง หรือมะพร้าว กระถางต้นไม้ พื้นปูนหรือกระเบื้อง ไม่ใช่บ้านไม้แบบรีสอร์ตหรือบ้านแบบฝรั่ง (เว้นแต่ผู้ใช้ระบุอย่างอื่น)"
    },
