@@ -1,8 +1,8 @@
 {
  "app": "flow-reno",
  "version": 5,
- "build": 143,
- "label": "3.0.11",
+ "build": 144,
+ "label": "3.0.12",
  "ops": {
   "mnPlan": {
    "id": "mnPlan",
@@ -14290,7 +14290,7 @@
           }
          ]
         },
-        "value": "\nThe given last frame is the exact final frame of this part: the take ends on it, a wide view of the whole finished kitchen. Pull back to it during the final seconds and hold still there, no hands in shot."
+        "value": "\nEnd the take on a wide hold: during the final seconds pull back to a wide view of the whole finished kitchen and hold still there, no hands in shot. No text, captions, subtitles, logos, watermarks or price tags anywhere in the picture, including the last seconds."
        },
        {
         "when": {
@@ -19222,7 +19222,7 @@
           }
          ]
         },
-        "value": "\nThe given last frame is the exact final frame of this part: the take ends on it, a wide view of the whole finished kitchen. Pull back to it during the final seconds and hold still there, no hands in shot."
+        "value": "\nEnd the take on a wide hold: during the final seconds pull back to a wide view of the whole finished kitchen and hold still there, no hands in shot. No text, captions, subtitles, logos, watermarks or price tags anywhere in the picture, including the last seconds."
        },
        {
         "when": {
@@ -24154,7 +24154,7 @@
           }
          ]
         },
-        "value": "\nThe given last frame is the exact final frame of this part: the take ends on it, a wide view of the whole finished kitchen. Pull back to it during the final seconds and hold still there, no hands in shot."
+        "value": "\nEnd the take on a wide hold: during the final seconds pull back to a wide view of the whole finished kitchen and hold still there, no hands in shot. No text, captions, subtitles, logos, watermarks or price tags anywhere in the picture, including the last seconds."
        },
        {
         "when": {
@@ -29086,7 +29086,7 @@
           }
          ]
         },
-        "value": "\nThe given last frame is the exact final frame of this part: the take ends on it, a wide view of the whole finished kitchen. Pull back to it during the final seconds and hold still there, no hands in shot."
+        "value": "\nEnd the take on a wide hold: during the final seconds pull back to a wide view of the whole finished kitchen and hold still there, no hands in shot. No text, captions, subtitles, logos, watermarks or price tags anywhere in the picture, including the last seconds."
        },
        {
         "when": {
@@ -34019,7 +34019,7 @@
           }
          ]
         },
-        "value": "\nThe given last frame is the exact final frame of this part: the take ends on it, a wide view of the whole finished kitchen. Pull back to it during the final seconds and hold still there, no hands in shot."
+        "value": "\nEnd the take on a wide hold: during the final seconds pull back to a wide view of the whole finished kitchen and hold still there, no hands in shot. No text, captions, subtitles, logos, watermarks or price tags anywhere in the picture, including the last seconds."
        },
        {
         "when": {
@@ -43746,11 +43746,6 @@
       "op": "eq",
       "a": "{item.arc}",
       "b": "af:sf01"
-     },
-     {
-      "op": "eq",
-      "a": "{item.arc}",
-      "b": "af:wk01"
      }
     ]
    },
@@ -45075,8 +45070,8 @@
    "ไทม์ไลน์งาน": "ชุดคลิปแบบไทม์ไลน์งาน (ใช้แทนกฎที่ให้ทุกคลิปครบก่อน → ลงมือ → หลัง): แบ่งงานนี้ตามช่วงเวลาจริงของงาน ลำดับในอาร์เรย์คือลำดับช่วง; คลิปแรกคือสภาพก่อนเริ่มและการเตรียมงาน; คลิปกลางคือช่วงลงมือทำระหว่างทาง (ถ้ามีหลายคลิปกลางให้แบ่งตามขั้นตอนของงาน); คลิปสุดท้ายคือผลงานเสร็จและตรวจรับ; แต่ละคลิปเล่าเฉพาะช่วงของตัวเอง ห้ามโชว์ผลสำเร็จก่อนคลิปสุดท้าย; ทุกคลิปอยู่ที่เดิม คนเดิม ชุดเดิม; synopsis ของแต่ละคลิปต้องขึ้นต้นว่า \"ช่วงที่ k/N:\" (k คือลำดับช่วง N คือจำนวนช่วงทั้งหมด)"
   },
   "vPeople": {
-   "เห็นแต่มือ ไม่เห็นหน้า|AI เลือกนาย/นางแบบให้เหมาะกับสินค้า": "only the @NAT_EN@ worker's hands and forearms, busy with the task; no face and no whole body in view; hands look natural, five fingers each.",
-   "เห็นแต่มือ ไม่เห็นหน้า|ใช้รูปใบหน้าที่แนบ — ล็อกหน้าเป็นคนเดิมทุกช็อต": "only the @NAT_EN@ worker's hands and forearms, busy with the task; no face and no whole body in view; hands look natural, five fingers each.",
+   "เห็นแต่มือ ไม่เห็นหน้า|AI เลือกนาย/นางแบบให้เหมาะกับสินค้า": "only the @NAT_EN@ worker's hands and forearms, busy with the task; no face, no torso, no legs, no trousers, no shoes, no whole body in view; sleeves end at the forearm; hands look natural, five fingers each.",
+   "เห็นแต่มือ ไม่เห็นหน้า|ใช้รูปใบหน้าที่แนบ — ล็อกหน้าเป็นคนเดิมทุกช็อต": "only the @NAT_EN@ worker's hands and forearms, busy with the task; no face, no torso, no legs, no trousers, no shoes, no whole body in view; sleeves end at the forearm; hands look natural, five fingers each.",
    "คนเดียวเต็มตัว|AI เลือกนาย/นางแบบให้เหมาะกับสินค้า": "one @NAT_EN@ worker as described under Look, the same face and clothes in every beat, absorbed in the job; the work matters more than the person; ignores the camera, never poses.",
    "คนเดียวเต็มตัว|ใช้รูปใบหน้าที่แนบ — ล็อกหน้าเป็นคนเดิมทุกช็อต": "the same single @NAT_EN@ person in every shot, same clothes throughout, only the angle changes; a worker, not a presenter, so no posing and no eye contact.",
    "ทีมช่างเบลอเคลื่อนไหวเร็ว|AI เลือกนาย/นางแบบให้เหมาะกับสินค้า": "a small @NAT_EN@ work crew in matching work clothes that suit the job, same clothes throughout, never posing; in time-lapse they appear as quick motion-blurred figures.",
@@ -45085,7 +45080,7 @@
    "ไม่มีคน|ใช้รูปใบหน้าที่แนบ — ล็อกหน้าเป็นคนเดิมทุกช็อต": "nobody in frame, not even hands; the space and objects change on their own, stage by stage, like a time-lapse.",
    "|AI เลือกนาย/นางแบบให้เหมาะกับสินค้า": "the people the beats describe (@NAT_EN@), the same people and clothes in every shot as given under Look; no posing, never looking into the lens, even when testing or admiring the result.",
    "|ใช้รูปใบหน้าที่แนบ — ล็อกหน้าเป็นคนเดิมทุกช็อต": "the people the beats describe (@NAT_EN@), the same people and clothes in every shot as given under Look; no posing, never looking into the lens, even when testing or admiring the result.",
-   "เห็นแต่มือ ไม่เห็นหน้า|": "only the @NAT_EN@ worker's hands and forearms, busy with the task; no face and no whole body in view; hands look natural, five fingers each.",
+   "เห็นแต่มือ ไม่เห็นหน้า|": "only the @NAT_EN@ worker's hands and forearms, busy with the task; no face, no torso, no legs, no trousers, no shoes, no whole body in view; sleeves end at the forearm; hands look natural, five fingers each.",
    "คนเดียวเต็มตัว|": "one @NAT_EN@ worker as described under Look, the same face and clothes in every beat, absorbed in the job; the work matters more than the person; ignores the camera, never poses.",
    "ทีมช่างเบลอเคลื่อนไหวเร็ว|": "a small @NAT_EN@ work crew in matching work clothes that suit the job, same clothes throughout, never posing; in time-lapse they appear as quick motion-blurred figures.",
    "ไม่มีคน|": "nobody in frame, not even hands; the space and objects change on their own, stage by stage, like a time-lapse.",
