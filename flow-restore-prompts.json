@@ -1,8 +1,8 @@
 {
  "app": "flow-reno",
  "version": 5,
- "build": 142,
- "label": "3.0.10",
+ "build": 143,
+ "label": "3.0.11",
  "ops": {
   "mnPlan": {
    "id": "mnPlan",
@@ -14290,7 +14290,7 @@
           }
          ]
         },
-        "value": "\nThe given last frame is the exact final frame of this part: the take ends on it, the same wide view of the whole kitchen that the clip opened with. Pull back to it during the final seconds and hold still there, no hands in shot."
+        "value": "\nThe given last frame is the exact final frame of this part: the take ends on it, a wide view of the whole finished kitchen. Pull back to it during the final seconds and hold still there, no hands in shot."
        },
        {
         "when": {
@@ -19222,7 +19222,7 @@
           }
          ]
         },
-        "value": "\nThe given last frame is the exact final frame of this part: the take ends on it, the same wide view of the whole kitchen that the clip opened with. Pull back to it during the final seconds and hold still there, no hands in shot."
+        "value": "\nThe given last frame is the exact final frame of this part: the take ends on it, a wide view of the whole finished kitchen. Pull back to it during the final seconds and hold still there, no hands in shot."
        },
        {
         "when": {
@@ -24154,7 +24154,7 @@
           }
          ]
         },
-        "value": "\nThe given last frame is the exact final frame of this part: the take ends on it, the same wide view of the whole kitchen that the clip opened with. Pull back to it during the final seconds and hold still there, no hands in shot."
+        "value": "\nThe given last frame is the exact final frame of this part: the take ends on it, a wide view of the whole finished kitchen. Pull back to it during the final seconds and hold still there, no hands in shot."
        },
        {
         "when": {
@@ -29086,7 +29086,7 @@
           }
          ]
         },
-        "value": "\nThe given last frame is the exact final frame of this part: the take ends on it, the same wide view of the whole kitchen that the clip opened with. Pull back to it during the final seconds and hold still there, no hands in shot."
+        "value": "\nThe given last frame is the exact final frame of this part: the take ends on it, a wide view of the whole finished kitchen. Pull back to it during the final seconds and hold still there, no hands in shot."
        },
        {
         "when": {
@@ -34019,7 +34019,7 @@
           }
          ]
         },
-        "value": "\nThe given last frame is the exact final frame of this part: the take ends on it, the same wide view of the whole kitchen that the clip opened with. Pull back to it during the final seconds and hold still there, no hands in shot."
+        "value": "\nThe given last frame is the exact final frame of this part: the take ends on it, a wide view of the whole finished kitchen. Pull back to it during the final seconds and hold still there, no hands in shot."
        },
        {
         "when": {
@@ -43862,16 +43862,6 @@
         }
        ]
       }
-     },
-     {
-      "from": "tasks",
-      "by": "{item.id}",
-      "slot": "board",
-      "when": {
-       "op": "eq",
-       "a": "{item.arc}",
-       "b": "af:wk01"
-      }
      }
     ]
    },
@@ -43936,7 +43926,7 @@
        "a": "{item.arc}",
        "b": "af:wk01"
       },
-      "value": "รูปแนบรูปแรก = เฟรมเริ่มของช่วงสุดท้ายของคลิป (มุมใกล้ อาจเห็นมือ) · รูปที่เป็นแผ่นรวมหลายช่อง = บอร์ดช่วงที่ 1 ของคลิป ช่องซ้ายบนคือภาพเปิดคลิป · รูปที่เป็นภาพเดี่ยวงานเสร็จ (ถ้ามี) = แบบงานเสร็จของคลิป\nวาดภาพกว้างแนวตั้ง 9:16 หนึ่งภาพเต็มกรอบ เป็นเฟรมจบของคลิป: ตำแหน่งกล้อง จุดยืน ความสูง ทิศ และระยะภาพเดียวกับภาพเปิดคลิป (ช่องซ้ายบนของแผ่นรวม) ห้ามเปลี่ยนมุมหรือเปลี่ยนห้อง\nห้อง ผนัง เคาน์เตอร์ ชั้น โต๊ะ หลังคา สี วัสดุ จำนวนและตำแหน่งของทุกชิ้นเหมือนภาพเปิดคลิปทุกอย่าง · ภาพที่เห็นต้องเป็นงานเสร็จสมบูรณ์พร้อมใช้งาน สวย สะอาด มีของจัดครบเหมือนภาพเปิด\nไม่มีคน มือ เครื่องมือ กล้อง หรือแผ่นวัสดุหลวม · แสงและโทนสีเดียวกับภาพเปิด\nภาพเดียวต่อเนื่องทั้งกรอบ ห้ามแบ่งภาพ ห้ามเส้นคั่น กรอบ หรือขอบดำ ห้ามตัวหนังสือ ป้าย หรือโลโก้"
+      "value": "รูปแนบรูปแรก = เฟรมเริ่มของช่วงสุดท้ายของคลิป (มุมใกล้ อาจเห็นมือ) · รูปที่เป็นภาพเดี่ยวงานเสร็จ (ถ้ามี) = แบบงานเสร็จของคลิป\nวาดภาพถ่ายจริงแนวตั้ง 9:16 หนึ่งภาพเต็มกรอบ เป็นเฟรมจบของคลิป: ภาพกว้างจากด้านหน้าที่เปิดโล่ง เห็นครัวเสร็จทั้งหลังในภาพเดียว หลังคา ผนัง เคาน์เตอร์ ชั้น โต๊ะ และพื้น ตามแบบงานเสร็จ\nห้อง ผนัง เคาน์เตอร์ ชั้น โต๊ะ หลังคา สี วัสดุ จำนวนและตำแหน่งของทุกชิ้นเหมือนเฟรมเริ่มและแบบงานเสร็จ · งานเสร็จสมบูรณ์พร้อมใช้งาน สวย สะอาด มีของจัดครบ\nไม่มีคน มือ เครื่องมือ กล้อง หรือแผ่นวัสดุหลวม · แสงและโทนสีเดียวกับเฟรมเริ่ม\nภาพเดียวต่อเนื่องทั้งกรอบเท่านั้น ห้ามแบ่งภาพ ห้ามตาราง ห้ามคอลลาจ ห้ามหลายภาพต่อกัน ห้ามเส้นคั่น กรอบ หรือขอบดำ ห้ามตัวหนังสือ ป้าย หรือโลโก้"
      }
     ]
    }
