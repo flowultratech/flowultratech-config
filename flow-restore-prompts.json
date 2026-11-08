@@ -1,8 +1,8 @@
 {
  "app": "flow-reno",
  "version": 5,
- "build": 163,
- "label": "3.0.31",
+ "build": 164,
+ "label": "3.0.32",
  "ops": {
   "mnPlan": {
    "id": "mnPlan",
@@ -7890,7 +7890,7 @@
          "a": "{item.arc}",
          "b": "af:sf01"
         },
-        "value": "\nแนวนี้ใช้แทนกฎภาพเปิดคลิปและระยะภาพข้างบน: เจ้าของถือมือถือเซลฟี่พาชมงานที่เสร็จแล้ว ไม่เห็นโทรศัพท์ ทุกภาพทุกแผ่นยืนจุดเดียว ด้านหลังคนคือตัวงานมุมเดียวกับแบบงานเสร็จ ฉากหลังเหมือนกันทุกภาพ ระยะเดิมทุกภาพ ไม่มีภาพใกล้ ไม่มีเครื่องมือหรือแผ่นวัสดุหลวม"
+        "value": "\nแนวนี้ใช้แทนกฎภาพเปิดคลิปและระยะภาพข้างบน: กล้องตั้งมุมเดียวระยะเดียวกันทุกภาพทุกแผ่น ระดับสายตาคนสูงราว 1.5 เมตร มองตรง เห็นครัวทั้งหลังตามแบบงานเสร็จ ฉากหลังและของทุกชิ้นเหมือนกันทุกภาพ เจ้าของคนเดียวชุดเดิมเดินอยู่ในกรอบตามบท: แผ่นแรกยืนที่จุดเริ่มข้างทางเข้าครัว แผ่นถัดไปเดินเข้าไปที่เคาน์เตอร์ ชี้และแตะของที่ติดอยู่ ภาพสุดท้ายของคลิปกลับมาที่จุดเริ่ม ไม่มีภาพใกล้ ไม่มีเครื่องมือ แผ่นวัสดุหลวม หรือของที่ถือ"
        },
        {
         "when": {
@@ -9064,7 +9064,7 @@
          "a": "{item.arc}",
          "b": "af:sf01"
         },
-        "value": "\nแนวนี้ใช้แทนกฎภาพเปิดคลิปและระยะภาพข้างบน: เจ้าของถือมือถือเซลฟี่พาชมงานที่เสร็จแล้ว ไม่เห็นโทรศัพท์ ทุกภาพทุกแผ่นยืนจุดเดียว ด้านหลังคนคือตัวงานมุมเดียวกับแบบงานเสร็จ ฉากหลังเหมือนกันทุกภาพ ระยะเดิมทุกภาพ ไม่มีภาพใกล้ ไม่มีเครื่องมือหรือแผ่นวัสดุหลวม"
+        "value": "\nแนวนี้ใช้แทนกฎภาพเปิดคลิปและระยะภาพข้างบน: กล้องตั้งมุมเดียวระยะเดียวกันทุกภาพทุกแผ่น ระดับสายตาคนสูงราว 1.5 เมตร มองตรง เห็นครัวทั้งหลังตามแบบงานเสร็จ ฉากหลังและของทุกชิ้นเหมือนกันทุกภาพ เจ้าของคนเดียวชุดเดิมเดินอยู่ในกรอบตามบท: แผ่นแรกยืนที่จุดเริ่มข้างทางเข้าครัว แผ่นถัดไปเดินเข้าไปที่เคาน์เตอร์ ชี้และแตะของที่ติดอยู่ ภาพสุดท้ายของคลิปกลับมาที่จุดเริ่ม ไม่มีภาพใกล้ ไม่มีเครื่องมือ แผ่นวัสดุหลวม หรือของที่ถือ"
        },
        {
         "when": {
@@ -10238,7 +10238,7 @@
          "a": "{item.arc}",
          "b": "af:sf01"
         },
-        "value": "\nแนวนี้ใช้แทนกฎภาพเปิดคลิปและระยะภาพข้างบน: เจ้าของถือมือถือเซลฟี่พาชมงานที่เสร็จแล้ว ไม่เห็นโทรศัพท์ ทุกภาพทุกแผ่นยืนจุดเดียว ด้านหลังคนคือตัวงานมุมเดียวกับแบบงานเสร็จ ฉากหลังเหมือนกันทุกภาพ ระยะเดิมทุกภาพ ไม่มีภาพใกล้ ไม่มีเครื่องมือหรือแผ่นวัสดุหลวม"
+        "value": "\nแนวนี้ใช้แทนกฎภาพเปิดคลิปและระยะภาพข้างบน: กล้องตั้งมุมเดียวระยะเดียวกันทุกภาพทุกแผ่น ระดับสายตาคนสูงราว 1.5 เมตร มองตรง เห็นครัวทั้งหลังตามแบบงานเสร็จ ฉากหลังและของทุกชิ้นเหมือนกันทุกภาพ เจ้าของคนเดียวชุดเดิมเดินอยู่ในกรอบตามบท: แผ่นแรกยืนที่จุดเริ่มข้างทางเข้าครัว แผ่นถัดไปเดินเข้าไปที่เคาน์เตอร์ ชี้และแตะของที่ติดอยู่ ภาพสุดท้ายของคลิปกลับมาที่จุดเริ่ม ไม่มีภาพใกล้ ไม่มีเครื่องมือ แผ่นวัสดุหลวม หรือของที่ถือ"
        },
        {
         "when": {
@@ -11412,7 +11412,7 @@
          "a": "{item.arc}",
          "b": "af:sf01"
         },
-        "value": "\nแนวนี้ใช้แทนกฎภาพเปิดคลิปและระยะภาพข้างบน: เจ้าของถือมือถือเซลฟี่พาชมงานที่เสร็จแล้ว ไม่เห็นโทรศัพท์ ทุกภาพทุกแผ่นยืนจุดเดียว ด้านหลังคนคือตัวงานมุมเดียวกับแบบงานเสร็จ ฉากหลังเหมือนกันทุกภาพ ระยะเดิมทุกภาพ ไม่มีภาพใกล้ ไม่มีเครื่องมือหรือแผ่นวัสดุหลวม"
+        "value": "\nแนวนี้ใช้แทนกฎภาพเปิดคลิปและระยะภาพข้างบน: กล้องตั้งมุมเดียวระยะเดียวกันทุกภาพทุกแผ่น ระดับสายตาคนสูงราว 1.5 เมตร มองตรง เห็นครัวทั้งหลังตามแบบงานเสร็จ ฉากหลังและของทุกชิ้นเหมือนกันทุกภาพ เจ้าของคนเดียวชุดเดิมเดินอยู่ในกรอบตามบท: แผ่นแรกยืนที่จุดเริ่มข้างทางเข้าครัว แผ่นถัดไปเดินเข้าไปที่เคาน์เตอร์ ชี้และแตะของที่ติดอยู่ ภาพสุดท้ายของคลิปกลับมาที่จุดเริ่ม ไม่มีภาพใกล้ ไม่มีเครื่องมือ แผ่นวัสดุหลวม หรือของที่ถือ"
        },
        {
         "when": {
@@ -12585,7 +12585,7 @@
          "a": "{item.arc}",
          "b": "af:sf01"
         },
-        "value": "\nแนวนี้ใช้แทนกฎภาพเปิดคลิปและระยะภาพข้างบน: เจ้าของถือมือถือเซลฟี่พาชมงานที่เสร็จแล้ว ไม่เห็นโทรศัพท์ ทุกภาพทุกแผ่นยืนจุดเดียว ด้านหลังคนคือตัวงานมุมเดียวกับแบบงานเสร็จ ฉากหลังเหมือนกันทุกภาพ ระยะเดิมทุกภาพ ไม่มีภาพใกล้ ไม่มีเครื่องมือหรือแผ่นวัสดุหลวม"
+        "value": "\nแนวนี้ใช้แทนกฎภาพเปิดคลิปและระยะภาพข้างบน: กล้องตั้งมุมเดียวระยะเดียวกันทุกภาพทุกแผ่น ระดับสายตาคนสูงราว 1.5 เมตร มองตรง เห็นครัวทั้งหลังตามแบบงานเสร็จ ฉากหลังและของทุกชิ้นเหมือนกันทุกภาพ เจ้าของคนเดียวชุดเดิมเดินอยู่ในกรอบตามบท: แผ่นแรกยืนที่จุดเริ่มข้างทางเข้าครัว แผ่นถัดไปเดินเข้าไปที่เคาน์เตอร์ ชี้และแตะของที่ติดอยู่ ภาพสุดท้ายของคลิปกลับมาที่จุดเริ่ม ไม่มีภาพใกล้ ไม่มีเครื่องมือ แผ่นวัสดุหลวม หรือของที่ถือ"
        },
        {
         "when": {
@@ -13608,7 +13608,7 @@
          "a": "{item.arc}",
          "b": "af:sf01"
         },
-        "value": "\nแนวนี้ใช้แทนกฎภาพเปิดคลิปและระยะภาพข้างบน: เจ้าของถือมือถือเซลฟี่พาชมงานที่เสร็จแล้ว ไม่เห็นโทรศัพท์ ทุกภาพทุกแผ่นยืนจุดเดียว ด้านหลังคนคือตัวงานมุมเดียวกับแบบงานเสร็จ ฉากหลังเหมือนกันทุกภาพ ระยะเดิมทุกภาพ ไม่มีภาพใกล้ ไม่มีเครื่องมือหรือแผ่นวัสดุหลวม"
+        "value": "\nแนวนี้ใช้แทนกฎภาพเปิดคลิปและระยะภาพข้างบน: กล้องตั้งมุมเดียวระยะเดียวกันทุกภาพทุกแผ่น ระดับสายตาคนสูงราว 1.5 เมตร มองตรง เห็นครัวทั้งหลังตามแบบงานเสร็จ ฉากหลังและของทุกชิ้นเหมือนกันทุกภาพ เจ้าของคนเดียวชุดเดิมเดินอยู่ในกรอบตามบท: แผ่นแรกยืนที่จุดเริ่มข้างทางเข้าครัว แผ่นถัดไปเดินเข้าไปที่เคาน์เตอร์ ชี้และแตะของที่ติดอยู่ ภาพสุดท้ายของคลิปกลับมาที่จุดเริ่ม ไม่มีภาพใกล้ ไม่มีเครื่องมือ แผ่นวัสดุหลวม หรือของที่ถือ"
        },
        {
         "when": {
@@ -14320,7 +14320,7 @@
          "a": "{item.arc}",
          "b": "af:sf01"
         },
-        "value": "\n\nImage 1 is the exact first frame of this part; the given last frame is its exact final frame: the same take carries on between them with no cut, same person, outfit, place and view; the owner keeps talking; the camera only sways gently, never pans or closes in; nothing behind the owner changes; any door stays exactly as in Image 1, never swinging, closing or vanishing. "
+        "value": "\n\nImage 1 is the exact first frame of this part; the given last frame is its exact final frame: the same take carries on between them with no cut, same person, outfit, place and view; the owner keeps talking; the camera stays fixed and never pans or closes in, the owner moves as the beats say; nothing behind the owner changes; any door stays exactly as in Image 1, never swinging, closing or vanishing. "
        }
       ]
      },
@@ -15093,7 +15093,7 @@
          "a": "{item.arc}",
          "b": "af:sf01"
         },
-        "value": "\n\nSELFIE: the owner stands at one spot in front of the finished work the whole clip and never walks around it or moves between inside and outside. Phone held at arm's length, never seen; they speak the script to the lens with natural lip movement and point with the free hand; not a voice-over. No tools or work in progress."
+        "value": "\n\nSELFIE: the camera is fixed on one wide view of the whole kitchen at eye level (about 1.5 m, no tilt up or down) and never moves, follows, pans or zooms. The owner, an ordinary 170 cm man at natural size next to the counter and table, walks inside that view: in the first part he stands at the starting spot beside the kitchen entrance, greets and points at the kitchen; in the next parts he walks into the kitchen to the counter and points at and touches the installed parts one by one (sink, shelf, stove, wall); at the end of the last part he walks back to the starting spot, faces the lens and smiles. He speaks the script to the lens with natural lip movement; not a voice-over. No phone in view, no tools, nothing held, no loose sheet or sample; he never leaves the frame."
        },
        {
         "when": {
@@ -19260,7 +19260,7 @@
          "a": "{item.arc}",
          "b": "af:sf01"
         },
-        "value": "\n\nImage 1 is the exact first frame of this part; the given last frame is its exact final frame: the same take carries on between them with no cut, same person, outfit, place and view; the owner keeps talking; the camera only sways gently, never pans or closes in; nothing behind the owner changes; any door stays exactly as in Image 1, never swinging, closing or vanishing. "
+        "value": "\n\nImage 1 is the exact first frame of this part; the given last frame is its exact final frame: the same take carries on between them with no cut, same person, outfit, place and view; the owner keeps talking; the camera stays fixed and never pans or closes in, the owner moves as the beats say; nothing behind the owner changes; any door stays exactly as in Image 1, never swinging, closing or vanishing. "
        }
       ]
      },
@@ -20033,7 +20033,7 @@
          "a": "{item.arc}",
          "b": "af:sf01"
         },
-        "value": "\n\nSELFIE: the owner stands at one spot in front of the finished work the whole clip and never walks around it or moves between inside and outside. Phone held at arm's length, never seen; they speak the script to the lens with natural lip movement and point with the free hand; not a voice-over. No tools or work in progress."
+        "value": "\n\nSELFIE: the camera is fixed on one wide view of the whole kitchen at eye level (about 1.5 m, no tilt up or down) and never moves, follows, pans or zooms. The owner, an ordinary 170 cm man at natural size next to the counter and table, walks inside that view: in the first part he stands at the starting spot beside the kitchen entrance, greets and points at the kitchen; in the next parts he walks into the kitchen to the counter and points at and touches the installed parts one by one (sink, shelf, stove, wall); at the end of the last part he walks back to the starting spot, faces the lens and smiles. He speaks the script to the lens with natural lip movement; not a voice-over. No phone in view, no tools, nothing held, no loose sheet or sample; he never leaves the frame."
        },
        {
         "when": {
@@ -24200,7 +24200,7 @@
          "a": "{item.arc}",
          "b": "af:sf01"
         },
-        "value": "\n\nImage 1 is the exact first frame of this part; the given last frame is its exact final frame: the same take carries on between them with no cut, same person, outfit, place and view; the owner keeps talking; the camera only sways gently, never pans or closes in; nothing behind the owner changes; any door stays exactly as in Image 1, never swinging, closing or vanishing. "
+        "value": "\n\nImage 1 is the exact first frame of this part; the given last frame is its exact final frame: the same take carries on between them with no cut, same person, outfit, place and view; the owner keeps talking; the camera stays fixed and never pans or closes in, the owner moves as the beats say; nothing behind the owner changes; any door stays exactly as in Image 1, never swinging, closing or vanishing. "
        }
       ]
      },
@@ -24973,7 +24973,7 @@
          "a": "{item.arc}",
          "b": "af:sf01"
         },
-        "value": "\n\nSELFIE: the owner stands at one spot in front of the finished work the whole clip and never walks around it or moves between inside and outside. Phone held at arm's length, never seen; they speak the script to the lens with natural lip movement and point with the free hand; not a voice-over. No tools or work in progress."
+        "value": "\n\nSELFIE: the camera is fixed on one wide view of the whole kitchen at eye level (about 1.5 m, no tilt up or down) and never moves, follows, pans or zooms. The owner, an ordinary 170 cm man at natural size next to the counter and table, walks inside that view: in the first part he stands at the starting spot beside the kitchen entrance, greets and points at the kitchen; in the next parts he walks into the kitchen to the counter and points at and touches the installed parts one by one (sink, shelf, stove, wall); at the end of the last part he walks back to the starting spot, faces the lens and smiles. He speaks the script to the lens with natural lip movement; not a voice-over. No phone in view, no tools, nothing held, no loose sheet or sample; he never leaves the frame."
        },
        {
         "when": {
@@ -29140,7 +29140,7 @@
          "a": "{item.arc}",
          "b": "af:sf01"
         },
-        "value": "\n\nImage 1 is the exact first frame of this part; the given last frame is its exact final frame: the same take carries on between them with no cut, same person, outfit, place and view; the owner keeps talking; the camera only sways gently, never pans or closes in; nothing behind the owner changes; any door stays exactly as in Image 1, never swinging, closing or vanishing. "
+        "value": "\n\nImage 1 is the exact first frame of this part; the given last frame is its exact final frame: the same take carries on between them with no cut, same person, outfit, place and view; the owner keeps talking; the camera stays fixed and never pans or closes in, the owner moves as the beats say; nothing behind the owner changes; any door stays exactly as in Image 1, never swinging, closing or vanishing. "
        }
       ]
      },
@@ -29913,7 +29913,7 @@
          "a": "{item.arc}",
          "b": "af:sf01"
         },
-        "value": "\n\nSELFIE: the owner stands at one spot in front of the finished work the whole clip and never walks around it or moves between inside and outside. Phone held at arm's length, never seen; they speak the script to the lens with natural lip movement and point with the free hand; not a voice-over. No tools or work in progress."
+        "value": "\n\nSELFIE: the camera is fixed on one wide view of the whole kitchen at eye level (about 1.5 m, no tilt up or down) and never moves, follows, pans or zooms. The owner, an ordinary 170 cm man at natural size next to the counter and table, walks inside that view: in the first part he stands at the starting spot beside the kitchen entrance, greets and points at the kitchen; in the next parts he walks into the kitchen to the counter and points at and touches the installed parts one by one (sink, shelf, stove, wall); at the end of the last part he walks back to the starting spot, faces the lens and smiles. He speaks the script to the lens with natural lip movement; not a voice-over. No phone in view, no tools, nothing held, no loose sheet or sample; he never leaves the frame."
        },
        {
         "when": {
@@ -34081,7 +34081,7 @@
          "a": "{item.arc}",
          "b": "af:sf01"
         },
-        "value": "\n\nImage 1 is the exact first frame of this part; the given last frame is its exact final frame: the same take carries on between them with no cut, same person, outfit, place and view; the owner keeps talking; the camera only sways gently, never pans or closes in; nothing behind the owner changes; any door stays exactly as in Image 1, never swinging, closing or vanishing. "
+        "value": "\n\nImage 1 is the exact first frame of this part; the given last frame is its exact final frame: the same take carries on between them with no cut, same person, outfit, place and view; the owner keeps talking; the camera stays fixed and never pans or closes in, the owner moves as the beats say; nothing behind the owner changes; any door stays exactly as in Image 1, never swinging, closing or vanishing. "
        }
       ]
      },
@@ -34854,7 +34854,7 @@
          "a": "{item.arc}",
          "b": "af:sf01"
         },
-        "value": "\n\nSELFIE: the owner stands at one spot in front of the finished work the whole clip and never walks around it or moves between inside and outside. Phone held at arm's length, never seen; they speak the script to the lens with natural lip movement and point with the free hand; not a voice-over. No tools or work in progress."
+        "value": "\n\nSELFIE: the camera is fixed on one wide view of the whole kitchen at eye level (about 1.5 m, no tilt up or down) and never moves, follows, pans or zooms. The owner, an ordinary 170 cm man at natural size next to the counter and table, walks inside that view: in the first part he stands at the starting spot beside the kitchen entrance, greets and points at the kitchen; in the next parts he walks into the kitchen to the counter and points at and touches the installed parts one by one (sink, shelf, stove, wall); at the end of the last part he walks back to the starting spot, faces the lens and smiles. He speaks the script to the lens with natural lip movement; not a voice-over. No phone in view, no tools, nothing held, no loose sheet or sample; he never leaves the frame."
        },
        {
         "when": {
@@ -39020,7 +39020,7 @@
          "a": "{item.arc}",
          "b": "af:sf01"
         },
-        "value": "\n\nImage 1 is the exact first frame of this part; the given last frame is its exact final frame: one unbroken selfie take between them, same person, outfit, place and view; the camera only sways gently, never pans or closes in; nothing behind the owner changes; any door stays exactly as in Image 1, never swinging, closing or vanishing. "
+        "value": "\n\nImage 1 is the exact first frame of this part; the given last frame is its exact final frame: one unbroken selfie take between them, same person, outfit, place and view; the camera stays fixed and never pans or closes in, the owner moves as the beats say; nothing behind the owner changes; any door stays exactly as in Image 1, never swinging, closing or vanishing. "
        }
       ]
      },
@@ -39831,7 +39831,7 @@
          "a": "{item.arc}",
          "b": "af:sf01"
         },
-        "value": "\n\nSELFIE: the owner stands at one spot in front of the finished work the whole clip and never walks around it or moves between inside and outside. Phone held at arm's length, never seen; they speak the script to the lens with natural lip movement and point with the free hand; not a voice-over. No tools or work in progress."
+        "value": "\n\nSELFIE: the camera is fixed on one wide view of the whole kitchen at eye level (about 1.5 m, no tilt up or down) and never moves, follows, pans or zooms. The owner, an ordinary 170 cm man at natural size next to the counter and table, walks inside that view: in the first part he stands at the starting spot beside the kitchen entrance, greets and points at the kitchen; in the next parts he walks into the kitchen to the counter and points at and touches the installed parts one by one (sink, shelf, stove, wall); at the end of the last part he walks back to the starting spot, faces the lens and smiles. He speaks the script to the lens with natural lip movement; not a voice-over. No phone in view, no tools, nothing held, no loose sheet or sample; he never leaves the frame."
        },
        {
         "when": {
@@ -44137,7 +44137,7 @@
        "a": "{item.arc}",
        "b": "af:sf01"
       },
-      "value": "วาดภาพถ่ายจริงแนวตั้ง 9:16 หนึ่งภาพเต็มกรอบ เป็นเฟรมแรกของคลิปเซลฟี่ เจ้าของยืนหน้างานถือมือถือเซลฟี่เอง\nรูปแบบงานเสร็จที่แนบ (ภาพงานไม่มีคน) คือมุมกล้องของทั้งคลิป: ตัวงาน พื้น และฉากหลังต้องเหมือนรูปนั้นทุกอย่าง ห้ามเปลี่ยนรูปทรง ห้ามเพิ่มหรือย้ายของ ประตูอยู่ท่าเดียวกับรูปนั้น\nคน: {item.look} · ชุดลำลองแบบอยู่บ้าน หน้าหันเข้ากล้อง ยืนชิดขอบภาพด้านหนึ่ง บังตัวงานไม่เกิน 1 ใน 3 เห็นตัวงานครบทั้งชิ้นข้างตัว\nงานนี้: {item.productName}\nแบบของงาน: {item.room}\nภาพเดียวต่อเนื่องทั้งกรอบ ห้ามแบ่งภาพ ห้ามมีตัวหนังสือ ป้าย หรือโลโก้ในภาพ ห้ามเห็นโทรศัพท์หรือกล้อง · แสงธรรมชาติกลางวัน สีตามจริง คมชัดทั้งภาพ"
+      "value": "วาดภาพถ่ายจริงแนวตั้ง 9:16 หนึ่งภาพเต็มกรอบ เป็นเฟรมแรกของคลิป กล้องตั้งมุมเดียวตลอดทั้งคลิป เจ้าของยืนที่จุดเริ่มข้างทางเข้าครัว\nรูปแบบงานเสร็จที่แนบ (ภาพงานไม่มีคน) คือมุมกล้องของทั้งคลิป: ตัวงาน พื้น และฉากหลังต้องเหมือนรูปนั้นทุกอย่าง ห้ามเปลี่ยนรูปทรง ห้ามเพิ่มหรือย้ายของ ประตูอยู่ท่าเดียวกับรูปนั้น\nคน: {item.look} · ชุดลำลองแบบอยู่บ้าน หน้าหันเข้ากล้อง ยืนชิดขอบภาพด้านหนึ่ง บังตัวงานไม่เกิน 1 ใน 3 เห็นตัวงานครบทั้งชิ้นข้างตัว · กล้องวางระดับสายตาคนสูงราว 1.5 เมตร มองตรง ไม่เงยไม่ก้ม ห้ามถ่ายจากมุมสูงหรือใช้เลนส์ที่ทำให้คนใหญ่เกินจริง เจ้าของสูงปกติ ขนาดสมจริงเทียบกับเคาน์เตอร์และโต๊ะ\nงานนี้: {item.productName}\nแบบของงาน: {item.room}\nภาพเดียวต่อเนื่องทั้งกรอบ ห้ามแบ่งภาพ ห้ามมีตัวหนังสือ ป้าย หรือโลโก้ในภาพ ห้ามเห็นโทรศัพท์หรือกล้อง · แสงธรรมชาติกลางวัน สีตามจริง คมชัดทั้งภาพ"
      },
      {
       "when": {
@@ -44353,7 +44353,7 @@
        "a": "{item.arc}",
        "b": "af:sf01"
       },
-      "value": "รูปแนบรูปแรก = เฟรมเริ่มของช่วงที่ {values.stagePart} จาก {values.stageParts} ของคลิปเซลฟี่ · วาดภาพเดียวกันอีกครั้งเป็นเฟรมจบของช่วงนี้ ผลลัพธ์แนวตั้ง 9:16 หนึ่งภาพ\nกล้องเดิม ระยะเดิม ขอบภาพเดิม ตัวงาน พื้น ฉากหลัง และของทุกชิ้นอยู่ที่เดิม ห้ามซูม ห้ามครอป ห้ามเพิ่มหรือย้ายของ ประตูอยู่ท่าเดียวกับรูปแบบงานเสร็จ\nคนเดิม ยืนจุดเดิม หน้า ผม และชุดเดิมทุกอย่าง ต่างจากรูปแรกแค่ท่ามือและปากเล็กน้อย\nงานนี้: {item.productName}\nแบบของงาน: {item.room}\nภาพเดียวต่อเนื่องทั้งกรอบ ห้ามแบ่งภาพ ห้ามมีตัวหนังสือ ป้าย หรือโลโก้ในภาพ ห้ามเห็นโทรศัพท์หรือกล้อง · แสงธรรมชาติกลางวัน สีตามจริง คมชัดทั้งภาพ"
+      "value": "รูปแนบรูปแรก = เฟรมเริ่มของช่วงที่ {values.stagePart} จาก {values.stageParts} ของคลิปเซลฟี่ · วาดภาพเดียวกันอีกครั้งเป็นเฟรมจบของช่วงนี้ ผลลัพธ์แนวตั้ง 9:16 หนึ่งภาพ\nกล้องเดิม ระยะเดิม ขอบภาพเดิม ตัวงาน พื้น ฉากหลัง และของทุกชิ้นอยู่ที่เดิม ห้ามซูม ห้ามครอป ห้ามเพิ่มหรือย้ายของ ประตูอยู่ท่าเดียวกับรูปแบบงานเสร็จ\nคนเดิม หน้า ผม และชุดเดิมทุกอย่าง อยู่ในกรอบเดิม ท่าและตำแหน่งตามฉากสุดท้ายของช่วงนี้ ท่ามือและตำแหน่งในกรอบเปลี่ยนได้ตามบท\nงานนี้: {item.productName}\nแบบของงาน: {item.room}\nภาพเดียวต่อเนื่องทั้งกรอบ ห้ามแบ่งภาพ ห้ามมีตัวหนังสือ ป้าย หรือโลโก้ในภาพ ห้ามเห็นโทรศัพท์หรือกล้อง · แสงธรรมชาติกลางวัน สีตามจริง คมชัดทั้งภาพ"
      }
     ]
    }
@@ -44930,7 +44930,7 @@
    "af:sp01": "โครงเรื่อง (ผู้ใช้เลือก) ชี้ปัญหาทีละจุด: ฉากแรกมือแตะสินค้าแล้วพูดปัญหาที่เจอ จากนั้นมือพาไปชี้จุดปัญหาจุดที่ 1 ใกล้ ๆ บอกว่าทำไมวิธีเดิมไม่ได้ผล มือถือสินค้าเล็งไปที่จุดนั้นแล้วบอกจุดเด่น ต่อด้วยจุดปัญหาจุดที่ 2 แบบเดียวกัน ทุกจุดอยู่ในสถานที่เดียวกันกับฉากแรก แล้วกลับมาแตะสินค้าปิดการขาย\n★ ข้อยกเว้นเฉพาะคลิปนี้ ใช้แทนกฎ \"ฉากลงมือต้องเห็นสินค้าถูกใช้จนเกิดผล\" และกฎ \"ฉากท้ายเห็นผลต่างในจุดเดิม\": คลิปนี้ไม่ต้องเห็นการลงมือครบทุกขั้น แต่ถ้าเป็นงานสร้าง ติดตั้ง หรือรีโนเวท ฉากท้ายต้องเห็นงานเสร็จสมบูรณ์ งานยังเป็นการซ่อม ทำความสะอาด จัดระเบียบ หรือรีโนเวทพื้นที่หรือของจริง สภาพจริงของปัญหาต้องเห็นชัดในภาพ และสินค้าอยู่ในคลิปตั้งแต่ฉากแรก\nแนวชี้จุดขาย: POV มุมสายตาคนถือมือถือ ภาพบ้านจริงไม่จัดแสง s*en ทุกฉากเห็นมือชี้ แตะ หรือผายไปที่จุดนั้นหรือที่สินค้า เห็นแค่มือไม่เห็นหน้า มือไม่เกินสองข้าง ฉากแรกและฉากสุดท้ายเป็นมุมเดียวกัน เห็นสินค้าวางอยู่ชัด ยี่ห้ออ่านออก มือแตะสินค้า สินค้าต้องคงรูปทรง สีและขนาดเดิม vo ทุกฉากเป็นคำขายจากคนถือกล้อง พูดถึงปัญหา เหตุผลที่วิธีเดิมไม่ได้ผล และจุดเด่นของสินค้า ห้ามเล่าขั้นตอนแบบสอนทำ ผลลัพธ์บอกด้วยเสียงได้ แต่พูดเฉพาะสิ่งที่สินค้าทำได้จริงจากข้อมูลสินค้า ห้ามแต่งตัวเลขหรือสรรพคุณ ฉากท้ายชวนซื้อตรง ๆ ไม่เกิน 8 คำ ถ้าผู้ใช้กรอกคำปิดมาให้ใช้คำนั้น",
    "af:sp02": "โครงเรื่อง (ผู้ใช้เลือก) ชี้จุดที่วิธีเดิมไปไม่ถึง: ฉากแรกมือแตะสินค้าแล้วถามผู้ชมว่าจุดนี้ทำยังไง มือชี้ซอกหรือมุมที่มือและของเดิมเข้าไม่ถึง ลองเอื้อมให้เห็นว่าไม่ถึง แล้วถือสินค้าเล็งไปที่จุดนั้นและบอกว่าส่วนไหนของสินค้าช่วยได้ ปิดด้วยการกลับมาแตะสินค้า\n★ ข้อยกเว้นเฉพาะคลิปนี้ ใช้แทนกฎ \"ฉากลงมือต้องเห็นสินค้าถูกใช้จนเกิดผล\" และกฎ \"ฉากท้ายเห็นผลต่างในจุดเดิม\": คลิปนี้ไม่ต้องเห็นการลงมือครบทุกขั้น แต่ถ้าเป็นงานสร้าง ติดตั้ง หรือรีโนเวท ฉากท้ายต้องเห็นงานเสร็จสมบูรณ์ งานยังเป็นการซ่อม ทำความสะอาด จัดระเบียบ หรือรีโนเวทพื้นที่หรือของจริง สภาพจริงของปัญหาต้องเห็นชัดในภาพ และสินค้าอยู่ในคลิปตั้งแต่ฉากแรก\nแนวชี้จุดขาย: POV มุมสายตาคนถือมือถือ ภาพบ้านจริงไม่จัดแสง s*en ทุกฉากเห็นมือชี้ แตะ หรือผายไปที่จุดนั้นหรือที่สินค้า เห็นแค่มือไม่เห็นหน้า มือไม่เกินสองข้าง ฉากแรกและฉากสุดท้ายเป็นมุมเดียวกัน เห็นสินค้าวางอยู่ชัด ยี่ห้ออ่านออก มือแตะสินค้า สินค้าต้องคงรูปทรง สีและขนาดเดิม vo ทุกฉากเป็นคำขายจากคนถือกล้อง พูดถึงปัญหา เหตุผลที่วิธีเดิมไม่ได้ผล และจุดเด่นของสินค้า ห้ามเล่าขั้นตอนแบบสอนทำ ผลลัพธ์บอกด้วยเสียงได้ แต่พูดเฉพาะสิ่งที่สินค้าทำได้จริงจากข้อมูลสินค้า ห้ามแต่งตัวเลขหรือสรรพคุณ ฉากท้ายชวนซื้อตรง ๆ ไม่เกิน 8 คำ ถ้าผู้ใช้กรอกคำปิดมาให้ใช้คำนั้น",
    "af:sp03": "โครงเรื่อง (ผู้ใช้เลือก) ชี้จุดเด่นบนตัวสินค้า: ฉากแรกมือแตะสินค้าและชี้จุดปัญหาในพื้นที่จริงหนึ่งจุด จากนั้นกลับมาที่สินค้า มือชี้ หมุน หรือกดทีละส่วน เล่าว่าส่วนนั้นแก้ปัญหาได้ยังไง ฉากท้ายกลับมามุมแรก มือแตะสินค้าปิดการขาย\n★ ข้อยกเว้นเฉพาะคลิปนี้ ใช้แทนกฎ \"ฉากลงมือต้องเห็นสินค้าถูกใช้จนเกิดผล\" และกฎ \"ฉากท้ายเห็นผลต่างในจุดเดิม\": คลิปนี้ไม่ต้องเห็นการลงมือครบทุกขั้น แต่ถ้าเป็นงานสร้าง ติดตั้ง หรือรีโนเวท ฉากท้ายต้องเห็นงานเสร็จสมบูรณ์ งานยังเป็นการซ่อม ทำความสะอาด จัดระเบียบ หรือรีโนเวทพื้นที่หรือของจริง สภาพจริงของปัญหาต้องเห็นชัดในภาพ และสินค้าอยู่ในคลิปตั้งแต่ฉากแรก\nแนวชี้จุดขาย: POV มุมสายตาคนถือมือถือ ภาพบ้านจริงไม่จัดแสง s*en ทุกฉากเห็นมือชี้ แตะ หรือผายไปที่จุดนั้นหรือที่สินค้า เห็นแค่มือไม่เห็นหน้า มือไม่เกินสองข้าง ฉากแรกและฉากสุดท้ายเป็นมุมเดียวกัน เห็นสินค้าวางอยู่ชัด ยี่ห้ออ่านออก มือแตะสินค้า สินค้าต้องคงรูปทรง สีและขนาดเดิม vo ทุกฉากเป็นคำขายจากคนถือกล้อง พูดถึงปัญหา เหตุผลที่วิธีเดิมไม่ได้ผล และจุดเด่นของสินค้า ห้ามเล่าขั้นตอนแบบสอนทำ ผลลัพธ์บอกด้วยเสียงได้ แต่พูดเฉพาะสิ่งที่สินค้าทำได้จริงจากข้อมูลสินค้า ห้ามแต่งตัวเลขหรือสรรพคุณ ฉากท้ายชวนซื้อตรง ๆ ไม่เกิน 8 คำ ถ้าผู้ใช้กรอกคำปิดมาให้ใช้คำนั้น",
-   "af:sf01": "โครงเรื่อง (ผู้ใช้เลือก) เซลฟี่พาชมงานเสร็จ ★ ข้อยกเว้นเฉพาะแนวนี้ ใช้แทนกฎลำดับงาน กฎฉากแรกก่อนเริ่มงาน กฎห้ามเห็นงานเสร็จ กฎสัดส่วนระยะภาพ และกฎ vo จบห้วน: ทุกฉากเป็นงานที่เสร็จสมบูรณ์แล้ว ไม่มีสภาพเก่า การติดตั้ง ช่าง หรือเครื่องมือ\nแต่ละช่วงคือเทคเดียวไม่ตัดภาพ เจ้าของถือมือถือเซลฟี่เอง ไม่เห็นโทรศัพท์ คนเดียวชุดลำลองแบบอยู่บ้าน ไม่ใช่ชุดช่าง: ★ สำคัญกว่าตอนจบที่เลือก: ทั้งคลิปยืนจุดเดียวหน้างาน ด้านหลังคนคือตัวงานมุมเดียวกันทุกช่วง คนดูต้องรู้ทันทีว่าเป็นห้องอะไร เช่น ครัวต้องเห็นหลังคา ผนัง เคาน์เตอร์ เตา และอ่างล้าง ห้ามเดินอ้อมไปด้านอื่น ห้ามเข้าออกระหว่างนอกกับใน · ทุกฉากคือภาพเดียวกัน หน้าคนคู่กับตัวงานมุมเดิม ระยะเดิม ต่างแค่มือชี้ไปส่วนต่าง ๆ ของงานจากจุดที่ยืน และคำพูด ห้ามภาพใกล้ผิววัสดุหรือของชิ้นเดียว ห้ามหันกล้องไปด้านอื่น · ฉากสุดท้ายของคลิป: คนเดิมจุดเดิม ยิ้มยกนิ้วชวนซื้อ · ประตูเปิดสุดแนบผนังเหมือนรูปแบบงานทุกฉาก vo ห้ามพูดถึงการเปิดหรือปิดประตู\nvo เป็นประโยคเต็มต่อเนื่องแบบเจ้าของเล่าให้เพื่อนฟัง ใช้ ผม หรือ เรา ลงท้ายครับหรือค่ะตามเพศ บอกว่าเอาสินค้ามาทำอะไร แล้วดีขึ้นยังไง ห้ามคำโฆษณาเกินจริง จุดเด่นพูดเท่าที่เห็นในภาพ ประโยคปิดต้องชวนซื้อตรง ๆ เช่น สนใจกดสั่งซื้อได้เลยครับ ห้ามปิดกว้าง ๆ เช่น ใครชอบลองดู\nงานเสร็จต้องน่าอยู่ มีของแต่งจริง เช่น ต้นไม้ โคมไฟ และของใช้ตามหน้าที่พื้นที่",
+   "af:sf01": "โครงเรื่อง (ผู้ใช้เลือก) เซลฟี่พาชมงานเสร็จ ★ ข้อยกเว้นเฉพาะแนวนี้ ใช้แทนกฎลำดับงาน กฎฉากแรกก่อนเริ่มงาน กฎห้ามเห็นงานเสร็จ กฎสัดส่วนระยะภาพ และกฎ vo จบห้วน: ทุกฉากเป็นงานที่เสร็จสมบูรณ์แล้ว ไม่มีสภาพเก่า การติดตั้ง ช่าง หรือเครื่องมือ\nแต่ละช่วงคือเทคเดียวไม่ตัดภาพ เจ้าของพูดกับกล้อง ไม่เห็นโทรศัพท์ คนเดียวชุดลำลองแบบอยู่บ้าน ไม่ใช่ชุดช่าง: ★ สำคัญกว่าตอนจบที่เลือก: กล้องตั้งมุมเดียวตลอดทั้งคลิป ระดับสายตาคนสูงราว 1.5 เมตร มองตรง ไม่เงยไม่ก้ม ไม่ซูม ไม่เคลื่อนตามคน เห็นครัวทั้งหลัง (หลังคา ผนัง เคาน์เตอร์ เตา อ่างล้าง) อยู่ในกรอบตลอด · เจ้าของเดินอยู่ในกรอบนั้น: ช่วงแรก (ฉาก 1-6) ยืนที่จุดเริ่มข้างทางเข้าครัว ทักด้วย hook แล้วผายมือชี้ภาพรวมของครัว · ช่วงถัดไป เดินเข้าไปในครัวภายในกรอบภาพ ไปที่เคาน์เตอร์ ชี้และแตะซิงก์ ชั้นวาง เตา ผนังที่ติดอยู่ ทีละจุด ไม่วนกลับจุดเดิม · ฉากสุดท้ายของคลิป: เดินกลับมาที่จุดเริ่ม หันหน้าเข้ากล้อง ยิ้มยกนิ้วชวนซื้อ · คลิป 10 วินาทีช่วงเดียว: ยืนที่จุดเริ่ม ผายมือชี้ภาพรวม เดินเข้าไปชี้ 1-2 จุด แล้วเดินกลับมายิ้มชวนซื้อ · ห้ามเดินออกนอกกรอบ ห้ามกล้องตามคนไปมุมอื่น ห้ามเห็นด้านนอกหรือด้านหลังผนัง ห้ามถือหรือชูแผ่นสินค้า มือแตะได้เฉพาะของที่ติดอยู่ในครัวแล้ว · camN ทุกฉากเขียนว่า นิ่ง · ประตูเปิดสุดแนบผนังเหมือนรูปแบบงานทุกฉาก vo ห้ามพูดถึงการเปิดหรือปิดประตู\nvo เป็นประโยคเต็มต่อเนื่องแบบเจ้าของเล่าให้เพื่อนฟัง ใช้ ผม หรือ เรา ลงท้ายครับหรือค่ะตามเพศ บอกว่าเอาสินค้ามาทำอะไร แล้วดีขึ้นยังไง ห้ามคำโฆษณาเกินจริง จุดเด่นพูดเท่าที่เห็นในภาพ ประโยคปิดต้องชวนซื้อตรง ๆ เช่น สนใจกดสั่งซื้อได้เลยครับ ห้ามปิดกว้าง ๆ เช่น ใครชอบลองดู\nงานเสร็จต้องน่าอยู่ มีของแต่งจริง เช่น ต้นไม้ โคมไฟ และของใช้ตามหน้าที่พื้นที่",
    "af:wk01": "โครงเรื่อง (ผู้ใช้เลือก) เดินชมงานเสร็จ เข้าใกล้ผิววัสดุ ★ ข้อยกเว้นเฉพาะแนวนี้ ใช้แทนกฎลำดับงาน กฎฉากแรกก่อนเริ่มงาน กฎห้ามเห็นงานเสร็จ กฎสัดส่วนระยะภาพ และกฎ vo จบห้วน: ทุกฉากเป็นงานที่เสร็จสมบูรณ์แล้ว ไม่มีสภาพเก่า การติดตั้ง ช่าง หรือเครื่องมือ\nมุมสายตาคนถือมือถือเดินชมงานแบบเทคต่อเนื่อง เห็นแค่มือและแขนเสื้อ ไม่เห็นหน้า ไม่เห็นโทรศัพท์ มือไม่เกินสองข้าง ภาพบ้านจริงแสงธรรมชาติ ไม่จัดแสง · แต่ละช่วง 10 วินาทีคือเทคเดียวต่อเนื่อง ไม่ตัดภาพ: กล้องเดินจากภาพหนึ่งไปอีกภาพอย่างต่อเนื่องบนเส้นทางเดินเส้นเดียว ฉากทั้ง 6 ของช่วงคือตำแหน่งต่อเนื่องของกล้องบนเส้นทางนั้น ไม่ใช่ภาพคนละที่ (ตัดภาพได้เฉพาะรอยต่อระหว่างช่วง)\n★ กันฉากเพี้ยน สำคัญที่สุดของแนวนี้: ทั้งคลิปคืออาคารหรืองานหลังเดียวกันตามคำบรรยายห้อง (room) และภาพต้นแบบ ทรงหลังคา ตำแหน่งประตูและหน้าต่าง สี และของแต่งอยู่ที่เดิมทุกฉาก ห้ามเปลี่ยนทรงหรือสร้างหลังใหม่ระหว่างฉาก · ประตูอยู่ในสภาพเดียวกับภาพต้นแบบทุกฉาก ห้ามมือเปิดหรือปิดประตู vo ห้ามพูดถึงการเปิดปิดประตู · ถ้างานเป็นห้องปิด (shape: closed room) ห้ามเข้าไปข้างใน ชมเฉพาะด้านนอก: ผนังลายไม้ ขอบประตู มือจับ หน้าต่าง ชายคา หลังคา ไฟข้างผนัง · ถ้างานเปิดโล่ง (shape: open-front) เดินชมจุดต่าง ๆ ในพื้นที่ได้ แต่ห้ามเดินอ้อมไปด้านอื่นของอาคาร\nลำดับภาพวิ่งครั้งเดียวตลอดทั้งคลิป ไม่วนซ้ำทุกช่วง ตามเวลาของคลิปต้นแบบ แบ่งเป็น 4 ช่วง (คลิป 20 วินาที = ฉาก 1-3 ช่วงที่ 1 · ฉาก 4-6 ช่วงที่ 2 · ฉาก 7-9 ช่วงที่ 3 · ฉาก 10-12 ช่วงที่ 4 · คลิป 10 วินาที = ฉาก 1-2 ช่วงที่ 1 · ฉาก 3 ช่วงที่ 2 · ฉาก 4-5 ช่วงที่ 3 · ฉาก 6 ช่วงที่ 4 · คลิปยาวกว่า 20 วินาที = ช่วงที่ 1 และ 2 ใช้ 3 ฉากแรกและ 3 ฉากถัดมา ช่วงที่ 4 ใช้ 3 ฉากสุดท้าย ฉากที่เหลือตรงกลางทั้งหมดเป็นช่วงที่ 3 ที่ไล่ดูจุดใหม่ทีละจุด):\nช่วงที่ 1 (ต้นคลิป): ภาพกว้างเห็นครัวทั้งหลัง กล้องเดินเข้ามา แล้วมือผายหรือชี้ไปที่ส่วนเด่นของงาน · คำพูดคือคำทึ่งและเฉลยชื่อสินค้า (camN: เดินชม แล้ว ซูมเข้า)\nช่วงที่ 2: ภาพใกล้มากที่ผิววัสดุ มือลูบให้เห็นลายและประกายแสง ค้างอยู่ในภาพใกล้นี้นานเกือบเท่าช่วงอื่น · คำพูดคือข้อดีหลักของวัสดุ พูดตอนมือลูบผิว เช่น สวยเหมือนไม้จริง (camN: ลูบผิว หรือ มาโคร)\nช่วงที่ 3: ภาพกลางถึงใกล้ที่ส่วนต่าง ๆ ของงาน เช่น เตา ฮูด ชั้นวาง เคาน์เตอร์ ซิงก์ ที่คว่ำจาน มือผายฝ่ามือเปิดไปที่ของนั้นหรือแตะ · คำพูดคือเอาวัสดุไปทำอะไรได้ พูดตอนเห็นของนั้นในภาพ เช่น ทำผนัง ทำเคาน์เตอร์ (camN: โคลสอัพ หรือ ติดตาม)\nช่วงที่ 4 (ท้ายคลิป): กล้องถอยออกทีละขั้น ให้ระยะภาพต่างกันชัดในแต่ละฉาก: ฉากแรกของช่วงเป็นภาพกลาง เห็นเคาน์เตอร์ทั้งแนว (camN: ถอยกว้าง) · ฉากถัดมาเป็นภาพกว้าง เห็นครัวส่วนใหญ่ (camN: ถอยกว้าง) · ฉากสุดท้ายเป็นภาพกว้างสุด เห็นครัวทั้งหลังแล้วค้างนิ่งในวิดีโอ ไม่มีมือในภาพ (camN: นิ่ง) · คำพูดคือปิดชวนซื้อ พูดตอนภาพกว้าง · ห้ามสามฉากท้ายเป็นภาพเดียวกัน\nห้ามภาพกว้างกลางคลิป ห้ามภาพมุมเดียวกันหรือระยะเดียวกันซ้ำสองฉากติด (รวมถึงสามฉากท้าย) · คำพูดทุกประโยคต้องตรงกับภาพที่เห็นขณะนั้น\ncamN ทุกฉากเขียนด้วยคำในวงเล็บข้างบนเพื่อให้กล้องขยับจริง ห้ามเขียนว่านิ่งหรือตั้งกล้อง ยกเว้นฉากท้ายสุดของช่วงที่ 4 ที่ค้างนิ่ง\nสินค้าคือวัสดุที่ทำให้งานเสร็จนี้ ในฉากใกล้ต้องเห็นลายและสีตรงกับรูปสินค้า ห้ามแต่งสีหรือลายเอง\nนี่คือคลิปรีวิวสินค้า ไม่ใช่คลิปสร้างงาน: คนหลังกล้องเดินเข้ามารีวิวด้วยตัวเองให้เพื่อนฟัง สินค้าคือพระเอก vo เป็นประโยคเต็มต่อเนื่องแบบเล่าให้เพื่อนฟัง ใช้ ผม หรือ เรา ลงท้ายครับหรือค่ะตามเพศเสียง\nโครงคำพูด: ฉากแรกเปิดด้วยความทึ่งสั้น ๆ ของคนเห็นงานเสร็จ (เช่น ว่าดูแพงขนาดนี้ ทำจากอะไร) แล้วเฉลยชื่อสินค้า · ฉากกลางบอกว่าสินค้าดีและสวยยังไง 2-3 ข้อ ให้ตรงกับที่มือชี้หรือแตะในภาพ เช่น ลายเหมือนวัสดุจริง ผิวเรียบ ทำความสะอาดง่าย แข็งแรง ใช้ได้ทั้งผนังและเคาน์เตอร์ · ใช้ข้อมูลจากช่องจุดเด่นสินค้า ราคา และโปรของสินค้าก่อน ถ้าไม่มีให้พูดเฉพาะคุณสมบัติทั่วไปของวัสดุนั้นที่เห็นได้จากภาพ ห้ามแต่งตัวเลข ราคา หรือสรรพคุณที่ไม่มีในข้อมูล · ห้ามเล่าขั้นตอนติดตั้ง · ประโยคปิดต้องชวนซื้อตรง ๆ เช่น กดสั่งซื้อได้เลยครับ ห้ามปิดกว้าง ๆ\nงานเสร็จต้องดูพร้อมใช้และน่าอยู่ มีของใช้จริงตามหน้าที่พื้นที่ 4-6 อย่าง เช่น ครัว: ขวดโหลบนชั้น จานชาม เขียง ผ้าแขวน กระถางต้นไม้ ไฟใต้ชั้น ห้ามพื้นที่โล่งเปล่า · ฉากกลางให้มือชี้หรือแตะของเหล่านี้บ้างระหว่างเดินชม (ชั้นวาง ซิงก์ ที่คว่ำจาน) ไม่ใช่ลูบแต่ผนังอย่างเดียว"
   },
   "camPlan": {
@@ -45456,14 +45456,14 @@
     {
      "value": "g_restore_7",
      "label": "เจ้าของถ่ายเองพาชม",
-     "desc": "ถือมือถือเซลฟี่ ยืนจุดเดียวหน้างานที่เสร็จแล้ว เทคเดียว ไม่เดิน ไม่ถ่ายใกล้ · 1 แบบ",
+     "desc": "กล้องตั้งมุมเดียว เจ้าของพูดกับกล้อง เดินเข้าครัวชี้และแตะของที่ติดอยู่ เทคเดียว · 1 แบบ",
      "icon": "photo_camera",
      "people": "พรีเซนเตอร์พาชมสินค้า",
      "items": [
       {
        "value": "af:sf01",
        "label": "เซลฟี่พาชมงานเสร็จ",
-       "desc": "ยืนพูดเองหน้างานแบบคนใช้จริง ไม่เดิน ไม่ถ่ายใกล้ ไม่มีขั้นตอนติดตั้ง จบด้วยภาพงานทั้งหมด",
+       "desc": "เดินเข้าไปชี้และแตะของที่ติดอยู่ในครัวทีละจุด ไม่มีขั้นตอนติดตั้ง จบด้วยภาพทั้งครัว",
        "icon": "photo_camera"
       }
      ],
