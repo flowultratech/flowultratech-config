@@ -1,8 +1,8 @@
 {
  "app": "flow-reno",
  "version": 5,
- "build": 149,
- "label": "3.0.17",
+ "build": 150,
+ "label": "3.0.18",
  "ops": {
   "mnPlan": {
    "id": "mnPlan",
@@ -13624,7 +13624,31 @@
       "parts": [
        "\n\nลำดับภาพของช่วงนี้:",
        "\n",
-       "ภาพ 1 แถว 1 ซ้าย (ภาพเปิดคลิป: ภาพกว้างเห็นทั้งห้อง กล้องตั้งนิ่งที่มุมห้อง ไม่มีมือหรือประตูบังกล้อง)",
+       {
+        "op": "block",
+        "sep": "",
+        "parts": [
+         {
+          "when": {
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{item.arc}",
+            "b": "af:sf01"
+           }
+          },
+          "value": "ภาพ 1 แถว 1 ซ้าย (ภาพเปิดคลิป: ภาพกว้างเห็นทั้งห้อง กล้องตั้งนิ่งที่มุมห้อง ไม่มีมือหรือประตูบังกล้อง)"
+         },
+         {
+          "when": {
+           "op": "eq",
+           "a": "{item.arc}",
+           "b": "af:sf01"
+          },
+          "value": "ภาพ 1 แถว 1 ซ้าย (ภาพเปิดคลิป: เจ้าของเซลฟี่คนเดียว เห็นหน้าและครึ่งตัว ขนาดและตำแหน่งในกรอบเท่ากับทุกภาพ ตัวงานอยู่ด้านหลังเต็มกรอบ ไม่ใช่ภาพกว้างที่เห็นคนตัวเล็ก ไม่เห็นโทรศัพท์)"
+         }
+        ]
+       },
        ": {item.s1th} · กล้อง: {item.cam1}",
        "",
        "\n",
@@ -15079,7 +15103,7 @@
          "a": "{item.arc}",
          "b": "af:sf01"
         },
-        "value": "\n\nSELFIE: the owner stands at one spot in front of the finished work the whole clip and never walks around it or moves between inside and outside. Phone held at arm's length, never seen; they speak the script to the lens with natural lip movement and point with the free hand; not a voice-over. No tools or work in progress."
+        "value": "\n\nSELFIE: the owner stands at one spot in front of the finished work the whole clip and never walks around it or moves between inside and outside. Phone held at arm's length, never seen; they speak the script to the lens with natural lip movement and point with the free hand; not a voice-over. No tools or work in progress. One owner only: never a second or duplicate person, never a small standing figure behind them; the owner keeps the same size and place in frame as in Image 1, no wide shot; nothing is held up to the lens, no loose sheet, panel or sample."
        },
        {
         "when": {
@@ -20011,7 +20035,7 @@
          "a": "{item.arc}",
          "b": "af:sf01"
         },
-        "value": "\n\nSELFIE: the owner stands at one spot in front of the finished work the whole clip and never walks around it or moves between inside and outside. Phone held at arm's length, never seen; they speak the script to the lens with natural lip movement and point with the free hand; not a voice-over. No tools or work in progress."
+        "value": "\n\nSELFIE: the owner stands at one spot in front of the finished work the whole clip and never walks around it or moves between inside and outside. Phone held at arm's length, never seen; they speak the script to the lens with natural lip movement and point with the free hand; not a voice-over. No tools or work in progress. One owner only: never a second or duplicate person, never a small standing figure behind them; the owner keeps the same size and place in frame as in Image 1, no wide shot; nothing is held up to the lens, no loose sheet, panel or sample."
        },
        {
         "when": {
@@ -24943,7 +24967,7 @@
          "a": "{item.arc}",
          "b": "af:sf01"
         },
-        "value": "\n\nSELFIE: the owner stands at one spot in front of the finished work the whole clip and never walks around it or moves between inside and outside. Phone held at arm's length, never seen; they speak the script to the lens with natural lip movement and point with the free hand; not a voice-over. No tools or work in progress."
+        "value": "\n\nSELFIE: the owner stands at one spot in front of the finished work the whole clip and never walks around it or moves between inside and outside. Phone held at arm's length, never seen; they speak the script to the lens with natural lip movement and point with the free hand; not a voice-over. No tools or work in progress. One owner only: never a second or duplicate person, never a small standing figure behind them; the owner keeps the same size and place in frame as in Image 1, no wide shot; nothing is held up to the lens, no loose sheet, panel or sample."
        },
        {
         "when": {
@@ -29875,7 +29899,7 @@
          "a": "{item.arc}",
          "b": "af:sf01"
         },
-        "value": "\n\nSELFIE: the owner stands at one spot in front of the finished work the whole clip and never walks around it or moves between inside and outside. Phone held at arm's length, never seen; they speak the script to the lens with natural lip movement and point with the free hand; not a voice-over. No tools or work in progress."
+        "value": "\n\nSELFIE: the owner stands at one spot in front of the finished work the whole clip and never walks around it or moves between inside and outside. Phone held at arm's length, never seen; they speak the script to the lens with natural lip movement and point with the free hand; not a voice-over. No tools or work in progress. One owner only: never a second or duplicate person, never a small standing figure behind them; the owner keeps the same size and place in frame as in Image 1, no wide shot; nothing is held up to the lens, no loose sheet, panel or sample."
        },
        {
         "when": {
@@ -34808,7 +34832,7 @@
          "a": "{item.arc}",
          "b": "af:sf01"
         },
-        "value": "\n\nSELFIE: the owner stands at one spot in front of the finished work the whole clip and never walks around it or moves between inside and outside. Phone held at arm's length, never seen; they speak the script to the lens with natural lip movement and point with the free hand; not a voice-over. No tools or work in progress."
+        "value": "\n\nSELFIE: the owner stands at one spot in front of the finished work the whole clip and never walks around it or moves between inside and outside. Phone held at arm's length, never seen; they speak the script to the lens with natural lip movement and point with the free hand; not a voice-over. No tools or work in progress. One owner only: never a second or duplicate person, never a small standing figure behind them; the owner keeps the same size and place in frame as in Image 1, no wide shot; nothing is held up to the lens, no loose sheet, panel or sample."
        },
        {
         "when": {
@@ -39790,7 +39814,7 @@
          "a": "{item.arc}",
          "b": "af:sf01"
         },
-        "value": "\n\nSELFIE: the owner stands at one spot in front of the finished work the whole clip and never walks around it or moves between inside and outside. Phone held at arm's length, never seen; they speak the script to the lens with natural lip movement and point with the free hand; not a voice-over. No tools or work in progress."
+        "value": "\n\nSELFIE: the owner stands at one spot in front of the finished work the whole clip and never walks around it or moves between inside and outside. Phone held at arm's length, never seen; they speak the script to the lens with natural lip movement and point with the free hand; not a voice-over. No tools or work in progress. One owner only: never a second or duplicate person, never a small standing figure behind them; the owner keeps the same size and place in frame as in Image 1, no wide shot; nothing is held up to the lens, no loose sheet, panel or sample."
        },
        {
         "when": {
