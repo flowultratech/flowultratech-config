@@ -1,8 +1,8 @@
 {
  "app": "flow-reno",
  "version": 5,
- "build": 162,
- "label": "3.0.30",
+ "build": 163,
+ "label": "3.0.31",
  "ops": {
   "mnPlan": {
    "id": "mnPlan",
@@ -973,23 +973,6 @@
        }
       ]
      },
-     {
-      "op": "block",
-      "sep": "",
-      "parts": [
-       {
-        "when": {
-         "op": "not",
-         "a": {
-          "op": "eq",
-          "a": "{values.priorScenes}",
-          "b": ""
-         }
-        },
-        "value": "\n\nคลิปนี้เป็นคลิปที่ {values.clipNo} ของงานเดียวกัน ที่เดิมกับคลิปก่อนหน้า: ห้อง สถานที่ ตัวงาน สินค้า และคนต้องเป็นอันเดียวกับที่คำบรรยายห้องกำหนด ห้ามเปลี่ยนสถานที่ แต่เนื้อหาคลิปต้องไม่ซ้ำกับคลิปก่อน: เลือกจุดที่ถ่าย จุดที่ชี้หรือแตะ ลำดับฉาก จุดขายที่พูด และประโยคเปิด ให้ต่างออกไป ห้ามใช้ประโยคพูดซ้ำกับคลิปก่อน ถ้าคลิปก่อนพูดถึงจุดไหนไปแล้ว คลิปนี้ให้พูดถึงจุดอื่นของสินค้าหรือของในห้องที่ยังไม่ได้พูด\nคลิปก่อนหน้าทำไปแล้ว (ห้ามซ้ำ): {values.priorScenes}"
-       }
-      ]
-     },
      "@NAT_PLAN@"
     ]
    },
@@ -1020,7 +1003,7 @@
         "op": "lookup",
         "table": "lenOut",
         "key": "{values.svSec}",
-        "fallback": "เอาต์พุต: ตอบเป็น JSON array เท่านั้น ไม่มี markdown หรือข้อความใดนอก JSON; อาร์เรย์มี object เท่าจำนวนคลิปที่ขอ (ขอ 1 คลิป → array มี 1 object); ทุก object ต้องครบ 6 ฉาก ขาดแม้ฉากเดียวไม่ได้; โครงสร้างแต่ละ object:\n{\"productName\":\"ชื่องานตามที่ผู้ใช้ตั้งไว้ ใช้คำเดิมตรงทุกตัวอักษร\",\"category\":\"หมวดของงาน เช่น ทำความสะอาด ซ่อมแซม รีโนเวท จัดบ้าน\",\"palette\":\"English phrase, 4-9 words: one bright, natural light for the whole clip, like a phone camera on a normal day; a before/after change is the same source, e.g. bright soft daylight from a side window\",\"look\":\"บรรยายผู้ลงมือ 1 คนเป็นภาษาอังกฤษ **12-15 คำ** ระบุเพศ ช่วงวัย ทรงผม รูปร่าง สีผิว และ **ชุดที่ใส่** เช่น @NAT_EN@ man early 30s short black hair slim build tan skin wearing navy work shirt and grey trousers · ใช้ชุดตามที่ผู้ใช้กำหนดไว้ ถ้าว่างให้เลือกชุดทำงานที่เข้ากับงานเอง · ถ้าแนบรูปใบหน้ามาเป็นรูปสุดท้าย ให้ยึดหน้าตาตามรูป · ชุดและรูปร่างนี้ต้องเหมือนกันทุกคลิป · โหมดเห็นแต่มือ หรือเห็นตัวไม่เห็นหน้า ให้ระบุเฉพาะชุดและสีผิวมือ ห้ามระบุหน้า ผม อายุ · โหมดเห็นแต่มือ ให้ขึ้นต้นด้วย hands and forearms of a @NAT_EN@ (เช่น hands and forearms of a @NAT_EN@, tan skin, navy long sleeve cuffs) และห้ามใช้คำว่า man woman person boy girl ในช่องนี้ · ไม่มีคนในคลิป ส่งสตริงว่าง\",\"room\":\"บรรยายห้อง/พื้นที่ของงานเป็นภาษาอังกฤษ 40-50 คำ: งานสร้างใหม่ขึ้นต้นด้วย shape: closed room หรือ shape: open-front ตามกฎทรงงาน · ชนิดห้อง · หน้าต่างและประตู (ถ้ามี) อยู่ผนังไหน (ซ้าย ขวา ด้านหลัง) แบบไหน สีกรอบ · ของหลักที่งานนี้ทำ (ตู้ อ่าง เคาน์เตอร์ สนาม ฯลฯ) ละเอียด: วัสดุ สี จำนวนบาน ช่องแขวน ราว ชั้น ลิ้นชัก มือจับ ตำแหน่ง · เฟอร์นิเจอร์อื่น · สีผนัง · วัสดุและสีพื้น · งานจัดระเบียบหรือทำความสะอาด finished บอกว่าเป็นของหลักชิ้นเดิม (เช่น finished: same wardrobe, clothes folded in grey boxes) · ถ้างานเปลี่ยนพื้นผิว ต่อท้ายด้วย finished: สีผนังใหม่ พื้นใหม่ ของที่ติดตั้ง (เช่น finished: cream walls, oak laminate floor) · เฉพาะงานสร้างใหม่ (ไม่ใช่งานทำความสะอาดหรือจัดระเบียบ ซึ่งคงของเดิม): ต่อท้าย finished: ด้วยของใช้จริงตามหน้าที่พื้นที่ 4-6 อย่าง แบบบ้านไทยทั่วไป ไม่หรู ให้ดูพร้อมใช้และน่าอยู่ ไม่โล่งเปล่า เช่น ครัว: ชั้นวางขวดโหลและจานชาม เขียง ผ้าเช็ดมือแขวน กระถางต้นไม้ ไฟใต้ชั้น โต๊ะนั่ง · ห้องน้ำ: ราวผ้าขนหนู ที่ใส่สบู่ กระถางต้นไม้เล็ก ตะกร้า · ลานหรือศาลา: โต๊ะเก้าอี้ โคมไฟ ต้นไม้@NAT_HOUSE_CUES@ · ครัวนอกบ้านที่ผู้ใช้ไม่ได้ระบุขนาด: กว้างขวางอย่างน้อย 6 เมตร x 4 เมตร เคาน์เตอร์ตัวแอลด้านละ 3 เมตรขึ้นไป โต๊ะนั่ง 4-6 ที่ ตู้เย็น เห็นเป็นห้องครัวใหญ่ · ถ้าแนบรูปพื้นที่จริง บรรยายตามรูป · ทุกคลิปของงานเดียวกันใช้ห้องเดียวกัน\",\"synopsis\":\"สรุปเรื่องของคลิปเป็นภาษาไทย 1-2 ประโยค\",\"voice\":\"เพศของเสียงพากย์ในคลิปนี้ ตอบ หญิง หรือ ชาย\",\"voiceTimbre\":\"ลายเซ็นเสียงพากย์ภาษาอังกฤษ 1 บรรทัดไม่เกิน 25 คำ: เพศ อายุ ระดับเสียง น้ำเสียง จังหวะพูด · เพศต้องตรงกับ voice · ทุกคลิปของงานเดียวกันใช้ข้อความเดียวกัน · ไม่มีเสียงพากย์ให้เว้นว่าง\",\"s1th\":\"...\",\"s1en\":\"...\",\"ov1\":\"...\",\"vo1\":\"...\",\"cam1\":\"...\",\"s2th\":\"...\",\"s2en\":\"...\",\"ov2\":\"...\",\"vo2\":\"...\",\"cam2\":\"...\",\"s3th\":\"...\",\"s3en\":\"...\",\"ov3\":\"...\",\"vo3\":\"...\",\"cam3\":\"...\",\"s4th\":\"...\",\"s4en\":\"...\",\"ov4\":\"...\",\"vo4\":\"...\",\"cam4\":\"...\",\"s5th\":\"...\",\"s5en\":\"...\",\"ov5\":\"...\",\"vo5\":\"...\",\"cam5\":\"...\",\"s6th\":\"...\",\"s6en\":\"...\",\"ov6\":\"...\",\"vo6\":\"...\",\"cam6\":\"...\"}\n\noverlay (กฎเพิ่ม): ovN ทุกช่อง: ไทย, บรรทัดเดียว, สูงสุด 5 คำ, ไม่ใส่เลขฉากหรือลิสต์; ต้องตรงกับภาพจริงในฉากนั้น ห้ามนำชื่อช่วงโครงเรื่อง (ก่อน, เตรียมของ, ลงมือทำ, คืบหน้า, ผลลัพธ์, จุดเด่น) เป็นตัวหนังสือบนภาพ\n\nวิธีตอบ: ขึ้นต้น [ ลงท้าย ] แล้วหยุดทันที; ห้ามใช้ ``` ห้ามมีหมายเหตุ คำอธิบาย หรือข้อความอื่นใดก่อน/หลัง JSON"
+        "fallback": "เอาต์พุต: ตอบเป็น JSON array เท่านั้น ไม่มี markdown หรือข้อความใดนอก JSON; อาร์เรย์มี object เท่าจำนวนคลิปที่ขอ (ขอ 1 คลิป → array มี 1 object); ทุก object ต้องครบ 6 ฉาก ขาดแม้ฉากเดียวไม่ได้; โครงสร้างแต่ละ object:\n{\"productName\":\"ชื่องานตามที่ผู้ใช้ตั้งไว้ ใช้คำเดิมตรงทุกตัวอักษร\",\"category\":\"หมวดของงาน เช่น ทำความสะอาด ซ่อมแซม รีโนเวท จัดบ้าน\",\"palette\":\"English phrase, 4-9 words: one bright, natural light for the whole clip, like a phone camera on a normal day; a before/after change is the same source, e.g. bright soft daylight from a side window\",\"look\":\"บรรยายผู้ลงมือ 1 คนเป็นภาษาอังกฤษ **12-15 คำ** ระบุเพศ ช่วงวัย ทรงผม รูปร่าง สีผิว และ **ชุดที่ใส่** เช่น @NAT_EN@ man early 30s short black hair slim build tan skin wearing navy work shirt and grey trousers · ใช้ชุดตามที่ผู้ใช้กำหนดไว้ ถ้าว่างให้เลือกชุดทำงานที่เข้ากับงานเอง · ถ้าแนบรูปใบหน้ามาเป็นรูปสุดท้าย ให้ยึดหน้าตาตามรูป · ชุดและรูปร่างนี้ต้องเหมือนกันทุกคลิป · โหมดเห็นแต่มือ หรือเห็นตัวไม่เห็นหน้า ให้ระบุเฉพาะชุดและสีผิวมือ ห้ามระบุหน้า ผม อายุ · ไม่มีคนในคลิป ส่งสตริงว่าง\",\"room\":\"บรรยายห้อง/พื้นที่ของงานเป็นภาษาอังกฤษ 40-50 คำ: งานสร้างใหม่ขึ้นต้นด้วย shape: closed room หรือ shape: open-front ตามกฎทรงงาน · ชนิดห้อง · หน้าต่างและประตู (ถ้ามี) อยู่ผนังไหน (ซ้าย ขวา ด้านหลัง) แบบไหน สีกรอบ · ของหลักที่งานนี้ทำ (ตู้ อ่าง เคาน์เตอร์ สนาม ฯลฯ) ละเอียด: วัสดุ สี จำนวนบาน ช่องแขวน ราว ชั้น ลิ้นชัก มือจับ ตำแหน่ง · เฟอร์นิเจอร์อื่น · สีผนัง · วัสดุและสีพื้น · งานจัดระเบียบหรือทำความสะอาด finished บอกว่าเป็นของหลักชิ้นเดิม (เช่น finished: same wardrobe, clothes folded in grey boxes) · ถ้างานเปลี่ยนพื้นผิว ต่อท้ายด้วย finished: สีผนังใหม่ พื้นใหม่ ของที่ติดตั้ง (เช่น finished: cream walls, oak laminate floor) · เฉพาะงานสร้างใหม่ (ไม่ใช่งานทำความสะอาดหรือจัดระเบียบ ซึ่งคงของเดิม): ต่อท้าย finished: ด้วยของใช้จริงตามหน้าที่พื้นที่ 4-6 อย่าง แบบบ้านไทยทั่วไป ไม่หรู ให้ดูพร้อมใช้และน่าอยู่ ไม่โล่งเปล่า เช่น ครัว: ชั้นวางขวดโหลและจานชาม เขียง ผ้าเช็ดมือแขวน กระถางต้นไม้ ไฟใต้ชั้น โต๊ะนั่ง · ห้องน้ำ: ราวผ้าขนหนู ที่ใส่สบู่ กระถางต้นไม้เล็ก ตะกร้า · ลานหรือศาลา: โต๊ะเก้าอี้ โคมไฟ ต้นไม้@NAT_HOUSE_CUES@ · ครัวนอกบ้านที่ผู้ใช้ไม่ได้ระบุขนาด: กว้างขวางอย่างน้อย 6 เมตร x 4 เมตร เคาน์เตอร์ตัวแอลด้านละ 3 เมตรขึ้นไป โต๊ะนั่ง 4-6 ที่ ตู้เย็น เห็นเป็นห้องครัวใหญ่ · ถ้าแนบรูปพื้นที่จริง บรรยายตามรูป · ทุกคลิปของงานเดียวกันใช้ห้องเดียวกัน\",\"synopsis\":\"สรุปเรื่องของคลิปเป็นภาษาไทย 1-2 ประโยค\",\"voice\":\"เพศของเสียงพากย์ในคลิปนี้ ตอบ หญิง หรือ ชาย\",\"voiceTimbre\":\"ลายเซ็นเสียงพากย์ภาษาอังกฤษ 1 บรรทัดไม่เกิน 25 คำ: เพศ อายุ ระดับเสียง น้ำเสียง จังหวะพูด · เพศต้องตรงกับ voice · ทุกคลิปของงานเดียวกันใช้ข้อความเดียวกัน · ไม่มีเสียงพากย์ให้เว้นว่าง\",\"s1th\":\"...\",\"s1en\":\"...\",\"ov1\":\"...\",\"vo1\":\"...\",\"cam1\":\"...\",\"s2th\":\"...\",\"s2en\":\"...\",\"ov2\":\"...\",\"vo2\":\"...\",\"cam2\":\"...\",\"s3th\":\"...\",\"s3en\":\"...\",\"ov3\":\"...\",\"vo3\":\"...\",\"cam3\":\"...\",\"s4th\":\"...\",\"s4en\":\"...\",\"ov4\":\"...\",\"vo4\":\"...\",\"cam4\":\"...\",\"s5th\":\"...\",\"s5en\":\"...\",\"ov5\":\"...\",\"vo5\":\"...\",\"cam5\":\"...\",\"s6th\":\"...\",\"s6en\":\"...\",\"ov6\":\"...\",\"vo6\":\"...\",\"cam6\":\"...\"}\n\noverlay (กฎเพิ่ม): ovN ทุกช่อง: ไทย, บรรทัดเดียว, สูงสุด 5 คำ, ไม่ใส่เลขฉากหรือลิสต์; ต้องตรงกับภาพจริงในฉากนั้น ห้ามนำชื่อช่วงโครงเรื่อง (ก่อน, เตรียมของ, ลงมือทำ, คืบหน้า, ผลลัพธ์, จุดเด่น) เป็นตัวหนังสือบนภาพ\n\nวิธีตอบ: ขึ้นต้น [ ลงท้าย ] แล้วหยุดทันที; ห้ามใช้ ``` ห้ามมีหมายเหตุ คำอธิบาย หรือข้อความอื่นใดก่อน/หลัง JSON"
        }
       ]
      },
@@ -7907,7 +7890,7 @@
          "a": "{item.arc}",
          "b": "af:sf01"
         },
-        "value": "\nแนวนี้ใช้แทนกฎภาพเปิดคลิปและระยะภาพข้างบน: เจ้าของถือมือถือเซลฟี่เดินพาชมงานที่เสร็จแล้ว ไม่เห็นโทรศัพท์ เส้นทางเดินเดียวต่อเนื่อง ภาพแต่ละภาพคือจุดถัดไปบนเส้นทางนั้น เริ่มจากหน้าครัวเห็นครัวทั้งหลังข้างหลัง เดินเข้าไปในครัว ถึงเคาน์เตอร์แล้วแตะผิวสินค้าที่ติดอยู่ใกล้ ๆ ตามบทฉาก ครัวและฉากหลังเหมือนกันทุกภาพ เห็นส่วนของครัวในกรอบเสมอ ไม่มีเครื่องมือ แผ่นวัสดุหลวม หรือของที่ถือชูมาที่กล้อง"
+        "value": "\nแนวนี้ใช้แทนกฎภาพเปิดคลิปและระยะภาพข้างบน: เจ้าของถือมือถือเซลฟี่พาชมงานที่เสร็จแล้ว ไม่เห็นโทรศัพท์ ทุกภาพทุกแผ่นยืนจุดเดียว ด้านหลังคนคือตัวงานมุมเดียวกับแบบงานเสร็จ ฉากหลังเหมือนกันทุกภาพ ระยะเดิมทุกภาพ ไม่มีภาพใกล้ ไม่มีเครื่องมือหรือแผ่นวัสดุหลวม"
        },
        {
         "when": {
@@ -9081,7 +9064,7 @@
          "a": "{item.arc}",
          "b": "af:sf01"
         },
-        "value": "\nแนวนี้ใช้แทนกฎภาพเปิดคลิปและระยะภาพข้างบน: เจ้าของถือมือถือเซลฟี่เดินพาชมงานที่เสร็จแล้ว ไม่เห็นโทรศัพท์ เส้นทางเดินเดียวต่อเนื่อง ภาพแต่ละภาพคือจุดถัดไปบนเส้นทางนั้น เริ่มจากหน้าครัวเห็นครัวทั้งหลังข้างหลัง เดินเข้าไปในครัว ถึงเคาน์เตอร์แล้วแตะผิวสินค้าที่ติดอยู่ใกล้ ๆ ตามบทฉาก ครัวและฉากหลังเหมือนกันทุกภาพ เห็นส่วนของครัวในกรอบเสมอ ไม่มีเครื่องมือ แผ่นวัสดุหลวม หรือของที่ถือชูมาที่กล้อง"
+        "value": "\nแนวนี้ใช้แทนกฎภาพเปิดคลิปและระยะภาพข้างบน: เจ้าของถือมือถือเซลฟี่พาชมงานที่เสร็จแล้ว ไม่เห็นโทรศัพท์ ทุกภาพทุกแผ่นยืนจุดเดียว ด้านหลังคนคือตัวงานมุมเดียวกับแบบงานเสร็จ ฉากหลังเหมือนกันทุกภาพ ระยะเดิมทุกภาพ ไม่มีภาพใกล้ ไม่มีเครื่องมือหรือแผ่นวัสดุหลวม"
        },
        {
         "when": {
@@ -10255,7 +10238,7 @@
          "a": "{item.arc}",
          "b": "af:sf01"
         },
-        "value": "\nแนวนี้ใช้แทนกฎภาพเปิดคลิปและระยะภาพข้างบน: เจ้าของถือมือถือเซลฟี่เดินพาชมงานที่เสร็จแล้ว ไม่เห็นโทรศัพท์ เส้นทางเดินเดียวต่อเนื่อง ภาพแต่ละภาพคือจุดถัดไปบนเส้นทางนั้น เริ่มจากหน้าครัวเห็นครัวทั้งหลังข้างหลัง เดินเข้าไปในครัว ถึงเคาน์เตอร์แล้วแตะผิวสินค้าที่ติดอยู่ใกล้ ๆ ตามบทฉาก ครัวและฉากหลังเหมือนกันทุกภาพ เห็นส่วนของครัวในกรอบเสมอ ไม่มีเครื่องมือ แผ่นวัสดุหลวม หรือของที่ถือชูมาที่กล้อง"
+        "value": "\nแนวนี้ใช้แทนกฎภาพเปิดคลิปและระยะภาพข้างบน: เจ้าของถือมือถือเซลฟี่พาชมงานที่เสร็จแล้ว ไม่เห็นโทรศัพท์ ทุกภาพทุกแผ่นยืนจุดเดียว ด้านหลังคนคือตัวงานมุมเดียวกับแบบงานเสร็จ ฉากหลังเหมือนกันทุกภาพ ระยะเดิมทุกภาพ ไม่มีภาพใกล้ ไม่มีเครื่องมือหรือแผ่นวัสดุหลวม"
        },
        {
         "when": {
@@ -11429,7 +11412,7 @@
          "a": "{item.arc}",
          "b": "af:sf01"
         },
-        "value": "\nแนวนี้ใช้แทนกฎภาพเปิดคลิปและระยะภาพข้างบน: เจ้าของถือมือถือเซลฟี่เดินพาชมงานที่เสร็จแล้ว ไม่เห็นโทรศัพท์ เส้นทางเดินเดียวต่อเนื่อง ภาพแต่ละภาพคือจุดถัดไปบนเส้นทางนั้น เริ่มจากหน้าครัวเห็นครัวทั้งหลังข้างหลัง เดินเข้าไปในครัว ถึงเคาน์เตอร์แล้วแตะผิวสินค้าที่ติดอยู่ใกล้ ๆ ตามบทฉาก ครัวและฉากหลังเหมือนกันทุกภาพ เห็นส่วนของครัวในกรอบเสมอ ไม่มีเครื่องมือ แผ่นวัสดุหลวม หรือของที่ถือชูมาที่กล้อง"
+        "value": "\nแนวนี้ใช้แทนกฎภาพเปิดคลิปและระยะภาพข้างบน: เจ้าของถือมือถือเซลฟี่พาชมงานที่เสร็จแล้ว ไม่เห็นโทรศัพท์ ทุกภาพทุกแผ่นยืนจุดเดียว ด้านหลังคนคือตัวงานมุมเดียวกับแบบงานเสร็จ ฉากหลังเหมือนกันทุกภาพ ระยะเดิมทุกภาพ ไม่มีภาพใกล้ ไม่มีเครื่องมือหรือแผ่นวัสดุหลวม"
        },
        {
         "when": {
@@ -12602,7 +12585,7 @@
          "a": "{item.arc}",
          "b": "af:sf01"
         },
-        "value": "\nแนวนี้ใช้แทนกฎภาพเปิดคลิปและระยะภาพข้างบน: เจ้าของถือมือถือเซลฟี่เดินพาชมงานที่เสร็จแล้ว ไม่เห็นโทรศัพท์ เส้นทางเดินเดียวต่อเนื่อง ภาพแต่ละภาพคือจุดถัดไปบนเส้นทางนั้น เริ่มจากหน้าครัวเห็นครัวทั้งหลังข้างหลัง เดินเข้าไปในครัว ถึงเคาน์เตอร์แล้วแตะผิวสินค้าที่ติดอยู่ใกล้ ๆ ตามบทฉาก ครัวและฉากหลังเหมือนกันทุกภาพ เห็นส่วนของครัวในกรอบเสมอ ไม่มีเครื่องมือ แผ่นวัสดุหลวม หรือของที่ถือชูมาที่กล้อง"
+        "value": "\nแนวนี้ใช้แทนกฎภาพเปิดคลิปและระยะภาพข้างบน: เจ้าของถือมือถือเซลฟี่พาชมงานที่เสร็จแล้ว ไม่เห็นโทรศัพท์ ทุกภาพทุกแผ่นยืนจุดเดียว ด้านหลังคนคือตัวงานมุมเดียวกับแบบงานเสร็จ ฉากหลังเหมือนกันทุกภาพ ระยะเดิมทุกภาพ ไม่มีภาพใกล้ ไม่มีเครื่องมือหรือแผ่นวัสดุหลวม"
        },
        {
         "when": {
@@ -13625,7 +13608,7 @@
          "a": "{item.arc}",
          "b": "af:sf01"
         },
-        "value": "\nแนวนี้ใช้แทนกฎภาพเปิดคลิปและระยะภาพข้างบน: เจ้าของถือมือถือเซลฟี่เดินพาชมงานที่เสร็จแล้ว ไม่เห็นโทรศัพท์ เส้นทางเดินเดียวต่อเนื่อง ภาพแต่ละภาพคือจุดถัดไปบนเส้นทางนั้น เริ่มจากหน้าครัวเห็นครัวทั้งหลังข้างหลัง เดินเข้าไปในครัว ถึงเคาน์เตอร์แล้วแตะผิวสินค้าที่ติดอยู่ใกล้ ๆ ตามบทฉาก ครัวและฉากหลังเหมือนกันทุกภาพ เห็นส่วนของครัวในกรอบเสมอ ไม่มีเครื่องมือ แผ่นวัสดุหลวม หรือของที่ถือชูมาที่กล้อง"
+        "value": "\nแนวนี้ใช้แทนกฎภาพเปิดคลิปและระยะภาพข้างบน: เจ้าของถือมือถือเซลฟี่พาชมงานที่เสร็จแล้ว ไม่เห็นโทรศัพท์ ทุกภาพทุกแผ่นยืนจุดเดียว ด้านหลังคนคือตัวงานมุมเดียวกับแบบงานเสร็จ ฉากหลังเหมือนกันทุกภาพ ระยะเดิมทุกภาพ ไม่มีภาพใกล้ ไม่มีเครื่องมือหรือแผ่นวัสดุหลวม"
        },
        {
         "when": {
@@ -13642,31 +13625,7 @@
       "parts": [
        "\n\nลำดับภาพของช่วงนี้:",
        "\n",
-       {
-        "op": "block",
-        "sep": "",
-        "parts": [
-         {
-          "when": {
-           "op": "not",
-           "a": {
-            "op": "eq",
-            "a": "{item.arc}",
-            "b": "af:sf01"
-           }
-          },
-          "value": "ภาพ 1 แถว 1 ซ้าย (ภาพเปิดคลิป: ภาพกว้างเห็นทั้งห้อง กล้องตั้งนิ่งที่มุมห้อง ไม่มีมือหรือประตูบังกล้อง)"
-         },
-         {
-          "when": {
-           "op": "eq",
-           "a": "{item.arc}",
-           "b": "af:sf01"
-          },
-          "value": "ภาพ 1 แถว 1 ซ้าย (ภาพเปิดคลิป: เจ้าของเซลฟี่คนเดียวที่หน้าครัว เห็นหน้าและครึ่งตัว ครัวทั้งหลังอยู่ด้านหลัง ไม่เห็นโทรศัพท์)"
-         }
-        ]
-       },
+       "ภาพ 1 แถว 1 ซ้าย (ภาพเปิดคลิป: ภาพกว้างเห็นทั้งห้อง กล้องตั้งนิ่งที่มุมห้อง ไม่มีมือหรือประตูบังกล้อง)",
        ": {item.s1th} · กล้อง: {item.cam1}",
        "",
        "\n",
@@ -14012,7 +13971,7 @@
          "a": "{item.arc}",
          "b": "af:wk01"
         },
-        "value": "FRAME RULE: one unbroken full-screen handheld take, no cuts, jump cuts, transitions, morphing, split screen, grid or small boxes; the camera walks through the beats in order and never jumps elsewhere. Hands and sleeve only, entering from the bottom or side edge at chest height and moving with every camera move, never floating still; never a face, head, body or reflection. Nothing held or lifted, no loose sheet, panel or sample, no tools, camera, phone or gear in shot. Film only what the given images show, nothing new.\n\n"
+        "value": "FRAME RULE: one unbroken full-screen handheld take with NO cuts between beats; the camera walks and moves through the beats in order and never jumps to another place; no morphing, split screen, grid or small boxes; no jump cuts or transitions; hands and sleeve only, never a face, head, body or reflection; no tools, drill, camera, phone or gear anywhere in shot.\n\n"
        },
        {
         "when": {
@@ -14105,7 +14064,7 @@
            "a": "{item.arc}",
            "b": "af:wk01"
           },
-          "value": "smooth slow handheld walking take travelling from beat to beat; every beat is a medium or close view"
+          "value": "one unbroken handheld walking take, smooth and slow, travelling from beat to beat; the whole building only at the very start and the very end, every beat between is a medium or close view"
          },
          {
           "when": {
@@ -14250,18 +14209,36 @@
             "a": "{item.arc}",
             "b": "af:sf01"
            }
+          }
+         ]
+        },
+        "value": "\n\nImages 1-6 = the 6 beats in order (silent guide): copy each image's room, objects, people, outfits, light and angle; they beat the wording. Never show the photos or a grid, even at 0 s. The product is a real object in the shot, never overlaid. "
+       },
+       {
+        "when": {
+         "op": "and",
+         "list": [
+          {
+           "op": "eq",
+           "a": "{values.cellRefs}",
+           "b": "1"
+          },
+          {
+           "op": "eq",
+           "a": "{item.arc}",
+           "b": "af:wk01"
           },
           {
            "op": "not",
            "a": {
             "op": "eq",
-            "a": "{item.arc}",
-            "b": "af:wk01"
+            "a": "{item.slots.design}",
+            "b": ""
            }
           }
          ]
         },
-        "value": "\n\nImages 1-6 = the 6 beats in order (silent guide): copy each image's room, objects, people, outfits, light and angle; they beat the wording. Never show the photos or a grid, even at 0 s. The product is a real object in the shot, never overlaid. "
+        "value": "\nImage 7 = the finished building (identity only, never shown as a photo): every shot is this same building, same roof shape, door, window, colours and objects in the same places; never a different building."
        },
        {
         "when": {
@@ -14295,14 +14272,6 @@
             "a": "{item.arc}",
             "b": "af:sf01"
            }
-          },
-          {
-           "op": "not",
-           "a": {
-            "op": "eq",
-            "a": "{item.arc}",
-            "b": "af:wk01"
-           }
           }
          ]
         },
@@ -14310,29 +14279,32 @@
        },
        {
         "when": {
-         "op": "eq",
-         "a": "{item.arc}",
-         "b": "af:wk01"
-        },
-        "value": "\n\nImage 1 is the exact first frame, the last frame of the previous part. Continue the same take from it with no cut: same kitchen, objects, hands, sleeve and light; counter, cabinets, shelf and sink keep their finish, nothing re-clad, added or moved."
-       },
-       {
-        "when": {
          "op": "and",
          "list": [
+          {
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{values.cellRefs}",
+            "b": "1"
+           }
+          },
           {
            "op": "eq",
            "a": "{item.arc}",
            "b": "af:wk01"
           },
           {
-           "op": "eq",
-           "a": "{values.svSec}",
-           "b": "60"
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{item.slots.design}",
+            "b": ""
+           }
           }
          ]
         },
-        "value": "\nEnd the take on a wide hold: pull back in the final seconds to a wide view of the whole finished kitchen and hold still, no hands in shot."
+        "value": "\nImage 2 = the finished building (identity only, never shown as a photo): every shot is this same building, same roof shape, door, window, colours and objects in the same places; never a different building."
        },
        {
         "when": {
@@ -14348,7 +14320,7 @@
          "a": "{item.arc}",
          "b": "af:sf01"
         },
-        "value": "\n\nImage 1 is the exact first frame of this part; the given last frame is its exact final frame: the same take carries on between them with no cut, same person, outfit and place; it starts close on the product the owner touches, then the owner walks on along the counter, still talking; the camera follows the walk; nothing behind the owner changes; any door stays exactly as in Image 1, never swinging, closing or vanishing. "
+        "value": "\n\nImage 1 is the exact first frame of this part; the given last frame is its exact final frame: the same take carries on between them with no cut, same person, outfit, place and view; the owner keeps talking; the camera only sways gently, never pans or closes in; nothing behind the owner changes; any door stays exactly as in Image 1, never swinging, closing or vanishing. "
        }
       ]
      },
@@ -14965,35 +14937,14 @@
               "parts": [
                {
                 "when": {
-                 "op": "and",
-                 "list": [
-                  {
-                   "op": "not",
-                   "a": {
-                    "op": "eq",
-                    "a": "{item.arc}",
-                    "b": "af:sf01"
-                   }
-                  },
-                  {
-                   "op": "not",
-                   "a": {
-                    "op": "eq",
-                    "a": "{item.arc}",
-                    "b": "af:wk01"
-                   }
-                  }
-                 ]
+                 "op": "not",
+                 "a": {
+                  "op": "eq",
+                  "a": "{item.arc}",
+                  "b": "af:sf01"
+                 }
                 },
                 "value": " voice-over from 0.0s, no gaps; say every word and finish the closing line 1.5 s before the end, never cut off, then silence on the final shot, which shows the complete finished work, roof and walls done, no bare frame, no people or hands. Voice: "
-               },
-               {
-                "when": {
-                 "op": "eq",
-                 "a": "{item.arc}",
-                 "b": "af:wk01"
-                },
-                "value": " voice-over from 0.0s, no gaps; finish the closing line 1.5 s before the end, never cut off, then silence while the camera holds the wide view. Voice: "
                },
                {
                 "when": {
@@ -15142,7 +15093,7 @@
          "a": "{item.arc}",
          "b": "af:sf01"
         },
-        "value": "\n\nSELFIE WALK: the owner holds the phone at arm's length (never seen) and walks as they talk, one continuous selfie vlog take along one path through the kitchen that follows the beats in order: from the kitchen entrance walking in, to the counter touching the installed product surface, then along the counter pointing at and touching installed parts one by one (sink, stove, shelf, wall); only the very last part of the clip ends with the owner turning back to the lens with the whole kitchen behind them. The camera follows the owner's walk, the face stays in frame, the background moves naturally with each step. One owner only: never a second or duplicate person, never a small standing figure behind them. Nothing is held up to the lens: no loose sheet, panel or sample, only installed surfaces are touched. Natural scale: an ordinary 170 cm man from head to waist, camera at eye level, never a low upward angle, counter at hip height; part of the kitchen is always in frame, never a blank wall filling the frame, never the outside of a wall. They speak the script to the lens with natural lip movement; not a voice-over. No tools or work in progress. Keep the kitchen identical to Image 1: the same walls, roof, floor, counter and fixtures in the same places; never another room, wall material or roof, nothing new appears."
+        "value": "\n\nSELFIE: the owner stands at one spot in front of the finished work the whole clip and never walks around it or moves between inside and outside. Phone held at arm's length, never seen; they speak the script to the lens with natural lip movement and point with the free hand; not a voice-over. No tools or work in progress."
        },
        {
         "when": {
@@ -18857,11 +18808,6 @@
        "op": "eq",
        "a": "{item.arc}",
        "b": "af:sf01"
-      },
-      {
-       "op": "eq",
-       "a": "{item.arc}",
-       "b": "af:wk01"
       }
      ]
     },
@@ -18965,7 +18911,7 @@
          "a": "{item.arc}",
          "b": "af:wk01"
         },
-        "value": "FRAME RULE: one unbroken full-screen handheld take, no cuts, jump cuts, transitions, morphing, split screen, grid or small boxes; the camera walks through the beats in order and never jumps elsewhere. Hands and sleeve only, entering from the bottom or side edge at chest height and moving with every camera move, never floating still; never a face, head, body or reflection. Nothing held or lifted, no loose sheet, panel or sample, no tools, camera, phone or gear in shot. Film only what the given images show, nothing new.\n\n"
+        "value": "FRAME RULE: one unbroken full-screen handheld take with NO cuts between beats; the camera walks and moves through the beats in order and never jumps to another place; no morphing, split screen, grid or small boxes; no jump cuts or transitions; hands and sleeve only, never a face, head, body or reflection; no tools, drill, camera, phone or gear anywhere in shot.\n\n"
        },
        {
         "when": {
@@ -19058,7 +19004,7 @@
            "a": "{item.arc}",
            "b": "af:wk01"
           },
-          "value": "smooth slow handheld walking take travelling from beat to beat; every beat is a medium or close view"
+          "value": "one unbroken handheld walking take, smooth and slow, travelling from beat to beat; the whole building only at the very start and the very end, every beat between is a medium or close view"
          },
          {
           "when": {
@@ -19203,18 +19149,36 @@
             "a": "{item.arc}",
             "b": "af:sf01"
            }
+          }
+         ]
+        },
+        "value": "\n\nImages 1-6 = the 6 beats in order (silent guide): copy each image's room, objects, people, outfits, light and angle; they beat the wording. Never show the photos or a grid, even at 0 s. The product is a real object in the shot, never overlaid. "
+       },
+       {
+        "when": {
+         "op": "and",
+         "list": [
+          {
+           "op": "eq",
+           "a": "{values.cellRefs}",
+           "b": "1"
+          },
+          {
+           "op": "eq",
+           "a": "{item.arc}",
+           "b": "af:wk01"
           },
           {
            "op": "not",
            "a": {
             "op": "eq",
-            "a": "{item.arc}",
-            "b": "af:wk01"
+            "a": "{item.slots.design}",
+            "b": ""
            }
           }
          ]
         },
-        "value": "\n\nImages 1-6 = the 6 beats in order (silent guide): copy each image's room, objects, people, outfits, light and angle; they beat the wording. Never show the photos or a grid, even at 0 s. The product is a real object in the shot, never overlaid. "
+        "value": "\nImage 7 = the finished building (identity only, never shown as a photo): every shot is this same building, same roof shape, door, window, colours and objects in the same places; never a different building."
        },
        {
         "when": {
@@ -19248,14 +19212,6 @@
             "a": "{item.arc}",
             "b": "af:sf01"
            }
-          },
-          {
-           "op": "not",
-           "a": {
-            "op": "eq",
-            "a": "{item.arc}",
-            "b": "af:wk01"
-           }
           }
          ]
         },
@@ -19263,29 +19219,32 @@
        },
        {
         "when": {
-         "op": "eq",
-         "a": "{item.arc}",
-         "b": "af:wk01"
-        },
-        "value": "\n\nImage 1 is the exact first frame, the last frame of the previous part. Continue the same take from it with no cut: same kitchen, objects, hands, sleeve and light; counter, cabinets, shelf and sink keep their finish, nothing re-clad, added or moved."
-       },
-       {
-        "when": {
          "op": "and",
          "list": [
+          {
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{values.cellRefs}",
+            "b": "1"
+           }
+          },
           {
            "op": "eq",
            "a": "{item.arc}",
            "b": "af:wk01"
           },
           {
-           "op": "eq",
-           "a": "{values.svSec}",
-           "b": "50"
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{item.slots.design}",
+            "b": ""
+           }
           }
          ]
         },
-        "value": "\nEnd the take on a wide hold: pull back in the final seconds to a wide view of the whole finished kitchen and hold still, no hands in shot."
+        "value": "\nImage 2 = the finished building (identity only, never shown as a photo): every shot is this same building, same roof shape, door, window, colours and objects in the same places; never a different building."
        },
        {
         "when": {
@@ -19301,7 +19260,7 @@
          "a": "{item.arc}",
          "b": "af:sf01"
         },
-        "value": "\n\nImage 1 is the exact first frame of this part; the given last frame is its exact final frame: the same take carries on between them with no cut, same person, outfit and place; it starts close on the product the owner touches, then the owner walks on along the counter, still talking; the camera follows the walk; nothing behind the owner changes; any door stays exactly as in Image 1, never swinging, closing or vanishing. "
+        "value": "\n\nImage 1 is the exact first frame of this part; the given last frame is its exact final frame: the same take carries on between them with no cut, same person, outfit, place and view; the owner keeps talking; the camera only sways gently, never pans or closes in; nothing behind the owner changes; any door stays exactly as in Image 1, never swinging, closing or vanishing. "
        }
       ]
      },
@@ -19918,35 +19877,14 @@
               "parts": [
                {
                 "when": {
-                 "op": "and",
-                 "list": [
-                  {
-                   "op": "not",
-                   "a": {
-                    "op": "eq",
-                    "a": "{item.arc}",
-                    "b": "af:sf01"
-                   }
-                  },
-                  {
-                   "op": "not",
-                   "a": {
-                    "op": "eq",
-                    "a": "{item.arc}",
-                    "b": "af:wk01"
-                   }
-                  }
-                 ]
+                 "op": "not",
+                 "a": {
+                  "op": "eq",
+                  "a": "{item.arc}",
+                  "b": "af:sf01"
+                 }
                 },
                 "value": " voice-over from 0.0s, no gaps; say every word and finish the closing line 1.5 s before the end, never cut off, then silence on the final shot, which shows the complete finished work, roof and walls done, no bare frame, no people or hands. Voice: "
-               },
-               {
-                "when": {
-                 "op": "eq",
-                 "a": "{item.arc}",
-                 "b": "af:wk01"
-                },
-                "value": " voice-over from 0.0s, no gaps; finish the closing line 1.5 s before the end, never cut off, then silence while the camera holds the wide view. Voice: "
                },
                {
                 "when": {
@@ -20095,7 +20033,7 @@
          "a": "{item.arc}",
          "b": "af:sf01"
         },
-        "value": "\n\nSELFIE WALK: the owner holds the phone at arm's length (never seen) and walks as they talk, one continuous selfie vlog take along one path through the kitchen that follows the beats in order: from the kitchen entrance walking in, to the counter touching the installed product surface, then along the counter pointing at and touching installed parts one by one (sink, stove, shelf, wall); only the very last part of the clip ends with the owner turning back to the lens with the whole kitchen behind them. The camera follows the owner's walk, the face stays in frame, the background moves naturally with each step. One owner only: never a second or duplicate person, never a small standing figure behind them. Nothing is held up to the lens: no loose sheet, panel or sample, only installed surfaces are touched. Natural scale: an ordinary 170 cm man from head to waist, camera at eye level, never a low upward angle, counter at hip height; part of the kitchen is always in frame, never a blank wall filling the frame, never the outside of a wall. They speak the script to the lens with natural lip movement; not a voice-over. No tools or work in progress. Keep the kitchen identical to Image 1: the same walls, roof, floor, counter and fixtures in the same places; never another room, wall material or roof, nothing new appears."
+        "value": "\n\nSELFIE: the owner stands at one spot in front of the finished work the whole clip and never walks around it or moves between inside and outside. Phone held at arm's length, never seen; they speak the script to the lens with natural lip movement and point with the free hand; not a voice-over. No tools or work in progress."
        },
        {
         "when": {
@@ -23810,11 +23748,6 @@
        "op": "eq",
        "a": "{item.arc}",
        "b": "af:sf01"
-      },
-      {
-       "op": "eq",
-       "a": "{item.arc}",
-       "b": "af:wk01"
       }
      ]
     },
@@ -23918,7 +23851,7 @@
          "a": "{item.arc}",
          "b": "af:wk01"
         },
-        "value": "FRAME RULE: one unbroken full-screen handheld take, no cuts, jump cuts, transitions, morphing, split screen, grid or small boxes; the camera walks through the beats in order and never jumps elsewhere. Hands and sleeve only, entering from the bottom or side edge at chest height and moving with every camera move, never floating still; never a face, head, body or reflection. Nothing held or lifted, no loose sheet, panel or sample, no tools, camera, phone or gear in shot. Film only what the given images show, nothing new.\n\n"
+        "value": "FRAME RULE: one unbroken full-screen handheld take with NO cuts between beats; the camera walks and moves through the beats in order and never jumps to another place; no morphing, split screen, grid or small boxes; no jump cuts or transitions; hands and sleeve only, never a face, head, body or reflection; no tools, drill, camera, phone or gear anywhere in shot.\n\n"
        },
        {
         "when": {
@@ -24011,7 +23944,7 @@
            "a": "{item.arc}",
            "b": "af:wk01"
           },
-          "value": "smooth slow handheld walking take travelling from beat to beat; every beat is a medium or close view"
+          "value": "one unbroken handheld walking take, smooth and slow, travelling from beat to beat; the whole building only at the very start and the very end, every beat between is a medium or close view"
          },
          {
           "when": {
@@ -24156,18 +24089,36 @@
             "a": "{item.arc}",
             "b": "af:sf01"
            }
+          }
+         ]
+        },
+        "value": "\n\nImages 1-6 = the 6 beats in order (silent guide): copy each image's room, objects, people, outfits, light and angle; they beat the wording. Never show the photos or a grid, even at 0 s. The product is a real object in the shot, never overlaid. "
+       },
+       {
+        "when": {
+         "op": "and",
+         "list": [
+          {
+           "op": "eq",
+           "a": "{values.cellRefs}",
+           "b": "1"
+          },
+          {
+           "op": "eq",
+           "a": "{item.arc}",
+           "b": "af:wk01"
           },
           {
            "op": "not",
            "a": {
             "op": "eq",
-            "a": "{item.arc}",
-            "b": "af:wk01"
+            "a": "{item.slots.design}",
+            "b": ""
            }
           }
          ]
         },
-        "value": "\n\nImages 1-6 = the 6 beats in order (silent guide): copy each image's room, objects, people, outfits, light and angle; they beat the wording. Never show the photos or a grid, even at 0 s. The product is a real object in the shot, never overlaid. "
+        "value": "\nImage 7 = the finished building (identity only, never shown as a photo): every shot is this same building, same roof shape, door, window, colours and objects in the same places; never a different building."
        },
        {
         "when": {
@@ -24201,14 +24152,6 @@
             "a": "{item.arc}",
             "b": "af:sf01"
            }
-          },
-          {
-           "op": "not",
-           "a": {
-            "op": "eq",
-            "a": "{item.arc}",
-            "b": "af:wk01"
-           }
           }
          ]
         },
@@ -24216,29 +24159,32 @@
        },
        {
         "when": {
-         "op": "eq",
-         "a": "{item.arc}",
-         "b": "af:wk01"
-        },
-        "value": "\n\nImage 1 is the exact first frame, the last frame of the previous part. Continue the same take from it with no cut: same kitchen, objects, hands, sleeve and light; counter, cabinets, shelf and sink keep their finish, nothing re-clad, added or moved."
-       },
-       {
-        "when": {
          "op": "and",
          "list": [
+          {
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{values.cellRefs}",
+            "b": "1"
+           }
+          },
           {
            "op": "eq",
            "a": "{item.arc}",
            "b": "af:wk01"
           },
           {
-           "op": "eq",
-           "a": "{values.svSec}",
-           "b": "40"
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{item.slots.design}",
+            "b": ""
+           }
           }
          ]
         },
-        "value": "\nEnd the take on a wide hold: pull back in the final seconds to a wide view of the whole finished kitchen and hold still, no hands in shot."
+        "value": "\nImage 2 = the finished building (identity only, never shown as a photo): every shot is this same building, same roof shape, door, window, colours and objects in the same places; never a different building."
        },
        {
         "when": {
@@ -24254,7 +24200,7 @@
          "a": "{item.arc}",
          "b": "af:sf01"
         },
-        "value": "\n\nImage 1 is the exact first frame of this part; the given last frame is its exact final frame: the same take carries on between them with no cut, same person, outfit and place; it starts close on the product the owner touches, then the owner walks on along the counter, still talking; the camera follows the walk; nothing behind the owner changes; any door stays exactly as in Image 1, never swinging, closing or vanishing. "
+        "value": "\n\nImage 1 is the exact first frame of this part; the given last frame is its exact final frame: the same take carries on between them with no cut, same person, outfit, place and view; the owner keeps talking; the camera only sways gently, never pans or closes in; nothing behind the owner changes; any door stays exactly as in Image 1, never swinging, closing or vanishing. "
        }
       ]
      },
@@ -24871,35 +24817,14 @@
               "parts": [
                {
                 "when": {
-                 "op": "and",
-                 "list": [
-                  {
-                   "op": "not",
-                   "a": {
-                    "op": "eq",
-                    "a": "{item.arc}",
-                    "b": "af:sf01"
-                   }
-                  },
-                  {
-                   "op": "not",
-                   "a": {
-                    "op": "eq",
-                    "a": "{item.arc}",
-                    "b": "af:wk01"
-                   }
-                  }
-                 ]
+                 "op": "not",
+                 "a": {
+                  "op": "eq",
+                  "a": "{item.arc}",
+                  "b": "af:sf01"
+                 }
                 },
                 "value": " voice-over from 0.0s, no gaps; say every word and finish the closing line 1.5 s before the end, never cut off, then silence on the final shot, which shows the complete finished work, roof and walls done, no bare frame, no people or hands. Voice: "
-               },
-               {
-                "when": {
-                 "op": "eq",
-                 "a": "{item.arc}",
-                 "b": "af:wk01"
-                },
-                "value": " voice-over from 0.0s, no gaps; finish the closing line 1.5 s before the end, never cut off, then silence while the camera holds the wide view. Voice: "
                },
                {
                 "when": {
@@ -25048,7 +24973,7 @@
          "a": "{item.arc}",
          "b": "af:sf01"
         },
-        "value": "\n\nSELFIE WALK: the owner holds the phone at arm's length (never seen) and walks as they talk, one continuous selfie vlog take along one path through the kitchen that follows the beats in order: from the kitchen entrance walking in, to the counter touching the installed product surface, then along the counter pointing at and touching installed parts one by one (sink, stove, shelf, wall); only the very last part of the clip ends with the owner turning back to the lens with the whole kitchen behind them. The camera follows the owner's walk, the face stays in frame, the background moves naturally with each step. One owner only: never a second or duplicate person, never a small standing figure behind them. Nothing is held up to the lens: no loose sheet, panel or sample, only installed surfaces are touched. Natural scale: an ordinary 170 cm man from head to waist, camera at eye level, never a low upward angle, counter at hip height; part of the kitchen is always in frame, never a blank wall filling the frame, never the outside of a wall. They speak the script to the lens with natural lip movement; not a voice-over. No tools or work in progress. Keep the kitchen identical to Image 1: the same walls, roof, floor, counter and fixtures in the same places; never another room, wall material or roof, nothing new appears."
+        "value": "\n\nSELFIE: the owner stands at one spot in front of the finished work the whole clip and never walks around it or moves between inside and outside. Phone held at arm's length, never seen; they speak the script to the lens with natural lip movement and point with the free hand; not a voice-over. No tools or work in progress."
        },
        {
         "when": {
@@ -28763,11 +28688,6 @@
        "op": "eq",
        "a": "{item.arc}",
        "b": "af:sf01"
-      },
-      {
-       "op": "eq",
-       "a": "{item.arc}",
-       "b": "af:wk01"
       }
      ]
     },
@@ -28871,7 +28791,7 @@
          "a": "{item.arc}",
          "b": "af:wk01"
         },
-        "value": "FRAME RULE: one unbroken full-screen handheld take, no cuts, jump cuts, transitions, morphing, split screen, grid or small boxes; the camera walks through the beats in order and never jumps elsewhere. Hands and sleeve only, entering from the bottom or side edge at chest height and moving with every camera move, never floating still; never a face, head, body or reflection. Nothing held or lifted, no loose sheet, panel or sample, no tools, camera, phone or gear in shot. Film only what the given images show, nothing new.\n\n"
+        "value": "FRAME RULE: one unbroken full-screen handheld take with NO cuts between beats; the camera walks and moves through the beats in order and never jumps to another place; no morphing, split screen, grid or small boxes; no jump cuts or transitions; hands and sleeve only, never a face, head, body or reflection; no tools, drill, camera, phone or gear anywhere in shot.\n\n"
        },
        {
         "when": {
@@ -28964,7 +28884,7 @@
            "a": "{item.arc}",
            "b": "af:wk01"
           },
-          "value": "smooth slow handheld walking take travelling from beat to beat; every beat is a medium or close view"
+          "value": "one unbroken handheld walking take, smooth and slow, travelling from beat to beat; the whole building only at the very start and the very end, every beat between is a medium or close view"
          },
          {
           "when": {
@@ -29109,18 +29029,36 @@
             "a": "{item.arc}",
             "b": "af:sf01"
            }
+          }
+         ]
+        },
+        "value": "\n\nImages 1-6 = the 6 beats in order (silent guide): copy each image's room, objects, people, outfits, light and angle; they beat the wording. Never show the photos or a grid, even at 0 s. The product is a real object in the shot, never overlaid. "
+       },
+       {
+        "when": {
+         "op": "and",
+         "list": [
+          {
+           "op": "eq",
+           "a": "{values.cellRefs}",
+           "b": "1"
+          },
+          {
+           "op": "eq",
+           "a": "{item.arc}",
+           "b": "af:wk01"
           },
           {
            "op": "not",
            "a": {
             "op": "eq",
-            "a": "{item.arc}",
-            "b": "af:wk01"
+            "a": "{item.slots.design}",
+            "b": ""
            }
           }
          ]
         },
-        "value": "\n\nImages 1-6 = the 6 beats in order (silent guide): copy each image's room, objects, people, outfits, light and angle; they beat the wording. Never show the photos or a grid, even at 0 s. The product is a real object in the shot, never overlaid. "
+        "value": "\nImage 7 = the finished building (identity only, never shown as a photo): every shot is this same building, same roof shape, door, window, colours and objects in the same places; never a different building."
        },
        {
         "when": {
@@ -29154,14 +29092,6 @@
             "a": "{item.arc}",
             "b": "af:sf01"
            }
-          },
-          {
-           "op": "not",
-           "a": {
-            "op": "eq",
-            "a": "{item.arc}",
-            "b": "af:wk01"
-           }
           }
          ]
         },
@@ -29169,29 +29099,32 @@
        },
        {
         "when": {
-         "op": "eq",
-         "a": "{item.arc}",
-         "b": "af:wk01"
-        },
-        "value": "\n\nImage 1 is the exact first frame, the last frame of the previous part. Continue the same take from it with no cut: same kitchen, objects, hands, sleeve and light; counter, cabinets, shelf and sink keep their finish, nothing re-clad, added or moved."
-       },
-       {
-        "when": {
          "op": "and",
          "list": [
+          {
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{values.cellRefs}",
+            "b": "1"
+           }
+          },
           {
            "op": "eq",
            "a": "{item.arc}",
            "b": "af:wk01"
           },
           {
-           "op": "eq",
-           "a": "{values.svSec}",
-           "b": "30"
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{item.slots.design}",
+            "b": ""
+           }
           }
          ]
         },
-        "value": "\nEnd the take on a wide hold: pull back in the final seconds to a wide view of the whole finished kitchen and hold still, no hands in shot."
+        "value": "\nImage 2 = the finished building (identity only, never shown as a photo): every shot is this same building, same roof shape, door, window, colours and objects in the same places; never a different building."
        },
        {
         "when": {
@@ -29207,7 +29140,7 @@
          "a": "{item.arc}",
          "b": "af:sf01"
         },
-        "value": "\n\nImage 1 is the exact first frame of this part; the given last frame is its exact final frame: the same take carries on between them with no cut, same person, outfit and place; it starts close on the product the owner touches, then the owner walks on along the counter, still talking; the camera follows the walk; nothing behind the owner changes; any door stays exactly as in Image 1, never swinging, closing or vanishing. "
+        "value": "\n\nImage 1 is the exact first frame of this part; the given last frame is its exact final frame: the same take carries on between them with no cut, same person, outfit, place and view; the owner keeps talking; the camera only sways gently, never pans or closes in; nothing behind the owner changes; any door stays exactly as in Image 1, never swinging, closing or vanishing. "
        }
       ]
      },
@@ -29824,35 +29757,14 @@
               "parts": [
                {
                 "when": {
-                 "op": "and",
-                 "list": [
-                  {
-                   "op": "not",
-                   "a": {
-                    "op": "eq",
-                    "a": "{item.arc}",
-                    "b": "af:sf01"
-                   }
-                  },
-                  {
-                   "op": "not",
-                   "a": {
-                    "op": "eq",
-                    "a": "{item.arc}",
-                    "b": "af:wk01"
-                   }
-                  }
-                 ]
+                 "op": "not",
+                 "a": {
+                  "op": "eq",
+                  "a": "{item.arc}",
+                  "b": "af:sf01"
+                 }
                 },
                 "value": " voice-over from 0.0s, no gaps; say every word and finish the closing line 1.5 s before the end, never cut off, then silence on the final shot, which shows the complete finished work, roof and walls done, no bare frame, no people or hands. Voice: "
-               },
-               {
-                "when": {
-                 "op": "eq",
-                 "a": "{item.arc}",
-                 "b": "af:wk01"
-                },
-                "value": " voice-over from 0.0s, no gaps; finish the closing line 1.5 s before the end, never cut off, then silence while the camera holds the wide view. Voice: "
                },
                {
                 "when": {
@@ -30001,7 +29913,7 @@
          "a": "{item.arc}",
          "b": "af:sf01"
         },
-        "value": "\n\nSELFIE WALK: the owner holds the phone at arm's length (never seen) and walks as they talk, one continuous selfie vlog take along one path through the kitchen that follows the beats in order: from the kitchen entrance walking in, to the counter touching the installed product surface, then along the counter pointing at and touching installed parts one by one (sink, stove, shelf, wall); only the very last part of the clip ends with the owner turning back to the lens with the whole kitchen behind them. The camera follows the owner's walk, the face stays in frame, the background moves naturally with each step. One owner only: never a second or duplicate person, never a small standing figure behind them. Nothing is held up to the lens: no loose sheet, panel or sample, only installed surfaces are touched. Natural scale: an ordinary 170 cm man from head to waist, camera at eye level, never a low upward angle, counter at hip height; part of the kitchen is always in frame, never a blank wall filling the frame, never the outside of a wall. They speak the script to the lens with natural lip movement; not a voice-over. No tools or work in progress. Keep the kitchen identical to Image 1: the same walls, roof, floor, counter and fixtures in the same places; never another room, wall material or roof, nothing new appears."
+        "value": "\n\nSELFIE: the owner stands at one spot in front of the finished work the whole clip and never walks around it or moves between inside and outside. Phone held at arm's length, never seen; they speak the script to the lens with natural lip movement and point with the free hand; not a voice-over. No tools or work in progress."
        },
        {
         "when": {
@@ -33717,11 +33629,6 @@
        "op": "eq",
        "a": "{item.arc}",
        "b": "af:sf01"
-      },
-      {
-       "op": "eq",
-       "a": "{item.arc}",
-       "b": "af:wk01"
       }
      ]
     },
@@ -33825,7 +33732,7 @@
          "a": "{item.arc}",
          "b": "af:wk01"
         },
-        "value": "FRAME RULE: one unbroken full-screen handheld take, no cuts, jump cuts, transitions, morphing, split screen, grid or small boxes; the camera walks through the beats in order and never jumps elsewhere. Hands and sleeve only, entering from the bottom or side edge at chest height and moving with every camera move, never floating still; never a face, head, body or reflection. Nothing held or lifted, no loose sheet, panel or sample, no tools, camera, phone or gear in shot. Film only what the given images show, nothing new.\n\n"
+        "value": "FRAME RULE: one unbroken full-screen handheld take with NO cuts between beats; the camera walks and moves through the beats in order and never jumps to another place; no morphing, split screen, grid or small boxes; no jump cuts or transitions; hands and sleeve only, never a face, head, body or reflection; no tools, drill, camera, phone or gear anywhere in shot.\n\n"
        },
        {
         "when": {
@@ -33918,7 +33825,7 @@
            "a": "{item.arc}",
            "b": "af:wk01"
           },
-          "value": "smooth slow handheld walking take travelling from beat to beat; every beat is a medium or close view"
+          "value": "one unbroken handheld walking take, smooth and slow, travelling from beat to beat; the whole building only at the very start and the very end, every beat between is a medium or close view"
          },
          {
           "when": {
@@ -34063,18 +33970,36 @@
             "a": "{item.arc}",
             "b": "af:sf01"
            }
+          }
+         ]
+        },
+        "value": "\n\nImages 1-6 = the 6 beats in order (silent guide): copy each image's room, objects, people, outfits, light and angle; they beat the wording. Never show the photos or a grid, even at 0 s. The product is a real object in the shot, never overlaid. "
+       },
+       {
+        "when": {
+         "op": "and",
+         "list": [
+          {
+           "op": "eq",
+           "a": "{values.cellRefs}",
+           "b": "1"
+          },
+          {
+           "op": "eq",
+           "a": "{item.arc}",
+           "b": "af:wk01"
           },
           {
            "op": "not",
            "a": {
             "op": "eq",
-            "a": "{item.arc}",
-            "b": "af:wk01"
+            "a": "{item.slots.design}",
+            "b": ""
            }
           }
          ]
         },
-        "value": "\n\nImages 1-6 = the 6 beats in order (silent guide): copy each image's room, objects, people, outfits, light and angle; they beat the wording. Never show the photos or a grid, even at 0 s. The product is a real object in the shot, never overlaid. "
+        "value": "\nImage 7 = the finished building (identity only, never shown as a photo): every shot is this same building, same roof shape, door, window, colours and objects in the same places; never a different building."
        },
        {
         "when": {
@@ -34108,14 +34033,6 @@
             "a": "{item.arc}",
             "b": "af:sf01"
            }
-          },
-          {
-           "op": "not",
-           "a": {
-            "op": "eq",
-            "a": "{item.arc}",
-            "b": "af:wk01"
-           }
           }
          ]
         },
@@ -34123,29 +34040,32 @@
        },
        {
         "when": {
-         "op": "eq",
-         "a": "{item.arc}",
-         "b": "af:wk01"
-        },
-        "value": "\n\nImage 1 is the exact first frame, the last frame of the previous part. Continue the same take from it with no cut: same kitchen, objects, hands, sleeve and light; counter, cabinets, shelf and sink keep their finish, nothing re-clad, added or moved."
-       },
-       {
-        "when": {
          "op": "and",
          "list": [
+          {
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{values.cellRefs}",
+            "b": "1"
+           }
+          },
           {
            "op": "eq",
            "a": "{item.arc}",
            "b": "af:wk01"
           },
           {
-           "op": "eq",
-           "a": "{values.svSec}",
-           "b": "20"
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{item.slots.design}",
+            "b": ""
+           }
           }
          ]
         },
-        "value": "\nEnd the take on a wide hold: pull back in the final seconds to a wide view of the whole finished kitchen and hold still, no hands in shot."
+        "value": "\nImage 2 = the finished building (identity only, never shown as a photo): every shot is this same building, same roof shape, door, window, colours and objects in the same places; never a different building."
        },
        {
         "when": {
@@ -34161,7 +34081,7 @@
          "a": "{item.arc}",
          "b": "af:sf01"
         },
-        "value": "\n\nImage 1 is the exact first frame of this part; the given last frame is its exact final frame: the same take carries on between them with no cut, same person, outfit and place; it starts close on the product the owner touches, then the owner walks on along the counter, still talking; the camera follows the walk; nothing behind the owner changes; any door stays exactly as in Image 1, never swinging, closing or vanishing. "
+        "value": "\n\nImage 1 is the exact first frame of this part; the given last frame is its exact final frame: the same take carries on between them with no cut, same person, outfit, place and view; the owner keeps talking; the camera only sways gently, never pans or closes in; nothing behind the owner changes; any door stays exactly as in Image 1, never swinging, closing or vanishing. "
        }
       ]
      },
@@ -34778,35 +34698,14 @@
               "parts": [
                {
                 "when": {
-                 "op": "and",
-                 "list": [
-                  {
-                   "op": "not",
-                   "a": {
-                    "op": "eq",
-                    "a": "{item.arc}",
-                    "b": "af:sf01"
-                   }
-                  },
-                  {
-                   "op": "not",
-                   "a": {
-                    "op": "eq",
-                    "a": "{item.arc}",
-                    "b": "af:wk01"
-                   }
-                  }
-                 ]
+                 "op": "not",
+                 "a": {
+                  "op": "eq",
+                  "a": "{item.arc}",
+                  "b": "af:sf01"
+                 }
                 },
                 "value": " voice-over from 0.0s, no gaps; say every word and finish the closing line 1.5 s before the end, never cut off, then silence on the final shot, which shows the complete finished work, roof and walls done, no bare frame, no people or hands. Voice: "
-               },
-               {
-                "when": {
-                 "op": "eq",
-                 "a": "{item.arc}",
-                 "b": "af:wk01"
-                },
-                "value": " voice-over from 0.0s, no gaps; finish the closing line 1.5 s before the end, never cut off, then silence while the camera holds the wide view. Voice: "
                },
                {
                 "when": {
@@ -34955,7 +34854,7 @@
          "a": "{item.arc}",
          "b": "af:sf01"
         },
-        "value": "\n\nSELFIE WALK: the owner holds the phone at arm's length (never seen) and walks as they talk, one continuous selfie vlog take along one path through the kitchen that follows the beats in order: from the kitchen entrance walking in, to the counter touching the installed product surface, then along the counter pointing at and touching installed parts one by one (sink, stove, shelf, wall); only the very last part of the clip ends with the owner turning back to the lens with the whole kitchen behind them. The camera follows the owner's walk, the face stays in frame, the background moves naturally with each step. One owner only: never a second or duplicate person, never a small standing figure behind them. Nothing is held up to the lens: no loose sheet, panel or sample, only installed surfaces are touched. Natural scale: an ordinary 170 cm man from head to waist, camera at eye level, never a low upward angle, counter at hip height; part of the kitchen is always in frame, never a blank wall filling the frame, never the outside of a wall. They speak the script to the lens with natural lip movement; not a voice-over. No tools or work in progress. Keep the kitchen identical to Image 1: the same walls, roof, floor, counter and fixtures in the same places; never another room, wall material or roof, nothing new appears."
+        "value": "\n\nSELFIE: the owner stands at one spot in front of the finished work the whole clip and never walks around it or moves between inside and outside. Phone held at arm's length, never seen; they speak the script to the lens with natural lip movement and point with the free hand; not a voice-over. No tools or work in progress."
        },
        {
         "when": {
@@ -38670,11 +38569,6 @@
        "op": "eq",
        "a": "{item.arc}",
        "b": "af:sf01"
-      },
-      {
-       "op": "eq",
-       "a": "{item.arc}",
-       "b": "af:wk01"
       }
      ]
     },
@@ -38778,7 +38672,7 @@
          "a": "{item.arc}",
          "b": "af:wk01"
         },
-        "value": "FRAME RULE: one unbroken full-screen handheld take, no cuts, jump cuts, transitions, morphing, split screen, grid or small boxes; the camera walks through the beats in order and never jumps elsewhere. Hands and sleeve only, entering from the bottom or side edge at chest height and moving with every camera move, never floating still; never a face, head, body or reflection. Nothing held or lifted, no loose sheet, panel or sample, no tools, camera, phone or gear in shot. Film only what the given images show, nothing new.\n\n"
+        "value": "FRAME RULE: one unbroken full-screen handheld take with NO cuts between beats; the camera walks and moves through the beats in order and never jumps to another place; no morphing, split screen, grid or small boxes; no jump cuts or transitions; hands and sleeve only, never a face, head, body or reflection; no tools, drill, camera, phone or gear anywhere in shot.\n\n"
        },
        {
         "when": {
@@ -38866,42 +38760,11 @@
          },
          {
           "when": {
-           "op": "and",
-           "list": [
-            {
-             "op": "eq",
-             "a": "{item.arc}",
-             "b": "af:wk01"
-            },
-            {
-             "op": "eq",
-             "a": "{values.svSec}",
-             "b": "10"
-            }
-           ]
+           "op": "eq",
+           "a": "{item.arc}",
+           "b": "af:wk01"
           },
           "value": "one unbroken handheld walking take, smooth and slow, travelling from beat to beat; the whole building only at the very start and the very end, every beat between is a medium or close view"
-         },
-         {
-          "when": {
-           "op": "and",
-           "list": [
-            {
-             "op": "eq",
-             "a": "{item.arc}",
-             "b": "af:wk01"
-            },
-            {
-             "op": "not",
-             "a": {
-              "op": "eq",
-              "a": "{values.svSec}",
-              "b": "10"
-             }
-            }
-           ]
-          },
-          "value": "smooth slow handheld walking take travelling from beat to beat; the whole kitchen in view only at the very start, every later beat is a medium or close view"
          },
          {
           "when": {
@@ -39153,42 +39016,11 @@
        },
        {
         "when": {
-         "op": "and",
-         "list": [
-          {
-           "op": "eq",
-           "a": "{item.arc}",
-           "b": "af:sf01"
-          },
-          {
-           "op": "eq",
-           "a": "{values.svSec}",
-           "b": "10"
-          }
-         ]
+         "op": "eq",
+         "a": "{item.arc}",
+         "b": "af:sf01"
         },
-        "value": "\n\nImage 1 is the exact first frame of this part; the given last frame is its exact final frame: one unbroken selfie take between them, same person, outfit, place and view; the camera follows the owner's walk; nothing behind the owner changes; any door stays exactly as in Image 1, never swinging, closing or vanishing. "
-       },
-       {
-        "when": {
-         "op": "and",
-         "list": [
-          {
-           "op": "eq",
-           "a": "{item.arc}",
-           "b": "af:sf01"
-          },
-          {
-           "op": "not",
-           "a": {
-            "op": "eq",
-            "a": "{values.svSec}",
-            "b": "10"
-           }
-          }
-         ]
-        },
-        "value": "\n\nImage 1 is the exact first frame of this part; the given last frame is its exact final frame: one unbroken selfie take between them, same person, outfit and place; the camera follows the owner's walk, and in the last 2 seconds it eases in on the product the owner touches and holds close on it; nothing behind the owner changes; any door stays exactly as in Image 1, never swinging, closing or vanishing. "
+        "value": "\n\nImage 1 is the exact first frame of this part; the given last frame is its exact final frame: one unbroken selfie take between them, same person, outfit, place and view; the camera only sways gently, never pans or closes in; nothing behind the owner changes; any door stays exactly as in Image 1, never swinging, closing or vanishing. "
        }
       ]
      },
@@ -39843,35 +39675,14 @@
               "parts": [
                {
                 "when": {
-                 "op": "and",
-                 "list": [
-                  {
-                   "op": "not",
-                   "a": {
-                    "op": "eq",
-                    "a": "{item.arc}",
-                    "b": "af:sf01"
-                   }
-                  },
-                  {
-                   "op": "not",
-                   "a": {
-                    "op": "eq",
-                    "a": "{item.arc}",
-                    "b": "af:wk01"
-                   }
-                  }
-                 ]
+                 "op": "not",
+                 "a": {
+                  "op": "eq",
+                  "a": "{item.arc}",
+                  "b": "af:sf01"
+                 }
                 },
                 "value": " voice-over from 0.0s, no gaps; say every word and finish the closing line 1.5 s before the end, never cut off, then silence on the final shot, which shows the complete finished work, roof and walls done, no bare frame, no people or hands. Voice: "
-               },
-               {
-                "when": {
-                 "op": "eq",
-                 "a": "{item.arc}",
-                 "b": "af:wk01"
-                },
-                "value": " voice-over from 0.0s, no gaps; finish the closing line 1.5 s before the end, never cut off, then silence while the camera holds the wide view. Voice: "
                },
                {
                 "when": {
@@ -40020,7 +39831,7 @@
          "a": "{item.arc}",
          "b": "af:sf01"
         },
-        "value": "\n\nSELFIE WALK: the owner holds the phone at arm's length (never seen) and walks as they talk, one continuous selfie vlog take along one path through the kitchen that follows the beats in order: from the kitchen entrance walking in, to the counter touching the installed product surface, then along the counter pointing at and touching installed parts one by one (sink, stove, shelf, wall); only the very last part of the clip ends with the owner turning back to the lens with the whole kitchen behind them. The camera follows the owner's walk, the face stays in frame, the background moves naturally with each step. One owner only: never a second or duplicate person, never a small standing figure behind them. Nothing is held up to the lens: no loose sheet, panel or sample, only installed surfaces are touched. Natural scale: an ordinary 170 cm man from head to waist, camera at eye level, never a low upward angle, counter at hip height; part of the kitchen is always in frame, never a blank wall filling the frame, never the outside of a wall. They speak the script to the lens with natural lip movement; not a voice-over. No tools or work in progress. Keep the kitchen identical to Image 1: the same walls, roof, floor, counter and fixtures in the same places; never another room, wall material or roof, nothing new appears."
+        "value": "\n\nSELFIE: the owner stands at one spot in front of the finished work the whole clip and never walks around it or moves between inside and outside. Phone held at arm's length, never seen; they speak the script to the lens with natural lip movement and point with the free hand; not a voice-over. No tools or work in progress."
        },
        {
         "when": {
@@ -43990,19 +43801,9 @@
       "by": "{item.id}",
       "slot": "design",
       "when": {
-       "op": "or",
-       "list": [
-        {
-         "op": "eq",
-         "a": "{item.arc}",
-         "b": "af:sf01"
-        },
-        {
-         "op": "eq",
-         "a": "{item.arc}",
-         "b": "af:wk01"
-        }
-       ]
+       "op": "eq",
+       "a": "{item.arc}",
+       "b": "af:sf01"
       }
      },
      {
@@ -44143,15 +43944,7 @@
        "a": "{item.arc}",
        "b": "af:sf01"
       },
-      "value": "รูปแนบรูปแรก = เฟรมเริ่มของช่วงสุดท้ายของคลิปเซลฟี่ · วาดภาพเดียวกันอีกครั้งเป็นเฟรมจบของคลิป ผลลัพธ์แนวตั้ง 9:16 หนึ่งภาพ\nคนเดิม หน้า ผม และชุดเดิมทุกอย่าง หันเข้ากล้อง ยิ้ม ยกนิ้วโป้งให้ครัว\nครัว ตัวงาน พื้น ฉากหลัง และของทุกชิ้นเป็นตัวเดิม ห้ามเพิ่มหรือย้ายของ ภาพถอยกว้างพอเห็นเคาน์เตอร์ ชั้น และโต๊ะด้านหลังคน เจ้าของครึ่งตัว ประตูอยู่ท่าเดียวกับรูปแบบงานเสร็จ\nงานนี้: {item.productName}\nแบบของงาน: {item.room}\nภาพเดียวต่อเนื่องทั้งกรอบ ห้ามแบ่งภาพ ห้ามมีตัวหนังสือ ป้าย หรือโลโก้ในภาพ ห้ามเห็นโทรศัพท์หรือกล้อง · แสงธรรมชาติกลางวัน สีตามจริง คมชัดทั้งภาพ"
-     },
-     {
-      "when": {
-       "op": "eq",
-       "a": "{item.arc}",
-       "b": "af:wk01"
-      },
-      "value": "รูปแนบรูปแรก = เฟรมเริ่มของช่วงสุดท้ายของคลิป (มุมใกล้ อาจเห็นมือ) · รูปที่เป็นภาพเดี่ยวงานเสร็จ (ถ้ามี) = แบบงานเสร็จของคลิป\nวาดภาพถ่ายจริงแนวตั้ง 9:16 หนึ่งภาพเต็มกรอบ เป็นเฟรมจบของคลิป: ภาพกว้างจากด้านหน้าที่เปิดโล่ง เห็นครัวเสร็จทั้งหลังในภาพเดียว หลังคา ผนัง เคาน์เตอร์ ชั้น โต๊ะ และพื้น ตามแบบงานเสร็จ\nห้อง ผนัง เคาน์เตอร์ ชั้น โต๊ะ หลังคา สี วัสดุ จำนวนและตำแหน่งของทุกชิ้นเหมือนเฟรมเริ่มและแบบงานเสร็จ · งานเสร็จสมบูรณ์พร้อมใช้งาน สวย สะอาด มีของจัดครบ\nไม่มีคน มือ เครื่องมือ กล้อง หรือแผ่นวัสดุหลวม · แสงและโทนสีเดียวกับเฟรมเริ่ม\nภาพเดียวต่อเนื่องทั้งกรอบเท่านั้น ห้ามแบ่งภาพ ห้ามตาราง ห้ามคอลลาจ ห้ามหลายภาพต่อกัน ห้ามเส้นคั่น กรอบ หรือขอบดำ ห้ามตัวหนังสือ ป้าย หรือโลโก้"
+      "value": "รูปแนบรูปแรก = เฟรมเริ่มของช่วงสุดท้ายของคลิปเซลฟี่ · วาดภาพเดียวกันอีกครั้งเป็นเฟรมจบของคลิป ผลลัพธ์แนวตั้ง 9:16 หนึ่งภาพ\nคนเดิม ยืนจุดเดิม หน้า ผม และชุดเดิมทุกอย่าง ยิ้มเข้ากล้อง ยกนิ้วโป้งให้ตัวงาน\nกล้องเดิม ระยะเดิม ขอบภาพเดิม ตัวงาน พื้น ฉากหลัง และของทุกชิ้นอยู่ที่เดิม ห้ามซูม ห้ามครอป ห้ามเพิ่มหรือย้ายของ ประตูอยู่ท่าเดียวกับรูปแบบงานเสร็จ\nงานนี้: {item.productName}\nแบบของงาน: {item.room}\nภาพเดียวต่อเนื่องทั้งกรอบ ห้ามแบ่งภาพ ห้ามมีตัวหนังสือ ป้าย หรือโลโก้ในภาพ ห้ามเห็นโทรศัพท์หรือกล้อง · แสงธรรมชาติกลางวัน สีตามจริง คมชัดทั้งภาพ"
      }
     ]
    }
@@ -44344,25 +44137,7 @@
        "a": "{item.arc}",
        "b": "af:sf01"
       },
-      "value": "วาดภาพถ่ายจริงแนวตั้ง 9:16 หนึ่งภาพเต็มกรอบ เป็นเฟรมแรกของคลิปเซลฟี่เดินพาชม เจ้าของถือมือถือเซลฟี่เองอยู่ที่ทางเข้าหรือหน้าครัว กำลังจะเดินเข้าไป\nรูปแบบงานเสร็จที่แนบ (ภาพงานไม่มีคน) คือมุมกล้องของทั้งคลิป: ตัวงาน พื้น และฉากหลังต้องเหมือนรูปนั้นทุกอย่าง ห้ามเปลี่ยนรูปทรง ห้ามเพิ่มหรือย้ายของ ประตูอยู่ท่าเดียวกับรูปนั้น\nคน: {item.look} · ชุดลำลองแบบอยู่บ้าน หน้าหันเข้ากล้อง ถ่ายแบบเซลฟี่ เห็นหน้าและครึ่งตัว (ศีรษะถึงเอว) ไม่เห็นขาและเท้า ห้ามเห็นทั้งตัว ใบหน้ากว้างไม่เกิน 1 ใน 3 ของภาพ แขนข้างหนึ่งเหยียดถือกล้องอยู่นอกภาพ ครัวทั้งหลังอยู่ด้านหลังเต็มกรอบ เห็นหลังคา ผนัง เคาน์เตอร์ ชั้น โต๊ะ ตามภาพแบบงานเสร็จ ขนาดคนต้องสมจริงเทียบกับเคาน์เตอร์และโต๊ะ ไม่ใหญ่หรือเล็กเกินจริง\nงานนี้: {item.productName}\nแบบของงาน: {item.room}\nภาพเดียวต่อเนื่องทั้งกรอบ ห้ามแบ่งภาพ ห้ามมีตัวหนังสือ ป้าย หรือโลโก้ในภาพ ห้ามเห็นโทรศัพท์หรือกล้อง · แสงธรรมชาติกลางวัน สีตามจริง คมชัดทั้งภาพ"
-     },
-     {
-      "when": {
-       "op": "and",
-       "list": [
-        {
-         "op": "eq",
-         "a": "{item.arc}",
-         "b": "af:sf01"
-        },
-        {
-         "op": "gt",
-         "a": "{item.clipIndex}",
-         "b": "1"
-        }
-       ]
-      },
-      "value": "\nคลิปนี้เป็นคลิปที่ {item.clipIndex} ของงานเดียวกัน ครัวเดียวกัน คนเดียวกัน ชุดเดียวกัน แต่เฟรมแรกต้องเริ่มจากอีกมุมของครัวที่ต่างจากทางเข้าหรือหน้าครัวของคลิปแรก เช่น ยืนที่ฝั่งโต๊ะกินข้าว ฝั่งซิงก์ หรือหัวมุมเคาน์เตอร์ แล้วหันกล้องเซลฟี่ให้เห็นอีกด้านของครัวอยู่ด้านหลัง ห้ามวางคนและกล้องซ้ำกับภาพเปิดของคลิปแรก"
+      "value": "วาดภาพถ่ายจริงแนวตั้ง 9:16 หนึ่งภาพเต็มกรอบ เป็นเฟรมแรกของคลิปเซลฟี่ เจ้าของยืนหน้างานถือมือถือเซลฟี่เอง\nรูปแบบงานเสร็จที่แนบ (ภาพงานไม่มีคน) คือมุมกล้องของทั้งคลิป: ตัวงาน พื้น และฉากหลังต้องเหมือนรูปนั้นทุกอย่าง ห้ามเปลี่ยนรูปทรง ห้ามเพิ่มหรือย้ายของ ประตูอยู่ท่าเดียวกับรูปนั้น\nคน: {item.look} · ชุดลำลองแบบอยู่บ้าน หน้าหันเข้ากล้อง ยืนชิดขอบภาพด้านหนึ่ง บังตัวงานไม่เกิน 1 ใน 3 เห็นตัวงานครบทั้งชิ้นข้างตัว\nงานนี้: {item.productName}\nแบบของงาน: {item.room}\nภาพเดียวต่อเนื่องทั้งกรอบ ห้ามแบ่งภาพ ห้ามมีตัวหนังสือ ป้าย หรือโลโก้ในภาพ ห้ามเห็นโทรศัพท์หรือกล้อง · แสงธรรมชาติกลางวัน สีตามจริง คมชัดทั้งภาพ"
      },
      {
       "when": {
@@ -44578,7 +44353,7 @@
        "a": "{item.arc}",
        "b": "af:sf01"
       },
-      "value": "รูปแนบรูปแรก = เฟรมเริ่มของช่วงที่ {values.stagePart} จาก {values.stageParts} ของคลิปเซลฟี่ · วาดภาพเดียวกันอีกครั้งเป็นเฟรมจบของช่วงนี้ ผลลัพธ์แนวตั้ง 9:16 หนึ่งภาพ\nที่เดิม ฉากเดิม ครัว ผนัง ชั้น พื้น ฉากหลัง และของทุกชิ้นอยู่ที่เดิม ห้ามเพิ่มหรือย้ายของ ประตูอยู่ท่าเดียวกับรูปแบบงานเสร็จ · แต่กล้องซูมเข้าใกล้ตัวสินค้าที่ติดอยู่ (ผนังหรือเคาน์เตอร์) เห็นผิวและลายสินค้าชัดประมาณครึ่งภาพ เจ้าของอยู่ด้านข้างของกรอบ เห็นหน้าและไหล่ มือข้างหนึ่งแตะสินค้า ห้ามถือหรือชูแผ่นสินค้า\nภาพนี้คือการซูมเข้าไปในส่วนหนึ่งของรูปแรกที่เห็นอยู่แล้ว (เช่น ผนังหรือเคาน์เตอร์ข้างตัวเจ้าของ) ไม่ใช่ห้องใหม่หรือมุมใหม่: ผนัง หลังคา พื้น วัสดุ สี และของทุกชิ้นที่เห็นต้องเหมือนรูปแรกทุกอย่าง ห้ามเปลี่ยนวัสดุผนังหรือหลังคา ห้ามผนังปูนเปลือย ห้ามหลังคาโปร่งแสง ห้ามหน้าต่างหรือเคาน์เตอร์หินใหม่\nคนเดิม หน้า ผม และชุดเดิมทุกอย่าง ท่ามือแตะสินค้า\nงานนี้: {item.productName}\nแบบของงาน: {item.room}\nภาพเดียวต่อเนื่องทั้งกรอบ ห้ามแบ่งภาพ ห้ามมีตัวหนังสือ ป้าย หรือโลโก้ในภาพ ห้ามเห็นโทรศัพท์หรือกล้อง · แสงธรรมชาติกลางวัน สีตามจริง คมชัดทั้งภาพ"
+      "value": "รูปแนบรูปแรก = เฟรมเริ่มของช่วงที่ {values.stagePart} จาก {values.stageParts} ของคลิปเซลฟี่ · วาดภาพเดียวกันอีกครั้งเป็นเฟรมจบของช่วงนี้ ผลลัพธ์แนวตั้ง 9:16 หนึ่งภาพ\nกล้องเดิม ระยะเดิม ขอบภาพเดิม ตัวงาน พื้น ฉากหลัง และของทุกชิ้นอยู่ที่เดิม ห้ามซูม ห้ามครอป ห้ามเพิ่มหรือย้ายของ ประตูอยู่ท่าเดียวกับรูปแบบงานเสร็จ\nคนเดิม ยืนจุดเดิม หน้า ผม และชุดเดิมทุกอย่าง ต่างจากรูปแรกแค่ท่ามือและปากเล็กน้อย\nงานนี้: {item.productName}\nแบบของงาน: {item.room}\nภาพเดียวต่อเนื่องทั้งกรอบ ห้ามแบ่งภาพ ห้ามมีตัวหนังสือ ป้าย หรือโลโก้ในภาพ ห้ามเห็นโทรศัพท์หรือกล้อง · แสงธรรมชาติกลางวัน สีตามจริง คมชัดทั้งภาพ"
      }
     ]
    }
@@ -44811,32 +44586,6 @@
      },
      "\nผนังด้านในใช้วัสดุตามคำบรรยาย งานสร้างด้วยแผ่นผนังสำเร็จห้ามเปลี่ยนด้านในเป็นปูนหรือกระเบื้อง · ขนาดด้านในเท่าตัวงานด้านนอก",
      "\nสินค้าในรูปแนบต้องใช้จริงในงาน สี ลาย ผิว และรูปทรงตรงรูป ไม่เอาฉากหลังในรูปสินค้ามา",
-     {
-      "when": {
-       "op": "or",
-       "list": [
-        {
-         "op": "eq",
-         "a": "{item.arc}",
-         "b": "af:wk01"
-        },
-        {
-         "op": "eq",
-         "a": "{item.arc}",
-         "b": "af:sf01"
-        }
-       ]
-      },
-      "value": "\nวัสดุของทั้งครัว (สำคัญที่สุด): ถ้าสินค้าในรูปแนบเป็นวัสดุผนังหรือหลังคา ครัวทั้งหลังสร้างจากแผ่นสินค้านี้ ผนังทุกด้านและเพดานหรือหลังคา ตู้ หน้าเคาน์เตอร์ ชั้น และผนังหลังเตา เป็นแผ่นสินค้าลายและสีเดียวกับรูปสินค้า เห็นลอนและร่องแผ่นชัด · ห้ามผนังฉาบปูนหรือทาสี ห้ามหลังคากระเบื้องดินเผา ห้ามผนังหรือตู้ไม้จริง · ใช้วัสดุอื่นได้เฉพาะท็อปเคาน์เตอร์ ซิงก์ เตา พื้นปูน และของใช้"
-     },
-     {
-      "when": {
-       "op": "eq",
-       "a": "{item.arc}",
-       "b": "af:wk01"
-      },
-      "value": "\nภาพต้นแบบสวยแบบภาพปกรีวิวบ้านจริง (แนวนี้ใช้แทนจำนวนของ 4-6 อย่างข้างบน): ภาพกว้างและลึก จากด้านหน้าด้วยเลนส์มุมกว้างระดับสายตา เห็นโครงหลังคา ผนังหุ้มสินค้าด้านหลังและด้านข้าง พื้น และต้นไม้รอบ ๆ ครบในภาพเดียว ห้ามภาพแคบหรือภาพใกล้ ห้ามพื้นที่โล่ง\nครัว: เคาน์เตอร์ตัวแอลยาว ตู้ใต้เคาน์เตอร์และท็อปหุ้มสินค้า ซิงก์พร้อมก๊อกและที่คว่ำจาน เตาแก๊สพร้อมกระทะหรือหม้อบนเตา ชั้นลอยหุ้มสินค้ามีแสงไฟอุ่นใต้ชั้น โคมห้อยจากหลังคา ฮูดดูดควัน · ของใช้จริงวางอยู่ 8-12 อย่าง ดูเป็นครัวที่ใช้งานจริง: ขวดโหลเครื่องปรุง จานชามซ้อน หม้อ กระทะ เขียง ผ้าเช็ดมือแขวน หม้อหุงข้าว ตู้เย็น กระถางต้นไม้ ต้นไม้แขวน โต๊ะกินข้าวไม้พร้อมม้านั่ง\nงานอื่น (ลาน ศาลา ห้องพักนอกบ้าน): ชุดเก้าอี้หวายหรือโต๊ะกาแฟพร้อมหมอน ต้นไม้ใหญ่ในกระถาง ต้นไม้แขวน โคมไฟ ทางเดินแผ่นหินกับสวนกรวด หญ้าและพุ่มไม้เขียวหลายชั้น · พื้นปูนขัดหรือพื้นกระเบื้องสะอาด มีแสงแดดลอดใบไม้เป็นลายบนพื้น\nผิวสินค้าต้องเห็นชัด ลายและเงาแสงตามรูปสินค้า และสีอุ่นกลมกลืนกับไม้ ต้นไม้ และพื้นปูน"
-     },
      "\nงานทำความสะอาดหรือจัดระเบียบ: เป็นพื้นที่เดิมที่สะอาดและเป็นระเบียบ ของเดิมทุกชิ้นอยู่ที่เดิม",
      "\nไม่มีคน เครื่องมือ ตัวหนังสือ ป้าย หรือโลโก้ที่ใส่ทับ · ภาพเดียวเต็มกรอบ ห้ามแบ่งภาพ ห้ามมีภาพเล็กซ้อน · แสงธรรมชาติ สีตามจริง ชัดทั้งภาพ"
     ]
@@ -44952,12 +44701,12 @@
    "60": "บทบาท: ผู้กำกับคลิป \"ทำให้ดู\" ภาพสมจริงแบบถ่ายในบ้านจริง (สไตล์ = จัดเฟรม แสง องค์ประกอบ ไม่ใช่เนื้อหาบท); ออกแบบคลิปแนวตั้ง 9:16 ราว 60 วินาที เรื่องเดียวต่อเนื่อง จบในตัว แบ่ง 6 องก์ องก์ละ 6 ฉาก รวม 36 ฉาก ทุกช่วง 10 วินาทีมีจังหวะ 2 · 1.5 · 1.5 · 1.5 · 1.5 · 2 วินาที (ฉากแรกและฉากสุดท้ายของช่วงยาวกว่า); องก์ 1-6 = \"ฉาก 1-6\" ของโครงเรื่องด้านล่าง (องก์ 6 ฉาก ให้ยืดจังหวะเดิม ไม่ใช่เรื่องใหม่; \"ยืด\" คือเล่าว่าจังหวะนั้นคืบหน้าทีละขั้น มิใช่ถ่ายของชิ้นเดิมซ้ำหลายมุม; องก์ผลลัพธ์ก็ต้องมีคนทำอะไรในเฟรม เช่น เช็ดรอบสุดท้าย เก็บของ วางของคืนที่ เปิดใช้งานจริง แล้วปิดคลิปด้วยภาพกว้างผลลัพธ์ฉากเดียว):\nมีโครงเรื่อง 3 แบบ (ใช้ 6 ช่องเดิม ต่างแค่ความหมาย):\n• ก่อน → ลงมือ → หลัง: 1 ก่อนทำ (ภาพกว้างทั้งพื้นที่), 2 เตรียมอุปกรณ์, 3 เริ่มลงมือ, 4 งานคืบหน้าชัด, 5 เก็บรายละเอียด, 6 ผลลัพธ์ ภาพกว้างมุมฉาก 1 (ต้องเป็นภาพปิดคลิป); ใช้กับทำความสะอาด จัดบ้าน ทาสี จัดสวน ทำอาหาร รีโนเวท ทำของ\n• ปัญหา → แก้แล้ว: 1 ปัญหาภาพกว้าง, 2 ปัญหาภาพใกล้, 3 ลงมือแก้หรือติดตั้ง, 4 แก้เสร็จ มุมเดียวกับ 1, 5 จุดเด่น, 6 ผลในชีวิตจริง; ใช้กับของ \"ติดแล้วจบ\" เช่น มุ้ง ชั้นวาง ผ้ายาง กันสาด\n• ทัวร์จุดเด่น: 1 ของกำลังทำงาน/สภาพที่เสร็จ, 2 จุดขายหลัก, 3 จุดที่ 2, 4 ใช้งานจริง, 5 จุดที่ 3 หรือประโยชน์เสริม, 6 ภาพปิดท้าย; ใช้กับเครื่องใช้ ของประดิษฐ์ bundle; ทรงย่อยเลือกเอง: ไล่ทีละจุด หรือ ตามขั้นการใช้งาน\n★ ฉาก 36 คือฉากปิด เรื่องต้องจบครบภายใน 60 วินาที ห้ามทิ้งค้างหรือเล่าไม่จบ\n★ ทั้งหมดเป็นคลิปเดียว เดินหน้าต่อเนื่อง; ห้ามเปิดเรื่องใหม่กลางทาง ห้ามสภาพถอยกลับ ถ้าโครงเรื่องไม่ได้ระบุให้เปิดด้วยผลงาน ห้ามมีฉากผลลัพธ์ก่อนองก์ 6\n★ ตอนผลิต คลิปจะแยกสร้าง 6 ท่อน ท่อนละ 6 ฉาก แล้วนำมาต่อกัน; ทุกท่อนต้องเป็นที่เดิม แสงเดิม ของชิ้นเดิม คนเดิม\n"
   },
   "lenOut": {
-   "10": "เอาต์พุต: ตอบเป็น JSON array เท่านั้น ไม่มี markdown หรือข้อความใดนอก JSON; อาร์เรย์มี object เท่าจำนวนคลิปที่ขอ (ขอ 1 คลิป → array มี 1 object); ทุก object ต้องครบ 6 ฉาก ขาดแม้ฉากเดียวไม่ได้; โครงสร้างแต่ละ object:\n{\"productName\":\"ชื่องานตามที่ผู้ใช้ตั้งไว้ ใช้คำเดิมตรงทุกตัวอักษร\",\"category\":\"หมวดของงาน เช่น ทำความสะอาด ซ่อมแซม รีโนเวท จัดบ้าน\",\"palette\":\"English phrase, 4-9 words: one bright, natural light for the whole clip, like a phone camera on a normal day; a before/after change is the same source, e.g. bright soft daylight from a side window\",\"look\":\"บรรยายผู้ลงมือ 1 คนเป็นภาษาอังกฤษ **12-15 คำ** ระบุเพศ ช่วงวัย ทรงผม รูปร่าง สีผิว และ **ชุดที่ใส่** เช่น @NAT_EN@ man early 30s short black hair slim build tan skin wearing navy work shirt and grey trousers · ใช้ชุดตามที่ผู้ใช้กำหนดไว้ ถ้าว่างให้เลือกชุดทำงานที่เข้ากับงานเอง · ถ้าแนบรูปใบหน้ามาเป็นรูปสุดท้าย ให้ยึดหน้าตาตามรูป · ชุดและรูปร่างนี้ต้องเหมือนกันทุกคลิป · โหมดเห็นแต่มือ หรือเห็นตัวไม่เห็นหน้า ให้ระบุเฉพาะชุดและสีผิวมือ ห้ามระบุหน้า ผม อายุ · โหมดเห็นแต่มือ ให้ขึ้นต้นด้วย hands and forearms of a @NAT_EN@ (เช่น hands and forearms of a @NAT_EN@, tan skin, navy long sleeve cuffs) และห้ามใช้คำว่า man woman person boy girl ในช่องนี้ · ไม่มีคนในคลิป ส่งสตริงว่าง\",\"room\":\"บรรยายห้อง/พื้นที่ของงานเป็นภาษาอังกฤษ 40-50 คำ: ขึ้นต้นด้วย site: สิ่งรอบงานที่คงเดิมตลอดคลิป ระบุพื้นลาน รั้ว กำแพง ต้นไม้ อาคารข้างเคียง ว่าอยู่ซ้าย ขวา หรือด้านหลัง · งานสร้างใหม่ต่อด้วย shape: closed room หรือ shape: open-front ตามกฎทรงงาน · ชนิดห้อง · งานสร้างใหม่ระบุหลังคาที่คลุมเต็มพื้นที่ ผนังครบทุกด้านที่มี ผนังด้านใน พื้น เพดาน และของที่ติดตั้งครบตามหน้าที่ · หน้าต่างและประตู (ถ้ามี) อยู่ผนังไหน (ซ้าย ขวา ด้านหลัง) แบบไหน สีกรอบ · ของหลักที่งานนี้ทำ (ตู้ อ่าง เคาน์เตอร์ สนาม ฯลฯ) ละเอียด: วัสดุ สี จำนวนบาน ช่องแขวน ราว ชั้น ลิ้นชัก มือจับ ตำแหน่ง · เฟอร์นิเจอร์อื่น · สีผนัง · วัสดุและสีพื้น · งานจัดระเบียบหรือทำความสะอาด finished บอกว่าเป็นของหลักชิ้นเดิม (เช่น finished: same wardrobe, clothes folded in grey boxes) · ถ้างานเปลี่ยนพื้นผิว ต่อท้ายด้วย finished: สีผนังใหม่ พื้นใหม่ ของที่ติดตั้ง (เช่น finished: cream walls, oak laminate floor) · เฉพาะงานสร้างใหม่ (ไม่ใช่งานทำความสะอาดหรือจัดระเบียบ ซึ่งคงของเดิม): ต่อท้าย finished: ด้วยของใช้จริงตามหน้าที่พื้นที่ 4-6 อย่าง แบบบ้านไทยทั่วไป ไม่หรู ให้ดูพร้อมใช้และน่าอยู่ ไม่โล่งเปล่า เช่น ครัว: ชั้นวางขวดโหลและจานชาม เขียง ผ้าเช็ดมือแขวน กระถางต้นไม้ ไฟใต้ชั้น โต๊ะนั่ง · ห้องน้ำ: ราวผ้าขนหนู ที่ใส่สบู่ กระถางต้นไม้เล็ก ตะกร้า · ลานหรือศาลา: โต๊ะเก้าอี้ โคมไฟ ต้นไม้@NAT_HOUSE_CUES@ · ครัวนอกบ้านที่ผู้ใช้ไม่ได้ระบุขนาด: กว้างขวางอย่างน้อย 6 เมตร x 4 เมตร เคาน์เตอร์ตัวแอลด้านละ 3 เมตรขึ้นไป โต๊ะนั่ง 4-6 ที่ ตู้เย็น เห็นเป็นห้องครัวใหญ่ · ถ้าแนบรูปพื้นที่จริง บรรยายตามรูป · ทุกคลิปของงานเดียวกันใช้ห้องเดียวกัน\",\"synopsis\":\"สรุปเรื่องของคลิปเป็นภาษาไทย 1-2 ประโยค\",\"voice\":\"เพศของเสียงพากย์ในคลิปนี้ ตอบ หญิง หรือ ชาย\",\"voiceTimbre\":\"ลายเซ็นเสียงพากย์ภาษาอังกฤษ 1 บรรทัดไม่เกิน 25 คำ: เพศ อายุ ระดับเสียง น้ำเสียง จังหวะพูด · เพศต้องตรงกับ voice · ทุกคลิปของงานเดียวกันใช้ข้อความเดียวกัน · ไม่มีเสียงพากย์ให้เว้นว่าง\",\"s1th\":\"...\",\"s1en\":\"...\",\"ov1\":\"...\",\"vo1\":\"...\",\"cam1\":\"...\",\"s2th\":\"...\",\"s2en\":\"...\",\"ov2\":\"...\",\"vo2\":\"...\",\"cam2\":\"...\",\"s3th\":\"...\",\"s3en\":\"...\",\"ov3\":\"...\",\"vo3\":\"...\",\"cam3\":\"...\",\"s4th\":\"...\",\"s4en\":\"...\",\"ov4\":\"...\",\"vo4\":\"...\",\"cam4\":\"...\",\"s5th\":\"...\",\"s5en\":\"...\",\"ov5\":\"...\",\"vo5\":\"...\",\"cam5\":\"...\",\"s6th\":\"...\",\"s6en\":\"...\",\"ov6\":\"...\",\"vo6\":\"...\",\"cam6\":\"...\"}\n\noverlay (กฎเพิ่ม): ovN ทุกช่อง: ไทย, บรรทัดเดียว, สูงสุด 5 คำ, ไม่ใส่เลขฉากหรือลิสต์; ต้องตรงกับภาพจริงในฉากนั้น ห้ามนำชื่อช่วงโครงเรื่อง (ก่อน, เตรียมของ, ลงมือทำ, คืบหน้า, ผลลัพธ์, จุดเด่น) เป็นตัวหนังสือบนภาพ\n\nวิธีตอบ: ขึ้นต้น [ ลงท้าย ] แล้วหยุดทันที; ห้ามใช้ ``` ห้ามมีหมายเหตุ คำอธิบาย หรือข้อความอื่นใดก่อน/หลัง JSON",
-   "20": "เอาต์พุต: ตอบเป็น JSON array เท่านั้น ไม่มี markdown หรือข้อความใดนอก JSON; อาร์เรย์มี object เท่าจำนวนคลิปที่ขอ (ขอ 1 คลิป → array มี 1 object); ทุก object ต้องครบ 12 ฉาก ขาดแม้ฉากเดียวไม่ได้; โครงสร้างแต่ละ object:\n{\"productName\":\"ชื่องานตามที่ผู้ใช้ตั้งไว้ ใช้คำเดิมตรงทุกตัวอักษร\",\"category\":\"หมวดของงาน เช่น ทำความสะอาด ซ่อมแซม รีโนเวท จัดบ้าน\",\"palette\":\"English phrase, 4-9 words: one bright, natural light for the whole clip, like a phone camera on a normal day; a before/after change is the same source, e.g. bright soft daylight from a side window\",\"look\":\"บรรยายผู้ลงมือ 1 คนเป็นภาษาอังกฤษ **12-15 คำ** ระบุเพศ ช่วงวัย ทรงผม รูปร่าง สีผิว และ **ชุดที่ใส่** เช่น @NAT_EN@ man early 30s short black hair slim build tan skin wearing navy work shirt and grey trousers · ใช้ชุดตามที่ผู้ใช้กำหนดไว้ ถ้าว่างให้เลือกชุดทำงานที่เข้ากับงานเอง · ถ้าแนบรูปใบหน้ามาเป็นรูปสุดท้าย ให้ยึดหน้าตาตามรูป · ชุดและรูปร่างนี้ต้องเหมือนกันทุกคลิป · โหมดเห็นแต่มือ หรือเห็นตัวไม่เห็นหน้า ให้ระบุเฉพาะชุดและสีผิวมือ ห้ามระบุหน้า ผม อายุ · โหมดเห็นแต่มือ ให้ขึ้นต้นด้วย hands and forearms of a @NAT_EN@ (เช่น hands and forearms of a @NAT_EN@, tan skin, navy long sleeve cuffs) และห้ามใช้คำว่า man woman person boy girl ในช่องนี้ · ไม่มีคนในคลิป ส่งสตริงว่าง\",\"room\":\"บรรยายห้อง/พื้นที่ของงานเป็นภาษาอังกฤษ 40-50 คำ: ขึ้นต้นด้วย site: สิ่งรอบงานที่คงเดิมตลอดคลิป ระบุพื้นลาน รั้ว กำแพง ต้นไม้ อาคารข้างเคียง ว่าอยู่ซ้าย ขวา หรือด้านหลัง · งานสร้างใหม่ต่อด้วย shape: closed room หรือ shape: open-front ตามกฎทรงงาน · ชนิดห้อง · งานสร้างใหม่ระบุหลังคาที่คลุมเต็มพื้นที่ ผนังครบทุกด้านที่มี ผนังด้านใน พื้น เพดาน และของที่ติดตั้งครบตามหน้าที่ · หน้าต่างและประตู (ถ้ามี) อยู่ผนังไหน (ซ้าย ขวา ด้านหลัง) แบบไหน สีกรอบ · ของหลักที่งานนี้ทำ (ตู้ อ่าง เคาน์เตอร์ สนาม ฯลฯ) ละเอียด: วัสดุ สี จำนวนบาน ช่องแขวน ราว ชั้น ลิ้นชัก มือจับ ตำแหน่ง · เฟอร์นิเจอร์อื่น · สีผนัง · วัสดุและสีพื้น · งานจัดระเบียบหรือทำความสะอาด finished บอกว่าเป็นของหลักชิ้นเดิม (เช่น finished: same wardrobe, clothes folded in grey boxes) · ถ้างานเปลี่ยนพื้นผิว ต่อท้ายด้วย finished: สีผนังใหม่ พื้นใหม่ ของที่ติดตั้ง (เช่น finished: cream walls, oak laminate floor) · เฉพาะงานสร้างใหม่ (ไม่ใช่งานทำความสะอาดหรือจัดระเบียบ ซึ่งคงของเดิม): ต่อท้าย finished: ด้วยของใช้จริงตามหน้าที่พื้นที่ 4-6 อย่าง แบบบ้านไทยทั่วไป ไม่หรู ให้ดูพร้อมใช้และน่าอยู่ ไม่โล่งเปล่า เช่น ครัว: ชั้นวางขวดโหลและจานชาม เขียง ผ้าเช็ดมือแขวน กระถางต้นไม้ ไฟใต้ชั้น โต๊ะนั่ง · ห้องน้ำ: ราวผ้าขนหนู ที่ใส่สบู่ กระถางต้นไม้เล็ก ตะกร้า · ลานหรือศาลา: โต๊ะเก้าอี้ โคมไฟ ต้นไม้@NAT_HOUSE_CUES@ · ครัวนอกบ้านที่ผู้ใช้ไม่ได้ระบุขนาด: กว้างขวางอย่างน้อย 6 เมตร x 4 เมตร เคาน์เตอร์ตัวแอลด้านละ 3 เมตรขึ้นไป โต๊ะนั่ง 4-6 ที่ ตู้เย็น เห็นเป็นห้องครัวใหญ่ · ถ้าแนบรูปพื้นที่จริง บรรยายตามรูป · ทุกคลิปของงานเดียวกันใช้ห้องเดียวกัน\",\"synopsis\":\"สรุปเรื่องของคลิปเป็นภาษาไทย 1-2 ประโยค\",\"voice\":\"เพศของเสียงพากย์ในคลิปนี้ ตอบ หญิง หรือ ชาย\",\"voiceTimbre\":\"ลายเซ็นเสียงพากย์ภาษาอังกฤษ 1 บรรทัดไม่เกิน 25 คำ: เพศ อายุ ระดับเสียง น้ำเสียง จังหวะพูด · เพศต้องตรงกับ voice · ทุกคลิปของงานเดียวกันใช้ข้อความเดียวกัน · ไม่มีเสียงพากย์ให้เว้นว่าง\",\"s1th\":\"...\",\"s1en\":\"...\",\"ov1\":\"...\",\"vo1\":\"...\",\"cam1\":\"...\",\"s2th\":\"...\",\"s2en\":\"...\",\"ov2\":\"...\",\"vo2\":\"...\",\"cam2\":\"...\",\"s3th\":\"...\",\"s3en\":\"...\",\"ov3\":\"...\",\"vo3\":\"...\",\"cam3\":\"...\",\"s4th\":\"...\",\"s4en\":\"...\",\"ov4\":\"...\",\"vo4\":\"...\",\"cam4\":\"...\",\"s5th\":\"...\",\"s5en\":\"...\",\"ov5\":\"...\",\"vo5\":\"...\",\"cam5\":\"...\",\"s6th\":\"...\",\"s6en\":\"...\",\"ov6\":\"...\",\"vo6\":\"...\",\"cam6\":\"...\",\"s7th\":\"...\",\"s7en\":\"...\",\"ov7\":\"...\",\"vo7\":\"...\",\"cam7\":\"...\",\"s8th\":\"...\",\"s8en\":\"...\",\"ov8\":\"...\",\"vo8\":\"...\",\"cam8\":\"...\",\"s9th\":\"...\",\"s9en\":\"...\",\"ov9\":\"...\",\"vo9\":\"...\",\"cam9\":\"...\",\"s10th\":\"...\",\"s10en\":\"...\",\"ov10\":\"...\",\"vo10\":\"...\",\"cam10\":\"...\",\"s11th\":\"...\",\"s11en\":\"...\",\"ov11\":\"...\",\"vo11\":\"...\",\"cam11\":\"...\",\"s12th\":\"...\",\"s12en\":\"...\",\"ov12\":\"...\",\"vo12\":\"...\",\"cam12\":\"...\"}\n\noverlay (กฎเพิ่ม): ovN ทุกช่อง: ไทย, บรรทัดเดียว, สูงสุด 5 คำ, ไม่ใส่เลขฉากหรือลิสต์; ต้องตรงกับภาพจริงในฉากนั้น ห้ามนำชื่อช่วงโครงเรื่อง (ก่อน, เตรียมของ, ลงมือทำ, คืบหน้า, ผลลัพธ์, จุดเด่น) เป็นตัวหนังสือบนภาพ\n\nวิธีตอบ: ขึ้นต้น [ ลงท้าย ] แล้วหยุดทันที; ห้ามใช้ ``` ห้ามมีหมายเหตุ คำอธิบาย หรือข้อความอื่นใดก่อน/หลัง JSON",
-   "30": "เอาต์พุต: ตอบเป็น JSON array เท่านั้น ไม่มี markdown หรือข้อความใดนอก JSON; อาร์เรย์มี object เท่าจำนวนคลิปที่ขอ (ขอ 1 คลิป → array มี 1 object); ทุก object ต้องครบ 18 ฉาก ขาดแม้ฉากเดียวไม่ได้; โครงสร้างแต่ละ object:\n{\"productName\":\"ชื่องานตามที่ผู้ใช้ตั้งไว้ ใช้คำเดิมตรงทุกตัวอักษร\",\"category\":\"หมวดของงาน เช่น ทำความสะอาด ซ่อมแซม รีโนเวท จัดบ้าน\",\"palette\":\"English phrase, 4-9 words: one bright, natural light for the whole clip, like a phone camera on a normal day; a before/after change is the same source, e.g. bright soft daylight from a side window\",\"look\":\"บรรยายผู้ลงมือ 1 คนเป็นภาษาอังกฤษ **12-15 คำ** ระบุเพศ ช่วงวัย ทรงผม รูปร่าง สีผิว และ **ชุดที่ใส่** เช่น @NAT_EN@ man early 30s short black hair slim build tan skin wearing navy work shirt and grey trousers · ใช้ชุดตามที่ผู้ใช้กำหนดไว้ ถ้าว่างให้เลือกชุดทำงานที่เข้ากับงานเอง · ถ้าแนบรูปใบหน้ามาเป็นรูปสุดท้าย ให้ยึดหน้าตาตามรูป · ชุดและรูปร่างนี้ต้องเหมือนกันทุกคลิป · โหมดเห็นแต่มือ หรือเห็นตัวไม่เห็นหน้า ให้ระบุเฉพาะชุดและสีผิวมือ ห้ามระบุหน้า ผม อายุ · โหมดเห็นแต่มือ ให้ขึ้นต้นด้วย hands and forearms of a @NAT_EN@ (เช่น hands and forearms of a @NAT_EN@, tan skin, navy long sleeve cuffs) และห้ามใช้คำว่า man woman person boy girl ในช่องนี้ · ไม่มีคนในคลิป ส่งสตริงว่าง\",\"room\":\"บรรยายห้อง/พื้นที่ของงานเป็นภาษาอังกฤษ 40-50 คำ: ขึ้นต้นด้วย site: สิ่งรอบงานที่คงเดิมตลอดคลิป ระบุพื้นลาน รั้ว กำแพง ต้นไม้ อาคารข้างเคียง ว่าอยู่ซ้าย ขวา หรือด้านหลัง · งานสร้างใหม่ต่อด้วย shape: closed room หรือ shape: open-front ตามกฎทรงงาน · ชนิดห้อง · งานสร้างใหม่ระบุหลังคาที่คลุมเต็มพื้นที่ ผนังครบทุกด้านที่มี ผนังด้านใน พื้น เพดาน และของที่ติดตั้งครบตามหน้าที่ · หน้าต่างและประตู (ถ้ามี) อยู่ผนังไหน (ซ้าย ขวา ด้านหลัง) แบบไหน สีกรอบ · ของหลักที่งานนี้ทำ (ตู้ อ่าง เคาน์เตอร์ สนาม ฯลฯ) ละเอียด: วัสดุ สี จำนวนบาน ช่องแขวน ราว ชั้น ลิ้นชัก มือจับ ตำแหน่ง · เฟอร์นิเจอร์อื่น · สีผนัง · วัสดุและสีพื้น · งานจัดระเบียบหรือทำความสะอาด finished บอกว่าเป็นของหลักชิ้นเดิม (เช่น finished: same wardrobe, clothes folded in grey boxes) · ถ้างานเปลี่ยนพื้นผิว ต่อท้ายด้วย finished: สีผนังใหม่ พื้นใหม่ ของที่ติดตั้ง (เช่น finished: cream walls, oak laminate floor) · เฉพาะงานสร้างใหม่ (ไม่ใช่งานทำความสะอาดหรือจัดระเบียบ ซึ่งคงของเดิม): ต่อท้าย finished: ด้วยของใช้จริงตามหน้าที่พื้นที่ 4-6 อย่าง แบบบ้านไทยทั่วไป ไม่หรู ให้ดูพร้อมใช้และน่าอยู่ ไม่โล่งเปล่า เช่น ครัว: ชั้นวางขวดโหลและจานชาม เขียง ผ้าเช็ดมือแขวน กระถางต้นไม้ ไฟใต้ชั้น โต๊ะนั่ง · ห้องน้ำ: ราวผ้าขนหนู ที่ใส่สบู่ กระถางต้นไม้เล็ก ตะกร้า · ลานหรือศาลา: โต๊ะเก้าอี้ โคมไฟ ต้นไม้@NAT_HOUSE_CUES@ · ครัวนอกบ้านที่ผู้ใช้ไม่ได้ระบุขนาด: กว้างขวางอย่างน้อย 6 เมตร x 4 เมตร เคาน์เตอร์ตัวแอลด้านละ 3 เมตรขึ้นไป โต๊ะนั่ง 4-6 ที่ ตู้เย็น เห็นเป็นห้องครัวใหญ่ · ถ้าแนบรูปพื้นที่จริง บรรยายตามรูป · ทุกคลิปของงานเดียวกันใช้ห้องเดียวกัน\",\"synopsis\":\"สรุปเรื่องของคลิปเป็นภาษาไทย 1-2 ประโยค\",\"voice\":\"เพศของเสียงพากย์ในคลิปนี้ ตอบ หญิง หรือ ชาย\",\"voiceTimbre\":\"ลายเซ็นเสียงพากย์ภาษาอังกฤษ 1 บรรทัดไม่เกิน 25 คำ: เพศ อายุ ระดับเสียง น้ำเสียง จังหวะพูด · เพศต้องตรงกับ voice · ทุกคลิปของงานเดียวกันใช้ข้อความเดียวกัน · ไม่มีเสียงพากย์ให้เว้นว่าง\",\"s1th\":\"...\",\"s1en\":\"...\",\"ov1\":\"...\",\"vo1\":\"...\",\"cam1\":\"...\",\"s2th\":\"...\",\"s2en\":\"...\",\"ov2\":\"...\",\"vo2\":\"...\",\"cam2\":\"...\",\"s3th\":\"...\",\"s3en\":\"...\",\"ov3\":\"...\",\"vo3\":\"...\",\"cam3\":\"...\",\"s4th\":\"...\",\"s4en\":\"...\",\"ov4\":\"...\",\"vo4\":\"...\",\"cam4\":\"...\",\"s5th\":\"...\",\"s5en\":\"...\",\"ov5\":\"...\",\"vo5\":\"...\",\"cam5\":\"...\",\"s6th\":\"...\",\"s6en\":\"...\",\"ov6\":\"...\",\"vo6\":\"...\",\"cam6\":\"...\",\"s7th\":\"...\",\"s7en\":\"...\",\"ov7\":\"...\",\"vo7\":\"...\",\"cam7\":\"...\",\"s8th\":\"...\",\"s8en\":\"...\",\"ov8\":\"...\",\"vo8\":\"...\",\"cam8\":\"...\",\"s9th\":\"...\",\"s9en\":\"...\",\"ov9\":\"...\",\"vo9\":\"...\",\"cam9\":\"...\",\"s10th\":\"...\",\"s10en\":\"...\",\"ov10\":\"...\",\"vo10\":\"...\",\"cam10\":\"...\",\"s11th\":\"...\",\"s11en\":\"...\",\"ov11\":\"...\",\"vo11\":\"...\",\"cam11\":\"...\",\"s12th\":\"...\",\"s12en\":\"...\",\"ov12\":\"...\",\"vo12\":\"...\",\"cam12\":\"...\",\"s13th\":\"...\",\"s13en\":\"...\",\"ov13\":\"...\",\"vo13\":\"...\",\"cam13\":\"...\",\"s14th\":\"...\",\"s14en\":\"...\",\"ov14\":\"...\",\"vo14\":\"...\",\"cam14\":\"...\",\"s15th\":\"...\",\"s15en\":\"...\",\"ov15\":\"...\",\"vo15\":\"...\",\"cam15\":\"...\",\"s16th\":\"...\",\"s16en\":\"...\",\"ov16\":\"...\",\"vo16\":\"...\",\"cam16\":\"...\",\"s17th\":\"...\",\"s17en\":\"...\",\"ov17\":\"...\",\"vo17\":\"...\",\"cam17\":\"...\",\"s18th\":\"...\",\"s18en\":\"...\",\"ov18\":\"...\",\"vo18\":\"...\",\"cam18\":\"...\"}\n\noverlay (กฎเพิ่ม): ovN ทุกช่อง: ไทย, บรรทัดเดียว, สูงสุด 5 คำ, ไม่ใส่เลขฉากหรือลิสต์; ต้องตรงกับภาพจริงในฉากนั้น ห้ามนำชื่อช่วงโครงเรื่อง (ก่อน, เตรียมของ, ลงมือทำ, คืบหน้า, ผลลัพธ์, จุดเด่น) เป็นตัวหนังสือบนภาพ\n\nวิธีตอบ: ขึ้นต้น [ ลงท้าย ] แล้วหยุดทันที; ห้ามใช้ ``` ห้ามมีหมายเหตุ คำอธิบาย หรือข้อความอื่นใดก่อน/หลัง JSON",
-   "40": "เอาต์พุต: ตอบเป็น JSON array เท่านั้น ไม่มี markdown หรือข้อความใดนอก JSON; อาร์เรย์มี object เท่าจำนวนคลิปที่ขอ (ขอ 1 คลิป → array มี 1 object); ทุก object ต้องครบ 24 ฉาก ขาดแม้ฉากเดียวไม่ได้; โครงสร้างแต่ละ object:\n{\"productName\":\"ชื่องานตามที่ผู้ใช้ตั้งไว้ ใช้คำเดิมตรงทุกตัวอักษร\",\"category\":\"หมวดของงาน เช่น ทำความสะอาด ซ่อมแซม รีโนเวท จัดบ้าน\",\"palette\":\"English phrase, 4-9 words: one bright, natural light for the whole clip, like a phone camera on a normal day; a before/after change is the same source, e.g. bright soft daylight from a side window\",\"look\":\"บรรยายผู้ลงมือ 1 คนเป็นภาษาอังกฤษ **12-15 คำ** ระบุเพศ ช่วงวัย ทรงผม รูปร่าง สีผิว และ **ชุดที่ใส่** เช่น @NAT_EN@ man early 30s short black hair slim build tan skin wearing navy work shirt and grey trousers · ใช้ชุดตามที่ผู้ใช้กำหนดไว้ ถ้าว่างให้เลือกชุดทำงานที่เข้ากับงานเอง · ถ้าแนบรูปใบหน้ามาเป็นรูปสุดท้าย ให้ยึดหน้าตาตามรูป · ชุดและรูปร่างนี้ต้องเหมือนกันทุกคลิป · โหมดเห็นแต่มือ หรือเห็นตัวไม่เห็นหน้า ให้ระบุเฉพาะชุดและสีผิวมือ ห้ามระบุหน้า ผม อายุ · โหมดเห็นแต่มือ ให้ขึ้นต้นด้วย hands and forearms of a @NAT_EN@ (เช่น hands and forearms of a @NAT_EN@, tan skin, navy long sleeve cuffs) และห้ามใช้คำว่า man woman person boy girl ในช่องนี้ · ไม่มีคนในคลิป ส่งสตริงว่าง\",\"room\":\"บรรยายห้อง/พื้นที่ของงานเป็นภาษาอังกฤษ 40-50 คำ: ขึ้นต้นด้วย site: สิ่งรอบงานที่คงเดิมตลอดคลิป ระบุพื้นลาน รั้ว กำแพง ต้นไม้ อาคารข้างเคียง ว่าอยู่ซ้าย ขวา หรือด้านหลัง · งานสร้างใหม่ต่อด้วย shape: closed room หรือ shape: open-front ตามกฎทรงงาน · ชนิดห้อง · งานสร้างใหม่ระบุหลังคาที่คลุมเต็มพื้นที่ ผนังครบทุกด้านที่มี ผนังด้านใน พื้น เพดาน และของที่ติดตั้งครบตามหน้าที่ · หน้าต่างและประตู (ถ้ามี) อยู่ผนังไหน (ซ้าย ขวา ด้านหลัง) แบบไหน สีกรอบ · ของหลักที่งานนี้ทำ (ตู้ อ่าง เคาน์เตอร์ สนาม ฯลฯ) ละเอียด: วัสดุ สี จำนวนบาน ช่องแขวน ราว ชั้น ลิ้นชัก มือจับ ตำแหน่ง · เฟอร์นิเจอร์อื่น · สีผนัง · วัสดุและสีพื้น · งานจัดระเบียบหรือทำความสะอาด finished บอกว่าเป็นของหลักชิ้นเดิม (เช่น finished: same wardrobe, clothes folded in grey boxes) · ถ้างานเปลี่ยนพื้นผิว ต่อท้ายด้วย finished: สีผนังใหม่ พื้นใหม่ ของที่ติดตั้ง (เช่น finished: cream walls, oak laminate floor) · เฉพาะงานสร้างใหม่ (ไม่ใช่งานทำความสะอาดหรือจัดระเบียบ ซึ่งคงของเดิม): ต่อท้าย finished: ด้วยของใช้จริงตามหน้าที่พื้นที่ 4-6 อย่าง แบบบ้านไทยทั่วไป ไม่หรู ให้ดูพร้อมใช้และน่าอยู่ ไม่โล่งเปล่า เช่น ครัว: ชั้นวางขวดโหลและจานชาม เขียง ผ้าเช็ดมือแขวน กระถางต้นไม้ ไฟใต้ชั้น โต๊ะนั่ง · ห้องน้ำ: ราวผ้าขนหนู ที่ใส่สบู่ กระถางต้นไม้เล็ก ตะกร้า · ลานหรือศาลา: โต๊ะเก้าอี้ โคมไฟ ต้นไม้@NAT_HOUSE_CUES@ · ครัวนอกบ้านที่ผู้ใช้ไม่ได้ระบุขนาด: กว้างขวางอย่างน้อย 6 เมตร x 4 เมตร เคาน์เตอร์ตัวแอลด้านละ 3 เมตรขึ้นไป โต๊ะนั่ง 4-6 ที่ ตู้เย็น เห็นเป็นห้องครัวใหญ่ · ถ้าแนบรูปพื้นที่จริง บรรยายตามรูป · ทุกคลิปของงานเดียวกันใช้ห้องเดียวกัน\",\"synopsis\":\"สรุปเรื่องของคลิปเป็นภาษาไทย 1-2 ประโยค\",\"voice\":\"เพศของเสียงพากย์ในคลิปนี้ ตอบ หญิง หรือ ชาย\",\"voiceTimbre\":\"ลายเซ็นเสียงพากย์ภาษาอังกฤษ 1 บรรทัดไม่เกิน 25 คำ: เพศ อายุ ระดับเสียง น้ำเสียง จังหวะพูด · เพศต้องตรงกับ voice · ทุกคลิปของงานเดียวกันใช้ข้อความเดียวกัน · ไม่มีเสียงพากย์ให้เว้นว่าง\",\"s1th\":\"...\",\"s1en\":\"...\",\"ov1\":\"...\",\"vo1\":\"...\",\"cam1\":\"...\",\"s2th\":\"...\",\"s2en\":\"...\",\"ov2\":\"...\",\"vo2\":\"...\",\"cam2\":\"...\",\"s3th\":\"...\",\"s3en\":\"...\",\"ov3\":\"...\",\"vo3\":\"...\",\"cam3\":\"...\",\"s4th\":\"...\",\"s4en\":\"...\",\"ov4\":\"...\",\"vo4\":\"...\",\"cam4\":\"...\",\"s5th\":\"...\",\"s5en\":\"...\",\"ov5\":\"...\",\"vo5\":\"...\",\"cam5\":\"...\",\"s6th\":\"...\",\"s6en\":\"...\",\"ov6\":\"...\",\"vo6\":\"...\",\"cam6\":\"...\",\"s7th\":\"...\",\"s7en\":\"...\",\"ov7\":\"...\",\"vo7\":\"...\",\"cam7\":\"...\",\"s8th\":\"...\",\"s8en\":\"...\",\"ov8\":\"...\",\"vo8\":\"...\",\"cam8\":\"...\",\"s9th\":\"...\",\"s9en\":\"...\",\"ov9\":\"...\",\"vo9\":\"...\",\"cam9\":\"...\",\"s10th\":\"...\",\"s10en\":\"...\",\"ov10\":\"...\",\"vo10\":\"...\",\"cam10\":\"...\",\"s11th\":\"...\",\"s11en\":\"...\",\"ov11\":\"...\",\"vo11\":\"...\",\"cam11\":\"...\",\"s12th\":\"...\",\"s12en\":\"...\",\"ov12\":\"...\",\"vo12\":\"...\",\"cam12\":\"...\",\"s13th\":\"...\",\"s13en\":\"...\",\"ov13\":\"...\",\"vo13\":\"...\",\"cam13\":\"...\",\"s14th\":\"...\",\"s14en\":\"...\",\"ov14\":\"...\",\"vo14\":\"...\",\"cam14\":\"...\",\"s15th\":\"...\",\"s15en\":\"...\",\"ov15\":\"...\",\"vo15\":\"...\",\"cam15\":\"...\",\"s16th\":\"...\",\"s16en\":\"...\",\"ov16\":\"...\",\"vo16\":\"...\",\"cam16\":\"...\",\"s17th\":\"...\",\"s17en\":\"...\",\"ov17\":\"...\",\"vo17\":\"...\",\"cam17\":\"...\",\"s18th\":\"...\",\"s18en\":\"...\",\"ov18\":\"...\",\"vo18\":\"...\",\"cam18\":\"...\",\"s19th\":\"...\",\"s19en\":\"...\",\"ov19\":\"...\",\"vo19\":\"...\",\"cam19\":\"...\",\"s20th\":\"...\",\"s20en\":\"...\",\"ov20\":\"...\",\"vo20\":\"...\",\"cam20\":\"...\",\"s21th\":\"...\",\"s21en\":\"...\",\"ov21\":\"...\",\"vo21\":\"...\",\"cam21\":\"...\",\"s22th\":\"...\",\"s22en\":\"...\",\"ov22\":\"...\",\"vo22\":\"...\",\"cam22\":\"...\",\"s23th\":\"...\",\"s23en\":\"...\",\"ov23\":\"...\",\"vo23\":\"...\",\"cam23\":\"...\",\"s24th\":\"...\",\"s24en\":\"...\",\"ov24\":\"...\",\"vo24\":\"...\",\"cam24\":\"...\"}\n\noverlay (กฎเพิ่ม): ovN ทุกช่อง: ไทย, บรรทัดเดียว, สูงสุด 5 คำ, ไม่ใส่เลขฉากหรือลิสต์; ต้องตรงกับภาพจริงในฉากนั้น ห้ามนำชื่อช่วงโครงเรื่อง (ก่อน, เตรียมของ, ลงมือทำ, คืบหน้า, ผลลัพธ์, จุดเด่น) เป็นตัวหนังสือบนภาพ\n\nวิธีตอบ: ขึ้นต้น [ ลงท้าย ] แล้วหยุดทันที; ห้ามใช้ ``` ห้ามมีหมายเหตุ คำอธิบาย หรือข้อความอื่นใดก่อน/หลัง JSON",
-   "50": "เอาต์พุต: ตอบเป็น JSON array เท่านั้น ไม่มี markdown หรือข้อความใดนอก JSON; อาร์เรย์มี object เท่าจำนวนคลิปที่ขอ (ขอ 1 คลิป → array มี 1 object); ทุก object ต้องครบ 30 ฉาก ขาดแม้ฉากเดียวไม่ได้; โครงสร้างแต่ละ object:\n{\"productName\":\"ชื่องานตามที่ผู้ใช้ตั้งไว้ ใช้คำเดิมตรงทุกตัวอักษร\",\"category\":\"หมวดของงาน เช่น ทำความสะอาด ซ่อมแซม รีโนเวท จัดบ้าน\",\"palette\":\"English phrase, 4-9 words: one bright, natural light for the whole clip, like a phone camera on a normal day; a before/after change is the same source, e.g. bright soft daylight from a side window\",\"look\":\"บรรยายผู้ลงมือ 1 คนเป็นภาษาอังกฤษ **12-15 คำ** ระบุเพศ ช่วงวัย ทรงผม รูปร่าง สีผิว และ **ชุดที่ใส่** เช่น @NAT_EN@ man early 30s short black hair slim build tan skin wearing navy work shirt and grey trousers · ใช้ชุดตามที่ผู้ใช้กำหนดไว้ ถ้าว่างให้เลือกชุดทำงานที่เข้ากับงานเอง · ถ้าแนบรูปใบหน้ามาเป็นรูปสุดท้าย ให้ยึดหน้าตาตามรูป · ชุดและรูปร่างนี้ต้องเหมือนกันทุกคลิป · โหมดเห็นแต่มือ หรือเห็นตัวไม่เห็นหน้า ให้ระบุเฉพาะชุดและสีผิวมือ ห้ามระบุหน้า ผม อายุ · โหมดเห็นแต่มือ ให้ขึ้นต้นด้วย hands and forearms of a @NAT_EN@ (เช่น hands and forearms of a @NAT_EN@, tan skin, navy long sleeve cuffs) และห้ามใช้คำว่า man woman person boy girl ในช่องนี้ · ไม่มีคนในคลิป ส่งสตริงว่าง\",\"room\":\"บรรยายห้อง/พื้นที่ของงานเป็นภาษาอังกฤษ 40-50 คำ: ขึ้นต้นด้วย site: สิ่งรอบงานที่คงเดิมตลอดคลิป ระบุพื้นลาน รั้ว กำแพง ต้นไม้ อาคารข้างเคียง ว่าอยู่ซ้าย ขวา หรือด้านหลัง · งานสร้างใหม่ต่อด้วย shape: closed room หรือ shape: open-front ตามกฎทรงงาน · ชนิดห้อง · งานสร้างใหม่ระบุหลังคาที่คลุมเต็มพื้นที่ ผนังครบทุกด้านที่มี ผนังด้านใน พื้น เพดาน และของที่ติดตั้งครบตามหน้าที่ · หน้าต่างและประตู (ถ้ามี) อยู่ผนังไหน (ซ้าย ขวา ด้านหลัง) แบบไหน สีกรอบ · ของหลักที่งานนี้ทำ (ตู้ อ่าง เคาน์เตอร์ สนาม ฯลฯ) ละเอียด: วัสดุ สี จำนวนบาน ช่องแขวน ราว ชั้น ลิ้นชัก มือจับ ตำแหน่ง · เฟอร์นิเจอร์อื่น · สีผนัง · วัสดุและสีพื้น · งานจัดระเบียบหรือทำความสะอาด finished บอกว่าเป็นของหลักชิ้นเดิม (เช่น finished: same wardrobe, clothes folded in grey boxes) · ถ้างานเปลี่ยนพื้นผิว ต่อท้ายด้วย finished: สีผนังใหม่ พื้นใหม่ ของที่ติดตั้ง (เช่น finished: cream walls, oak laminate floor) · เฉพาะงานสร้างใหม่ (ไม่ใช่งานทำความสะอาดหรือจัดระเบียบ ซึ่งคงของเดิม): ต่อท้าย finished: ด้วยของใช้จริงตามหน้าที่พื้นที่ 4-6 อย่าง แบบบ้านไทยทั่วไป ไม่หรู ให้ดูพร้อมใช้และน่าอยู่ ไม่โล่งเปล่า เช่น ครัว: ชั้นวางขวดโหลและจานชาม เขียง ผ้าเช็ดมือแขวน กระถางต้นไม้ ไฟใต้ชั้น โต๊ะนั่ง · ห้องน้ำ: ราวผ้าขนหนู ที่ใส่สบู่ กระถางต้นไม้เล็ก ตะกร้า · ลานหรือศาลา: โต๊ะเก้าอี้ โคมไฟ ต้นไม้@NAT_HOUSE_CUES@ · ครัวนอกบ้านที่ผู้ใช้ไม่ได้ระบุขนาด: กว้างขวางอย่างน้อย 6 เมตร x 4 เมตร เคาน์เตอร์ตัวแอลด้านละ 3 เมตรขึ้นไป โต๊ะนั่ง 4-6 ที่ ตู้เย็น เห็นเป็นห้องครัวใหญ่ · ถ้าแนบรูปพื้นที่จริง บรรยายตามรูป · ทุกคลิปของงานเดียวกันใช้ห้องเดียวกัน\",\"synopsis\":\"สรุปเรื่องของคลิปเป็นภาษาไทย 1-2 ประโยค\",\"voice\":\"เพศของเสียงพากย์ในคลิปนี้ ตอบ หญิง หรือ ชาย\",\"voiceTimbre\":\"ลายเซ็นเสียงพากย์ภาษาอังกฤษ 1 บรรทัดไม่เกิน 25 คำ: เพศ อายุ ระดับเสียง น้ำเสียง จังหวะพูด · เพศต้องตรงกับ voice · ทุกคลิปของงานเดียวกันใช้ข้อความเดียวกัน · ไม่มีเสียงพากย์ให้เว้นว่าง\",\"s1th\":\"...\",\"s1en\":\"...\",\"ov1\":\"...\",\"vo1\":\"...\",\"cam1\":\"...\",\"s2th\":\"...\",\"s2en\":\"...\",\"ov2\":\"...\",\"vo2\":\"...\",\"cam2\":\"...\",\"s3th\":\"...\",\"s3en\":\"...\",\"ov3\":\"...\",\"vo3\":\"...\",\"cam3\":\"...\",\"s4th\":\"...\",\"s4en\":\"...\",\"ov4\":\"...\",\"vo4\":\"...\",\"cam4\":\"...\",\"s5th\":\"...\",\"s5en\":\"...\",\"ov5\":\"...\",\"vo5\":\"...\",\"cam5\":\"...\",\"s6th\":\"...\",\"s6en\":\"...\",\"ov6\":\"...\",\"vo6\":\"...\",\"cam6\":\"...\",\"s7th\":\"...\",\"s7en\":\"...\",\"ov7\":\"...\",\"vo7\":\"...\",\"cam7\":\"...\",\"s8th\":\"...\",\"s8en\":\"...\",\"ov8\":\"...\",\"vo8\":\"...\",\"cam8\":\"...\",\"s9th\":\"...\",\"s9en\":\"...\",\"ov9\":\"...\",\"vo9\":\"...\",\"cam9\":\"...\",\"s10th\":\"...\",\"s10en\":\"...\",\"ov10\":\"...\",\"vo10\":\"...\",\"cam10\":\"...\",\"s11th\":\"...\",\"s11en\":\"...\",\"ov11\":\"...\",\"vo11\":\"...\",\"cam11\":\"...\",\"s12th\":\"...\",\"s12en\":\"...\",\"ov12\":\"...\",\"vo12\":\"...\",\"cam12\":\"...\",\"s13th\":\"...\",\"s13en\":\"...\",\"ov13\":\"...\",\"vo13\":\"...\",\"cam13\":\"...\",\"s14th\":\"...\",\"s14en\":\"...\",\"ov14\":\"...\",\"vo14\":\"...\",\"cam14\":\"...\",\"s15th\":\"...\",\"s15en\":\"...\",\"ov15\":\"...\",\"vo15\":\"...\",\"cam15\":\"...\",\"s16th\":\"...\",\"s16en\":\"...\",\"ov16\":\"...\",\"vo16\":\"...\",\"cam16\":\"...\",\"s17th\":\"...\",\"s17en\":\"...\",\"ov17\":\"...\",\"vo17\":\"...\",\"cam17\":\"...\",\"s18th\":\"...\",\"s18en\":\"...\",\"ov18\":\"...\",\"vo18\":\"...\",\"cam18\":\"...\",\"s19th\":\"...\",\"s19en\":\"...\",\"ov19\":\"...\",\"vo19\":\"...\",\"cam19\":\"...\",\"s20th\":\"...\",\"s20en\":\"...\",\"ov20\":\"...\",\"vo20\":\"...\",\"cam20\":\"...\",\"s21th\":\"...\",\"s21en\":\"...\",\"ov21\":\"...\",\"vo21\":\"...\",\"cam21\":\"...\",\"s22th\":\"...\",\"s22en\":\"...\",\"ov22\":\"...\",\"vo22\":\"...\",\"cam22\":\"...\",\"s23th\":\"...\",\"s23en\":\"...\",\"ov23\":\"...\",\"vo23\":\"...\",\"cam23\":\"...\",\"s24th\":\"...\",\"s24en\":\"...\",\"ov24\":\"...\",\"vo24\":\"...\",\"cam24\":\"...\",\"s25th\":\"...\",\"s25en\":\"...\",\"ov25\":\"...\",\"vo25\":\"...\",\"cam25\":\"...\",\"s26th\":\"...\",\"s26en\":\"...\",\"ov26\":\"...\",\"vo26\":\"...\",\"cam26\":\"...\",\"s27th\":\"...\",\"s27en\":\"...\",\"ov27\":\"...\",\"vo27\":\"...\",\"cam27\":\"...\",\"s28th\":\"...\",\"s28en\":\"...\",\"ov28\":\"...\",\"vo28\":\"...\",\"cam28\":\"...\",\"s29th\":\"...\",\"s29en\":\"...\",\"ov29\":\"...\",\"vo29\":\"...\",\"cam29\":\"...\",\"s30th\":\"...\",\"s30en\":\"...\",\"ov30\":\"...\",\"vo30\":\"...\",\"cam30\":\"...\"}\n\noverlay (กฎเพิ่ม): ovN ทุกช่อง: ไทย, บรรทัดเดียว, สูงสุด 5 คำ, ไม่ใส่เลขฉากหรือลิสต์; ต้องตรงกับภาพจริงในฉากนั้น ห้ามนำชื่อช่วงโครงเรื่อง (ก่อน, เตรียมของ, ลงมือทำ, คืบหน้า, ผลลัพธ์, จุดเด่น) เป็นตัวหนังสือบนภาพ\n\nวิธีตอบ: ขึ้นต้น [ ลงท้าย ] แล้วหยุดทันที; ห้ามใช้ ``` ห้ามมีหมายเหตุ คำอธิบาย หรือข้อความอื่นใดก่อน/หลัง JSON",
-   "60": "เอาต์พุต: ตอบเป็น JSON array เท่านั้น ไม่มี markdown หรือข้อความใดนอก JSON; อาร์เรย์มี object เท่าจำนวนคลิปที่ขอ (ขอ 1 คลิป → array มี 1 object); ทุก object ต้องครบ 36 ฉาก ขาดแม้ฉากเดียวไม่ได้; โครงสร้างแต่ละ object:\n{\"productName\":\"ชื่องานตามที่ผู้ใช้ตั้งไว้ ใช้คำเดิมตรงทุกตัวอักษร\",\"category\":\"หมวดของงาน เช่น ทำความสะอาด ซ่อมแซม รีโนเวท จัดบ้าน\",\"palette\":\"English phrase, 4-9 words: one bright, natural light for the whole clip, like a phone camera on a normal day; a before/after change is the same source, e.g. bright soft daylight from a side window\",\"look\":\"บรรยายผู้ลงมือ 1 คนเป็นภาษาอังกฤษ **12-15 คำ** ระบุเพศ ช่วงวัย ทรงผม รูปร่าง สีผิว และ **ชุดที่ใส่** เช่น @NAT_EN@ man early 30s short black hair slim build tan skin wearing navy work shirt and grey trousers · ใช้ชุดตามที่ผู้ใช้กำหนดไว้ ถ้าว่างให้เลือกชุดทำงานที่เข้ากับงานเอง · ถ้าแนบรูปใบหน้ามาเป็นรูปสุดท้าย ให้ยึดหน้าตาตามรูป · ชุดและรูปร่างนี้ต้องเหมือนกันทุกคลิป · โหมดเห็นแต่มือ หรือเห็นตัวไม่เห็นหน้า ให้ระบุเฉพาะชุดและสีผิวมือ ห้ามระบุหน้า ผม อายุ · โหมดเห็นแต่มือ ให้ขึ้นต้นด้วย hands and forearms of a @NAT_EN@ (เช่น hands and forearms of a @NAT_EN@, tan skin, navy long sleeve cuffs) และห้ามใช้คำว่า man woman person boy girl ในช่องนี้ · ไม่มีคนในคลิป ส่งสตริงว่าง\",\"room\":\"บรรยายห้อง/พื้นที่ของงานเป็นภาษาอังกฤษ 40-50 คำ: ขึ้นต้นด้วย site: สิ่งรอบงานที่คงเดิมตลอดคลิป ระบุพื้นลาน รั้ว กำแพง ต้นไม้ อาคารข้างเคียง ว่าอยู่ซ้าย ขวา หรือด้านหลัง · งานสร้างใหม่ต่อด้วย shape: closed room หรือ shape: open-front ตามกฎทรงงาน · ชนิดห้อง · งานสร้างใหม่ระบุหลังคาที่คลุมเต็มพื้นที่ ผนังครบทุกด้านที่มี ผนังด้านใน พื้น เพดาน และของที่ติดตั้งครบตามหน้าที่ · หน้าต่างและประตู (ถ้ามี) อยู่ผนังไหน (ซ้าย ขวา ด้านหลัง) แบบไหน สีกรอบ · ของหลักที่งานนี้ทำ (ตู้ อ่าง เคาน์เตอร์ สนาม ฯลฯ) ละเอียด: วัสดุ สี จำนวนบาน ช่องแขวน ราว ชั้น ลิ้นชัก มือจับ ตำแหน่ง · เฟอร์นิเจอร์อื่น · สีผนัง · วัสดุและสีพื้น · งานจัดระเบียบหรือทำความสะอาด finished บอกว่าเป็นของหลักชิ้นเดิม (เช่น finished: same wardrobe, clothes folded in grey boxes) · ถ้างานเปลี่ยนพื้นผิว ต่อท้ายด้วย finished: สีผนังใหม่ พื้นใหม่ ของที่ติดตั้ง (เช่น finished: cream walls, oak laminate floor) · เฉพาะงานสร้างใหม่ (ไม่ใช่งานทำความสะอาดหรือจัดระเบียบ ซึ่งคงของเดิม): ต่อท้าย finished: ด้วยของใช้จริงตามหน้าที่พื้นที่ 4-6 อย่าง แบบบ้านไทยทั่วไป ไม่หรู ให้ดูพร้อมใช้และน่าอยู่ ไม่โล่งเปล่า เช่น ครัว: ชั้นวางขวดโหลและจานชาม เขียง ผ้าเช็ดมือแขวน กระถางต้นไม้ ไฟใต้ชั้น โต๊ะนั่ง · ห้องน้ำ: ราวผ้าขนหนู ที่ใส่สบู่ กระถางต้นไม้เล็ก ตะกร้า · ลานหรือศาลา: โต๊ะเก้าอี้ โคมไฟ ต้นไม้@NAT_HOUSE_CUES@ · ครัวนอกบ้านที่ผู้ใช้ไม่ได้ระบุขนาด: กว้างขวางอย่างน้อย 6 เมตร x 4 เมตร เคาน์เตอร์ตัวแอลด้านละ 3 เมตรขึ้นไป โต๊ะนั่ง 4-6 ที่ ตู้เย็น เห็นเป็นห้องครัวใหญ่ · ถ้าแนบรูปพื้นที่จริง บรรยายตามรูป · ทุกคลิปของงานเดียวกันใช้ห้องเดียวกัน\",\"synopsis\":\"สรุปเรื่องของคลิปเป็นภาษาไทย 1-2 ประโยค\",\"voice\":\"เพศของเสียงพากย์ในคลิปนี้ ตอบ หญิง หรือ ชาย\",\"voiceTimbre\":\"ลายเซ็นเสียงพากย์ภาษาอังกฤษ 1 บรรทัดไม่เกิน 25 คำ: เพศ อายุ ระดับเสียง น้ำเสียง จังหวะพูด · เพศต้องตรงกับ voice · ทุกคลิปของงานเดียวกันใช้ข้อความเดียวกัน · ไม่มีเสียงพากย์ให้เว้นว่าง\",\"s1th\":\"...\",\"s1en\":\"...\",\"ov1\":\"...\",\"vo1\":\"...\",\"cam1\":\"...\",\"s2th\":\"...\",\"s2en\":\"...\",\"ov2\":\"...\",\"vo2\":\"...\",\"cam2\":\"...\",\"s3th\":\"...\",\"s3en\":\"...\",\"ov3\":\"...\",\"vo3\":\"...\",\"cam3\":\"...\",\"s4th\":\"...\",\"s4en\":\"...\",\"ov4\":\"...\",\"vo4\":\"...\",\"cam4\":\"...\",\"s5th\":\"...\",\"s5en\":\"...\",\"ov5\":\"...\",\"vo5\":\"...\",\"cam5\":\"...\",\"s6th\":\"...\",\"s6en\":\"...\",\"ov6\":\"...\",\"vo6\":\"...\",\"cam6\":\"...\",\"s7th\":\"...\",\"s7en\":\"...\",\"ov7\":\"...\",\"vo7\":\"...\",\"cam7\":\"...\",\"s8th\":\"...\",\"s8en\":\"...\",\"ov8\":\"...\",\"vo8\":\"...\",\"cam8\":\"...\",\"s9th\":\"...\",\"s9en\":\"...\",\"ov9\":\"...\",\"vo9\":\"...\",\"cam9\":\"...\",\"s10th\":\"...\",\"s10en\":\"...\",\"ov10\":\"...\",\"vo10\":\"...\",\"cam10\":\"...\",\"s11th\":\"...\",\"s11en\":\"...\",\"ov11\":\"...\",\"vo11\":\"...\",\"cam11\":\"...\",\"s12th\":\"...\",\"s12en\":\"...\",\"ov12\":\"...\",\"vo12\":\"...\",\"cam12\":\"...\",\"s13th\":\"...\",\"s13en\":\"...\",\"ov13\":\"...\",\"vo13\":\"...\",\"cam13\":\"...\",\"s14th\":\"...\",\"s14en\":\"...\",\"ov14\":\"...\",\"vo14\":\"...\",\"cam14\":\"...\",\"s15th\":\"...\",\"s15en\":\"...\",\"ov15\":\"...\",\"vo15\":\"...\",\"cam15\":\"...\",\"s16th\":\"...\",\"s16en\":\"...\",\"ov16\":\"...\",\"vo16\":\"...\",\"cam16\":\"...\",\"s17th\":\"...\",\"s17en\":\"...\",\"ov17\":\"...\",\"vo17\":\"...\",\"cam17\":\"...\",\"s18th\":\"...\",\"s18en\":\"...\",\"ov18\":\"...\",\"vo18\":\"...\",\"cam18\":\"...\",\"s19th\":\"...\",\"s19en\":\"...\",\"ov19\":\"...\",\"vo19\":\"...\",\"cam19\":\"...\",\"s20th\":\"...\",\"s20en\":\"...\",\"ov20\":\"...\",\"vo20\":\"...\",\"cam20\":\"...\",\"s21th\":\"...\",\"s21en\":\"...\",\"ov21\":\"...\",\"vo21\":\"...\",\"cam21\":\"...\",\"s22th\":\"...\",\"s22en\":\"...\",\"ov22\":\"...\",\"vo22\":\"...\",\"cam22\":\"...\",\"s23th\":\"...\",\"s23en\":\"...\",\"ov23\":\"...\",\"vo23\":\"...\",\"cam23\":\"...\",\"s24th\":\"...\",\"s24en\":\"...\",\"ov24\":\"...\",\"vo24\":\"...\",\"cam24\":\"...\",\"s25th\":\"...\",\"s25en\":\"...\",\"ov25\":\"...\",\"vo25\":\"...\",\"cam25\":\"...\",\"s26th\":\"...\",\"s26en\":\"...\",\"ov26\":\"...\",\"vo26\":\"...\",\"cam26\":\"...\",\"s27th\":\"...\",\"s27en\":\"...\",\"ov27\":\"...\",\"vo27\":\"...\",\"cam27\":\"...\",\"s28th\":\"...\",\"s28en\":\"...\",\"ov28\":\"...\",\"vo28\":\"...\",\"cam28\":\"...\",\"s29th\":\"...\",\"s29en\":\"...\",\"ov29\":\"...\",\"vo29\":\"...\",\"cam29\":\"...\",\"s30th\":\"...\",\"s30en\":\"...\",\"ov30\":\"...\",\"vo30\":\"...\",\"cam30\":\"...\",\"s31th\":\"...\",\"s31en\":\"...\",\"ov31\":\"...\",\"vo31\":\"...\",\"cam31\":\"...\",\"s32th\":\"...\",\"s32en\":\"...\",\"ov32\":\"...\",\"vo32\":\"...\",\"cam32\":\"...\",\"s33th\":\"...\",\"s33en\":\"...\",\"ov33\":\"...\",\"vo33\":\"...\",\"cam33\":\"...\",\"s34th\":\"...\",\"s34en\":\"...\",\"ov34\":\"...\",\"vo34\":\"...\",\"cam34\":\"...\",\"s35th\":\"...\",\"s35en\":\"...\",\"ov35\":\"...\",\"vo35\":\"...\",\"cam35\":\"...\",\"s36th\":\"...\",\"s36en\":\"...\",\"ov36\":\"...\",\"vo36\":\"...\",\"cam36\":\"...\"}\n\noverlay (กฎเพิ่ม): ovN ทุกช่อง: ไทย, บรรทัดเดียว, สูงสุด 5 คำ, ไม่ใส่เลขฉากหรือลิสต์; ต้องตรงกับภาพจริงในฉากนั้น ห้ามนำชื่อช่วงโครงเรื่อง (ก่อน, เตรียมของ, ลงมือทำ, คืบหน้า, ผลลัพธ์, จุดเด่น) เป็นตัวหนังสือบนภาพ\n\nวิธีตอบ: ขึ้นต้น [ ลงท้าย ] แล้วหยุดทันที; ห้ามใช้ ``` ห้ามมีหมายเหตุ คำอธิบาย หรือข้อความอื่นใดก่อน/หลัง JSON"
+   "10": "เอาต์พุต: ตอบเป็น JSON array เท่านั้น ไม่มี markdown หรือข้อความใดนอก JSON; อาร์เรย์มี object เท่าจำนวนคลิปที่ขอ (ขอ 1 คลิป → array มี 1 object); ทุก object ต้องครบ 6 ฉาก ขาดแม้ฉากเดียวไม่ได้; โครงสร้างแต่ละ object:\n{\"productName\":\"ชื่องานตามที่ผู้ใช้ตั้งไว้ ใช้คำเดิมตรงทุกตัวอักษร\",\"category\":\"หมวดของงาน เช่น ทำความสะอาด ซ่อมแซม รีโนเวท จัดบ้าน\",\"palette\":\"English phrase, 4-9 words: one bright, natural light for the whole clip, like a phone camera on a normal day; a before/after change is the same source, e.g. bright soft daylight from a side window\",\"look\":\"บรรยายผู้ลงมือ 1 คนเป็นภาษาอังกฤษ **12-15 คำ** ระบุเพศ ช่วงวัย ทรงผม รูปร่าง สีผิว และ **ชุดที่ใส่** เช่น @NAT_EN@ man early 30s short black hair slim build tan skin wearing navy work shirt and grey trousers · ใช้ชุดตามที่ผู้ใช้กำหนดไว้ ถ้าว่างให้เลือกชุดทำงานที่เข้ากับงานเอง · ถ้าแนบรูปใบหน้ามาเป็นรูปสุดท้าย ให้ยึดหน้าตาตามรูป · ชุดและรูปร่างนี้ต้องเหมือนกันทุกคลิป · โหมดเห็นแต่มือ หรือเห็นตัวไม่เห็นหน้า ให้ระบุเฉพาะชุดและสีผิวมือ ห้ามระบุหน้า ผม อายุ · ไม่มีคนในคลิป ส่งสตริงว่าง\",\"room\":\"บรรยายห้อง/พื้นที่ของงานเป็นภาษาอังกฤษ 40-50 คำ: ขึ้นต้นด้วย site: สิ่งรอบงานที่คงเดิมตลอดคลิป ระบุพื้นลาน รั้ว กำแพง ต้นไม้ อาคารข้างเคียง ว่าอยู่ซ้าย ขวา หรือด้านหลัง · งานสร้างใหม่ต่อด้วย shape: closed room หรือ shape: open-front ตามกฎทรงงาน · ชนิดห้อง · งานสร้างใหม่ระบุหลังคาที่คลุมเต็มพื้นที่ ผนังครบทุกด้านที่มี ผนังด้านใน พื้น เพดาน และของที่ติดตั้งครบตามหน้าที่ · หน้าต่างและประตู (ถ้ามี) อยู่ผนังไหน (ซ้าย ขวา ด้านหลัง) แบบไหน สีกรอบ · ของหลักที่งานนี้ทำ (ตู้ อ่าง เคาน์เตอร์ สนาม ฯลฯ) ละเอียด: วัสดุ สี จำนวนบาน ช่องแขวน ราว ชั้น ลิ้นชัก มือจับ ตำแหน่ง · เฟอร์นิเจอร์อื่น · สีผนัง · วัสดุและสีพื้น · งานจัดระเบียบหรือทำความสะอาด finished บอกว่าเป็นของหลักชิ้นเดิม (เช่น finished: same wardrobe, clothes folded in grey boxes) · ถ้างานเปลี่ยนพื้นผิว ต่อท้ายด้วย finished: สีผนังใหม่ พื้นใหม่ ของที่ติดตั้ง (เช่น finished: cream walls, oak laminate floor) · เฉพาะงานสร้างใหม่ (ไม่ใช่งานทำความสะอาดหรือจัดระเบียบ ซึ่งคงของเดิม): ต่อท้าย finished: ด้วยของใช้จริงตามหน้าที่พื้นที่ 4-6 อย่าง แบบบ้านไทยทั่วไป ไม่หรู ให้ดูพร้อมใช้และน่าอยู่ ไม่โล่งเปล่า เช่น ครัว: ชั้นวางขวดโหลและจานชาม เขียง ผ้าเช็ดมือแขวน กระถางต้นไม้ ไฟใต้ชั้น โต๊ะนั่ง · ห้องน้ำ: ราวผ้าขนหนู ที่ใส่สบู่ กระถางต้นไม้เล็ก ตะกร้า · ลานหรือศาลา: โต๊ะเก้าอี้ โคมไฟ ต้นไม้@NAT_HOUSE_CUES@ · ครัวนอกบ้านที่ผู้ใช้ไม่ได้ระบุขนาด: กว้างขวางอย่างน้อย 6 เมตร x 4 เมตร เคาน์เตอร์ตัวแอลด้านละ 3 เมตรขึ้นไป โต๊ะนั่ง 4-6 ที่ ตู้เย็น เห็นเป็นห้องครัวใหญ่ · ถ้าแนบรูปพื้นที่จริง บรรยายตามรูป · ทุกคลิปของงานเดียวกันใช้ห้องเดียวกัน\",\"synopsis\":\"สรุปเรื่องของคลิปเป็นภาษาไทย 1-2 ประโยค\",\"voice\":\"เพศของเสียงพากย์ในคลิปนี้ ตอบ หญิง หรือ ชาย\",\"voiceTimbre\":\"ลายเซ็นเสียงพากย์ภาษาอังกฤษ 1 บรรทัดไม่เกิน 25 คำ: เพศ อายุ ระดับเสียง น้ำเสียง จังหวะพูด · เพศต้องตรงกับ voice · ทุกคลิปของงานเดียวกันใช้ข้อความเดียวกัน · ไม่มีเสียงพากย์ให้เว้นว่าง\",\"s1th\":\"...\",\"s1en\":\"...\",\"ov1\":\"...\",\"vo1\":\"...\",\"cam1\":\"...\",\"s2th\":\"...\",\"s2en\":\"...\",\"ov2\":\"...\",\"vo2\":\"...\",\"cam2\":\"...\",\"s3th\":\"...\",\"s3en\":\"...\",\"ov3\":\"...\",\"vo3\":\"...\",\"cam3\":\"...\",\"s4th\":\"...\",\"s4en\":\"...\",\"ov4\":\"...\",\"vo4\":\"...\",\"cam4\":\"...\",\"s5th\":\"...\",\"s5en\":\"...\",\"ov5\":\"...\",\"vo5\":\"...\",\"cam5\":\"...\",\"s6th\":\"...\",\"s6en\":\"...\",\"ov6\":\"...\",\"vo6\":\"...\",\"cam6\":\"...\"}\n\noverlay (กฎเพิ่ม): ovN ทุกช่อง: ไทย, บรรทัดเดียว, สูงสุด 5 คำ, ไม่ใส่เลขฉากหรือลิสต์; ต้องตรงกับภาพจริงในฉากนั้น ห้ามนำชื่อช่วงโครงเรื่อง (ก่อน, เตรียมของ, ลงมือทำ, คืบหน้า, ผลลัพธ์, จุดเด่น) เป็นตัวหนังสือบนภาพ\n\nวิธีตอบ: ขึ้นต้น [ ลงท้าย ] แล้วหยุดทันที; ห้ามใช้ ``` ห้ามมีหมายเหตุ คำอธิบาย หรือข้อความอื่นใดก่อน/หลัง JSON",
+   "20": "เอาต์พุต: ตอบเป็น JSON array เท่านั้น ไม่มี markdown หรือข้อความใดนอก JSON; อาร์เรย์มี object เท่าจำนวนคลิปที่ขอ (ขอ 1 คลิป → array มี 1 object); ทุก object ต้องครบ 12 ฉาก ขาดแม้ฉากเดียวไม่ได้; โครงสร้างแต่ละ object:\n{\"productName\":\"ชื่องานตามที่ผู้ใช้ตั้งไว้ ใช้คำเดิมตรงทุกตัวอักษร\",\"category\":\"หมวดของงาน เช่น ทำความสะอาด ซ่อมแซม รีโนเวท จัดบ้าน\",\"palette\":\"English phrase, 4-9 words: one bright, natural light for the whole clip, like a phone camera on a normal day; a before/after change is the same source, e.g. bright soft daylight from a side window\",\"look\":\"บรรยายผู้ลงมือ 1 คนเป็นภาษาอังกฤษ **12-15 คำ** ระบุเพศ ช่วงวัย ทรงผม รูปร่าง สีผิว และ **ชุดที่ใส่** เช่น @NAT_EN@ man early 30s short black hair slim build tan skin wearing navy work shirt and grey trousers · ใช้ชุดตามที่ผู้ใช้กำหนดไว้ ถ้าว่างให้เลือกชุดทำงานที่เข้ากับงานเอง · ถ้าแนบรูปใบหน้ามาเป็นรูปสุดท้าย ให้ยึดหน้าตาตามรูป · ชุดและรูปร่างนี้ต้องเหมือนกันทุกคลิป · โหมดเห็นแต่มือ หรือเห็นตัวไม่เห็นหน้า ให้ระบุเฉพาะชุดและสีผิวมือ ห้ามระบุหน้า ผม อายุ · ไม่มีคนในคลิป ส่งสตริงว่าง\",\"room\":\"บรรยายห้อง/พื้นที่ของงานเป็นภาษาอังกฤษ 40-50 คำ: ขึ้นต้นด้วย site: สิ่งรอบงานที่คงเดิมตลอดคลิป ระบุพื้นลาน รั้ว กำแพง ต้นไม้ อาคารข้างเคียง ว่าอยู่ซ้าย ขวา หรือด้านหลัง · งานสร้างใหม่ต่อด้วย shape: closed room หรือ shape: open-front ตามกฎทรงงาน · ชนิดห้อง · งานสร้างใหม่ระบุหลังคาที่คลุมเต็มพื้นที่ ผนังครบทุกด้านที่มี ผนังด้านใน พื้น เพดาน และของที่ติดตั้งครบตามหน้าที่ · หน้าต่างและประตู (ถ้ามี) อยู่ผนังไหน (ซ้าย ขวา ด้านหลัง) แบบไหน สีกรอบ · ของหลักที่งานนี้ทำ (ตู้ อ่าง เคาน์เตอร์ สนาม ฯลฯ) ละเอียด: วัสดุ สี จำนวนบาน ช่องแขวน ราว ชั้น ลิ้นชัก มือจับ ตำแหน่ง · เฟอร์นิเจอร์อื่น · สีผนัง · วัสดุและสีพื้น · งานจัดระเบียบหรือทำความสะอาด finished บอกว่าเป็นของหลักชิ้นเดิม (เช่น finished: same wardrobe, clothes folded in grey boxes) · ถ้างานเปลี่ยนพื้นผิว ต่อท้ายด้วย finished: สีผนังใหม่ พื้นใหม่ ของที่ติดตั้ง (เช่น finished: cream walls, oak laminate floor) · เฉพาะงานสร้างใหม่ (ไม่ใช่งานทำความสะอาดหรือจัดระเบียบ ซึ่งคงของเดิม): ต่อท้าย finished: ด้วยของใช้จริงตามหน้าที่พื้นที่ 4-6 อย่าง แบบบ้านไทยทั่วไป ไม่หรู ให้ดูพร้อมใช้และน่าอยู่ ไม่โล่งเปล่า เช่น ครัว: ชั้นวางขวดโหลและจานชาม เขียง ผ้าเช็ดมือแขวน กระถางต้นไม้ ไฟใต้ชั้น โต๊ะนั่ง · ห้องน้ำ: ราวผ้าขนหนู ที่ใส่สบู่ กระถางต้นไม้เล็ก ตะกร้า · ลานหรือศาลา: โต๊ะเก้าอี้ โคมไฟ ต้นไม้@NAT_HOUSE_CUES@ · ครัวนอกบ้านที่ผู้ใช้ไม่ได้ระบุขนาด: กว้างขวางอย่างน้อย 6 เมตร x 4 เมตร เคาน์เตอร์ตัวแอลด้านละ 3 เมตรขึ้นไป โต๊ะนั่ง 4-6 ที่ ตู้เย็น เห็นเป็นห้องครัวใหญ่ · ถ้าแนบรูปพื้นที่จริง บรรยายตามรูป · ทุกคลิปของงานเดียวกันใช้ห้องเดียวกัน\",\"synopsis\":\"สรุปเรื่องของคลิปเป็นภาษาไทย 1-2 ประโยค\",\"voice\":\"เพศของเสียงพากย์ในคลิปนี้ ตอบ หญิง หรือ ชาย\",\"voiceTimbre\":\"ลายเซ็นเสียงพากย์ภาษาอังกฤษ 1 บรรทัดไม่เกิน 25 คำ: เพศ อายุ ระดับเสียง น้ำเสียง จังหวะพูด · เพศต้องตรงกับ voice · ทุกคลิปของงานเดียวกันใช้ข้อความเดียวกัน · ไม่มีเสียงพากย์ให้เว้นว่าง\",\"s1th\":\"...\",\"s1en\":\"...\",\"ov1\":\"...\",\"vo1\":\"...\",\"cam1\":\"...\",\"s2th\":\"...\",\"s2en\":\"...\",\"ov2\":\"...\",\"vo2\":\"...\",\"cam2\":\"...\",\"s3th\":\"...\",\"s3en\":\"...\",\"ov3\":\"...\",\"vo3\":\"...\",\"cam3\":\"...\",\"s4th\":\"...\",\"s4en\":\"...\",\"ov4\":\"...\",\"vo4\":\"...\",\"cam4\":\"...\",\"s5th\":\"...\",\"s5en\":\"...\",\"ov5\":\"...\",\"vo5\":\"...\",\"cam5\":\"...\",\"s6th\":\"...\",\"s6en\":\"...\",\"ov6\":\"...\",\"vo6\":\"...\",\"cam6\":\"...\",\"s7th\":\"...\",\"s7en\":\"...\",\"ov7\":\"...\",\"vo7\":\"...\",\"cam7\":\"...\",\"s8th\":\"...\",\"s8en\":\"...\",\"ov8\":\"...\",\"vo8\":\"...\",\"cam8\":\"...\",\"s9th\":\"...\",\"s9en\":\"...\",\"ov9\":\"...\",\"vo9\":\"...\",\"cam9\":\"...\",\"s10th\":\"...\",\"s10en\":\"...\",\"ov10\":\"...\",\"vo10\":\"...\",\"cam10\":\"...\",\"s11th\":\"...\",\"s11en\":\"...\",\"ov11\":\"...\",\"vo11\":\"...\",\"cam11\":\"...\",\"s12th\":\"...\",\"s12en\":\"...\",\"ov12\":\"...\",\"vo12\":\"...\",\"cam12\":\"...\"}\n\noverlay (กฎเพิ่ม): ovN ทุกช่อง: ไทย, บรรทัดเดียว, สูงสุด 5 คำ, ไม่ใส่เลขฉากหรือลิสต์; ต้องตรงกับภาพจริงในฉากนั้น ห้ามนำชื่อช่วงโครงเรื่อง (ก่อน, เตรียมของ, ลงมือทำ, คืบหน้า, ผลลัพธ์, จุดเด่น) เป็นตัวหนังสือบนภาพ\n\nวิธีตอบ: ขึ้นต้น [ ลงท้าย ] แล้วหยุดทันที; ห้ามใช้ ``` ห้ามมีหมายเหตุ คำอธิบาย หรือข้อความอื่นใดก่อน/หลัง JSON",
+   "30": "เอาต์พุต: ตอบเป็น JSON array เท่านั้น ไม่มี markdown หรือข้อความใดนอก JSON; อาร์เรย์มี object เท่าจำนวนคลิปที่ขอ (ขอ 1 คลิป → array มี 1 object); ทุก object ต้องครบ 18 ฉาก ขาดแม้ฉากเดียวไม่ได้; โครงสร้างแต่ละ object:\n{\"productName\":\"ชื่องานตามที่ผู้ใช้ตั้งไว้ ใช้คำเดิมตรงทุกตัวอักษร\",\"category\":\"หมวดของงาน เช่น ทำความสะอาด ซ่อมแซม รีโนเวท จัดบ้าน\",\"palette\":\"English phrase, 4-9 words: one bright, natural light for the whole clip, like a phone camera on a normal day; a before/after change is the same source, e.g. bright soft daylight from a side window\",\"look\":\"บรรยายผู้ลงมือ 1 คนเป็นภาษาอังกฤษ **12-15 คำ** ระบุเพศ ช่วงวัย ทรงผม รูปร่าง สีผิว และ **ชุดที่ใส่** เช่น @NAT_EN@ man early 30s short black hair slim build tan skin wearing navy work shirt and grey trousers · ใช้ชุดตามที่ผู้ใช้กำหนดไว้ ถ้าว่างให้เลือกชุดทำงานที่เข้ากับงานเอง · ถ้าแนบรูปใบหน้ามาเป็นรูปสุดท้าย ให้ยึดหน้าตาตามรูป · ชุดและรูปร่างนี้ต้องเหมือนกันทุกคลิป · โหมดเห็นแต่มือ หรือเห็นตัวไม่เห็นหน้า ให้ระบุเฉพาะชุดและสีผิวมือ ห้ามระบุหน้า ผม อายุ · ไม่มีคนในคลิป ส่งสตริงว่าง\",\"room\":\"บรรยายห้อง/พื้นที่ของงานเป็นภาษาอังกฤษ 40-50 คำ: ขึ้นต้นด้วย site: สิ่งรอบงานที่คงเดิมตลอดคลิป ระบุพื้นลาน รั้ว กำแพง ต้นไม้ อาคารข้างเคียง ว่าอยู่ซ้าย ขวา หรือด้านหลัง · งานสร้างใหม่ต่อด้วย shape: closed room หรือ shape: open-front ตามกฎทรงงาน · ชนิดห้อง · งานสร้างใหม่ระบุหลังคาที่คลุมเต็มพื้นที่ ผนังครบทุกด้านที่มี ผนังด้านใน พื้น เพดาน และของที่ติดตั้งครบตามหน้าที่ · หน้าต่างและประตู (ถ้ามี) อยู่ผนังไหน (ซ้าย ขวา ด้านหลัง) แบบไหน สีกรอบ · ของหลักที่งานนี้ทำ (ตู้ อ่าง เคาน์เตอร์ สนาม ฯลฯ) ละเอียด: วัสดุ สี จำนวนบาน ช่องแขวน ราว ชั้น ลิ้นชัก มือจับ ตำแหน่ง · เฟอร์นิเจอร์อื่น · สีผนัง · วัสดุและสีพื้น · งานจัดระเบียบหรือทำความสะอาด finished บอกว่าเป็นของหลักชิ้นเดิม (เช่น finished: same wardrobe, clothes folded in grey boxes) · ถ้างานเปลี่ยนพื้นผิว ต่อท้ายด้วย finished: สีผนังใหม่ พื้นใหม่ ของที่ติดตั้ง (เช่น finished: cream walls, oak laminate floor) · เฉพาะงานสร้างใหม่ (ไม่ใช่งานทำความสะอาดหรือจัดระเบียบ ซึ่งคงของเดิม): ต่อท้าย finished: ด้วยของใช้จริงตามหน้าที่พื้นที่ 4-6 อย่าง แบบบ้านไทยทั่วไป ไม่หรู ให้ดูพร้อมใช้และน่าอยู่ ไม่โล่งเปล่า เช่น ครัว: ชั้นวางขวดโหลและจานชาม เขียง ผ้าเช็ดมือแขวน กระถางต้นไม้ ไฟใต้ชั้น โต๊ะนั่ง · ห้องน้ำ: ราวผ้าขนหนู ที่ใส่สบู่ กระถางต้นไม้เล็ก ตะกร้า · ลานหรือศาลา: โต๊ะเก้าอี้ โคมไฟ ต้นไม้@NAT_HOUSE_CUES@ · ครัวนอกบ้านที่ผู้ใช้ไม่ได้ระบุขนาด: กว้างขวางอย่างน้อย 6 เมตร x 4 เมตร เคาน์เตอร์ตัวแอลด้านละ 3 เมตรขึ้นไป โต๊ะนั่ง 4-6 ที่ ตู้เย็น เห็นเป็นห้องครัวใหญ่ · ถ้าแนบรูปพื้นที่จริง บรรยายตามรูป · ทุกคลิปของงานเดียวกันใช้ห้องเดียวกัน\",\"synopsis\":\"สรุปเรื่องของคลิปเป็นภาษาไทย 1-2 ประโยค\",\"voice\":\"เพศของเสียงพากย์ในคลิปนี้ ตอบ หญิง หรือ ชาย\",\"voiceTimbre\":\"ลายเซ็นเสียงพากย์ภาษาอังกฤษ 1 บรรทัดไม่เกิน 25 คำ: เพศ อายุ ระดับเสียง น้ำเสียง จังหวะพูด · เพศต้องตรงกับ voice · ทุกคลิปของงานเดียวกันใช้ข้อความเดียวกัน · ไม่มีเสียงพากย์ให้เว้นว่าง\",\"s1th\":\"...\",\"s1en\":\"...\",\"ov1\":\"...\",\"vo1\":\"...\",\"cam1\":\"...\",\"s2th\":\"...\",\"s2en\":\"...\",\"ov2\":\"...\",\"vo2\":\"...\",\"cam2\":\"...\",\"s3th\":\"...\",\"s3en\":\"...\",\"ov3\":\"...\",\"vo3\":\"...\",\"cam3\":\"...\",\"s4th\":\"...\",\"s4en\":\"...\",\"ov4\":\"...\",\"vo4\":\"...\",\"cam4\":\"...\",\"s5th\":\"...\",\"s5en\":\"...\",\"ov5\":\"...\",\"vo5\":\"...\",\"cam5\":\"...\",\"s6th\":\"...\",\"s6en\":\"...\",\"ov6\":\"...\",\"vo6\":\"...\",\"cam6\":\"...\",\"s7th\":\"...\",\"s7en\":\"...\",\"ov7\":\"...\",\"vo7\":\"...\",\"cam7\":\"...\",\"s8th\":\"...\",\"s8en\":\"...\",\"ov8\":\"...\",\"vo8\":\"...\",\"cam8\":\"...\",\"s9th\":\"...\",\"s9en\":\"...\",\"ov9\":\"...\",\"vo9\":\"...\",\"cam9\":\"...\",\"s10th\":\"...\",\"s10en\":\"...\",\"ov10\":\"...\",\"vo10\":\"...\",\"cam10\":\"...\",\"s11th\":\"...\",\"s11en\":\"...\",\"ov11\":\"...\",\"vo11\":\"...\",\"cam11\":\"...\",\"s12th\":\"...\",\"s12en\":\"...\",\"ov12\":\"...\",\"vo12\":\"...\",\"cam12\":\"...\",\"s13th\":\"...\",\"s13en\":\"...\",\"ov13\":\"...\",\"vo13\":\"...\",\"cam13\":\"...\",\"s14th\":\"...\",\"s14en\":\"...\",\"ov14\":\"...\",\"vo14\":\"...\",\"cam14\":\"...\",\"s15th\":\"...\",\"s15en\":\"...\",\"ov15\":\"...\",\"vo15\":\"...\",\"cam15\":\"...\",\"s16th\":\"...\",\"s16en\":\"...\",\"ov16\":\"...\",\"vo16\":\"...\",\"cam16\":\"...\",\"s17th\":\"...\",\"s17en\":\"...\",\"ov17\":\"...\",\"vo17\":\"...\",\"cam17\":\"...\",\"s18th\":\"...\",\"s18en\":\"...\",\"ov18\":\"...\",\"vo18\":\"...\",\"cam18\":\"...\"}\n\noverlay (กฎเพิ่ม): ovN ทุกช่อง: ไทย, บรรทัดเดียว, สูงสุด 5 คำ, ไม่ใส่เลขฉากหรือลิสต์; ต้องตรงกับภาพจริงในฉากนั้น ห้ามนำชื่อช่วงโครงเรื่อง (ก่อน, เตรียมของ, ลงมือทำ, คืบหน้า, ผลลัพธ์, จุดเด่น) เป็นตัวหนังสือบนภาพ\n\nวิธีตอบ: ขึ้นต้น [ ลงท้าย ] แล้วหยุดทันที; ห้ามใช้ ``` ห้ามมีหมายเหตุ คำอธิบาย หรือข้อความอื่นใดก่อน/หลัง JSON",
+   "40": "เอาต์พุต: ตอบเป็น JSON array เท่านั้น ไม่มี markdown หรือข้อความใดนอก JSON; อาร์เรย์มี object เท่าจำนวนคลิปที่ขอ (ขอ 1 คลิป → array มี 1 object); ทุก object ต้องครบ 24 ฉาก ขาดแม้ฉากเดียวไม่ได้; โครงสร้างแต่ละ object:\n{\"productName\":\"ชื่องานตามที่ผู้ใช้ตั้งไว้ ใช้คำเดิมตรงทุกตัวอักษร\",\"category\":\"หมวดของงาน เช่น ทำความสะอาด ซ่อมแซม รีโนเวท จัดบ้าน\",\"palette\":\"English phrase, 4-9 words: one bright, natural light for the whole clip, like a phone camera on a normal day; a before/after change is the same source, e.g. bright soft daylight from a side window\",\"look\":\"บรรยายผู้ลงมือ 1 คนเป็นภาษาอังกฤษ **12-15 คำ** ระบุเพศ ช่วงวัย ทรงผม รูปร่าง สีผิว และ **ชุดที่ใส่** เช่น @NAT_EN@ man early 30s short black hair slim build tan skin wearing navy work shirt and grey trousers · ใช้ชุดตามที่ผู้ใช้กำหนดไว้ ถ้าว่างให้เลือกชุดทำงานที่เข้ากับงานเอง · ถ้าแนบรูปใบหน้ามาเป็นรูปสุดท้าย ให้ยึดหน้าตาตามรูป · ชุดและรูปร่างนี้ต้องเหมือนกันทุกคลิป · โหมดเห็นแต่มือ หรือเห็นตัวไม่เห็นหน้า ให้ระบุเฉพาะชุดและสีผิวมือ ห้ามระบุหน้า ผม อายุ · ไม่มีคนในคลิป ส่งสตริงว่าง\",\"room\":\"บรรยายห้อง/พื้นที่ของงานเป็นภาษาอังกฤษ 40-50 คำ: ขึ้นต้นด้วย site: สิ่งรอบงานที่คงเดิมตลอดคลิป ระบุพื้นลาน รั้ว กำแพง ต้นไม้ อาคารข้างเคียง ว่าอยู่ซ้าย ขวา หรือด้านหลัง · งานสร้างใหม่ต่อด้วย shape: closed room หรือ shape: open-front ตามกฎทรงงาน · ชนิดห้อง · งานสร้างใหม่ระบุหลังคาที่คลุมเต็มพื้นที่ ผนังครบทุกด้านที่มี ผนังด้านใน พื้น เพดาน และของที่ติดตั้งครบตามหน้าที่ · หน้าต่างและประตู (ถ้ามี) อยู่ผนังไหน (ซ้าย ขวา ด้านหลัง) แบบไหน สีกรอบ · ของหลักที่งานนี้ทำ (ตู้ อ่าง เคาน์เตอร์ สนาม ฯลฯ) ละเอียด: วัสดุ สี จำนวนบาน ช่องแขวน ราว ชั้น ลิ้นชัก มือจับ ตำแหน่ง · เฟอร์นิเจอร์อื่น · สีผนัง · วัสดุและสีพื้น · งานจัดระเบียบหรือทำความสะอาด finished บอกว่าเป็นของหลักชิ้นเดิม (เช่น finished: same wardrobe, clothes folded in grey boxes) · ถ้างานเปลี่ยนพื้นผิว ต่อท้ายด้วย finished: สีผนังใหม่ พื้นใหม่ ของที่ติดตั้ง (เช่น finished: cream walls, oak laminate floor) · เฉพาะงานสร้างใหม่ (ไม่ใช่งานทำความสะอาดหรือจัดระเบียบ ซึ่งคงของเดิม): ต่อท้าย finished: ด้วยของใช้จริงตามหน้าที่พื้นที่ 4-6 อย่าง แบบบ้านไทยทั่วไป ไม่หรู ให้ดูพร้อมใช้และน่าอยู่ ไม่โล่งเปล่า เช่น ครัว: ชั้นวางขวดโหลและจานชาม เขียง ผ้าเช็ดมือแขวน กระถางต้นไม้ ไฟใต้ชั้น โต๊ะนั่ง · ห้องน้ำ: ราวผ้าขนหนู ที่ใส่สบู่ กระถางต้นไม้เล็ก ตะกร้า · ลานหรือศาลา: โต๊ะเก้าอี้ โคมไฟ ต้นไม้@NAT_HOUSE_CUES@ · ครัวนอกบ้านที่ผู้ใช้ไม่ได้ระบุขนาด: กว้างขวางอย่างน้อย 6 เมตร x 4 เมตร เคาน์เตอร์ตัวแอลด้านละ 3 เมตรขึ้นไป โต๊ะนั่ง 4-6 ที่ ตู้เย็น เห็นเป็นห้องครัวใหญ่ · ถ้าแนบรูปพื้นที่จริง บรรยายตามรูป · ทุกคลิปของงานเดียวกันใช้ห้องเดียวกัน\",\"synopsis\":\"สรุปเรื่องของคลิปเป็นภาษาไทย 1-2 ประโยค\",\"voice\":\"เพศของเสียงพากย์ในคลิปนี้ ตอบ หญิง หรือ ชาย\",\"voiceTimbre\":\"ลายเซ็นเสียงพากย์ภาษาอังกฤษ 1 บรรทัดไม่เกิน 25 คำ: เพศ อายุ ระดับเสียง น้ำเสียง จังหวะพูด · เพศต้องตรงกับ voice · ทุกคลิปของงานเดียวกันใช้ข้อความเดียวกัน · ไม่มีเสียงพากย์ให้เว้นว่าง\",\"s1th\":\"...\",\"s1en\":\"...\",\"ov1\":\"...\",\"vo1\":\"...\",\"cam1\":\"...\",\"s2th\":\"...\",\"s2en\":\"...\",\"ov2\":\"...\",\"vo2\":\"...\",\"cam2\":\"...\",\"s3th\":\"...\",\"s3en\":\"...\",\"ov3\":\"...\",\"vo3\":\"...\",\"cam3\":\"...\",\"s4th\":\"...\",\"s4en\":\"...\",\"ov4\":\"...\",\"vo4\":\"...\",\"cam4\":\"...\",\"s5th\":\"...\",\"s5en\":\"...\",\"ov5\":\"...\",\"vo5\":\"...\",\"cam5\":\"...\",\"s6th\":\"...\",\"s6en\":\"...\",\"ov6\":\"...\",\"vo6\":\"...\",\"cam6\":\"...\",\"s7th\":\"...\",\"s7en\":\"...\",\"ov7\":\"...\",\"vo7\":\"...\",\"cam7\":\"...\",\"s8th\":\"...\",\"s8en\":\"...\",\"ov8\":\"...\",\"vo8\":\"...\",\"cam8\":\"...\",\"s9th\":\"...\",\"s9en\":\"...\",\"ov9\":\"...\",\"vo9\":\"...\",\"cam9\":\"...\",\"s10th\":\"...\",\"s10en\":\"...\",\"ov10\":\"...\",\"vo10\":\"...\",\"cam10\":\"...\",\"s11th\":\"...\",\"s11en\":\"...\",\"ov11\":\"...\",\"vo11\":\"...\",\"cam11\":\"...\",\"s12th\":\"...\",\"s12en\":\"...\",\"ov12\":\"...\",\"vo12\":\"...\",\"cam12\":\"...\",\"s13th\":\"...\",\"s13en\":\"...\",\"ov13\":\"...\",\"vo13\":\"...\",\"cam13\":\"...\",\"s14th\":\"...\",\"s14en\":\"...\",\"ov14\":\"...\",\"vo14\":\"...\",\"cam14\":\"...\",\"s15th\":\"...\",\"s15en\":\"...\",\"ov15\":\"...\",\"vo15\":\"...\",\"cam15\":\"...\",\"s16th\":\"...\",\"s16en\":\"...\",\"ov16\":\"...\",\"vo16\":\"...\",\"cam16\":\"...\",\"s17th\":\"...\",\"s17en\":\"...\",\"ov17\":\"...\",\"vo17\":\"...\",\"cam17\":\"...\",\"s18th\":\"...\",\"s18en\":\"...\",\"ov18\":\"...\",\"vo18\":\"...\",\"cam18\":\"...\",\"s19th\":\"...\",\"s19en\":\"...\",\"ov19\":\"...\",\"vo19\":\"...\",\"cam19\":\"...\",\"s20th\":\"...\",\"s20en\":\"...\",\"ov20\":\"...\",\"vo20\":\"...\",\"cam20\":\"...\",\"s21th\":\"...\",\"s21en\":\"...\",\"ov21\":\"...\",\"vo21\":\"...\",\"cam21\":\"...\",\"s22th\":\"...\",\"s22en\":\"...\",\"ov22\":\"...\",\"vo22\":\"...\",\"cam22\":\"...\",\"s23th\":\"...\",\"s23en\":\"...\",\"ov23\":\"...\",\"vo23\":\"...\",\"cam23\":\"...\",\"s24th\":\"...\",\"s24en\":\"...\",\"ov24\":\"...\",\"vo24\":\"...\",\"cam24\":\"...\"}\n\noverlay (กฎเพิ่ม): ovN ทุกช่อง: ไทย, บรรทัดเดียว, สูงสุด 5 คำ, ไม่ใส่เลขฉากหรือลิสต์; ต้องตรงกับภาพจริงในฉากนั้น ห้ามนำชื่อช่วงโครงเรื่อง (ก่อน, เตรียมของ, ลงมือทำ, คืบหน้า, ผลลัพธ์, จุดเด่น) เป็นตัวหนังสือบนภาพ\n\nวิธีตอบ: ขึ้นต้น [ ลงท้าย ] แล้วหยุดทันที; ห้ามใช้ ``` ห้ามมีหมายเหตุ คำอธิบาย หรือข้อความอื่นใดก่อน/หลัง JSON",
+   "50": "เอาต์พุต: ตอบเป็น JSON array เท่านั้น ไม่มี markdown หรือข้อความใดนอก JSON; อาร์เรย์มี object เท่าจำนวนคลิปที่ขอ (ขอ 1 คลิป → array มี 1 object); ทุก object ต้องครบ 30 ฉาก ขาดแม้ฉากเดียวไม่ได้; โครงสร้างแต่ละ object:\n{\"productName\":\"ชื่องานตามที่ผู้ใช้ตั้งไว้ ใช้คำเดิมตรงทุกตัวอักษร\",\"category\":\"หมวดของงาน เช่น ทำความสะอาด ซ่อมแซม รีโนเวท จัดบ้าน\",\"palette\":\"English phrase, 4-9 words: one bright, natural light for the whole clip, like a phone camera on a normal day; a before/after change is the same source, e.g. bright soft daylight from a side window\",\"look\":\"บรรยายผู้ลงมือ 1 คนเป็นภาษาอังกฤษ **12-15 คำ** ระบุเพศ ช่วงวัย ทรงผม รูปร่าง สีผิว และ **ชุดที่ใส่** เช่น @NAT_EN@ man early 30s short black hair slim build tan skin wearing navy work shirt and grey trousers · ใช้ชุดตามที่ผู้ใช้กำหนดไว้ ถ้าว่างให้เลือกชุดทำงานที่เข้ากับงานเอง · ถ้าแนบรูปใบหน้ามาเป็นรูปสุดท้าย ให้ยึดหน้าตาตามรูป · ชุดและรูปร่างนี้ต้องเหมือนกันทุกคลิป · โหมดเห็นแต่มือ หรือเห็นตัวไม่เห็นหน้า ให้ระบุเฉพาะชุดและสีผิวมือ ห้ามระบุหน้า ผม อายุ · ไม่มีคนในคลิป ส่งสตริงว่าง\",\"room\":\"บรรยายห้อง/พื้นที่ของงานเป็นภาษาอังกฤษ 40-50 คำ: ขึ้นต้นด้วย site: สิ่งรอบงานที่คงเดิมตลอดคลิป ระบุพื้นลาน รั้ว กำแพง ต้นไม้ อาคารข้างเคียง ว่าอยู่ซ้าย ขวา หรือด้านหลัง · งานสร้างใหม่ต่อด้วย shape: closed room หรือ shape: open-front ตามกฎทรงงาน · ชนิดห้อง · งานสร้างใหม่ระบุหลังคาที่คลุมเต็มพื้นที่ ผนังครบทุกด้านที่มี ผนังด้านใน พื้น เพดาน และของที่ติดตั้งครบตามหน้าที่ · หน้าต่างและประตู (ถ้ามี) อยู่ผนังไหน (ซ้าย ขวา ด้านหลัง) แบบไหน สีกรอบ · ของหลักที่งานนี้ทำ (ตู้ อ่าง เคาน์เตอร์ สนาม ฯลฯ) ละเอียด: วัสดุ สี จำนวนบาน ช่องแขวน ราว ชั้น ลิ้นชัก มือจับ ตำแหน่ง · เฟอร์นิเจอร์อื่น · สีผนัง · วัสดุและสีพื้น · งานจัดระเบียบหรือทำความสะอาด finished บอกว่าเป็นของหลักชิ้นเดิม (เช่น finished: same wardrobe, clothes folded in grey boxes) · ถ้างานเปลี่ยนพื้นผิว ต่อท้ายด้วย finished: สีผนังใหม่ พื้นใหม่ ของที่ติดตั้ง (เช่น finished: cream walls, oak laminate floor) · เฉพาะงานสร้างใหม่ (ไม่ใช่งานทำความสะอาดหรือจัดระเบียบ ซึ่งคงของเดิม): ต่อท้าย finished: ด้วยของใช้จริงตามหน้าที่พื้นที่ 4-6 อย่าง แบบบ้านไทยทั่วไป ไม่หรู ให้ดูพร้อมใช้และน่าอยู่ ไม่โล่งเปล่า เช่น ครัว: ชั้นวางขวดโหลและจานชาม เขียง ผ้าเช็ดมือแขวน กระถางต้นไม้ ไฟใต้ชั้น โต๊ะนั่ง · ห้องน้ำ: ราวผ้าขนหนู ที่ใส่สบู่ กระถางต้นไม้เล็ก ตะกร้า · ลานหรือศาลา: โต๊ะเก้าอี้ โคมไฟ ต้นไม้@NAT_HOUSE_CUES@ · ครัวนอกบ้านที่ผู้ใช้ไม่ได้ระบุขนาด: กว้างขวางอย่างน้อย 6 เมตร x 4 เมตร เคาน์เตอร์ตัวแอลด้านละ 3 เมตรขึ้นไป โต๊ะนั่ง 4-6 ที่ ตู้เย็น เห็นเป็นห้องครัวใหญ่ · ถ้าแนบรูปพื้นที่จริง บรรยายตามรูป · ทุกคลิปของงานเดียวกันใช้ห้องเดียวกัน\",\"synopsis\":\"สรุปเรื่องของคลิปเป็นภาษาไทย 1-2 ประโยค\",\"voice\":\"เพศของเสียงพากย์ในคลิปนี้ ตอบ หญิง หรือ ชาย\",\"voiceTimbre\":\"ลายเซ็นเสียงพากย์ภาษาอังกฤษ 1 บรรทัดไม่เกิน 25 คำ: เพศ อายุ ระดับเสียง น้ำเสียง จังหวะพูด · เพศต้องตรงกับ voice · ทุกคลิปของงานเดียวกันใช้ข้อความเดียวกัน · ไม่มีเสียงพากย์ให้เว้นว่าง\",\"s1th\":\"...\",\"s1en\":\"...\",\"ov1\":\"...\",\"vo1\":\"...\",\"cam1\":\"...\",\"s2th\":\"...\",\"s2en\":\"...\",\"ov2\":\"...\",\"vo2\":\"...\",\"cam2\":\"...\",\"s3th\":\"...\",\"s3en\":\"...\",\"ov3\":\"...\",\"vo3\":\"...\",\"cam3\":\"...\",\"s4th\":\"...\",\"s4en\":\"...\",\"ov4\":\"...\",\"vo4\":\"...\",\"cam4\":\"...\",\"s5th\":\"...\",\"s5en\":\"...\",\"ov5\":\"...\",\"vo5\":\"...\",\"cam5\":\"...\",\"s6th\":\"...\",\"s6en\":\"...\",\"ov6\":\"...\",\"vo6\":\"...\",\"cam6\":\"...\",\"s7th\":\"...\",\"s7en\":\"...\",\"ov7\":\"...\",\"vo7\":\"...\",\"cam7\":\"...\",\"s8th\":\"...\",\"s8en\":\"...\",\"ov8\":\"...\",\"vo8\":\"...\",\"cam8\":\"...\",\"s9th\":\"...\",\"s9en\":\"...\",\"ov9\":\"...\",\"vo9\":\"...\",\"cam9\":\"...\",\"s10th\":\"...\",\"s10en\":\"...\",\"ov10\":\"...\",\"vo10\":\"...\",\"cam10\":\"...\",\"s11th\":\"...\",\"s11en\":\"...\",\"ov11\":\"...\",\"vo11\":\"...\",\"cam11\":\"...\",\"s12th\":\"...\",\"s12en\":\"...\",\"ov12\":\"...\",\"vo12\":\"...\",\"cam12\":\"...\",\"s13th\":\"...\",\"s13en\":\"...\",\"ov13\":\"...\",\"vo13\":\"...\",\"cam13\":\"...\",\"s14th\":\"...\",\"s14en\":\"...\",\"ov14\":\"...\",\"vo14\":\"...\",\"cam14\":\"...\",\"s15th\":\"...\",\"s15en\":\"...\",\"ov15\":\"...\",\"vo15\":\"...\",\"cam15\":\"...\",\"s16th\":\"...\",\"s16en\":\"...\",\"ov16\":\"...\",\"vo16\":\"...\",\"cam16\":\"...\",\"s17th\":\"...\",\"s17en\":\"...\",\"ov17\":\"...\",\"vo17\":\"...\",\"cam17\":\"...\",\"s18th\":\"...\",\"s18en\":\"...\",\"ov18\":\"...\",\"vo18\":\"...\",\"cam18\":\"...\",\"s19th\":\"...\",\"s19en\":\"...\",\"ov19\":\"...\",\"vo19\":\"...\",\"cam19\":\"...\",\"s20th\":\"...\",\"s20en\":\"...\",\"ov20\":\"...\",\"vo20\":\"...\",\"cam20\":\"...\",\"s21th\":\"...\",\"s21en\":\"...\",\"ov21\":\"...\",\"vo21\":\"...\",\"cam21\":\"...\",\"s22th\":\"...\",\"s22en\":\"...\",\"ov22\":\"...\",\"vo22\":\"...\",\"cam22\":\"...\",\"s23th\":\"...\",\"s23en\":\"...\",\"ov23\":\"...\",\"vo23\":\"...\",\"cam23\":\"...\",\"s24th\":\"...\",\"s24en\":\"...\",\"ov24\":\"...\",\"vo24\":\"...\",\"cam24\":\"...\",\"s25th\":\"...\",\"s25en\":\"...\",\"ov25\":\"...\",\"vo25\":\"...\",\"cam25\":\"...\",\"s26th\":\"...\",\"s26en\":\"...\",\"ov26\":\"...\",\"vo26\":\"...\",\"cam26\":\"...\",\"s27th\":\"...\",\"s27en\":\"...\",\"ov27\":\"...\",\"vo27\":\"...\",\"cam27\":\"...\",\"s28th\":\"...\",\"s28en\":\"...\",\"ov28\":\"...\",\"vo28\":\"...\",\"cam28\":\"...\",\"s29th\":\"...\",\"s29en\":\"...\",\"ov29\":\"...\",\"vo29\":\"...\",\"cam29\":\"...\",\"s30th\":\"...\",\"s30en\":\"...\",\"ov30\":\"...\",\"vo30\":\"...\",\"cam30\":\"...\"}\n\noverlay (กฎเพิ่ม): ovN ทุกช่อง: ไทย, บรรทัดเดียว, สูงสุด 5 คำ, ไม่ใส่เลขฉากหรือลิสต์; ต้องตรงกับภาพจริงในฉากนั้น ห้ามนำชื่อช่วงโครงเรื่อง (ก่อน, เตรียมของ, ลงมือทำ, คืบหน้า, ผลลัพธ์, จุดเด่น) เป็นตัวหนังสือบนภาพ\n\nวิธีตอบ: ขึ้นต้น [ ลงท้าย ] แล้วหยุดทันที; ห้ามใช้ ``` ห้ามมีหมายเหตุ คำอธิบาย หรือข้อความอื่นใดก่อน/หลัง JSON",
+   "60": "เอาต์พุต: ตอบเป็น JSON array เท่านั้น ไม่มี markdown หรือข้อความใดนอก JSON; อาร์เรย์มี object เท่าจำนวนคลิปที่ขอ (ขอ 1 คลิป → array มี 1 object); ทุก object ต้องครบ 36 ฉาก ขาดแม้ฉากเดียวไม่ได้; โครงสร้างแต่ละ object:\n{\"productName\":\"ชื่องานตามที่ผู้ใช้ตั้งไว้ ใช้คำเดิมตรงทุกตัวอักษร\",\"category\":\"หมวดของงาน เช่น ทำความสะอาด ซ่อมแซม รีโนเวท จัดบ้าน\",\"palette\":\"English phrase, 4-9 words: one bright, natural light for the whole clip, like a phone camera on a normal day; a before/after change is the same source, e.g. bright soft daylight from a side window\",\"look\":\"บรรยายผู้ลงมือ 1 คนเป็นภาษาอังกฤษ **12-15 คำ** ระบุเพศ ช่วงวัย ทรงผม รูปร่าง สีผิว และ **ชุดที่ใส่** เช่น @NAT_EN@ man early 30s short black hair slim build tan skin wearing navy work shirt and grey trousers · ใช้ชุดตามที่ผู้ใช้กำหนดไว้ ถ้าว่างให้เลือกชุดทำงานที่เข้ากับงานเอง · ถ้าแนบรูปใบหน้ามาเป็นรูปสุดท้าย ให้ยึดหน้าตาตามรูป · ชุดและรูปร่างนี้ต้องเหมือนกันทุกคลิป · โหมดเห็นแต่มือ หรือเห็นตัวไม่เห็นหน้า ให้ระบุเฉพาะชุดและสีผิวมือ ห้ามระบุหน้า ผม อายุ · ไม่มีคนในคลิป ส่งสตริงว่าง\",\"room\":\"บรรยายห้อง/พื้นที่ของงานเป็นภาษาอังกฤษ 40-50 คำ: ขึ้นต้นด้วย site: สิ่งรอบงานที่คงเดิมตลอดคลิป ระบุพื้นลาน รั้ว กำแพง ต้นไม้ อาคารข้างเคียง ว่าอยู่ซ้าย ขวา หรือด้านหลัง · งานสร้างใหม่ต่อด้วย shape: closed room หรือ shape: open-front ตามกฎทรงงาน · ชนิดห้อง · งานสร้างใหม่ระบุหลังคาที่คลุมเต็มพื้นที่ ผนังครบทุกด้านที่มี ผนังด้านใน พื้น เพดาน และของที่ติดตั้งครบตามหน้าที่ · หน้าต่างและประตู (ถ้ามี) อยู่ผนังไหน (ซ้าย ขวา ด้านหลัง) แบบไหน สีกรอบ · ของหลักที่งานนี้ทำ (ตู้ อ่าง เคาน์เตอร์ สนาม ฯลฯ) ละเอียด: วัสดุ สี จำนวนบาน ช่องแขวน ราว ชั้น ลิ้นชัก มือจับ ตำแหน่ง · เฟอร์นิเจอร์อื่น · สีผนัง · วัสดุและสีพื้น · งานจัดระเบียบหรือทำความสะอาด finished บอกว่าเป็นของหลักชิ้นเดิม (เช่น finished: same wardrobe, clothes folded in grey boxes) · ถ้างานเปลี่ยนพื้นผิว ต่อท้ายด้วย finished: สีผนังใหม่ พื้นใหม่ ของที่ติดตั้ง (เช่น finished: cream walls, oak laminate floor) · เฉพาะงานสร้างใหม่ (ไม่ใช่งานทำความสะอาดหรือจัดระเบียบ ซึ่งคงของเดิม): ต่อท้าย finished: ด้วยของใช้จริงตามหน้าที่พื้นที่ 4-6 อย่าง แบบบ้านไทยทั่วไป ไม่หรู ให้ดูพร้อมใช้และน่าอยู่ ไม่โล่งเปล่า เช่น ครัว: ชั้นวางขวดโหลและจานชาม เขียง ผ้าเช็ดมือแขวน กระถางต้นไม้ ไฟใต้ชั้น โต๊ะนั่ง · ห้องน้ำ: ราวผ้าขนหนู ที่ใส่สบู่ กระถางต้นไม้เล็ก ตะกร้า · ลานหรือศาลา: โต๊ะเก้าอี้ โคมไฟ ต้นไม้@NAT_HOUSE_CUES@ · ครัวนอกบ้านที่ผู้ใช้ไม่ได้ระบุขนาด: กว้างขวางอย่างน้อย 6 เมตร x 4 เมตร เคาน์เตอร์ตัวแอลด้านละ 3 เมตรขึ้นไป โต๊ะนั่ง 4-6 ที่ ตู้เย็น เห็นเป็นห้องครัวใหญ่ · ถ้าแนบรูปพื้นที่จริง บรรยายตามรูป · ทุกคลิปของงานเดียวกันใช้ห้องเดียวกัน\",\"synopsis\":\"สรุปเรื่องของคลิปเป็นภาษาไทย 1-2 ประโยค\",\"voice\":\"เพศของเสียงพากย์ในคลิปนี้ ตอบ หญิง หรือ ชาย\",\"voiceTimbre\":\"ลายเซ็นเสียงพากย์ภาษาอังกฤษ 1 บรรทัดไม่เกิน 25 คำ: เพศ อายุ ระดับเสียง น้ำเสียง จังหวะพูด · เพศต้องตรงกับ voice · ทุกคลิปของงานเดียวกันใช้ข้อความเดียวกัน · ไม่มีเสียงพากย์ให้เว้นว่าง\",\"s1th\":\"...\",\"s1en\":\"...\",\"ov1\":\"...\",\"vo1\":\"...\",\"cam1\":\"...\",\"s2th\":\"...\",\"s2en\":\"...\",\"ov2\":\"...\",\"vo2\":\"...\",\"cam2\":\"...\",\"s3th\":\"...\",\"s3en\":\"...\",\"ov3\":\"...\",\"vo3\":\"...\",\"cam3\":\"...\",\"s4th\":\"...\",\"s4en\":\"...\",\"ov4\":\"...\",\"vo4\":\"...\",\"cam4\":\"...\",\"s5th\":\"...\",\"s5en\":\"...\",\"ov5\":\"...\",\"vo5\":\"...\",\"cam5\":\"...\",\"s6th\":\"...\",\"s6en\":\"...\",\"ov6\":\"...\",\"vo6\":\"...\",\"cam6\":\"...\",\"s7th\":\"...\",\"s7en\":\"...\",\"ov7\":\"...\",\"vo7\":\"...\",\"cam7\":\"...\",\"s8th\":\"...\",\"s8en\":\"...\",\"ov8\":\"...\",\"vo8\":\"...\",\"cam8\":\"...\",\"s9th\":\"...\",\"s9en\":\"...\",\"ov9\":\"...\",\"vo9\":\"...\",\"cam9\":\"...\",\"s10th\":\"...\",\"s10en\":\"...\",\"ov10\":\"...\",\"vo10\":\"...\",\"cam10\":\"...\",\"s11th\":\"...\",\"s11en\":\"...\",\"ov11\":\"...\",\"vo11\":\"...\",\"cam11\":\"...\",\"s12th\":\"...\",\"s12en\":\"...\",\"ov12\":\"...\",\"vo12\":\"...\",\"cam12\":\"...\",\"s13th\":\"...\",\"s13en\":\"...\",\"ov13\":\"...\",\"vo13\":\"...\",\"cam13\":\"...\",\"s14th\":\"...\",\"s14en\":\"...\",\"ov14\":\"...\",\"vo14\":\"...\",\"cam14\":\"...\",\"s15th\":\"...\",\"s15en\":\"...\",\"ov15\":\"...\",\"vo15\":\"...\",\"cam15\":\"...\",\"s16th\":\"...\",\"s16en\":\"...\",\"ov16\":\"...\",\"vo16\":\"...\",\"cam16\":\"...\",\"s17th\":\"...\",\"s17en\":\"...\",\"ov17\":\"...\",\"vo17\":\"...\",\"cam17\":\"...\",\"s18th\":\"...\",\"s18en\":\"...\",\"ov18\":\"...\",\"vo18\":\"...\",\"cam18\":\"...\",\"s19th\":\"...\",\"s19en\":\"...\",\"ov19\":\"...\",\"vo19\":\"...\",\"cam19\":\"...\",\"s20th\":\"...\",\"s20en\":\"...\",\"ov20\":\"...\",\"vo20\":\"...\",\"cam20\":\"...\",\"s21th\":\"...\",\"s21en\":\"...\",\"ov21\":\"...\",\"vo21\":\"...\",\"cam21\":\"...\",\"s22th\":\"...\",\"s22en\":\"...\",\"ov22\":\"...\",\"vo22\":\"...\",\"cam22\":\"...\",\"s23th\":\"...\",\"s23en\":\"...\",\"ov23\":\"...\",\"vo23\":\"...\",\"cam23\":\"...\",\"s24th\":\"...\",\"s24en\":\"...\",\"ov24\":\"...\",\"vo24\":\"...\",\"cam24\":\"...\",\"s25th\":\"...\",\"s25en\":\"...\",\"ov25\":\"...\",\"vo25\":\"...\",\"cam25\":\"...\",\"s26th\":\"...\",\"s26en\":\"...\",\"ov26\":\"...\",\"vo26\":\"...\",\"cam26\":\"...\",\"s27th\":\"...\",\"s27en\":\"...\",\"ov27\":\"...\",\"vo27\":\"...\",\"cam27\":\"...\",\"s28th\":\"...\",\"s28en\":\"...\",\"ov28\":\"...\",\"vo28\":\"...\",\"cam28\":\"...\",\"s29th\":\"...\",\"s29en\":\"...\",\"ov29\":\"...\",\"vo29\":\"...\",\"cam29\":\"...\",\"s30th\":\"...\",\"s30en\":\"...\",\"ov30\":\"...\",\"vo30\":\"...\",\"cam30\":\"...\",\"s31th\":\"...\",\"s31en\":\"...\",\"ov31\":\"...\",\"vo31\":\"...\",\"cam31\":\"...\",\"s32th\":\"...\",\"s32en\":\"...\",\"ov32\":\"...\",\"vo32\":\"...\",\"cam32\":\"...\",\"s33th\":\"...\",\"s33en\":\"...\",\"ov33\":\"...\",\"vo33\":\"...\",\"cam33\":\"...\",\"s34th\":\"...\",\"s34en\":\"...\",\"ov34\":\"...\",\"vo34\":\"...\",\"cam34\":\"...\",\"s35th\":\"...\",\"s35en\":\"...\",\"ov35\":\"...\",\"vo35\":\"...\",\"cam35\":\"...\",\"s36th\":\"...\",\"s36en\":\"...\",\"ov36\":\"...\",\"vo36\":\"...\",\"cam36\":\"...\"}\n\noverlay (กฎเพิ่ม): ovN ทุกช่อง: ไทย, บรรทัดเดียว, สูงสุด 5 คำ, ไม่ใส่เลขฉากหรือลิสต์; ต้องตรงกับภาพจริงในฉากนั้น ห้ามนำชื่อช่วงโครงเรื่อง (ก่อน, เตรียมของ, ลงมือทำ, คืบหน้า, ผลลัพธ์, จุดเด่น) เป็นตัวหนังสือบนภาพ\n\nวิธีตอบ: ขึ้นต้น [ ลงท้าย ] แล้วหยุดทันที; ห้ามใช้ ``` ห้ามมีหมายเหตุ คำอธิบาย หรือข้อความอื่นใดก่อน/หลัง JSON"
   },
   "lenLabel": {
    "10": "10 วินาที",
@@ -45181,8 +44930,8 @@
    "af:sp01": "โครงเรื่อง (ผู้ใช้เลือก) ชี้ปัญหาทีละจุด: ฉากแรกมือแตะสินค้าแล้วพูดปัญหาที่เจอ จากนั้นมือพาไปชี้จุดปัญหาจุดที่ 1 ใกล้ ๆ บอกว่าทำไมวิธีเดิมไม่ได้ผล มือถือสินค้าเล็งไปที่จุดนั้นแล้วบอกจุดเด่น ต่อด้วยจุดปัญหาจุดที่ 2 แบบเดียวกัน ทุกจุดอยู่ในสถานที่เดียวกันกับฉากแรก แล้วกลับมาแตะสินค้าปิดการขาย\n★ ข้อยกเว้นเฉพาะคลิปนี้ ใช้แทนกฎ \"ฉากลงมือต้องเห็นสินค้าถูกใช้จนเกิดผล\" และกฎ \"ฉากท้ายเห็นผลต่างในจุดเดิม\": คลิปนี้ไม่ต้องเห็นการลงมือครบทุกขั้น แต่ถ้าเป็นงานสร้าง ติดตั้ง หรือรีโนเวท ฉากท้ายต้องเห็นงานเสร็จสมบูรณ์ งานยังเป็นการซ่อม ทำความสะอาด จัดระเบียบ หรือรีโนเวทพื้นที่หรือของจริง สภาพจริงของปัญหาต้องเห็นชัดในภาพ และสินค้าอยู่ในคลิปตั้งแต่ฉากแรก\nแนวชี้จุดขาย: POV มุมสายตาคนถือมือถือ ภาพบ้านจริงไม่จัดแสง s*en ทุกฉากเห็นมือชี้ แตะ หรือผายไปที่จุดนั้นหรือที่สินค้า เห็นแค่มือไม่เห็นหน้า มือไม่เกินสองข้าง ฉากแรกและฉากสุดท้ายเป็นมุมเดียวกัน เห็นสินค้าวางอยู่ชัด ยี่ห้ออ่านออก มือแตะสินค้า สินค้าต้องคงรูปทรง สีและขนาดเดิม vo ทุกฉากเป็นคำขายจากคนถือกล้อง พูดถึงปัญหา เหตุผลที่วิธีเดิมไม่ได้ผล และจุดเด่นของสินค้า ห้ามเล่าขั้นตอนแบบสอนทำ ผลลัพธ์บอกด้วยเสียงได้ แต่พูดเฉพาะสิ่งที่สินค้าทำได้จริงจากข้อมูลสินค้า ห้ามแต่งตัวเลขหรือสรรพคุณ ฉากท้ายชวนซื้อตรง ๆ ไม่เกิน 8 คำ ถ้าผู้ใช้กรอกคำปิดมาให้ใช้คำนั้น",
    "af:sp02": "โครงเรื่อง (ผู้ใช้เลือก) ชี้จุดที่วิธีเดิมไปไม่ถึง: ฉากแรกมือแตะสินค้าแล้วถามผู้ชมว่าจุดนี้ทำยังไง มือชี้ซอกหรือมุมที่มือและของเดิมเข้าไม่ถึง ลองเอื้อมให้เห็นว่าไม่ถึง แล้วถือสินค้าเล็งไปที่จุดนั้นและบอกว่าส่วนไหนของสินค้าช่วยได้ ปิดด้วยการกลับมาแตะสินค้า\n★ ข้อยกเว้นเฉพาะคลิปนี้ ใช้แทนกฎ \"ฉากลงมือต้องเห็นสินค้าถูกใช้จนเกิดผล\" และกฎ \"ฉากท้ายเห็นผลต่างในจุดเดิม\": คลิปนี้ไม่ต้องเห็นการลงมือครบทุกขั้น แต่ถ้าเป็นงานสร้าง ติดตั้ง หรือรีโนเวท ฉากท้ายต้องเห็นงานเสร็จสมบูรณ์ งานยังเป็นการซ่อม ทำความสะอาด จัดระเบียบ หรือรีโนเวทพื้นที่หรือของจริง สภาพจริงของปัญหาต้องเห็นชัดในภาพ และสินค้าอยู่ในคลิปตั้งแต่ฉากแรก\nแนวชี้จุดขาย: POV มุมสายตาคนถือมือถือ ภาพบ้านจริงไม่จัดแสง s*en ทุกฉากเห็นมือชี้ แตะ หรือผายไปที่จุดนั้นหรือที่สินค้า เห็นแค่มือไม่เห็นหน้า มือไม่เกินสองข้าง ฉากแรกและฉากสุดท้ายเป็นมุมเดียวกัน เห็นสินค้าวางอยู่ชัด ยี่ห้ออ่านออก มือแตะสินค้า สินค้าต้องคงรูปทรง สีและขนาดเดิม vo ทุกฉากเป็นคำขายจากคนถือกล้อง พูดถึงปัญหา เหตุผลที่วิธีเดิมไม่ได้ผล และจุดเด่นของสินค้า ห้ามเล่าขั้นตอนแบบสอนทำ ผลลัพธ์บอกด้วยเสียงได้ แต่พูดเฉพาะสิ่งที่สินค้าทำได้จริงจากข้อมูลสินค้า ห้ามแต่งตัวเลขหรือสรรพคุณ ฉากท้ายชวนซื้อตรง ๆ ไม่เกิน 8 คำ ถ้าผู้ใช้กรอกคำปิดมาให้ใช้คำนั้น",
    "af:sp03": "โครงเรื่อง (ผู้ใช้เลือก) ชี้จุดเด่นบนตัวสินค้า: ฉากแรกมือแตะสินค้าและชี้จุดปัญหาในพื้นที่จริงหนึ่งจุด จากนั้นกลับมาที่สินค้า มือชี้ หมุน หรือกดทีละส่วน เล่าว่าส่วนนั้นแก้ปัญหาได้ยังไง ฉากท้ายกลับมามุมแรก มือแตะสินค้าปิดการขาย\n★ ข้อยกเว้นเฉพาะคลิปนี้ ใช้แทนกฎ \"ฉากลงมือต้องเห็นสินค้าถูกใช้จนเกิดผล\" และกฎ \"ฉากท้ายเห็นผลต่างในจุดเดิม\": คลิปนี้ไม่ต้องเห็นการลงมือครบทุกขั้น แต่ถ้าเป็นงานสร้าง ติดตั้ง หรือรีโนเวท ฉากท้ายต้องเห็นงานเสร็จสมบูรณ์ งานยังเป็นการซ่อม ทำความสะอาด จัดระเบียบ หรือรีโนเวทพื้นที่หรือของจริง สภาพจริงของปัญหาต้องเห็นชัดในภาพ และสินค้าอยู่ในคลิปตั้งแต่ฉากแรก\nแนวชี้จุดขาย: POV มุมสายตาคนถือมือถือ ภาพบ้านจริงไม่จัดแสง s*en ทุกฉากเห็นมือชี้ แตะ หรือผายไปที่จุดนั้นหรือที่สินค้า เห็นแค่มือไม่เห็นหน้า มือไม่เกินสองข้าง ฉากแรกและฉากสุดท้ายเป็นมุมเดียวกัน เห็นสินค้าวางอยู่ชัด ยี่ห้ออ่านออก มือแตะสินค้า สินค้าต้องคงรูปทรง สีและขนาดเดิม vo ทุกฉากเป็นคำขายจากคนถือกล้อง พูดถึงปัญหา เหตุผลที่วิธีเดิมไม่ได้ผล และจุดเด่นของสินค้า ห้ามเล่าขั้นตอนแบบสอนทำ ผลลัพธ์บอกด้วยเสียงได้ แต่พูดเฉพาะสิ่งที่สินค้าทำได้จริงจากข้อมูลสินค้า ห้ามแต่งตัวเลขหรือสรรพคุณ ฉากท้ายชวนซื้อตรง ๆ ไม่เกิน 8 คำ ถ้าผู้ใช้กรอกคำปิดมาให้ใช้คำนั้น",
-   "af:sf01": "โครงเรื่อง (ผู้ใช้เลือก) เซลฟี่เดินพาชมงานเสร็จ ★ ข้อยกเว้นเฉพาะแนวนี้ ใช้แทนกฎลำดับงาน กฎฉากแรกก่อนเริ่มงาน กฎห้ามเห็นงานเสร็จ กฎสัดส่วนระยะภาพ และกฎ vo จบห้วน: ทุกฉากเป็นงานที่เสร็จสมบูรณ์แล้ว ไม่มีสภาพเก่า การติดตั้ง ช่าง หรือเครื่องมือ\nแต่ละช่วงคือเทคเดียวไม่ตัดภาพ เจ้าของถือมือถือเซลฟี่เอง (ไม่เห็นโทรศัพท์) พูดไปเดินไปพร้อมกัน คนเดียว ชุดลำลองแบบอยู่บ้าน ไม่ใช่ชุดช่าง ประตูเปิดสุดแนบผนังเหมือนแบบงานเสร็จ vo ห้ามพูดถึงการเปิดหรือปิดประตู\nWALK-IN ★ สำคัญกว่าตอนจบที่เลือกและมุมกล้องที่ผู้ใช้ตั้งไว้ (ตามคน ตามมือ ฯลฯ): ทั้งคลิปคือเส้นทางเดินเส้นเดียวต่อเนื่อง ไม่ใช่ยืนพูด · ฉาก 1-2 เจ้าของยืนที่ทางเข้าหรือหน้าครัว ทักด้วย hook เห็นครัวทั้งหลังอยู่ด้านหลัง (camN เดินชม) · ฉาก 3-4 เดินเข้าไปในครัว กล้องเซลฟี่เดินไปพร้อมคน เห็นหน้าเจ้าของเต็ม ฉากหลังเลื่อนตามการเดิน เห็นเคาน์เตอร์และชั้นวางใกล้เข้ามา (camN เดินชม) · ฉาก 5-6 ท้ายช่วงแรก ถึงเคาน์เตอร์หรือผนัง เจ้าของหันข้าง มือข้างหนึ่งแตะผิวสินค้าที่ติดอยู่ กล้องซูมเข้าให้เห็นลายชัดประมาณครึ่งภาพ เจ้าของยังอยู่ข้างกรอบ เห็นหน้าและไหล่ (camN ฉาก 6 ซูมเข้า) · ช่วงถัดไปต่อจากจุดนั้น เดินไปตามแนวเคาน์เตอร์ ชี้ซิงก์ เตา ชั้นวาง โต๊ะ แตะของที่ติดอยู่ทีละจุดโดยไม่วนกลับจุดเดิม (camN ติดตาม หรือ ซูมเข้า) · ฉากสุดท้าย เจ้าของหันกลับมาหน้ากล้อง ให้เห็นครัวทั้งหลังอยู่ด้านหลัง ยิ้มชวนซื้อ (camN ถอยกว้าง) · ทุกฉากเห็นส่วนของครัวในกรอบเสมอ ห้ามเดินออกไปนอกครัว ห้ามเห็นด้านนอกหรือด้านหลังผนัง ห้ามผนังเปล่าเต็มกรอบ\nห้ามถือ ยก ชู หยิบ หรือวางแผ่นสินค้า ตัวอย่าง หรือของหลวมใด ๆ: สินค้าคือส่วนที่ติดอยู่ในครัวแล้ว (ผนัง ท็อป ชั้น) มือแตะได้เฉพาะของที่ติดอยู่ · ห้ามบทฉากหรือคำพูดอ้างของที่ภาพเปิดไม่เห็น\nSELFIE-SCALE: เจ้าของเป็นผู้ชายสูงปกติราว 170 ซม. อยู่ห่างกล้องช่วงแขนเหยียด เห็นแค่ศีรษะถึงเอว ไม่เห็นขาและเท้า กล้องระดับสายตา มองตรงหรือก้มเล็กน้อย ห้ามมุมเงยจากต่ำ ห้ามเลนส์ที่ทำให้ตัวใหญ่เกินจริง · ของรอบตัวสัดส่วนจริง เคาน์เตอร์สูงระดับสะโพก โต๊ะระดับเอว เก้าอี้ระดับเข่า คนต้องไม่ใหญ่กว่าตัวครัวและไม่สูงทะลุหลังคา · ทุกฉากต้องเห็นส่วนของครัวในกรอบเสมอ (ซิงก์ เตา ชั้นวาง หรือเคาน์เตอร์) ห้ามผนังเปล่าเต็มกรอบ ห้ามเห็นด้านนอกหรือด้านหลังผนัง\nMATERIAL: ถ้าสินค้าเป็นวัสดุก่อสร้างหรือแผ่นผนัง/หลังคา (เช่น เมทัลชีต แผ่นผนังลายไม้ ไม้เทียม) สินค้านี้คือวัสดุที่ใช้สร้างทั้งหลัง ไม่ใช่ของตกแต่ง: ข้อความ room ต้องบอกว่าผนังทุกด้าน เพดานหรือหลังคา ตู้ หน้าเคาน์เตอร์ ชั้น และผนังหลังเตาเป็นแผ่นสินค้าลายและสีเดียวกัน · ห้ามผนังฉาบปูนหรือทาสี ห้ามหลังคากระเบื้องดินเผา ห้ามผนังหรือตู้ไม้จริง · ใช้วัสดุอื่นได้เฉพาะท็อปเคาน์เตอร์ ซิงก์ เตา พื้นปูน และของใช้ · บทพูดบอกได้ว่าทั้งครัวสร้างจากแผ่นนี้ทั้งหมด ไม่ใช่ใช้ตกแต่งบางจุด\nSCENE-LOCK-S: ทุกฉากอยู่ในส่วนของครัวที่เห็นได้ในภาพเปิดคลิป (ภาพแรกเห็นครัวทั้งหลังอยู่ด้านหลังเจ้าของ) เดินได้เฉพาะตามแนวหน้าครัวและไปถึงเคาน์เตอร์หรือผนังที่เห็นอยู่แล้ว ห้ามเดินหรือหันกล้องไปมุมหรือห้องที่ภาพเปิดไม่เห็น ภาพใกล้คือการซูมเข้าส่วนหนึ่งของภาพเปิด ห้ามเขียนฉากหรือคำพูดถึงของที่ภาพเปิดไม่เห็น\nvo เป็นประโยคเต็มต่อเนื่องแบบเจ้าของเล่าให้เพื่อนฟัง ใช้ ผม หรือ เรา ลงท้ายครับหรือค่ะตามเพศ บอกว่าเอาสินค้ามาทำอะไร แล้วดีขึ้นยังไง ห้ามคำโฆษณาเกินจริง จุดเด่นพูดเท่าที่เห็นในภาพ ประโยคปิดต้องชวนซื้อตรง ๆ เช่น สนใจกดสั่งซื้อได้เลยครับ ห้ามปิดกว้าง ๆ เช่น ใครชอบลองดู\nREVIEW-SPEECH: นี่คือคลิปรีวิวสินค้า ไม่ใช่คลิปสร้างงาน เจ้าของพูดเหมือนอวดของที่ทำเสร็จให้เพื่อนดู สินค้าคือพระเอก · ฉากแรกเปิดด้วยความทึ่งหรือคำถามสั้น ๆ แล้วเฉลยชื่อสินค้า (เช่น ว่าดูแพงขนาดนี้ ทำจากอะไร) · ทุกประโยคต้องพูดถึงของที่มือชี้หรือที่เห็นในภาพตอนนั้น เช่น ผนัง ชั้นลอยที่มีไฟใต้ชั้น ซิงก์ เคาน์เตอร์ โต๊ะ ไม่พูดคำชมลอย ๆ · ข้อดีของสินค้า 2-3 ข้อ ให้ตรงกับที่เห็น เช่น ลายเหมือนวัสดุจริง ผิวเรียบ เช็ดทำความสะอาดง่าย แข็งแรง ใช้ได้ทั้งผนังและเคาน์เตอร์ · ใช้ข้อมูลจากช่องจุดเด่นสินค้า ราคา และโปรของสินค้าก่อน ถ้าไม่มีให้พูดเฉพาะคุณสมบัติทั่วไปของวัสดุที่เห็นได้จากภาพ ห้ามแต่งตัวเลข ราคา หรือสรรพคุณ · ห้ามใช้คำว่า สวย เกินหนึ่งครั้งทั้งคลิป และห้ามคำชมลอยซ้ำกัน เช่น ดีมาก สวยมาก งามมาก · ห้ามเล่าขั้นตอนติดตั้ง\nHOOK-FLOW: ประโยคแรกสุด (ฉาก 1) ต้องทำให้คนหยุดดู: คำถามหรือคำท้าที่เจาะจงกับสิ่งที่เห็น เช่น ผนังนี้ดูเหมือนไม้จริงใช่ไหม ลองเดาสิว่าทำจากอะไร หรือบอกผลที่น่าทึ่งทันที ห้ามเปิดด้วยการทักทายธรรมดาหรืออ่านชื่อสินค้า · บทพูดทั้งคลิปคือเสียงต่อเนื่องหนึ่งเดียวระหว่างเดิน ประโยคต่อกันด้วยคำเชื่อม (แล้ว ตรงนี้ ลองดู เห็นไหม พอ…ก็) ไม่แบ่งเป็นก้อนฉากละ 3-4 ประโยคแล้วเงียบ ทุกฉากพูดต่อจากฉากก่อน ไม่ขึ้นต้นใหม่ทุกฉาก ความยาวแต่ละฉากใกล้เคียงกันและพูดเต็มทุกฉาก ไม่มีช่วงเงียบ\nงานเสร็จต้องน่าอยู่ มีของแต่งจริง เช่น ต้นไม้ โคมไฟ และของใช้ตามหน้าที่พื้นที่",
-   "af:wk01": "โครงเรื่อง (ผู้ใช้เลือก) เดินชมงานเสร็จ เข้าใกล้ผิววัสดุ ★ ข้อยกเว้นเฉพาะแนวนี้ ใช้แทนกฎลำดับงาน กฎฉากแรกก่อนเริ่มงาน กฎห้ามเห็นงานเสร็จ กฎสัดส่วนระยะภาพ และกฎ vo จบห้วน: ทุกฉากเป็นงานที่เสร็จสมบูรณ์แล้ว ไม่มีสภาพเก่า การติดตั้ง ช่าง หรือเครื่องมือ\nมุมสายตาคนถือมือถือเดินชมงานแบบเทคต่อเนื่อง เห็นแค่มือและแขนเสื้อ ไม่เห็นหน้า ไม่เห็นโทรศัพท์ มือไม่เกินสองข้าง ภาพบ้านจริงแสงธรรมชาติ ไม่จัดแสง · แต่ละช่วง 10 วินาทีคือเทคเดียวต่อเนื่อง ไม่ตัดภาพ: กล้องเดินจากภาพหนึ่งไปอีกภาพอย่างต่อเนื่องบนเส้นทางเดินเส้นเดียว ฉากทั้ง 6 ของช่วงคือตำแหน่งต่อเนื่องของกล้องบนเส้นทางนั้น ไม่ใช่ภาพคนละที่ (ตัดภาพได้เฉพาะรอยต่อระหว่างช่วง)\n★ กันฉากเพี้ยน สำคัญที่สุดของแนวนี้: ทั้งคลิปคืออาคารหรืองานหลังเดียวกันตามคำบรรยายห้อง (room) และภาพต้นแบบ ทรงหลังคา ตำแหน่งประตูและหน้าต่าง สี และของแต่งอยู่ที่เดิมทุกฉาก ห้ามเปลี่ยนทรงหรือสร้างหลังใหม่ระหว่างฉาก · ประตูอยู่ในสภาพเดียวกับภาพต้นแบบทุกฉาก ห้ามมือเปิดหรือปิดประตู vo ห้ามพูดถึงการเปิดปิดประตู · ถ้างานเป็นห้องปิด (shape: closed room) ห้ามเข้าไปข้างใน ชมเฉพาะด้านนอก: ผนังลายไม้ ขอบประตู มือจับ หน้าต่าง ชายคา หลังคา ไฟข้างผนัง · ถ้างานเปิดโล่ง (shape: open-front) เดินชมจุดต่าง ๆ ในพื้นที่ได้ แต่ห้ามเดินอ้อมไปด้านอื่นของอาคาร\nลำดับภาพวิ่งครั้งเดียวตลอดทั้งคลิป ไม่วนซ้ำทุกช่วง ตามเวลาของคลิปต้นแบบ แบ่งเป็น 4 ช่วง (คลิป 20 วินาที = ฉาก 1-3 ช่วงที่ 1 · ฉาก 4-6 ช่วงที่ 2 · ฉาก 7-9 ช่วงที่ 3 · ฉาก 10-12 ช่วงที่ 4 · คลิป 10 วินาที = ฉาก 1-2 ช่วงที่ 1 · ฉาก 3 ช่วงที่ 2 · ฉาก 4-5 ช่วงที่ 3 · ฉาก 6 ช่วงที่ 4 · คลิปยาวกว่า 20 วินาที = ช่วงที่ 1 และ 2 ใช้ 3 ฉากแรกและ 3 ฉากถัดมา ช่วงที่ 4 ใช้ 3 ฉากสุดท้าย ฉากที่เหลือตรงกลางทั้งหมดเป็นช่วงที่ 3 ที่ไล่ดูจุดใหม่ทีละจุด):\nช่วงที่ 1 (ต้นคลิป): ภาพกว้างเห็นครัวทั้งหลัง กล้องเดินเข้ามา แล้วมือผายหรือชี้ไปที่ส่วนเด่นของงาน · คำพูดคือคำทึ่งและเฉลยชื่อสินค้า (camN: เดินชม แล้ว ซูมเข้า)\nช่วงที่ 2: ภาพใกล้มากที่ผิววัสดุ มือลูบให้เห็นลายและประกายแสง ค้างอยู่ในภาพใกล้นี้นานเกือบเท่าช่วงอื่น · คำพูดคือข้อดีหลักของวัสดุ พูดตอนมือลูบผิว เช่น สวยเหมือนไม้จริง (camN: ลูบผิว หรือ มาโคร)\nช่วงที่ 3: ภาพกลางถึงใกล้ที่ส่วนต่าง ๆ ของงาน เช่น เตา ฮูด ชั้นวาง เคาน์เตอร์ ซิงก์ ที่คว่ำจาน มือผายฝ่ามือเปิดไปที่ของนั้นหรือแตะ · คำพูดคือเอาวัสดุไปทำอะไรได้ พูดตอนเห็นของนั้นในภาพ เช่น ทำผนัง ทำเคาน์เตอร์ (camN: โคลสอัพ หรือ ติดตาม)\nช่วงที่ 4 (ท้ายคลิป): กล้องถอยออกทีละขั้น ให้ระยะภาพต่างกันชัดในแต่ละฉาก: ฉากแรกของช่วงเป็นภาพกลาง เห็นเคาน์เตอร์ทั้งแนว (camN: ถอยกว้าง) · ฉากถัดมาเป็นภาพกว้าง เห็นครัวส่วนใหญ่ (camN: ถอยกว้าง) · ฉากสุดท้ายเป็นภาพกว้างสุด เห็นครัวทั้งหลังแล้วค้างนิ่งในวิดีโอ ไม่มีมือในภาพ (camN: นิ่ง) · คำพูดคือปิดชวนซื้อ พูดตอนภาพกว้าง · ห้ามสามฉากท้ายเป็นภาพเดียวกัน\nห้ามภาพกว้างกลางคลิป ห้ามภาพมุมเดียวกันหรือระยะเดียวกันซ้ำสองฉากติด (รวมถึงสามฉากท้าย) · คำพูดทุกประโยคต้องตรงกับภาพที่เห็นขณะนั้น\ncamN ทุกฉากเขียนด้วยคำในวงเล็บข้างบนเพื่อให้กล้องขยับจริง ห้ามเขียนว่านิ่งหรือตั้งกล้อง ยกเว้นฉากท้ายสุดของช่วงที่ 4 ที่ค้างนิ่ง\nสินค้าคือวัสดุที่ทำให้งานเสร็จนี้ ในฉากใกล้ต้องเห็นลายและสีตรงกับรูปสินค้า ห้ามแต่งสีหรือลายเอง\nนี่คือคลิปรีวิวสินค้า ไม่ใช่คลิปสร้างงาน: คนหลังกล้องเดินเข้ามารีวิวด้วยตัวเองให้เพื่อนฟัง สินค้าคือพระเอก vo เป็นประโยคเต็มต่อเนื่องแบบเล่าให้เพื่อนฟัง ใช้ ผม หรือ เรา ลงท้ายครับหรือค่ะตามเพศเสียง\nโครงคำพูด: ฉากแรกเปิดด้วยความทึ่งสั้น ๆ ของคนเห็นงานเสร็จ (เช่น ว่าดูแพงขนาดนี้ ทำจากอะไร) แล้วเฉลยชื่อสินค้า · ฉากกลางบอกว่าสินค้าดีและสวยยังไง 2-3 ข้อ ให้ตรงกับที่มือชี้หรือแตะในภาพ เช่น ลายเหมือนวัสดุจริง ผิวเรียบ ทำความสะอาดง่าย แข็งแรง ใช้ได้ทั้งผนังและเคาน์เตอร์ · ใช้ข้อมูลจากช่องจุดเด่นสินค้า ราคา และโปรของสินค้าก่อน ถ้าไม่มีให้พูดเฉพาะคุณสมบัติทั่วไปของวัสดุนั้นที่เห็นได้จากภาพ ห้ามแต่งตัวเลข ราคา หรือสรรพคุณที่ไม่มีในข้อมูล · ห้ามเล่าขั้นตอนติดตั้ง · ประโยคปิดต้องชวนซื้อตรง ๆ เช่น กดสั่งซื้อได้เลยครับ ห้ามปิดกว้าง ๆ\nROOM-CLAD: ข้อความ room ต้องบอกชัดว่าแผงสินค้าหุ้มทั้งผนัง ตู้ใต้เคาน์เตอร์ ท็อปเคาน์เตอร์ และชั้นลอยด้วยลายและสีเดียวกัน (ห้ามเคาน์เตอร์ปูนเปลือยหรือไม้อื่น) · ฉากที่ชี้เคาน์เตอร์ ชั้น ซิงก์ ต้องเป็นของหุ้มสินค้าชิ้นเดียวกับที่ปรากฏในภาพเปิดคลิป ห้ามบทพูดหรือฉากอ้างของที่ไม่มีในห้อง\nHAND-FOLLOW: มือและแขนเสื้อเป็นของคนที่ถือกล้องเดินอยู่ ต้องเคลื่อนตามกล้องทุกจังหวะเหมือนคนถ่ายจริง: ยื่นเข้าเฟรมจากขอบล่างหรือขอบข้างที่ระดับอก ยื่นไปชี้หรือแตะ แล้วหดกลับพร้อมกล้อง ห้ามมือลอยนิ่งอยู่กลางภาพขณะกล้องเคลื่อน ห้ามมือหายแล้วโผล่ที่อื่นโดยกล้องไม่ขยับ · เขียนในบทฉากว่ามือยื่นมาจากขอบเฟรม และกล้องเดินตามมือ\nBEAT-SHORT: ข้อความอังกฤษของแต่ละฉาก (en) เขียนสั้นกระชับ ไม่เกิน 14 คำ ไม่เขียนซ้ำกับมุมกล้องหรือคำพูด\nMATERIAL: ถ้าสินค้าเป็นวัสดุก่อสร้างหรือแผ่นผนัง/หลังคา (เช่น เมทัลชีต แผ่นผนังลายไม้ ไม้เทียม) สินค้านี้คือวัสดุที่ใช้สร้างทั้งหลัง ไม่ใช่ของตกแต่ง: ข้อความ room ต้องบอกว่าผนังทุกด้าน เพดานหรือหลังคา ตู้ หน้าเคาน์เตอร์ ชั้น และผนังหลังเตาเป็นแผ่นสินค้าลายและสีเดียวกัน · ห้ามผนังฉาบปูนหรือทาสี ห้ามหลังคากระเบื้องดินเผา ห้ามผนังหรือตู้ไม้จริง · ใช้วัสดุอื่นได้เฉพาะท็อปเคาน์เตอร์ ซิงก์ เตา พื้นปูน และของใช้ · บทพูดบอกได้ว่าทั้งครัวสร้างจากแผ่นนี้ทั้งหมด ไม่ใช่ใช้ตกแต่งบางจุด\nSCENE-LOCK: ทุกฉากถ่ายเฉพาะจุดที่เห็นได้จากภาพกว้างเปิดคลิป (เคาน์เตอร์ ซิงก์ เตา ชั้น ผนัง) กล้องเดินไปตามแนวนั้นเท่านั้น ห้ามหันไปมุมหรือด้านข้างที่ภาพเปิดไม่เห็น ห้ามเปิดตู้ ห้ามหยิบ ยก ถือ หรือวางแผ่นสินค้า ตัวอย่างสินค้า หรือของอื่นเข้าฉาก มือแตะได้เฉพาะของที่ติดอยู่กับงานแล้ว · ห้ามเขียนฉากหรือคำพูดถึงของที่ภาพเปิดไม่เห็น\nงานเสร็จต้องดูพร้อมใช้และน่าอยู่ มีของใช้จริงตามหน้าที่พื้นที่ 4-6 อย่าง เช่น ครัว: ขวดโหลบนชั้น จานชาม เขียง ผ้าแขวน กระถางต้นไม้ ไฟใต้ชั้น ห้ามพื้นที่โล่งเปล่า · ฉากกลางให้มือชี้หรือแตะของเหล่านี้บ้างระหว่างเดินชม (ชั้นวาง ซิงก์ ที่คว่ำจาน) ไม่ใช่ลูบแต่ผนังอย่างเดียว"
+   "af:sf01": "โครงเรื่อง (ผู้ใช้เลือก) เซลฟี่พาชมงานเสร็จ ★ ข้อยกเว้นเฉพาะแนวนี้ ใช้แทนกฎลำดับงาน กฎฉากแรกก่อนเริ่มงาน กฎห้ามเห็นงานเสร็จ กฎสัดส่วนระยะภาพ และกฎ vo จบห้วน: ทุกฉากเป็นงานที่เสร็จสมบูรณ์แล้ว ไม่มีสภาพเก่า การติดตั้ง ช่าง หรือเครื่องมือ\nแต่ละช่วงคือเทคเดียวไม่ตัดภาพ เจ้าของถือมือถือเซลฟี่เอง ไม่เห็นโทรศัพท์ คนเดียวชุดลำลองแบบอยู่บ้าน ไม่ใช่ชุดช่าง: ★ สำคัญกว่าตอนจบที่เลือก: ทั้งคลิปยืนจุดเดียวหน้างาน ด้านหลังคนคือตัวงานมุมเดียวกันทุกช่วง คนดูต้องรู้ทันทีว่าเป็นห้องอะไร เช่น ครัวต้องเห็นหลังคา ผนัง เคาน์เตอร์ เตา และอ่างล้าง ห้ามเดินอ้อมไปด้านอื่น ห้ามเข้าออกระหว่างนอกกับใน · ทุกฉากคือภาพเดียวกัน หน้าคนคู่กับตัวงานมุมเดิม ระยะเดิม ต่างแค่มือชี้ไปส่วนต่าง ๆ ของงานจากจุดที่ยืน และคำพูด ห้ามภาพใกล้ผิววัสดุหรือของชิ้นเดียว ห้ามหันกล้องไปด้านอื่น · ฉากสุดท้ายของคลิป: คนเดิมจุดเดิม ยิ้มยกนิ้วชวนซื้อ · ประตูเปิดสุดแนบผนังเหมือนรูปแบบงานทุกฉาก vo ห้ามพูดถึงการเปิดหรือปิดประตู\nvo เป็นประโยคเต็มต่อเนื่องแบบเจ้าของเล่าให้เพื่อนฟัง ใช้ ผม หรือ เรา ลงท้ายครับหรือค่ะตามเพศ บอกว่าเอาสินค้ามาทำอะไร แล้วดีขึ้นยังไง ห้ามคำโฆษณาเกินจริง จุดเด่นพูดเท่าที่เห็นในภาพ ประโยคปิดต้องชวนซื้อตรง ๆ เช่น สนใจกดสั่งซื้อได้เลยครับ ห้ามปิดกว้าง ๆ เช่น ใครชอบลองดู\nงานเสร็จต้องน่าอยู่ มีของแต่งจริง เช่น ต้นไม้ โคมไฟ และของใช้ตามหน้าที่พื้นที่",
+   "af:wk01": "โครงเรื่อง (ผู้ใช้เลือก) เดินชมงานเสร็จ เข้าใกล้ผิววัสดุ ★ ข้อยกเว้นเฉพาะแนวนี้ ใช้แทนกฎลำดับงาน กฎฉากแรกก่อนเริ่มงาน กฎห้ามเห็นงานเสร็จ กฎสัดส่วนระยะภาพ และกฎ vo จบห้วน: ทุกฉากเป็นงานที่เสร็จสมบูรณ์แล้ว ไม่มีสภาพเก่า การติดตั้ง ช่าง หรือเครื่องมือ\nมุมสายตาคนถือมือถือเดินชมงานแบบเทคต่อเนื่อง เห็นแค่มือและแขนเสื้อ ไม่เห็นหน้า ไม่เห็นโทรศัพท์ มือไม่เกินสองข้าง ภาพบ้านจริงแสงธรรมชาติ ไม่จัดแสง · แต่ละช่วง 10 วินาทีคือเทคเดียวต่อเนื่อง ไม่ตัดภาพ: กล้องเดินจากภาพหนึ่งไปอีกภาพอย่างต่อเนื่องบนเส้นทางเดินเส้นเดียว ฉากทั้ง 6 ของช่วงคือตำแหน่งต่อเนื่องของกล้องบนเส้นทางนั้น ไม่ใช่ภาพคนละที่ (ตัดภาพได้เฉพาะรอยต่อระหว่างช่วง)\n★ กันฉากเพี้ยน สำคัญที่สุดของแนวนี้: ทั้งคลิปคืออาคารหรืองานหลังเดียวกันตามคำบรรยายห้อง (room) และภาพต้นแบบ ทรงหลังคา ตำแหน่งประตูและหน้าต่าง สี และของแต่งอยู่ที่เดิมทุกฉาก ห้ามเปลี่ยนทรงหรือสร้างหลังใหม่ระหว่างฉาก · ประตูอยู่ในสภาพเดียวกับภาพต้นแบบทุกฉาก ห้ามมือเปิดหรือปิดประตู vo ห้ามพูดถึงการเปิดปิดประตู · ถ้างานเป็นห้องปิด (shape: closed room) ห้ามเข้าไปข้างใน ชมเฉพาะด้านนอก: ผนังลายไม้ ขอบประตู มือจับ หน้าต่าง ชายคา หลังคา ไฟข้างผนัง · ถ้างานเปิดโล่ง (shape: open-front) เดินชมจุดต่าง ๆ ในพื้นที่ได้ แต่ห้ามเดินอ้อมไปด้านอื่นของอาคาร\nลำดับภาพวิ่งครั้งเดียวตลอดทั้งคลิป ไม่วนซ้ำทุกช่วง ตามเวลาของคลิปต้นแบบ แบ่งเป็น 4 ช่วง (คลิป 20 วินาที = ฉาก 1-3 ช่วงที่ 1 · ฉาก 4-6 ช่วงที่ 2 · ฉาก 7-9 ช่วงที่ 3 · ฉาก 10-12 ช่วงที่ 4 · คลิป 10 วินาที = ฉาก 1-2 ช่วงที่ 1 · ฉาก 3 ช่วงที่ 2 · ฉาก 4-5 ช่วงที่ 3 · ฉาก 6 ช่วงที่ 4 · คลิปยาวกว่า 20 วินาที = ช่วงที่ 1 และ 2 ใช้ 3 ฉากแรกและ 3 ฉากถัดมา ช่วงที่ 4 ใช้ 3 ฉากสุดท้าย ฉากที่เหลือตรงกลางทั้งหมดเป็นช่วงที่ 3 ที่ไล่ดูจุดใหม่ทีละจุด):\nช่วงที่ 1 (ต้นคลิป): ภาพกว้างเห็นครัวทั้งหลัง กล้องเดินเข้ามา แล้วมือผายหรือชี้ไปที่ส่วนเด่นของงาน · คำพูดคือคำทึ่งและเฉลยชื่อสินค้า (camN: เดินชม แล้ว ซูมเข้า)\nช่วงที่ 2: ภาพใกล้มากที่ผิววัสดุ มือลูบให้เห็นลายและประกายแสง ค้างอยู่ในภาพใกล้นี้นานเกือบเท่าช่วงอื่น · คำพูดคือข้อดีหลักของวัสดุ พูดตอนมือลูบผิว เช่น สวยเหมือนไม้จริง (camN: ลูบผิว หรือ มาโคร)\nช่วงที่ 3: ภาพกลางถึงใกล้ที่ส่วนต่าง ๆ ของงาน เช่น เตา ฮูด ชั้นวาง เคาน์เตอร์ ซิงก์ ที่คว่ำจาน มือผายฝ่ามือเปิดไปที่ของนั้นหรือแตะ · คำพูดคือเอาวัสดุไปทำอะไรได้ พูดตอนเห็นของนั้นในภาพ เช่น ทำผนัง ทำเคาน์เตอร์ (camN: โคลสอัพ หรือ ติดตาม)\nช่วงที่ 4 (ท้ายคลิป): กล้องถอยออกทีละขั้น ให้ระยะภาพต่างกันชัดในแต่ละฉาก: ฉากแรกของช่วงเป็นภาพกลาง เห็นเคาน์เตอร์ทั้งแนว (camN: ถอยกว้าง) · ฉากถัดมาเป็นภาพกว้าง เห็นครัวส่วนใหญ่ (camN: ถอยกว้าง) · ฉากสุดท้ายเป็นภาพกว้างสุด เห็นครัวทั้งหลังแล้วค้างนิ่งในวิดีโอ ไม่มีมือในภาพ (camN: นิ่ง) · คำพูดคือปิดชวนซื้อ พูดตอนภาพกว้าง · ห้ามสามฉากท้ายเป็นภาพเดียวกัน\nห้ามภาพกว้างกลางคลิป ห้ามภาพมุมเดียวกันหรือระยะเดียวกันซ้ำสองฉากติด (รวมถึงสามฉากท้าย) · คำพูดทุกประโยคต้องตรงกับภาพที่เห็นขณะนั้น\ncamN ทุกฉากเขียนด้วยคำในวงเล็บข้างบนเพื่อให้กล้องขยับจริง ห้ามเขียนว่านิ่งหรือตั้งกล้อง ยกเว้นฉากท้ายสุดของช่วงที่ 4 ที่ค้างนิ่ง\nสินค้าคือวัสดุที่ทำให้งานเสร็จนี้ ในฉากใกล้ต้องเห็นลายและสีตรงกับรูปสินค้า ห้ามแต่งสีหรือลายเอง\nนี่คือคลิปรีวิวสินค้า ไม่ใช่คลิปสร้างงาน: คนหลังกล้องเดินเข้ามารีวิวด้วยตัวเองให้เพื่อนฟัง สินค้าคือพระเอก vo เป็นประโยคเต็มต่อเนื่องแบบเล่าให้เพื่อนฟัง ใช้ ผม หรือ เรา ลงท้ายครับหรือค่ะตามเพศเสียง\nโครงคำพูด: ฉากแรกเปิดด้วยความทึ่งสั้น ๆ ของคนเห็นงานเสร็จ (เช่น ว่าดูแพงขนาดนี้ ทำจากอะไร) แล้วเฉลยชื่อสินค้า · ฉากกลางบอกว่าสินค้าดีและสวยยังไง 2-3 ข้อ ให้ตรงกับที่มือชี้หรือแตะในภาพ เช่น ลายเหมือนวัสดุจริง ผิวเรียบ ทำความสะอาดง่าย แข็งแรง ใช้ได้ทั้งผนังและเคาน์เตอร์ · ใช้ข้อมูลจากช่องจุดเด่นสินค้า ราคา และโปรของสินค้าก่อน ถ้าไม่มีให้พูดเฉพาะคุณสมบัติทั่วไปของวัสดุนั้นที่เห็นได้จากภาพ ห้ามแต่งตัวเลข ราคา หรือสรรพคุณที่ไม่มีในข้อมูล · ห้ามเล่าขั้นตอนติดตั้ง · ประโยคปิดต้องชวนซื้อตรง ๆ เช่น กดสั่งซื้อได้เลยครับ ห้ามปิดกว้าง ๆ\nงานเสร็จต้องดูพร้อมใช้และน่าอยู่ มีของใช้จริงตามหน้าที่พื้นที่ 4-6 อย่าง เช่น ครัว: ขวดโหลบนชั้น จานชาม เขียง ผ้าแขวน กระถางต้นไม้ ไฟใต้ชั้น ห้ามพื้นที่โล่งเปล่า · ฉากกลางให้มือชี้หรือแตะของเหล่านี้บ้างระหว่างเดินชม (ชั้นวาง ซิงก์ ที่คว่ำจาน) ไม่ใช่ลูบแต่ผนังอย่างเดียว"
   },
   "camPlan": {
    "ตั้งนิ่งเห็นทั้งพื้นที่": "มุมกล้องหลักแบบตั้งกล้องนิ่ง: มุมเดียวตลอดคลิป เห็นพื้นที่ทั้งหมด; camN ของทุกฉากเป็นมุมเดิม เปลี่ยนได้แค่งานที่ทำเสร็จแล้วในเฟรม; แม้ฉากโชว์รายละเอียดก็ใช้มุมกว้างเดียวกันนี้ (ยกของ/มือมาใกล้กล้องแทน) ห้ามสลับไปมุมอื่น ทั้งโคลสอัพและมาโคร แม้แต่ฉากเดียว",
@@ -45344,8 +45093,8 @@
    "ไทม์ไลน์งาน": "ชุดคลิปแบบไทม์ไลน์งาน (ใช้แทนกฎที่ให้ทุกคลิปครบก่อน → ลงมือ → หลัง): แบ่งงานนี้ตามช่วงเวลาจริงของงาน ลำดับในอาร์เรย์คือลำดับช่วง; คลิปแรกคือสภาพก่อนเริ่มและการเตรียมงาน; คลิปกลางคือช่วงลงมือทำระหว่างทาง (ถ้ามีหลายคลิปกลางให้แบ่งตามขั้นตอนของงาน); คลิปสุดท้ายคือผลงานเสร็จและตรวจรับ; แต่ละคลิปเล่าเฉพาะช่วงของตัวเอง ห้ามโชว์ผลสำเร็จก่อนคลิปสุดท้าย; ทุกคลิปอยู่ที่เดิม คนเดิม ชุดเดิม; synopsis ของแต่ละคลิปต้องขึ้นต้นว่า \"ช่วงที่ k/N:\" (k คือลำดับช่วง N คือจำนวนช่วงทั้งหมด)"
   },
   "vPeople": {
-   "เห็นแต่มือ ไม่เห็นหน้า|AI เลือกนาย/นางแบบให้เหมาะกับสินค้า": "only the @NAT_EN@ worker's hands and forearms, sleeves ending at the forearm; no face, torso, legs, trousers or shoes; five natural fingers.",
-   "เห็นแต่มือ ไม่เห็นหน้า|ใช้รูปใบหน้าที่แนบ — ล็อกหน้าเป็นคนเดิมทุกช็อต": "only the @NAT_EN@ worker's hands and forearms, sleeves ending at the forearm; no face, torso, legs, trousers or shoes; five natural fingers.",
+   "เห็นแต่มือ ไม่เห็นหน้า|AI เลือกนาย/นางแบบให้เหมาะกับสินค้า": "only the @NAT_EN@ worker's hands and forearms, busy with the task; no face and no whole body in view; hands look natural, five fingers each.",
+   "เห็นแต่มือ ไม่เห็นหน้า|ใช้รูปใบหน้าที่แนบ — ล็อกหน้าเป็นคนเดิมทุกช็อต": "only the @NAT_EN@ worker's hands and forearms, busy with the task; no face and no whole body in view; hands look natural, five fingers each.",
    "คนเดียวเต็มตัว|AI เลือกนาย/นางแบบให้เหมาะกับสินค้า": "one @NAT_EN@ worker as described under Look, the same face and clothes in every beat, absorbed in the job; the work matters more than the person; ignores the camera, never poses.",
    "คนเดียวเต็มตัว|ใช้รูปใบหน้าที่แนบ — ล็อกหน้าเป็นคนเดิมทุกช็อต": "the same single @NAT_EN@ person in every shot, same clothes throughout, only the angle changes; a worker, not a presenter, so no posing and no eye contact.",
    "ทีมช่างเบลอเคลื่อนไหวเร็ว|AI เลือกนาย/นางแบบให้เหมาะกับสินค้า": "a small @NAT_EN@ work crew in matching work clothes that suit the job, same clothes throughout, never posing; in time-lapse they appear as quick motion-blurred figures.",
@@ -45354,7 +45103,7 @@
    "ไม่มีคน|ใช้รูปใบหน้าที่แนบ — ล็อกหน้าเป็นคนเดิมทุกช็อต": "nobody in frame, not even hands; the space and objects change on their own, stage by stage, like a time-lapse.",
    "|AI เลือกนาย/นางแบบให้เหมาะกับสินค้า": "the people the beats describe (@NAT_EN@), the same people and clothes in every shot as given under Look; no posing, never looking into the lens, even when testing or admiring the result.",
    "|ใช้รูปใบหน้าที่แนบ — ล็อกหน้าเป็นคนเดิมทุกช็อต": "the people the beats describe (@NAT_EN@), the same people and clothes in every shot as given under Look; no posing, never looking into the lens, even when testing or admiring the result.",
-   "เห็นแต่มือ ไม่เห็นหน้า|": "only the @NAT_EN@ worker's hands and forearms, sleeves ending at the forearm; no face, torso, legs, trousers or shoes; five natural fingers.",
+   "เห็นแต่มือ ไม่เห็นหน้า|": "only the @NAT_EN@ worker's hands and forearms, busy with the task; no face and no whole body in view; hands look natural, five fingers each.",
    "คนเดียวเต็มตัว|": "one @NAT_EN@ worker as described under Look, the same face and clothes in every beat, absorbed in the job; the work matters more than the person; ignores the camera, never poses.",
    "ทีมช่างเบลอเคลื่อนไหวเร็ว|": "a small @NAT_EN@ work crew in matching work clothes that suit the job, same clothes throughout, never posing; in time-lapse they appear as quick motion-blurred figures.",
    "ไม่มีคน|": "nobody in frame, not even hands; the space and objects change on their own, stage by stage, like a time-lapse.",
@@ -45410,8 +45159,8 @@
    "เสียงผู้ชาย": "\n\nNarrator: an adult man's voice (male) only; a female narrator fails the clip."
   },
   "vVoice": {
-   "เสียงผู้หญิง": "same narrator in every part: a Thai woman about 30, medium pitch, slightly soft, warm, close microphone, dry recording; exact same speaker, pitch, timbre, accent and pace; female voice only",
-   "เสียงผู้ชาย": "same narrator in every part: a Thai man about 35, medium-low pitch, slightly husky, warm, close microphone, dry recording; exact same speaker, pitch, timbre, accent and pace; male voice only"
+   "เสียงผู้หญิง": "one fixed narrator for the whole clip: a Thai woman about 30, medium pitch, slightly soft, warm and friendly, close microphone, dry recording with no room echo; VOICE CONTINUITY (critical): every part is the same take: exact same speaker, pitch, timbre, accent and pace; never change the voice; female voice only",
+   "เสียงผู้ชาย": "one fixed narrator for the whole clip: a Thai man about 35, medium-low pitch, slightly husky, warm and friendly, close microphone, dry recording with no room echo; VOICE CONTINUITY (critical): every part is the same take: exact same speaker, pitch, timbre, accent and pace; never change the voice; male voice only"
   },
   "vAccent": {
    "มาตรฐาน": "Thai",
@@ -45707,14 +45456,14 @@
     {
      "value": "g_restore_7",
      "label": "เจ้าของถ่ายเองพาชม",
-     "desc": "ถือมือถือเซลฟี่ เดินเข้าครัวพร้อมพูด ชี้และแตะสินค้าที่ติดอยู่ เทคเดียว · 1 แบบ",
+     "desc": "ถือมือถือเซลฟี่ ยืนจุดเดียวหน้างานที่เสร็จแล้ว เทคเดียว ไม่เดิน ไม่ถ่ายใกล้ · 1 แบบ",
      "icon": "photo_camera",
      "people": "พรีเซนเตอร์พาชมสินค้า",
      "items": [
       {
        "value": "af:sf01",
-       "label": "เซลฟี่เดินพาชมงานเสร็จ",
-       "desc": "เดินพูดเองเข้าไปในครัว ชี้และแตะของที่ติดอยู่ ไม่มีขั้นตอนติดตั้ง จบด้วยภาพทั้งครัว",
+       "label": "เซลฟี่พาชมงานเสร็จ",
+       "desc": "ยืนพูดเองหน้างานแบบคนใช้จริง ไม่เดิน ไม่ถ่ายใกล้ ไม่มีขั้นตอนติดตั้ง จบด้วยภาพงานทั้งหมด",
        "icon": "photo_camera"
       }
      ],
