@@ -1,8 +1,8 @@
 {
  "app": "flow-reno",
  "version": 5,
- "build": 164,
- "label": "3.0.32",
+ "build": 166,
+ "label": "3.0.34",
  "ops": {
   "mnPlan": {
    "id": "mnPlan",
@@ -14188,16 +14188,29 @@
            "op": "and",
            "list": [
             {
-             "op": "eq",
-             "a": "{values.cellRefs}",
-             "b": "1"
+             "op": "and",
+             "list": [
+              {
+               "op": "eq",
+               "a": "{values.cellRefs}",
+               "b": "1"
+              },
+              {
+               "op": "not",
+               "a": {
+                "op": "eq",
+                "a": "{item.arc}",
+                "b": "ไทม์แลปส์กล้องนิ่ง"
+               }
+              }
+             ]
             },
             {
              "op": "not",
              "a": {
               "op": "eq",
               "a": "{item.arc}",
-              "b": "ไทม์แลปส์กล้องนิ่ง"
+              "b": "af:sf01"
              }
             }
            ]
@@ -14205,9 +14218,19 @@
           {
            "op": "not",
            "a": {
-            "op": "eq",
-            "a": "{item.arc}",
-            "b": "af:sf01"
+            "op": "and",
+            "list": [
+             {
+              "op": "eq",
+              "a": "{item.arc}",
+              "b": "af:wk01"
+             },
+             {
+              "op": "eq",
+              "a": "{values.keyMode}",
+              "b": "1"
+             }
+            ]
            }
           }
          ]
@@ -14219,26 +14242,109 @@
          "op": "and",
          "list": [
           {
-           "op": "eq",
-           "a": "{values.cellRefs}",
-           "b": "1"
-          },
-          {
-           "op": "eq",
-           "a": "{item.arc}",
-           "b": "af:wk01"
+           "op": "and",
+           "list": [
+            {
+             "op": "eq",
+             "a": "{values.cellRefs}",
+             "b": "1"
+            },
+            {
+             "op": "eq",
+             "a": "{item.arc}",
+             "b": "af:wk01"
+            },
+            {
+             "op": "not",
+             "a": {
+              "op": "eq",
+              "a": "{item.slots.design}",
+              "b": ""
+             }
+            }
+           ]
           },
           {
            "op": "not",
            "a": {
-            "op": "eq",
-            "a": "{item.slots.design}",
-            "b": ""
+            "op": "and",
+            "list": [
+             {
+              "op": "eq",
+              "a": "{item.arc}",
+              "b": "af:wk01"
+             },
+             {
+              "op": "eq",
+              "a": "{values.keyMode}",
+              "b": "1"
+             }
+            ]
            }
           }
          ]
         },
         "value": "\nImage 7 = the finished building (identity only, never shown as a photo): every shot is this same building, same roof shape, door, window, colours and objects in the same places; never a different building."
+       },
+       {
+        "when": {
+         "op": "and",
+         "list": [
+          {
+           "op": "and",
+           "list": [
+            {
+             "op": "and",
+             "list": [
+              {
+               "op": "not",
+               "a": {
+                "op": "eq",
+                "a": "{values.cellRefs}",
+                "b": "1"
+               }
+              },
+              {
+               "op": "not",
+               "a": {
+                "op": "eq",
+                "a": "{item.arc}",
+                "b": "ไทม์แลปส์กล้องนิ่ง"
+               }
+              }
+             ]
+            },
+            {
+             "op": "not",
+             "a": {
+              "op": "eq",
+              "a": "{item.arc}",
+              "b": "af:sf01"
+             }
+            }
+           ]
+          },
+          {
+           "op": "not",
+           "a": {
+            "op": "and",
+            "list": [
+             {
+              "op": "eq",
+              "a": "{item.arc}",
+              "b": "af:wk01"
+             },
+             {
+              "op": "eq",
+              "a": "{values.keyMode}",
+              "b": "1"
+             }
+            ]
+           }
+          }
+         ]
+        },
+        "value": "\n\nImage 1 = this part's storyboard (silent guide); its 6 pictures are the 6 beats, left before right, top to bottom. Copy its room, objects (colour, material), people, outfits, light and (not in time-lapse) each beat's angle; its looks beat the wording. Never show the storyboard on screen, even at 0 s: frame 1 is live full-screen footage of beat 1. "
        },
        {
         "when": {
@@ -14256,11 +14362,16 @@
              }
             },
             {
+             "op": "eq",
+             "a": "{item.arc}",
+             "b": "af:wk01"
+            },
+            {
              "op": "not",
              "a": {
               "op": "eq",
-              "a": "{item.arc}",
-              "b": "ไทม์แลปส์กล้องนิ่ง"
+              "a": "{item.slots.design}",
+              "b": ""
              }
             }
            ]
@@ -14268,38 +14379,19 @@
           {
            "op": "not",
            "a": {
-            "op": "eq",
-            "a": "{item.arc}",
-            "b": "af:sf01"
-           }
-          }
-         ]
-        },
-        "value": "\n\nImage 1 = this part's storyboard (silent guide); its 6 pictures are the 6 beats, left before right, top to bottom. Copy its room, objects (colour, material), people, outfits, light and (not in time-lapse) each beat's angle; its looks beat the wording. Never show the storyboard on screen, even at 0 s: frame 1 is live full-screen footage of beat 1. "
-       },
-       {
-        "when": {
-         "op": "and",
-         "list": [
-          {
-           "op": "not",
-           "a": {
-            "op": "eq",
-            "a": "{values.cellRefs}",
-            "b": "1"
-           }
-          },
-          {
-           "op": "eq",
-           "a": "{item.arc}",
-           "b": "af:wk01"
-          },
-          {
-           "op": "not",
-           "a": {
-            "op": "eq",
-            "a": "{item.slots.design}",
-            "b": ""
+            "op": "and",
+            "list": [
+             {
+              "op": "eq",
+              "a": "{item.arc}",
+              "b": "af:wk01"
+             },
+             {
+              "op": "eq",
+              "a": "{values.keyMode}",
+              "b": "1"
+             }
+            ]
            }
           }
          ]
@@ -14321,6 +14413,24 @@
          "b": "af:sf01"
         },
         "value": "\n\nImage 1 is the exact first frame of this part; the given last frame is its exact final frame: the same take carries on between them with no cut, same person, outfit, place and view; the owner keeps talking; the camera stays fixed and never pans or closes in, the owner moves as the beats say; nothing behind the owner changes; any door stays exactly as in Image 1, never swinging, closing or vanishing. "
+       },
+       {
+        "when": {
+         "op": "and",
+         "list": [
+          {
+           "op": "eq",
+           "a": "{item.arc}",
+           "b": "af:wk01"
+          },
+          {
+           "op": "eq",
+           "a": "{values.keyMode}",
+           "b": "1"
+          }
+         ]
+        },
+        "value": "\n\nImage 1 is the exact first frame of this part; the given last frame is its exact final frame: one unbroken first-person handheld take between them in the same kitchen. The camera is the viewer's eyes at standing eye level, never high, and it walks smoothly from the first view to the last view; only the person's hands and sleeves appear (never a face or body), they enter from the bottom or side edge and move with the camera; nothing is held, lifted or carried, no loose sheet, panel or sample. The walls, roof, counter, shelf and sink stay exactly as in the two frames and nothing new appears. "
        }
       ]
      },
@@ -19128,16 +19238,29 @@
            "op": "and",
            "list": [
             {
-             "op": "eq",
-             "a": "{values.cellRefs}",
-             "b": "1"
+             "op": "and",
+             "list": [
+              {
+               "op": "eq",
+               "a": "{values.cellRefs}",
+               "b": "1"
+              },
+              {
+               "op": "not",
+               "a": {
+                "op": "eq",
+                "a": "{item.arc}",
+                "b": "ไทม์แลปส์กล้องนิ่ง"
+               }
+              }
+             ]
             },
             {
              "op": "not",
              "a": {
               "op": "eq",
               "a": "{item.arc}",
-              "b": "ไทม์แลปส์กล้องนิ่ง"
+              "b": "af:sf01"
              }
             }
            ]
@@ -19145,9 +19268,19 @@
           {
            "op": "not",
            "a": {
-            "op": "eq",
-            "a": "{item.arc}",
-            "b": "af:sf01"
+            "op": "and",
+            "list": [
+             {
+              "op": "eq",
+              "a": "{item.arc}",
+              "b": "af:wk01"
+             },
+             {
+              "op": "eq",
+              "a": "{values.keyMode}",
+              "b": "1"
+             }
+            ]
            }
           }
          ]
@@ -19159,26 +19292,109 @@
          "op": "and",
          "list": [
           {
-           "op": "eq",
-           "a": "{values.cellRefs}",
-           "b": "1"
-          },
-          {
-           "op": "eq",
-           "a": "{item.arc}",
-           "b": "af:wk01"
+           "op": "and",
+           "list": [
+            {
+             "op": "eq",
+             "a": "{values.cellRefs}",
+             "b": "1"
+            },
+            {
+             "op": "eq",
+             "a": "{item.arc}",
+             "b": "af:wk01"
+            },
+            {
+             "op": "not",
+             "a": {
+              "op": "eq",
+              "a": "{item.slots.design}",
+              "b": ""
+             }
+            }
+           ]
           },
           {
            "op": "not",
            "a": {
-            "op": "eq",
-            "a": "{item.slots.design}",
-            "b": ""
+            "op": "and",
+            "list": [
+             {
+              "op": "eq",
+              "a": "{item.arc}",
+              "b": "af:wk01"
+             },
+             {
+              "op": "eq",
+              "a": "{values.keyMode}",
+              "b": "1"
+             }
+            ]
            }
           }
          ]
         },
         "value": "\nImage 7 = the finished building (identity only, never shown as a photo): every shot is this same building, same roof shape, door, window, colours and objects in the same places; never a different building."
+       },
+       {
+        "when": {
+         "op": "and",
+         "list": [
+          {
+           "op": "and",
+           "list": [
+            {
+             "op": "and",
+             "list": [
+              {
+               "op": "not",
+               "a": {
+                "op": "eq",
+                "a": "{values.cellRefs}",
+                "b": "1"
+               }
+              },
+              {
+               "op": "not",
+               "a": {
+                "op": "eq",
+                "a": "{item.arc}",
+                "b": "ไทม์แลปส์กล้องนิ่ง"
+               }
+              }
+             ]
+            },
+            {
+             "op": "not",
+             "a": {
+              "op": "eq",
+              "a": "{item.arc}",
+              "b": "af:sf01"
+             }
+            }
+           ]
+          },
+          {
+           "op": "not",
+           "a": {
+            "op": "and",
+            "list": [
+             {
+              "op": "eq",
+              "a": "{item.arc}",
+              "b": "af:wk01"
+             },
+             {
+              "op": "eq",
+              "a": "{values.keyMode}",
+              "b": "1"
+             }
+            ]
+           }
+          }
+         ]
+        },
+        "value": "\n\nImage 1 = this part's storyboard (silent guide); its 6 pictures are the 6 beats, left before right, top to bottom. Copy its room, objects (colour, material), people, outfits, light and (not in time-lapse) each beat's angle; its looks beat the wording. Never show the storyboard on screen, even at 0 s: frame 1 is live full-screen footage of beat 1. "
        },
        {
         "when": {
@@ -19196,11 +19412,16 @@
              }
             },
             {
+             "op": "eq",
+             "a": "{item.arc}",
+             "b": "af:wk01"
+            },
+            {
              "op": "not",
              "a": {
               "op": "eq",
-              "a": "{item.arc}",
-              "b": "ไทม์แลปส์กล้องนิ่ง"
+              "a": "{item.slots.design}",
+              "b": ""
              }
             }
            ]
@@ -19208,38 +19429,19 @@
           {
            "op": "not",
            "a": {
-            "op": "eq",
-            "a": "{item.arc}",
-            "b": "af:sf01"
-           }
-          }
-         ]
-        },
-        "value": "\n\nImage 1 = this part's storyboard (silent guide); its 6 pictures are the 6 beats, left before right, top to bottom. Copy its room, objects (colour, material), people, outfits, light and (not in time-lapse) each beat's angle; its looks beat the wording. Never show the storyboard on screen, even at 0 s: frame 1 is live full-screen footage of beat 1. "
-       },
-       {
-        "when": {
-         "op": "and",
-         "list": [
-          {
-           "op": "not",
-           "a": {
-            "op": "eq",
-            "a": "{values.cellRefs}",
-            "b": "1"
-           }
-          },
-          {
-           "op": "eq",
-           "a": "{item.arc}",
-           "b": "af:wk01"
-          },
-          {
-           "op": "not",
-           "a": {
-            "op": "eq",
-            "a": "{item.slots.design}",
-            "b": ""
+            "op": "and",
+            "list": [
+             {
+              "op": "eq",
+              "a": "{item.arc}",
+              "b": "af:wk01"
+             },
+             {
+              "op": "eq",
+              "a": "{values.keyMode}",
+              "b": "1"
+             }
+            ]
            }
           }
          ]
@@ -19261,6 +19463,24 @@
          "b": "af:sf01"
         },
         "value": "\n\nImage 1 is the exact first frame of this part; the given last frame is its exact final frame: the same take carries on between them with no cut, same person, outfit, place and view; the owner keeps talking; the camera stays fixed and never pans or closes in, the owner moves as the beats say; nothing behind the owner changes; any door stays exactly as in Image 1, never swinging, closing or vanishing. "
+       },
+       {
+        "when": {
+         "op": "and",
+         "list": [
+          {
+           "op": "eq",
+           "a": "{item.arc}",
+           "b": "af:wk01"
+          },
+          {
+           "op": "eq",
+           "a": "{values.keyMode}",
+           "b": "1"
+          }
+         ]
+        },
+        "value": "\n\nImage 1 is the exact first frame of this part; the given last frame is its exact final frame: one unbroken first-person handheld take between them in the same kitchen. The camera is the viewer's eyes at standing eye level, never high, and it walks smoothly from the first view to the last view; only the person's hands and sleeves appear (never a face or body), they enter from the bottom or side edge and move with the camera; nothing is held, lifted or carried, no loose sheet, panel or sample. The walls, roof, counter, shelf and sink stay exactly as in the two frames and nothing new appears. "
        }
       ]
      },
@@ -24068,16 +24288,29 @@
            "op": "and",
            "list": [
             {
-             "op": "eq",
-             "a": "{values.cellRefs}",
-             "b": "1"
+             "op": "and",
+             "list": [
+              {
+               "op": "eq",
+               "a": "{values.cellRefs}",
+               "b": "1"
+              },
+              {
+               "op": "not",
+               "a": {
+                "op": "eq",
+                "a": "{item.arc}",
+                "b": "ไทม์แลปส์กล้องนิ่ง"
+               }
+              }
+             ]
             },
             {
              "op": "not",
              "a": {
               "op": "eq",
               "a": "{item.arc}",
-              "b": "ไทม์แลปส์กล้องนิ่ง"
+              "b": "af:sf01"
              }
             }
            ]
@@ -24085,9 +24318,19 @@
           {
            "op": "not",
            "a": {
-            "op": "eq",
-            "a": "{item.arc}",
-            "b": "af:sf01"
+            "op": "and",
+            "list": [
+             {
+              "op": "eq",
+              "a": "{item.arc}",
+              "b": "af:wk01"
+             },
+             {
+              "op": "eq",
+              "a": "{values.keyMode}",
+              "b": "1"
+             }
+            ]
            }
           }
          ]
@@ -24099,26 +24342,109 @@
          "op": "and",
          "list": [
           {
-           "op": "eq",
-           "a": "{values.cellRefs}",
-           "b": "1"
-          },
-          {
-           "op": "eq",
-           "a": "{item.arc}",
-           "b": "af:wk01"
+           "op": "and",
+           "list": [
+            {
+             "op": "eq",
+             "a": "{values.cellRefs}",
+             "b": "1"
+            },
+            {
+             "op": "eq",
+             "a": "{item.arc}",
+             "b": "af:wk01"
+            },
+            {
+             "op": "not",
+             "a": {
+              "op": "eq",
+              "a": "{item.slots.design}",
+              "b": ""
+             }
+            }
+           ]
           },
           {
            "op": "not",
            "a": {
-            "op": "eq",
-            "a": "{item.slots.design}",
-            "b": ""
+            "op": "and",
+            "list": [
+             {
+              "op": "eq",
+              "a": "{item.arc}",
+              "b": "af:wk01"
+             },
+             {
+              "op": "eq",
+              "a": "{values.keyMode}",
+              "b": "1"
+             }
+            ]
            }
           }
          ]
         },
         "value": "\nImage 7 = the finished building (identity only, never shown as a photo): every shot is this same building, same roof shape, door, window, colours and objects in the same places; never a different building."
+       },
+       {
+        "when": {
+         "op": "and",
+         "list": [
+          {
+           "op": "and",
+           "list": [
+            {
+             "op": "and",
+             "list": [
+              {
+               "op": "not",
+               "a": {
+                "op": "eq",
+                "a": "{values.cellRefs}",
+                "b": "1"
+               }
+              },
+              {
+               "op": "not",
+               "a": {
+                "op": "eq",
+                "a": "{item.arc}",
+                "b": "ไทม์แลปส์กล้องนิ่ง"
+               }
+              }
+             ]
+            },
+            {
+             "op": "not",
+             "a": {
+              "op": "eq",
+              "a": "{item.arc}",
+              "b": "af:sf01"
+             }
+            }
+           ]
+          },
+          {
+           "op": "not",
+           "a": {
+            "op": "and",
+            "list": [
+             {
+              "op": "eq",
+              "a": "{item.arc}",
+              "b": "af:wk01"
+             },
+             {
+              "op": "eq",
+              "a": "{values.keyMode}",
+              "b": "1"
+             }
+            ]
+           }
+          }
+         ]
+        },
+        "value": "\n\nImage 1 = this part's storyboard (silent guide); its 6 pictures are the 6 beats, left before right, top to bottom. Copy its room, objects (colour, material), people, outfits, light and (not in time-lapse) each beat's angle; its looks beat the wording. Never show the storyboard on screen, even at 0 s: frame 1 is live full-screen footage of beat 1. "
        },
        {
         "when": {
@@ -24136,11 +24462,16 @@
              }
             },
             {
+             "op": "eq",
+             "a": "{item.arc}",
+             "b": "af:wk01"
+            },
+            {
              "op": "not",
              "a": {
               "op": "eq",
-              "a": "{item.arc}",
-              "b": "ไทม์แลปส์กล้องนิ่ง"
+              "a": "{item.slots.design}",
+              "b": ""
              }
             }
            ]
@@ -24148,38 +24479,19 @@
           {
            "op": "not",
            "a": {
-            "op": "eq",
-            "a": "{item.arc}",
-            "b": "af:sf01"
-           }
-          }
-         ]
-        },
-        "value": "\n\nImage 1 = this part's storyboard (silent guide); its 6 pictures are the 6 beats, left before right, top to bottom. Copy its room, objects (colour, material), people, outfits, light and (not in time-lapse) each beat's angle; its looks beat the wording. Never show the storyboard on screen, even at 0 s: frame 1 is live full-screen footage of beat 1. "
-       },
-       {
-        "when": {
-         "op": "and",
-         "list": [
-          {
-           "op": "not",
-           "a": {
-            "op": "eq",
-            "a": "{values.cellRefs}",
-            "b": "1"
-           }
-          },
-          {
-           "op": "eq",
-           "a": "{item.arc}",
-           "b": "af:wk01"
-          },
-          {
-           "op": "not",
-           "a": {
-            "op": "eq",
-            "a": "{item.slots.design}",
-            "b": ""
+            "op": "and",
+            "list": [
+             {
+              "op": "eq",
+              "a": "{item.arc}",
+              "b": "af:wk01"
+             },
+             {
+              "op": "eq",
+              "a": "{values.keyMode}",
+              "b": "1"
+             }
+            ]
            }
           }
          ]
@@ -24201,6 +24513,24 @@
          "b": "af:sf01"
         },
         "value": "\n\nImage 1 is the exact first frame of this part; the given last frame is its exact final frame: the same take carries on between them with no cut, same person, outfit, place and view; the owner keeps talking; the camera stays fixed and never pans or closes in, the owner moves as the beats say; nothing behind the owner changes; any door stays exactly as in Image 1, never swinging, closing or vanishing. "
+       },
+       {
+        "when": {
+         "op": "and",
+         "list": [
+          {
+           "op": "eq",
+           "a": "{item.arc}",
+           "b": "af:wk01"
+          },
+          {
+           "op": "eq",
+           "a": "{values.keyMode}",
+           "b": "1"
+          }
+         ]
+        },
+        "value": "\n\nImage 1 is the exact first frame of this part; the given last frame is its exact final frame: one unbroken first-person handheld take between them in the same kitchen. The camera is the viewer's eyes at standing eye level, never high, and it walks smoothly from the first view to the last view; only the person's hands and sleeves appear (never a face or body), they enter from the bottom or side edge and move with the camera; nothing is held, lifted or carried, no loose sheet, panel or sample. The walls, roof, counter, shelf and sink stay exactly as in the two frames and nothing new appears. "
        }
       ]
      },
@@ -29008,16 +29338,29 @@
            "op": "and",
            "list": [
             {
-             "op": "eq",
-             "a": "{values.cellRefs}",
-             "b": "1"
+             "op": "and",
+             "list": [
+              {
+               "op": "eq",
+               "a": "{values.cellRefs}",
+               "b": "1"
+              },
+              {
+               "op": "not",
+               "a": {
+                "op": "eq",
+                "a": "{item.arc}",
+                "b": "ไทม์แลปส์กล้องนิ่ง"
+               }
+              }
+             ]
             },
             {
              "op": "not",
              "a": {
               "op": "eq",
               "a": "{item.arc}",
-              "b": "ไทม์แลปส์กล้องนิ่ง"
+              "b": "af:sf01"
              }
             }
            ]
@@ -29025,9 +29368,19 @@
           {
            "op": "not",
            "a": {
-            "op": "eq",
-            "a": "{item.arc}",
-            "b": "af:sf01"
+            "op": "and",
+            "list": [
+             {
+              "op": "eq",
+              "a": "{item.arc}",
+              "b": "af:wk01"
+             },
+             {
+              "op": "eq",
+              "a": "{values.keyMode}",
+              "b": "1"
+             }
+            ]
            }
           }
          ]
@@ -29039,26 +29392,109 @@
          "op": "and",
          "list": [
           {
-           "op": "eq",
-           "a": "{values.cellRefs}",
-           "b": "1"
-          },
-          {
-           "op": "eq",
-           "a": "{item.arc}",
-           "b": "af:wk01"
+           "op": "and",
+           "list": [
+            {
+             "op": "eq",
+             "a": "{values.cellRefs}",
+             "b": "1"
+            },
+            {
+             "op": "eq",
+             "a": "{item.arc}",
+             "b": "af:wk01"
+            },
+            {
+             "op": "not",
+             "a": {
+              "op": "eq",
+              "a": "{item.slots.design}",
+              "b": ""
+             }
+            }
+           ]
           },
           {
            "op": "not",
            "a": {
-            "op": "eq",
-            "a": "{item.slots.design}",
-            "b": ""
+            "op": "and",
+            "list": [
+             {
+              "op": "eq",
+              "a": "{item.arc}",
+              "b": "af:wk01"
+             },
+             {
+              "op": "eq",
+              "a": "{values.keyMode}",
+              "b": "1"
+             }
+            ]
            }
           }
          ]
         },
         "value": "\nImage 7 = the finished building (identity only, never shown as a photo): every shot is this same building, same roof shape, door, window, colours and objects in the same places; never a different building."
+       },
+       {
+        "when": {
+         "op": "and",
+         "list": [
+          {
+           "op": "and",
+           "list": [
+            {
+             "op": "and",
+             "list": [
+              {
+               "op": "not",
+               "a": {
+                "op": "eq",
+                "a": "{values.cellRefs}",
+                "b": "1"
+               }
+              },
+              {
+               "op": "not",
+               "a": {
+                "op": "eq",
+                "a": "{item.arc}",
+                "b": "ไทม์แลปส์กล้องนิ่ง"
+               }
+              }
+             ]
+            },
+            {
+             "op": "not",
+             "a": {
+              "op": "eq",
+              "a": "{item.arc}",
+              "b": "af:sf01"
+             }
+            }
+           ]
+          },
+          {
+           "op": "not",
+           "a": {
+            "op": "and",
+            "list": [
+             {
+              "op": "eq",
+              "a": "{item.arc}",
+              "b": "af:wk01"
+             },
+             {
+              "op": "eq",
+              "a": "{values.keyMode}",
+              "b": "1"
+             }
+            ]
+           }
+          }
+         ]
+        },
+        "value": "\n\nImage 1 = this part's storyboard (silent guide); its 6 pictures are the 6 beats, left before right, top to bottom. Copy its room, objects (colour, material), people, outfits, light and (not in time-lapse) each beat's angle; its looks beat the wording. Never show the storyboard on screen, even at 0 s: frame 1 is live full-screen footage of beat 1. "
        },
        {
         "when": {
@@ -29076,11 +29512,16 @@
              }
             },
             {
+             "op": "eq",
+             "a": "{item.arc}",
+             "b": "af:wk01"
+            },
+            {
              "op": "not",
              "a": {
               "op": "eq",
-              "a": "{item.arc}",
-              "b": "ไทม์แลปส์กล้องนิ่ง"
+              "a": "{item.slots.design}",
+              "b": ""
              }
             }
            ]
@@ -29088,38 +29529,19 @@
           {
            "op": "not",
            "a": {
-            "op": "eq",
-            "a": "{item.arc}",
-            "b": "af:sf01"
-           }
-          }
-         ]
-        },
-        "value": "\n\nImage 1 = this part's storyboard (silent guide); its 6 pictures are the 6 beats, left before right, top to bottom. Copy its room, objects (colour, material), people, outfits, light and (not in time-lapse) each beat's angle; its looks beat the wording. Never show the storyboard on screen, even at 0 s: frame 1 is live full-screen footage of beat 1. "
-       },
-       {
-        "when": {
-         "op": "and",
-         "list": [
-          {
-           "op": "not",
-           "a": {
-            "op": "eq",
-            "a": "{values.cellRefs}",
-            "b": "1"
-           }
-          },
-          {
-           "op": "eq",
-           "a": "{item.arc}",
-           "b": "af:wk01"
-          },
-          {
-           "op": "not",
-           "a": {
-            "op": "eq",
-            "a": "{item.slots.design}",
-            "b": ""
+            "op": "and",
+            "list": [
+             {
+              "op": "eq",
+              "a": "{item.arc}",
+              "b": "af:wk01"
+             },
+             {
+              "op": "eq",
+              "a": "{values.keyMode}",
+              "b": "1"
+             }
+            ]
            }
           }
          ]
@@ -29141,6 +29563,24 @@
          "b": "af:sf01"
         },
         "value": "\n\nImage 1 is the exact first frame of this part; the given last frame is its exact final frame: the same take carries on between them with no cut, same person, outfit, place and view; the owner keeps talking; the camera stays fixed and never pans or closes in, the owner moves as the beats say; nothing behind the owner changes; any door stays exactly as in Image 1, never swinging, closing or vanishing. "
+       },
+       {
+        "when": {
+         "op": "and",
+         "list": [
+          {
+           "op": "eq",
+           "a": "{item.arc}",
+           "b": "af:wk01"
+          },
+          {
+           "op": "eq",
+           "a": "{values.keyMode}",
+           "b": "1"
+          }
+         ]
+        },
+        "value": "\n\nImage 1 is the exact first frame of this part; the given last frame is its exact final frame: one unbroken first-person handheld take between them in the same kitchen. The camera is the viewer's eyes at standing eye level, never high, and it walks smoothly from the first view to the last view; only the person's hands and sleeves appear (never a face or body), they enter from the bottom or side edge and move with the camera; nothing is held, lifted or carried, no loose sheet, panel or sample. The walls, roof, counter, shelf and sink stay exactly as in the two frames and nothing new appears. "
        }
       ]
      },
@@ -33949,16 +34389,29 @@
            "op": "and",
            "list": [
             {
-             "op": "eq",
-             "a": "{values.cellRefs}",
-             "b": "1"
+             "op": "and",
+             "list": [
+              {
+               "op": "eq",
+               "a": "{values.cellRefs}",
+               "b": "1"
+              },
+              {
+               "op": "not",
+               "a": {
+                "op": "eq",
+                "a": "{item.arc}",
+                "b": "ไทม์แลปส์กล้องนิ่ง"
+               }
+              }
+             ]
             },
             {
              "op": "not",
              "a": {
               "op": "eq",
               "a": "{item.arc}",
-              "b": "ไทม์แลปส์กล้องนิ่ง"
+              "b": "af:sf01"
              }
             }
            ]
@@ -33966,9 +34419,19 @@
           {
            "op": "not",
            "a": {
-            "op": "eq",
-            "a": "{item.arc}",
-            "b": "af:sf01"
+            "op": "and",
+            "list": [
+             {
+              "op": "eq",
+              "a": "{item.arc}",
+              "b": "af:wk01"
+             },
+             {
+              "op": "eq",
+              "a": "{values.keyMode}",
+              "b": "1"
+             }
+            ]
            }
           }
          ]
@@ -33980,26 +34443,109 @@
          "op": "and",
          "list": [
           {
-           "op": "eq",
-           "a": "{values.cellRefs}",
-           "b": "1"
-          },
-          {
-           "op": "eq",
-           "a": "{item.arc}",
-           "b": "af:wk01"
+           "op": "and",
+           "list": [
+            {
+             "op": "eq",
+             "a": "{values.cellRefs}",
+             "b": "1"
+            },
+            {
+             "op": "eq",
+             "a": "{item.arc}",
+             "b": "af:wk01"
+            },
+            {
+             "op": "not",
+             "a": {
+              "op": "eq",
+              "a": "{item.slots.design}",
+              "b": ""
+             }
+            }
+           ]
           },
           {
            "op": "not",
            "a": {
-            "op": "eq",
-            "a": "{item.slots.design}",
-            "b": ""
+            "op": "and",
+            "list": [
+             {
+              "op": "eq",
+              "a": "{item.arc}",
+              "b": "af:wk01"
+             },
+             {
+              "op": "eq",
+              "a": "{values.keyMode}",
+              "b": "1"
+             }
+            ]
            }
           }
          ]
         },
         "value": "\nImage 7 = the finished building (identity only, never shown as a photo): every shot is this same building, same roof shape, door, window, colours and objects in the same places; never a different building."
+       },
+       {
+        "when": {
+         "op": "and",
+         "list": [
+          {
+           "op": "and",
+           "list": [
+            {
+             "op": "and",
+             "list": [
+              {
+               "op": "not",
+               "a": {
+                "op": "eq",
+                "a": "{values.cellRefs}",
+                "b": "1"
+               }
+              },
+              {
+               "op": "not",
+               "a": {
+                "op": "eq",
+                "a": "{item.arc}",
+                "b": "ไทม์แลปส์กล้องนิ่ง"
+               }
+              }
+             ]
+            },
+            {
+             "op": "not",
+             "a": {
+              "op": "eq",
+              "a": "{item.arc}",
+              "b": "af:sf01"
+             }
+            }
+           ]
+          },
+          {
+           "op": "not",
+           "a": {
+            "op": "and",
+            "list": [
+             {
+              "op": "eq",
+              "a": "{item.arc}",
+              "b": "af:wk01"
+             },
+             {
+              "op": "eq",
+              "a": "{values.keyMode}",
+              "b": "1"
+             }
+            ]
+           }
+          }
+         ]
+        },
+        "value": "\n\nImage 1 = this part's storyboard (silent guide); its 6 pictures are the 6 beats, left before right, top to bottom. Copy its room, objects (colour, material), people, outfits, light and (not in time-lapse) each beat's angle; its looks beat the wording. Never show the storyboard on screen, even at 0 s: frame 1 is live full-screen footage of beat 1. "
        },
        {
         "when": {
@@ -34017,11 +34563,16 @@
              }
             },
             {
+             "op": "eq",
+             "a": "{item.arc}",
+             "b": "af:wk01"
+            },
+            {
              "op": "not",
              "a": {
               "op": "eq",
-              "a": "{item.arc}",
-              "b": "ไทม์แลปส์กล้องนิ่ง"
+              "a": "{item.slots.design}",
+              "b": ""
              }
             }
            ]
@@ -34029,38 +34580,19 @@
           {
            "op": "not",
            "a": {
-            "op": "eq",
-            "a": "{item.arc}",
-            "b": "af:sf01"
-           }
-          }
-         ]
-        },
-        "value": "\n\nImage 1 = this part's storyboard (silent guide); its 6 pictures are the 6 beats, left before right, top to bottom. Copy its room, objects (colour, material), people, outfits, light and (not in time-lapse) each beat's angle; its looks beat the wording. Never show the storyboard on screen, even at 0 s: frame 1 is live full-screen footage of beat 1. "
-       },
-       {
-        "when": {
-         "op": "and",
-         "list": [
-          {
-           "op": "not",
-           "a": {
-            "op": "eq",
-            "a": "{values.cellRefs}",
-            "b": "1"
-           }
-          },
-          {
-           "op": "eq",
-           "a": "{item.arc}",
-           "b": "af:wk01"
-          },
-          {
-           "op": "not",
-           "a": {
-            "op": "eq",
-            "a": "{item.slots.design}",
-            "b": ""
+            "op": "and",
+            "list": [
+             {
+              "op": "eq",
+              "a": "{item.arc}",
+              "b": "af:wk01"
+             },
+             {
+              "op": "eq",
+              "a": "{values.keyMode}",
+              "b": "1"
+             }
+            ]
            }
           }
          ]
@@ -34082,6 +34614,24 @@
          "b": "af:sf01"
         },
         "value": "\n\nImage 1 is the exact first frame of this part; the given last frame is its exact final frame: the same take carries on between them with no cut, same person, outfit, place and view; the owner keeps talking; the camera stays fixed and never pans or closes in, the owner moves as the beats say; nothing behind the owner changes; any door stays exactly as in Image 1, never swinging, closing or vanishing. "
+       },
+       {
+        "when": {
+         "op": "and",
+         "list": [
+          {
+           "op": "eq",
+           "a": "{item.arc}",
+           "b": "af:wk01"
+          },
+          {
+           "op": "eq",
+           "a": "{values.keyMode}",
+           "b": "1"
+          }
+         ]
+        },
+        "value": "\n\nImage 1 is the exact first frame of this part; the given last frame is its exact final frame: one unbroken first-person handheld take between them in the same kitchen. The camera is the viewer's eyes at standing eye level, never high, and it walks smoothly from the first view to the last view; only the person's hands and sleeves appear (never a face or body), they enter from the bottom or side edge and move with the camera; nothing is held, lifted or carried, no loose sheet, panel or sample. The walls, roof, counter, shelf and sink stay exactly as in the two frames and nothing new appears. "
        }
       ]
      },
@@ -38888,16 +39438,29 @@
            "op": "and",
            "list": [
             {
-             "op": "eq",
-             "a": "{values.cellRefs}",
-             "b": "1"
+             "op": "and",
+             "list": [
+              {
+               "op": "eq",
+               "a": "{values.cellRefs}",
+               "b": "1"
+              },
+              {
+               "op": "not",
+               "a": {
+                "op": "eq",
+                "a": "{item.arc}",
+                "b": "ไทม์แลปส์กล้องนิ่ง"
+               }
+              }
+             ]
             },
             {
              "op": "not",
              "a": {
               "op": "eq",
               "a": "{item.arc}",
-              "b": "ไทม์แลปส์กล้องนิ่ง"
+              "b": "af:sf01"
              }
             }
            ]
@@ -38905,9 +39468,19 @@
           {
            "op": "not",
            "a": {
-            "op": "eq",
-            "a": "{item.arc}",
-            "b": "af:sf01"
+            "op": "and",
+            "list": [
+             {
+              "op": "eq",
+              "a": "{item.arc}",
+              "b": "af:wk01"
+             },
+             {
+              "op": "eq",
+              "a": "{values.keyMode}",
+              "b": "1"
+             }
+            ]
            }
           }
          ]
@@ -38919,26 +39492,109 @@
          "op": "and",
          "list": [
           {
-           "op": "eq",
-           "a": "{values.cellRefs}",
-           "b": "1"
-          },
-          {
-           "op": "eq",
-           "a": "{item.arc}",
-           "b": "af:wk01"
+           "op": "and",
+           "list": [
+            {
+             "op": "eq",
+             "a": "{values.cellRefs}",
+             "b": "1"
+            },
+            {
+             "op": "eq",
+             "a": "{item.arc}",
+             "b": "af:wk01"
+            },
+            {
+             "op": "not",
+             "a": {
+              "op": "eq",
+              "a": "{item.slots.design}",
+              "b": ""
+             }
+            }
+           ]
           },
           {
            "op": "not",
            "a": {
-            "op": "eq",
-            "a": "{item.slots.design}",
-            "b": ""
+            "op": "and",
+            "list": [
+             {
+              "op": "eq",
+              "a": "{item.arc}",
+              "b": "af:wk01"
+             },
+             {
+              "op": "eq",
+              "a": "{values.keyMode}",
+              "b": "1"
+             }
+            ]
            }
           }
          ]
         },
         "value": "\nImage 7 = the finished building (identity only, never shown as a photo): every shot is this same building, same roof shape, door, window, colours and objects in the same places; never a different building."
+       },
+       {
+        "when": {
+         "op": "and",
+         "list": [
+          {
+           "op": "and",
+           "list": [
+            {
+             "op": "and",
+             "list": [
+              {
+               "op": "not",
+               "a": {
+                "op": "eq",
+                "a": "{values.cellRefs}",
+                "b": "1"
+               }
+              },
+              {
+               "op": "not",
+               "a": {
+                "op": "eq",
+                "a": "{item.arc}",
+                "b": "ไทม์แลปส์กล้องนิ่ง"
+               }
+              }
+             ]
+            },
+            {
+             "op": "not",
+             "a": {
+              "op": "eq",
+              "a": "{item.arc}",
+              "b": "af:sf01"
+             }
+            }
+           ]
+          },
+          {
+           "op": "not",
+           "a": {
+            "op": "and",
+            "list": [
+             {
+              "op": "eq",
+              "a": "{item.arc}",
+              "b": "af:wk01"
+             },
+             {
+              "op": "eq",
+              "a": "{values.keyMode}",
+              "b": "1"
+             }
+            ]
+           }
+          }
+         ]
+        },
+        "value": "\n\nImage 1 = this part's storyboard (silent guide); its 6 pictures are the 6 beats, left before right, top to bottom. Copy its room, objects (colour, material), people, outfits, light and (not in time-lapse) each beat's angle; its looks beat the wording. Never show the storyboard on screen, even at 0 s: frame 1 is live full-screen footage of beat 1. "
        },
        {
         "when": {
@@ -38956,11 +39612,16 @@
              }
             },
             {
+             "op": "eq",
+             "a": "{item.arc}",
+             "b": "af:wk01"
+            },
+            {
              "op": "not",
              "a": {
               "op": "eq",
-              "a": "{item.arc}",
-              "b": "ไทม์แลปส์กล้องนิ่ง"
+              "a": "{item.slots.design}",
+              "b": ""
              }
             }
            ]
@@ -38968,38 +39629,19 @@
           {
            "op": "not",
            "a": {
-            "op": "eq",
-            "a": "{item.arc}",
-            "b": "af:sf01"
-           }
-          }
-         ]
-        },
-        "value": "\n\nImage 1 = this part's storyboard (silent guide); its 6 pictures are the 6 beats, left before right, top to bottom. Copy its room, objects (colour, material), people, outfits, light and (not in time-lapse) each beat's angle; its looks beat the wording. Never show the storyboard on screen, even at 0 s: frame 1 is live full-screen footage of beat 1. "
-       },
-       {
-        "when": {
-         "op": "and",
-         "list": [
-          {
-           "op": "not",
-           "a": {
-            "op": "eq",
-            "a": "{values.cellRefs}",
-            "b": "1"
-           }
-          },
-          {
-           "op": "eq",
-           "a": "{item.arc}",
-           "b": "af:wk01"
-          },
-          {
-           "op": "not",
-           "a": {
-            "op": "eq",
-            "a": "{item.slots.design}",
-            "b": ""
+            "op": "and",
+            "list": [
+             {
+              "op": "eq",
+              "a": "{item.arc}",
+              "b": "af:wk01"
+             },
+             {
+              "op": "eq",
+              "a": "{values.keyMode}",
+              "b": "1"
+             }
+            ]
            }
           }
          ]
@@ -39021,6 +39663,24 @@
          "b": "af:sf01"
         },
         "value": "\n\nImage 1 is the exact first frame of this part; the given last frame is its exact final frame: one unbroken selfie take between them, same person, outfit, place and view; the camera stays fixed and never pans or closes in, the owner moves as the beats say; nothing behind the owner changes; any door stays exactly as in Image 1, never swinging, closing or vanishing. "
+       },
+       {
+        "when": {
+         "op": "and",
+         "list": [
+          {
+           "op": "eq",
+           "a": "{item.arc}",
+           "b": "af:wk01"
+          },
+          {
+           "op": "eq",
+           "a": "{values.keyMode}",
+           "b": "1"
+          }
+         ]
+        },
+        "value": "\n\nImage 1 is the exact first frame of this part; the given last frame is its exact final frame: one unbroken first-person handheld take between them in the same kitchen. The camera is the viewer's eyes at standing eye level, never high, and it walks smoothly from the first view to the last view; only the person's hands and sleeves appear (never a face or body), they enter from the bottom or side edge and move with the camera; nothing is held, lifted or carried, no loose sheet, panel or sample. The walls, roof, counter, shelf and sink stay exactly as in the two frames and nothing new appears. "
        }
       ]
      },
@@ -43787,6 +44447,21 @@
       "op": "eq",
       "a": "{item.arc}",
       "b": "af:sf01"
+     },
+     {
+      "op": "and",
+      "list": [
+       {
+        "op": "eq",
+        "a": "{item.arc}",
+        "b": "af:wk01"
+       },
+       {
+        "op": "eq",
+        "a": "{values.keyMode}",
+        "b": "1"
+       }
+      ]
      }
     ]
    },
@@ -43801,9 +44476,19 @@
       "by": "{item.id}",
       "slot": "design",
       "when": {
-       "op": "eq",
-       "a": "{item.arc}",
-       "b": "af:sf01"
+       "op": "or",
+       "list": [
+        {
+         "op": "eq",
+         "a": "{item.arc}",
+         "b": "af:sf01"
+        },
+        {
+         "op": "eq",
+         "a": "{item.arc}",
+         "b": "af:wk01"
+        }
+       ]
       }
      },
      {
@@ -43945,6 +44630,24 @@
        "b": "af:sf01"
       },
       "value": "รูปแนบรูปแรก = เฟรมเริ่มของช่วงสุดท้ายของคลิปเซลฟี่ · วาดภาพเดียวกันอีกครั้งเป็นเฟรมจบของคลิป ผลลัพธ์แนวตั้ง 9:16 หนึ่งภาพ\nคนเดิม ยืนจุดเดิม หน้า ผม และชุดเดิมทุกอย่าง ยิ้มเข้ากล้อง ยกนิ้วโป้งให้ตัวงาน\nกล้องเดิม ระยะเดิม ขอบภาพเดิม ตัวงาน พื้น ฉากหลัง และของทุกชิ้นอยู่ที่เดิม ห้ามซูม ห้ามครอป ห้ามเพิ่มหรือย้ายของ ประตูอยู่ท่าเดียวกับรูปแบบงานเสร็จ\nงานนี้: {item.productName}\nแบบของงาน: {item.room}\nภาพเดียวต่อเนื่องทั้งกรอบ ห้ามแบ่งภาพ ห้ามมีตัวหนังสือ ป้าย หรือโลโก้ในภาพ ห้ามเห็นโทรศัพท์หรือกล้อง · แสงธรรมชาติกลางวัน สีตามจริง คมชัดทั้งภาพ"
+     },
+     {
+      "when": {
+       "op": "and",
+       "list": [
+        {
+         "op": "eq",
+         "a": "{item.arc}",
+         "b": "af:wk01"
+        },
+        {
+         "op": "eq",
+         "a": "{values.keyMode}",
+         "b": "1"
+        }
+       ]
+      },
+      "value": "รูปแนบรูปแรก = ภาพเปิดคลิป · วาดภาพเดียวกันอีกครั้งเป็นภาพจบของคลิป ผลลัพธ์แนวตั้ง 9:16 หนึ่งภาพ\nกล้องถอยกลับมาที่ตำแหน่ง ระดับความสูง ทิศ และกรอบภาพเดียวกับรูปแรกทุกอย่าง เห็นครัวทั้งหลังเหมือนตอนเปิด ไม่มีคน ไม่เห็นมือ\nผนัง หลังคา พื้น วัสดุ สี และของทุกชิ้นเหมือนรูปแรก ห้ามเปลี่ยนมุม ห้ามซูม ห้ามเพิ่มหรือย้ายของ\nงานนี้: {item.productName}\nภาพเดียวต่อเนื่องทั้งกรอบ ห้ามแบ่งภาพ ห้ามมีตัวหนังสือ ป้าย หรือโลโก้ในภาพ · แสงธรรมชาติกลางวัน สีตามจริง คมชัดทั้งภาพ"
      }
     ]
    }
@@ -43971,6 +44674,21 @@
       "op": "eq",
       "a": "{values.openLock}",
       "b": "1"
+     },
+     {
+      "op": "and",
+      "list": [
+       {
+        "op": "eq",
+        "a": "{item.arc}",
+        "b": "af:wk01"
+       },
+       {
+        "op": "eq",
+        "a": "{values.keyMode}",
+        "b": "1"
+       }
+      ]
      }
     ]
    },
@@ -43985,9 +44703,19 @@
       "by": "{item.id}",
       "slot": "design",
       "when": {
-       "op": "eq",
-       "a": "{item.arc}",
-       "b": "af:sf01"
+       "op": "or",
+       "list": [
+        {
+         "op": "eq",
+         "a": "{item.arc}",
+         "b": "af:sf01"
+        },
+        {
+         "op": "eq",
+         "a": "{item.arc}",
+         "b": "af:wk01"
+        }
+       ]
       }
      },
      {
@@ -44167,6 +44895,24 @@
        ]
       },
       "value": "วาดภาพถ่ายจริงแนวตั้ง 9:16 หนึ่งภาพเต็มกรอบ เป็นเฟรมแรกของคลิป\nรูปแรกที่แนบคือช่องแรกของสตอรี่บอร์ด: วาดรูปนั้นใหม่ให้คมชัดเต็มจอ คน ชุด ท่าทาง ของ สี วัสดุ สถานที่ แสง มุมกล้อง และระยะ ต้องเหมือนรูปนั้นทุกอย่าง ห้ามเพิ่ม ห้ามย้าย ห้ามเปลี่ยนรูปทรง\nรูปนั้นตัดมาจากตารางภาพ ถ้าขอบรูปมีแถบ เส้นคั่น หรือเศษภาพของช่องอื่นติดมา ห้ามวาดตาม ให้วาดฉากเดิมต่อจนเต็มกรอบ\nรูปที่แนบถัดไป (ถ้ามี) ใช้ดูหน้าคน สินค้า และพื้นที่จริงให้ตรงเท่านั้น\nฉากแรกของบท: {values.openEN}\nภาพเดียวต่อเนื่องทั้งกรอบ ห้ามแบ่งภาพ ห้ามมีแถบภาพอื่นด้านบนหรือด้านล่าง ห้ามเส้นคั่น กรอบ หรือขอบดำ · ห้ามเพิ่มตัวหนังสือ ป้าย หรือโลโก้ที่ไม่มีในรูปแรก ห้ามเห็นโทรศัพท์หรือกล้อง · คมชัดทั้งภาพ ความละเอียดสูง"
+     },
+     {
+      "when": {
+       "op": "and",
+       "list": [
+        {
+         "op": "eq",
+         "a": "{item.arc}",
+         "b": "af:wk01"
+        },
+        {
+         "op": "eq",
+         "a": "{values.keyMode}",
+         "b": "1"
+        }
+       ]
+      },
+      "value": "วาดภาพถ่ายจริงแนวตั้ง 9:16 หนึ่งภาพเต็มกรอบ เป็นเฟรมแรกของคลิปมุมมองบุคคลที่หนึ่ง (กล้องคือสายตาคนเดินชมครัว)\nภาพกว้างเห็นครัวเสร็จทั้งหลังจากด้านหน้า กล้องระดับสายตาคนยืนสูงราว 1.5 เมตร มองตรง ไม่เงยไม่ก้ม เห็นหลังคา ผนัง เคาน์เตอร์ ชั้น โต๊ะ และพื้นครบในภาพเดียว\nรูปแบบงานเสร็จที่แนบ (ภาพไม่มีคน) คือต้นแบบ: ห้อง ผนัง หลังคา เคาน์เตอร์ ชั้น พื้น วัสดุ สี และของทุกชิ้นต้องเหมือนรูปนั้นทุกอย่าง ห้ามเปลี่ยนรูปทรง ห้ามเพิ่มหรือย้ายของ\nไม่มีคน ใบหน้า ลำตัว มือ เครื่องมือ หรือแผ่นวัสดุหลวมในภาพนี้\nงานนี้: {item.productName}\nแบบของงาน: {item.room}\nภาพเดียวต่อเนื่องทั้งกรอบ ห้ามแบ่งภาพ ห้ามมีตัวหนังสือ ป้าย หรือโลโก้ในภาพ · แสงธรรมชาติกลางวัน สีตามจริง คมชัดทั้งภาพ"
      }
     ]
    }
@@ -44188,6 +44934,21 @@
       "op": "eq",
       "a": "{item.arc}",
       "b": "af:sf01"
+     },
+     {
+      "op": "and",
+      "list": [
+       {
+        "op": "eq",
+        "a": "{item.arc}",
+        "b": "af:wk01"
+       },
+       {
+        "op": "eq",
+        "a": "{values.keyMode}",
+        "b": "1"
+       }
+      ]
      }
     ]
    },
@@ -44202,9 +44963,19 @@
       "by": "{item.id}",
       "slot": "design",
       "when": {
-       "op": "eq",
-       "a": "{item.arc}",
-       "b": "af:sf01"
+       "op": "or",
+       "list": [
+        {
+         "op": "eq",
+         "a": "{item.arc}",
+         "b": "af:sf01"
+        },
+        {
+         "op": "eq",
+         "a": "{item.arc}",
+         "b": "af:wk01"
+        }
+       ]
       }
      },
      {
@@ -44354,6 +45125,24 @@
        "b": "af:sf01"
       },
       "value": "รูปแนบรูปแรก = เฟรมเริ่มของช่วงที่ {values.stagePart} จาก {values.stageParts} ของคลิปเซลฟี่ · วาดภาพเดียวกันอีกครั้งเป็นเฟรมจบของช่วงนี้ ผลลัพธ์แนวตั้ง 9:16 หนึ่งภาพ\nกล้องเดิม ระยะเดิม ขอบภาพเดิม ตัวงาน พื้น ฉากหลัง และของทุกชิ้นอยู่ที่เดิม ห้ามซูม ห้ามครอป ห้ามเพิ่มหรือย้ายของ ประตูอยู่ท่าเดียวกับรูปแบบงานเสร็จ\nคนเดิม หน้า ผม และชุดเดิมทุกอย่าง อยู่ในกรอบเดิม ท่าและตำแหน่งตามฉากสุดท้ายของช่วงนี้ ท่ามือและตำแหน่งในกรอบเปลี่ยนได้ตามบท\nงานนี้: {item.productName}\nแบบของงาน: {item.room}\nภาพเดียวต่อเนื่องทั้งกรอบ ห้ามแบ่งภาพ ห้ามมีตัวหนังสือ ป้าย หรือโลโก้ในภาพ ห้ามเห็นโทรศัพท์หรือกล้อง · แสงธรรมชาติกลางวัน สีตามจริง คมชัดทั้งภาพ"
+     },
+     {
+      "when": {
+       "op": "and",
+       "list": [
+        {
+         "op": "eq",
+         "a": "{item.arc}",
+         "b": "af:wk01"
+        },
+        {
+         "op": "eq",
+         "a": "{values.keyMode}",
+         "b": "1"
+        }
+       ]
+      },
+      "value": "รูปแนบรูปแรก = ภาพเริ่มของช่วงที่ {values.stagePart} จาก {values.stageParts} · วาดภาพเดียวกันอีกครั้งเป็นภาพจบของช่วงนี้ ผลลัพธ์แนวตั้ง 9:16 หนึ่งภาพ\nภาพนี้คือกล้องมุมมองคนเดินเข้าไปใกล้ส่วนหนึ่งของครัวที่เห็นอยู่ในรูปแรกแล้ว (ผนังแผ่นสินค้า หรือเคาน์เตอร์ ชั้น ซิงก์ เตา) ให้เห็นผิวและลอนแผ่นสินค้าชัด มือข้างเดียวกับแขนเสื้อยื่นเข้าจากขอบล่างหรือข้างของภาพ แตะผนังหรือของที่ติดอยู่ เห็นแต่มือและท่อนแขน ไม่เห็นหน้าหรือลำตัว · จุดที่แตะตามฉากสุดท้ายของช่วงนี้: {values.stageEN}\nห้องเดียวกับรูปแรก: ผนัง หลังคา พื้น วัสดุ สี และของทุกชิ้นที่เห็นต้องเหมือนรูปแรกทุกอย่าง ห้ามห้องใหม่ ห้ามเปลี่ยนวัสดุผนังหรือหลังคา ห้ามถือแผ่นสินค้าหรือของหลวม\nงานนี้: {item.productName}\nภาพเดียวต่อเนื่องทั้งกรอบ ห้ามแบ่งภาพ ห้ามมีตัวหนังสือ ป้าย หรือโลโก้ในภาพ · แสงธรรมชาติกลางวัน สีตามจริง คมชัดทั้งภาพ"
      }
     ]
    }
@@ -44502,6 +45291,24 @@
        }
       ],
       "fallback": ""
+     },
+     {
+      "when": {
+       "op": "or",
+       "list": [
+        {
+         "op": "eq",
+         "a": "{item.arc}",
+         "b": "af:wk01"
+        },
+        {
+         "op": "eq",
+         "a": "{item.arc}",
+         "b": "af:sf01"
+        }
+       ]
+      },
+      "value": "\nความสูงกล้อง (สำคัญ ใช้แทนมุมกล้องข้างบนทุกข้อ): กล้องวางระดับสายตาคนยืน สูงราว 1.5 เมตรจากพื้น มองตรงไปข้างหน้า ไม่เงยไม่ก้ม เส้นขอบฟ้าอยู่กึ่งกลางภาพ ห้ามถ่ายจากมุมสูง ห้ามถ่ายจากบนหลังคาหรือบนบันได ห้ามเห็นหลังคาจากด้านบน เห็นเคาน์เตอร์ ชั้น โต๊ะ พื้น และหลังคาด้านล่างครบในภาพเดียว ขนาดสมจริง เคาน์เตอร์สูงระดับสะโพก โต๊ะสูงระดับเอว"
      },
      "\nงานสร้างใหม่ต้องเสร็จสมบูรณ์: หลังคาคลุมเต็มพื้นที่ ไม่เห็นท้องฟ้าผ่านหลังคา ผนังครบตามทรงงาน ไม่เหลือโครงเปล่า ของติดตั้งครบ ดูน่าใช้ทันที",
      {
