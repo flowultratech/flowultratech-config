@@ -1,8 +1,8 @@
 {
  "app": "flow-reno",
  "version": 5,
- "build": 170,
- "label": "3.0.38",
+ "build": 171,
+ "label": "3.0.39",
  "ops": {
   "mnPlan": {
    "id": "mnPlan",
@@ -1083,7 +1083,7 @@
         "op": "lookup",
         "table": "lenVo",
         "key": "{values.svSec}",
-        "fallback": "กฎความยาวบทพากย์ (พากย์ต่อเนื่องจนสุดคลิป ห้ามเงียบ):\n- คลิป 10 วินาที 6 ฉาก; ทุก 10 วินาที = 6 ฉาก ทุกช่วง 10 วินาทีมีจังหวะ 2 · 1.5 · 1.5 · 1.5 · 1.5 · 2 วินาที (ฉากแรกและฉากสุดท้ายของช่วงยาวกว่า); vo1–vo6 ต้องมีบทครบทุกฉาก ห้ามเว้นฉากใด\n- ความยาวบทไทย นับเป็นตัวอักษรไทยจริง ไม่รวมเว้นวรรค (ภาษาไทยไม่มีช่องว่างคั่นคำ ห้ามนับเป็นคำ): ฉากแรกและฉากสุดท้ายของช่วงราว 16-20 ตัวอักษร 4 ฉากกลางราว 12-16 ตัวอักษร; ทั้งคลิปไม่เกิน 90 ตัวอักษร; ห้ามยาวกว่านี้ เพราะวิดีโอยัดบทให้จบในเวลาเดิม บทยาว = พูดรัวและถูกตัดท้าย; พูดเต็มเวลาฉากพอดี ไม่ทิ้งช่วงเงียบ\n- vo1–vo6 ร้อยเป็นย่อหน้าเดียว อ่านรวดเดียวได้พอดี 10 วินาที ห้ามเป็นวลีสั้นจบห้วนแยกท่อน (แยกเมื่อใดจะเงียบแทรกระหว่างฉาก)\n- voN พูดเฉพาะสิ่งที่ผู้ชมเห็นในฉาก N; ห้ามชิงพูดฉากถัดไป ห้ามย้อนฉากก่อน (ต่อเป็นย่อหน้าได้ แต่ประโยคฉากใดต้องตรงภาพฉากนั้น ไม่เหลื่อม)"
+        "fallback": "กฎความยาวบทพากย์ (พากย์ต่อเนื่องจนสุดคลิป ห้ามเงียบ):\n- คลิป 10 วินาที 6 ฉาก; ทุก 10 วินาที = 6 ฉาก ทุกช่วง 10 วินาทีมีจังหวะ 2 · 1.5 · 1.5 · 1.5 · 1.5 · 2 วินาที (ฉากแรกและฉากสุดท้ายของช่วงยาวกว่า); vo1–vo6 ต้องมีบทครบทุกฉาก ห้ามเว้นฉากใด\n- ความยาวบทไทย นับเป็นตัวอักษรไทยจริง ไม่รวมเว้นวรรค (ภาษาไทยไม่มีช่องว่างคั่นคำ ห้ามนับเป็นคำ): ฉากแรกและฉากสุดท้ายของช่วงราว 22-27 ตัวอักษร 4 ฉากกลางราว 17-22 ตัวอักษร; ทั้งคลิปไม่เกิน 115 ตัวอักษร; ห้ามยาวกว่านี้ เพราะวิดีโอยัดบทให้จบในเวลาเดิม บทยาว = พูดรัวและถูกตัดท้าย; พูดเต็มเวลาฉากพอดี ไม่ทิ้งช่วงเงียบ\n- vo1–vo6 ร้อยเป็นย่อหน้าเดียว อ่านรวดเดียวได้พอดี 10 วินาที ห้ามเป็นวลีสั้นจบห้วนแยกท่อน (แยกเมื่อใดจะเงียบแทรกระหว่างฉาก)\n- voN พูดเฉพาะสิ่งที่ผู้ชมเห็นในฉาก N; ห้ามชิงพูดฉากถัดไป ห้ามย้อนฉากก่อน (ต่อเป็นย่อหน้าได้ แต่ประโยคฉากใดต้องตรงภาพฉากนั้น ไม่เหลื่อม)\n- FLOW-FAST: พูดเร็ว กระชับ ต่อเนื่องแบบครีเอเตอร์คลิปสั้น ไม่มีช่วงหยุด · ห้ามจบประโยคที่ขอบฉาก ยกเว้นฉากสุดท้ายของคลิป: ฉากอื่นต้องจบด้วยคำเชื่อมที่พาไปฉากถัดไป (แล้ว ที่ ซึ่ง พอ ก็ และ ทั้ง) ไม่ใช้ ครับ ค่ะ นะ กลางคลิป · ห้ามคำว่า \"งาน\" ทุกคำในบทพูด ใช้คำแทน: ใช้งาน = ใช้ ใช้ได้ ใช้นาน · ผลงาน = ครัวนี้ · ชิ้นงาน = ชิ้นนี้ · หน้างาน = หน้าครัว · งานเนียน = เนียน · ทำงาน = ทำ"
        },
        "\n\n",
        {
@@ -1488,7 +1488,7 @@
      "\n\nสัดส่วนระยะภาพ (เน้นภาพใกล้ ภาพชัดและเพี้ยนน้อย): ทุกฉากเป็นภาพใกล้ เห็นมือ เครื่องมือ และผิวงานที่กำลังเปลี่ยน เพราะภาพที่เห็นห้องมากทำให้ห้องเปลี่ยนไปในแต่ละช่วง · ฉากแรกและฉากสุดท้ายของแต่ละช่วง (บอร์ดวาดเป็นภาพซ้ายบนและขวาล่าง) ถอยออกได้นิดเดียวให้เห็นบริเวณที่ทำงานกับมือช่าง ห้ามเห็นเพดาน มุมห้อง หรือผนังทั้งด้าน ฉากสุดท้ายของช่วงต้องเห็นงานคืบหน้าจากฉากแรกชัด ยกเว้นฉากแรกของคลิปกับฉากสุดท้ายของคลิปเป็นภาพกว้างเห็นทั้งห้อง มุมเดียวกัน ไว้เทียบก่อน/หลัง · ฉากแรกของคลิปเป็นภาพตั้งกล้องนิ่งที่มุมห้อง เห็นหน้าต่าง ประตู และของหลักครบ บรรยายสภาพก่อนทำ ห้ามการกระทำที่บังกล้อง (มือเปิดประตู เดินเข้ามา ของบังหน้ากล้อง) · cam ของฉากแรกและฉากสุดท้ายของคลิป = จุดเดิมก่อน / หลัง · ทั้งคลิปมีภาพกว้างเห็นทั้งห้องแค่ 2 ฉากนี้ เพราะภาพกว้างคนตัวเล็ก ของเยอะ วิดีโอเพี้ยนง่าย + 4 ฉากกลางเป็นภาพใกล้ทั้ง 4 ฉาก (มือสวมถุงมือกำลังทำ เครื่องมือแตะผิว พื้นผิวที่กำลังเปลี่ยน ของที่ใช้) คนละจุดหรือคนละขั้น ห้ามภาพกว้างของห้องซ้ำกันหลายฉาก เพราะบอร์ดที่ภาพหน้าตาคล้ายกันทำให้วิดีโอออกมาเป็นภาพแบ่งจอ · ภาพใกล้ไม่ต้องเห็นหน้าคน · camN ของภาพใกล้ใช้ ส่องจุดเสียใกล้ ๆ, ตามมือช่าง หรือ ชิดจุดสัมผัส · s*th ของภาพใกล้บอกให้ชัดว่าอะไรเต็มเฟรม เช่น มือสวมถุงมือปาดปูนบนรอยร้าว เต็มเฟรม · สองฉากติดกันห้ามมีระยะภาพ มุม หรือท่าทางเหมือนกัน · ฉากแรกและฉากสุดท้ายของช่วง (ยกเว้นฉากเปิดและฉากปิดคลิป) ถ่ายชิดจุดงาน ไม่เห็นทั้งห้อง: camN ใช้ ตามมือช่าง, ชิดจุดสัมผัส หรือ ผ่านไหล่ช่างแบบชิด · ถอยกว้างเห็นทั้งห้อง, เดินชมผลงาน และ ตั้งนิ่งเห็นช่างทำ ใช้ได้แค่ฉากเปิดและฉากปิดคลิป · งานใหญ่ (เช่น ปูพื้นทั้งห้อง ทาสีทั้งห้อง) ทำต่อเนื่องหลายช่วงตามเวลาจริง 6 ฉากในช่วงเดียวกันอยู่ขั้นงานเดียวกันและคืบหน้าทีละนิด ห้ามเขียน แถวสุดท้าย เสร็จ หรือ ครบทั้งห้อง ก่อนถึงช่วงที่งานนั้นเสร็จจริง · ทุกฉากต้องมีความคืบหน้าของงานที่มองเห็นได้ต่างจากฉากก่อนหน้า ห้ามเขียนฉากที่คนทำท่าเดิมในที่เดิมซ้ำ · ถ้าเลือกไทม์แลปส์ หรือมุมกล้องหลักแบบตั้งนิ่ง/มองจากด้านบน ให้ยึดกฎนั้นก่อนสัดส่วนนี้",
      "\n\nล็อกห้อง: ฉากแรกของคลิปต้องระบุตำแหน่งหน้าต่าง ประตู สีผนัง และพื้นของห้อง แล้วทุกฉากต่อมาอ้างถึงหน้าต่างและประตูบานเดิมในตำแหน่งเดิม ห้ามย้ายหรือเพิ่มหน้าต่าง/ประตู (ยกเว้นงานนั้นคือการเปลี่ยนหน้าต่างหรือประตู)\n\nล็อกงานเดียวทั้งคลิป: คลิปหลายช่วงเล่างานชิ้นเดียวในสถานที่เดียว ทุกช่วงต้องเป็นอาคาร ห้อง ผนัง และโครงเดิม ต่อเนื่องจากช่วงก่อน ห้ามเปิดปัญหาใหม่บนผนังหรือสถานที่อื่น ห้ามตัดไปตัวอย่างวัสดุเก่าคนละที่ ถ้าต้องเล่าปัญหาหลายอย่าง ให้อยู่บนงานชิ้นเดิมในจุดที่มองเห็นจากฉากเดียวกัน · งานสร้าง ติดตั้ง หรือรีโนเวท ต้องเห็นงานคืบหน้าจนเสร็จจริงภายในคลิป ห้ามจบที่แผ่นเดียวหรือโครงที่ยังเปิดอยู่ · งานสร้างใหม่ที่ไม่มีของเก่า: ห้ามตัดไปภาพไม้ผุ ผนังเก่า อิฐ ปูนร้าว หรือของเก่าอื่น เล่าปัญหาด้วยเสียงอย่างเดียว ภาพทุกฉากอยู่ที่งานนี้ · ห้ามมีแผ่นตัวอย่าง โบรชัวร์ หรือป้ายสินค้าถือในฉาก · ถ้าผู้ใช้ไม่ได้เลือกตอนจบ งานสร้าง ติดตั้ง และรีโนเวทให้จบแบบเห็นงานเสร็จทั้งด้านนอกและด้านในพร้อมใช้งาน · ทรงงาน ทรงหลังคา ประตู (ถ้ามี: จำนวนบาน แบบ มือจับ) ผนังด้านใน พื้น และเพดาน ระบุแบบเดียวในคำบรรยายห้อง แล้วใช้แบบเดิมทุกฉาก · กฎทรงงาน (งานสร้างใหม่): ห้องที่ปกติปิดมิดชิด เช่น ห้องน้ำ ห้องเก็บของ ห้องนอน = shape: closed room มีประตู · ครัวทุกแบบ (ห้องครัว ครัวนอกบ้าน ครัวหลังบ้าน) ศาลา โรงรถ ซุ้ม ระเบียง เพิง = shape: open-front ด้านหน้าเปิดโล่ง ไม่มีประตู มีหลังคาคลุม ผนังด้านหลังและด้านข้าง · ขนาดครัว (ถ้าผู้ใช้ไม่ได้ระบุขนาดหรือผัง ถ้าระบุหรือแนบรูปให้ทำตามผู้ใช้): ครัวทุกแบบเป็นครัวใหญ่เต็มรูปแบบเหมือนครัวบ้านจริง ไม่ใช่ตู้ครัวเล็กหน่วยเดียว: เคาน์เตอร์ตัวแอลหรือยาวต่อเนื่องหลายส่วน ซิงก์ เตา ฮูด ตู้ล่างหลายบาน ชั้นวางของเต็มผนัง โต๊ะนั่งกินข้าว ตู้เย็น หลังคากว้างคลุมทั้งพื้นที่ · คำบรรยายห้อง (room) ต้องบอกขนาดและผังนี้ชัด เช่น ยาวกี่ส่วน ตัวแอลหรือตรง และของใหญ่ที่วางอยู่ · ถ้าผู้ใช้ระบุทรง หรือบอกว่ามีหรือไม่มีประตู ให้ทำตามผู้ใช้ · งานสร้างด้วยแผ่นผนังสำเร็จ: ผนังด้านในเป็นแผ่นชนิดเดียวกันที่เห็นตอนติดตั้ง ห้ามเปลี่ยนเป็นปูนหรือกระเบื้อง ถ้าผู้ใช้ไม่ได้ขอ · ขนาดด้านในเท่าตัวงานด้านนอก · ฉากหลังทุกฉากตรงกับ site ในคำบรรยายห้อง ตั้งแต่ฉากแรกถึงฉากปิด พื้นลาน รั้ว กำแพง ต้นไม้ และอาคารข้างเคียงห้ามเปลี่ยน · งานก่อสร้างเรียงขั้น ผนัง → หลังคา → ประตู (เฉพาะ closed room) → ภายใน ส่วนที่เสร็จแล้วต้องอยู่ทุกฉากต่อมา เช่น มีหลังคาแล้วห้ามกลับไปเห็นท้องฟ้าเหนือผนัง และเรื่องภายในห้องต้องถ่ายในห้อง · ฉากไหนพูดถึงของชิ้นไหน ภาพฉากนั้นต้องเห็นชิ้นนั้น · ฉากละ 1 ภาพ: คำบรรยายภาษาอังกฤษ (sNen) แต่ละฉากไม่เกิน 22 คำ และไม่ต้องอธิบายห้องซ้ำ เพราะมีคำบรรยายห้องแล้ว · งานสร้างใหม่ต้องจบเป็นงานที่เสร็จสมบูรณ์ หลังคาคลุมเต็มพื้นที่ ผนังและของติดตั้งครบ ห้ามจบที่โครงเหล็กเปล่า ผนังด้านเดียว หรือเห็นท้องฟ้าแทนหลังคา (open-front เปิดด้านหน้าได้ แต่ผนังด้านหลัง ด้านข้าง และหลังคาต้องครบ) · 3 ฉากสุดท้ายของคลิปเป็นภาพงานเสร็จ ไม่มีขั้นติดตั้ง (ไทม์แลปส์ใช้กฎของไทม์แลปส์) และเรื่องแดด ฝน ความร้อน ให้เล่าบนภาพงานเสร็จ ห้ามให้คนแสดงท่าประกอบ เช่น ป้องตาหรือเช็ดเหงื่อ · สินค้าใช้ตามหน้าที่จริงในชื่องาน เช่น สร้างห้องด้วยเมทัลชีต คือผนังและตัวอาคารด้านนอกที่เห็นลอนแผ่นโลหะ ไม่ใช่ไม้ตกแต่งภายในหรือหน้าตู้ · งานที่ชื่อขึ้นต้นด้วยสร้าง คืองานสร้างใหม่ที่ไม่มีของเก่า · ทุก s*th บอกขั้นงานชัดเจน ถ้าโครงเรื่องไม่ได้ระบุให้เปิดด้วยผลงาน ก่อนถึง 3 ฉากสุดท้ายห้ามเห็นงานเสร็จ ฉากแรกเป็นพื้นที่ก่อนเริ่มงาน",
      "\n\nขอบเขตงาน (ให้ดูเป็นงานจริงที่ถ่ายเก็บไว้ ไม่ใช่สรุปรวบ): 1 ช่วง = งานเดียวที่จุดเดียวเสมอ · 6 ฉากในช่วงเดียวกันคืองานเดียวกันที่จุดเดียวกัน ต่อกันเหมือนถ่ายเก็บทีละขั้น (เช่น บีบ → เกลี่ย → ปาด → ขัด) เปลี่ยนแค่มุมกล้องและระยะ ห้ามสลับไปงานอื่นกลางช่วง · งานเดียว (เช่น ล้างแอร์ ขัดห้องน้ำ ทาสีผนัง ซ่อมรอยร้าว) ทั้งคลิปทำงานนั้นงานเดียว คลิปยิ่งยาวยิ่งเล่าละเอียดขึ้น: สภาพก่อนทำ เตรียมเครื่องมือและวัสดุ ลงมือทีละขั้น เก็บงาน ผลลัพธ์ · ลำดับงานจริงในประเภทงานคือขั้นตอนของงานนั้น ใช้เรียงฉากและช่วง · งานใหญ่ที่ชื่องานบอกเอง (เช่น รีโนเวททั้งห้อง ซ่อมทั้งบ้าน) ทำได้หลายงานย่อย เรียงแบบช่างทำจริง (เช่น ขูดสีเก่า → ซ่อมผนัง → ทาสี → ปูพื้น → จัดของเข้าที่) ช่วงละ 1 งานย่อย งานย่อยใหญ่ใช้หลายช่วงต่อกันได้ · ผลสะสม: ช่วงถัดไปเริ่มจากสภาพที่ช่วงก่อนทำเสร็จ สิ่งที่ทำเสร็จแล้วคงสภาพใหม่ทุกฉากหลังจากนั้น ห้ามย้อนกลับ ส่วนที่ยังไม่ได้ทำคงสภาพเดิม · ห้องเดิมทุกช่วง: หน้าต่าง ประตู เพดาน และเฟอร์นิเจอร์ชิ้นใหญ่อยู่ที่เดิม ย้ายได้เฉพาะของที่งานนั้นต้องย้าย · ของหลักของงาน (ตามคำบรรยายห้อง) รูปแบบ วัสดุ สี จำนวนบาน ชั้น ราว ลิ้นชักเดิมทุกช่วง: งานจัดระเบียบหรือทำความสะอาดเปลี่ยนแค่ของข้างในและความสะอาด ห้ามเปลี่ยนเป็นของใหม่ · งานทาสีหรือปูพื้นทั้งห้อง: ช่วงแรกของงานนั้นย้ายเตียง ตู้ และของออกจากห้องก่อน ห้องว่างจนงานผนัง/พื้นเสร็จ แล้วค่อยยกกลับหรือวางของใหม่ในช่วงจัดห้อง · คำบรรยายห้อง (room) ส่วน finished ใส่เฉพาะสิ่งที่งานในคลิปนี้เปลี่ยน · ยกเว้นโครงเรื่องไทม์แลปส์: เล่าทั้งงานตามเวลาจริงได้ แต่ห้องและมุมกล้องคงเดิมตลอด · โหมดไทม์แลปส์กล้องนิ่ง: ทั้งคลิปคือกล้องตัวเดียวตั้งนิ่งที่จุดเดิม บนพื้นที่เดิม ของรอบ ๆ (รั้ว กำแพง ต้นไม้ บ้านข้าง ๆ ของที่อยู่หน้ากล้อง) อยู่ที่เดิมทุกฉาก และ s*en ทุกฉากต้องบอกของเหล่านี้ให้เห็นว่าเป็นที่เดิม · แบ่งความคืบหน้าเท่า ๆ กันทุกช่วงตามลำดับงานจริง (งานโครงสร้างที่เพิ่มชั้นหรือขยายขนาด เช่น ขึ้นชั้น 2 มุงหลังคา ต้องขึ้นครบตามแบบก่อนถึงช่วงรองสุดท้าย และฉากสุดท้ายของทุกช่วงบอกให้ชัดว่าตึกขึ้นถึงชั้นไหน) ฉากแรกของช่วงคือสภาพเดียวกับฉากสุดท้ายของช่วงก่อน และแต่ละช่วงไปต่อได้แค่ขั้นถัดไปของงาน · งานเสร็จสมบูรณ์ได้แค่ฉากสุดท้ายของช่วงสุดท้าย ห้ามฉากไหนข้ามไปเป็นผลงานเสร็จหรือย้ายไปที่อื่นก่อนหน้านั้น · งานใหญ่ในคลิปสั้น ให้เร่งความเร็วไทม์แลปส์ ห้ามข้ามขั้น · ไทม์แลปส์ต้องจบที่งานเสร็จ 100% แบบส่งมอบแล้ว: ช่วงรองสุดท้ายทำงานเก็บรายละเอียดใหญ่ให้เสร็จ (ทาสีทั้งหมด ติดประตูหน้าต่าง ทำรั้วและประตูรั้ว เทลาน ปูหญ้า จัดสวน และปรับพื้นที่ดินทั้งหมดในภาพรวมถึงหน้ากล้องให้เรียบร้อย) ช่วงสุดท้ายเหลือแค่เก็บนั่งร้าน เก็บเครื่องมือ ขนเศษวัสดุออก ทำความสะอาด เปิดไฟ ฉากสุดท้ายไม่มีคนงาน · คลิปช่วงเดียวหรือสองช่วง เร่งความเร็วให้ถึงงานเสร็จ 100% ในฉากสุดท้าย",
-     "\n\nVO-NATURAL (บทพูด vo ทุกฉาก ทุกแนว): พูดให้เป็นธรรมชาติเหมือนคนคุยกับเพื่อน ประโยคสั้น ๆ มีคำเชื่อมและคำลงท้าย ไม่เรียงคำชมติดกันเป็นชุด · ห้ามใช้คำว่า \"งาน\" และคำที่มี \"งาน\" ทุกคำ (เช่น ผลงาน ชิ้นงาน หน้างาน) ในบทพูด เพราะเสียงพากย์ออกเสียงไม่ชัด ให้ใช้คำอื่นแทน เช่น ครัว ห้อง ผนัง เคาน์เตอร์ ชั้นวาง หลังคา พื้นที่ ของที่ทำ · HOOK: ประโยคแรกสุดของคลิปต้องทำให้คนหยุดดู เป็นคำถามหรือคำท้าที่เจาะจงกับสิ่งที่เห็น หรือบอกผลที่น่าทึ่งทันที ห้ามเปิดด้วยการทักทายธรรมดา อ่านชื่อสินค้า หรือคำชมกว้าง ๆ · FLOW: บทพูดทั้งคลิปเป็นเสียงต่อเนื่องหนึ่งเดียว ประโยคต่อกันด้วยคำเชื่อม ไม่พูดเป็นก้อนฉากละ 3-4 ประโยคแล้วหยุด และไม่ขึ้นต้นใหม่ทุกฉาก"
+     "\n\nVO-NATURAL (บทพูด vo ทุกฉาก ทุกแนว): พูดให้เป็นธรรมชาติเหมือนคนคุยกับเพื่อน ประโยคสั้น ๆ มีคำเชื่อมและคำลงท้าย ไม่เรียงคำชมติดกันเป็นชุด · ห้ามใช้คำว่า \"งาน\" และคำที่มี \"งาน\" ทุกคำ (เช่น ผลงาน ชิ้นงาน หน้างาน) ในบทพูด เพราะเสียงพากย์ออกเสียงไม่ชัด ให้ใช้คำอื่นแทน เช่น ครัว ห้อง ผนัง เคาน์เตอร์ ชั้นวาง หลังคา พื้นที่ ของที่ทำ · HOOK: ประโยคแรกสุดของคลิปต้องทำให้คนหยุดดู เป็นคำถามหรือคำท้าที่เจาะจงกับสิ่งที่เห็น หรือบอกผลที่น่าทึ่งทันที ห้ามเปิดด้วยการทักทายธรรมดา อ่านชื่อสินค้า หรือคำชมกว้าง ๆ · FLOW: บทพูดทั้งคลิปเป็นเสียงต่อเนื่องหนึ่งเดียว ประโยคต่อกันด้วยคำเชื่อม ไม่พูดเป็นก้อนฉากละ 3-4 ประโยคแล้วหยุด และไม่ขึ้นต้นใหม่ทุกฉาก · ความเร็ว: พูดเร็วต่อเนื่อง ประโยคพาดข้ามฉากด้วยคำเชื่อม ไม่จบทุกฉาก ไม่ใช้ ครับ ค่ะ นะ กลางคลิป · คำแทนคำว่า งาน: ใช้งาน = ใช้ ใช้ได้ ใช้นาน · ผลงาน = ครัวนี้ · ชิ้นงาน = ชิ้นนี้ · หน้างาน = หน้าครัว · ทำงาน = ทำ"
     ]
    },
    "images": [
@@ -14548,7 +14548,7 @@
           }
          ]
         },
-        "value": "\n\nImage 1 is the exact first frame of this part and the given last frame is its exact final frame: the same handheld selfie take carries on with no cut; the owner keeps walking and talking along the open front of the kitchen, pointing at things already visible in Image 1 (the shelves with jars, the sink, the hanging lamp) and touching the installed product surfaces within reach (a cabinet front, a post), while the front of the kitchen stays visible behind him, never going deeper under the roof than the first steps and never showing any part of the kitchen that Image 1 does not show; at the end of the clip he faces the lens, smiles and keeps one hand resting flat on the nearest installed product surface (a cabinet front or a post) with the front of the kitchen behind him. Touching the installed product surface is a main action of this part: his hand rests flat on a surface (a cabinet front, a post or a panel) for about two seconds, at least twice. Same one owner, an ordinary 170 cm man shown from head to waist, phone never in view; nothing is held up to the lens, no loose sheet, panel or sample; the walls, roof, counter, shelf and sink stay exactly as in the two frames and nothing new appears; part of the kitchen is always in frame, never a blank wall, never the outside. He speaks the script to the lens with natural lip movement. "
+        "value": "\n\nImage 1 is the exact first frame of this part and the given last frame is its exact final frame: the same handheld selfie take carries on with no cut; the owner keeps walking and talking along the counter toward the posts on the far side, his hands busy with the kitchen: he touches the counter and cabinet fronts, handles a jar, the cutting board or the cloth and puts it back, points at the shelves, the sink and the hanging lamp, and touches the installed product panels and posts several times, while the rest of the kitchen stays visible behind him, never going past the counter line that Image 1 shows and never showing any part of the kitchen that Image 1 does not show; at the end of the clip he faces the lens, smiles and keeps one hand resting flat on the nearest installed product surface (a cabinet front or a post) with the front of the kitchen behind him. Touching the installed product surface is a main action of this part: his hand rests flat on a surface (a cabinet front, a post or a panel) for about two seconds, at least twice. Same one owner, an ordinary 170 cm man shown from head to waist, phone never in view; nothing is held up to the lens, no loose sheet, panel or sample; the walls, roof, counter, shelf and sink stay exactly as in the two frames and nothing new appears; part of the kitchen is always in frame, never a blank wall, never the outside. He speaks the script to the lens with natural lip movement. "
        }
       ]
      },
@@ -15257,7 +15257,51 @@
             }
            ]
           },
-          ". Script: \"{item.vo31} {item.vo32} {item.vo33} {item.vo34} {item.vo35} {item.vo36}\". Say it once, word for word; never add, repeat or loop. No background music."
+          {
+           "op": "block",
+           "sep": "",
+           "parts": [
+            {
+             "when": {
+              "op": "not",
+              "a": {
+               "op": "or",
+               "list": [
+                {
+                 "op": "eq",
+                 "a": "{item.arc}",
+                 "b": "af:sf01"
+                },
+                {
+                 "op": "eq",
+                 "a": "{item.arc}",
+                 "b": "af:wk01"
+                }
+               ]
+              }
+             },
+             "value": ". Script: \"{item.vo31} {item.vo32} {item.vo33} {item.vo34} {item.vo35} {item.vo36}\". Say it once, word for word; never add, repeat or loop. No background music."
+            },
+            {
+             "when": {
+              "op": "or",
+              "list": [
+               {
+                "op": "eq",
+                "a": "{item.arc}",
+                "b": "af:sf01"
+               },
+               {
+                "op": "eq",
+                "a": "{item.arc}",
+                "b": "af:wk01"
+               }
+              ]
+             },
+             "value": ". Script: \"{item.vo31}{item.vo32}{item.vo33}{item.vo34}{item.vo35}{item.vo36}\". Say it once, word for word, fast and lively like a short-video presenter, one continuous flow with no pauses or breaths between phrases; never add, repeat or loop. No background music."
+            }
+           ]
+          }
          ]
         }
        },
@@ -19642,7 +19686,7 @@
           }
          ]
         },
-        "value": "\n\nImage 1 is the exact first frame of this part and the given last frame is its exact final frame: the same handheld selfie take carries on with no cut; the owner keeps walking and talking along the open front of the kitchen, pointing at things already visible in Image 1 (the shelves with jars, the sink, the hanging lamp) and touching the installed product surfaces within reach (a cabinet front, a post), while the front of the kitchen stays visible behind him, never going deeper under the roof than the first steps and never showing any part of the kitchen that Image 1 does not show; at the end of the clip he faces the lens, smiles and keeps one hand resting flat on the nearest installed product surface (a cabinet front or a post) with the front of the kitchen behind him. Touching the installed product surface is a main action of this part: his hand rests flat on a surface (a cabinet front, a post or a panel) for about two seconds, at least twice. Same one owner, an ordinary 170 cm man shown from head to waist, phone never in view; nothing is held up to the lens, no loose sheet, panel or sample; the walls, roof, counter, shelf and sink stay exactly as in the two frames and nothing new appears; part of the kitchen is always in frame, never a blank wall, never the outside. He speaks the script to the lens with natural lip movement. "
+        "value": "\n\nImage 1 is the exact first frame of this part and the given last frame is its exact final frame: the same handheld selfie take carries on with no cut; the owner keeps walking and talking along the counter toward the posts on the far side, his hands busy with the kitchen: he touches the counter and cabinet fronts, handles a jar, the cutting board or the cloth and puts it back, points at the shelves, the sink and the hanging lamp, and touches the installed product panels and posts several times, while the rest of the kitchen stays visible behind him, never going past the counter line that Image 1 shows and never showing any part of the kitchen that Image 1 does not show; at the end of the clip he faces the lens, smiles and keeps one hand resting flat on the nearest installed product surface (a cabinet front or a post) with the front of the kitchen behind him. Touching the installed product surface is a main action of this part: his hand rests flat on a surface (a cabinet front, a post or a panel) for about two seconds, at least twice. Same one owner, an ordinary 170 cm man shown from head to waist, phone never in view; nothing is held up to the lens, no loose sheet, panel or sample; the walls, roof, counter, shelf and sink stay exactly as in the two frames and nothing new appears; part of the kitchen is always in frame, never a blank wall, never the outside. He speaks the script to the lens with natural lip movement. "
        }
       ]
      },
@@ -20351,7 +20395,51 @@
             }
            ]
           },
-          ". Script: \"{item.vo25} {item.vo26} {item.vo27} {item.vo28} {item.vo29} {item.vo30}\". Say it once, word for word; never add, repeat or loop. No background music."
+          {
+           "op": "block",
+           "sep": "",
+           "parts": [
+            {
+             "when": {
+              "op": "not",
+              "a": {
+               "op": "or",
+               "list": [
+                {
+                 "op": "eq",
+                 "a": "{item.arc}",
+                 "b": "af:sf01"
+                },
+                {
+                 "op": "eq",
+                 "a": "{item.arc}",
+                 "b": "af:wk01"
+                }
+               ]
+              }
+             },
+             "value": ". Script: \"{item.vo25} {item.vo26} {item.vo27} {item.vo28} {item.vo29} {item.vo30}\". Say it once, word for word; never add, repeat or loop. No background music."
+            },
+            {
+             "when": {
+              "op": "or",
+              "list": [
+               {
+                "op": "eq",
+                "a": "{item.arc}",
+                "b": "af:sf01"
+               },
+               {
+                "op": "eq",
+                "a": "{item.arc}",
+                "b": "af:wk01"
+               }
+              ]
+             },
+             "value": ". Script: \"{item.vo25}{item.vo26}{item.vo27}{item.vo28}{item.vo29}{item.vo30}\". Say it once, word for word, fast and lively like a short-video presenter, one continuous flow with no pauses or breaths between phrases; never add, repeat or loop. No background music."
+            }
+           ]
+          }
          ]
         }
        },
@@ -24736,7 +24824,7 @@
           }
          ]
         },
-        "value": "\n\nImage 1 is the exact first frame of this part and the given last frame is its exact final frame: the same handheld selfie take carries on with no cut; the owner keeps walking and talking along the open front of the kitchen, pointing at things already visible in Image 1 (the shelves with jars, the sink, the hanging lamp) and touching the installed product surfaces within reach (a cabinet front, a post), while the front of the kitchen stays visible behind him, never going deeper under the roof than the first steps and never showing any part of the kitchen that Image 1 does not show; at the end of the clip he faces the lens, smiles and keeps one hand resting flat on the nearest installed product surface (a cabinet front or a post) with the front of the kitchen behind him. Touching the installed product surface is a main action of this part: his hand rests flat on a surface (a cabinet front, a post or a panel) for about two seconds, at least twice. Same one owner, an ordinary 170 cm man shown from head to waist, phone never in view; nothing is held up to the lens, no loose sheet, panel or sample; the walls, roof, counter, shelf and sink stay exactly as in the two frames and nothing new appears; part of the kitchen is always in frame, never a blank wall, never the outside. He speaks the script to the lens with natural lip movement. "
+        "value": "\n\nImage 1 is the exact first frame of this part and the given last frame is its exact final frame: the same handheld selfie take carries on with no cut; the owner keeps walking and talking along the counter toward the posts on the far side, his hands busy with the kitchen: he touches the counter and cabinet fronts, handles a jar, the cutting board or the cloth and puts it back, points at the shelves, the sink and the hanging lamp, and touches the installed product panels and posts several times, while the rest of the kitchen stays visible behind him, never going past the counter line that Image 1 shows and never showing any part of the kitchen that Image 1 does not show; at the end of the clip he faces the lens, smiles and keeps one hand resting flat on the nearest installed product surface (a cabinet front or a post) with the front of the kitchen behind him. Touching the installed product surface is a main action of this part: his hand rests flat on a surface (a cabinet front, a post or a panel) for about two seconds, at least twice. Same one owner, an ordinary 170 cm man shown from head to waist, phone never in view; nothing is held up to the lens, no loose sheet, panel or sample; the walls, roof, counter, shelf and sink stay exactly as in the two frames and nothing new appears; part of the kitchen is always in frame, never a blank wall, never the outside. He speaks the script to the lens with natural lip movement. "
        }
       ]
      },
@@ -25445,7 +25533,51 @@
             }
            ]
           },
-          ". Script: \"{item.vo19} {item.vo20} {item.vo21} {item.vo22} {item.vo23} {item.vo24}\". Say it once, word for word; never add, repeat or loop. No background music."
+          {
+           "op": "block",
+           "sep": "",
+           "parts": [
+            {
+             "when": {
+              "op": "not",
+              "a": {
+               "op": "or",
+               "list": [
+                {
+                 "op": "eq",
+                 "a": "{item.arc}",
+                 "b": "af:sf01"
+                },
+                {
+                 "op": "eq",
+                 "a": "{item.arc}",
+                 "b": "af:wk01"
+                }
+               ]
+              }
+             },
+             "value": ". Script: \"{item.vo19} {item.vo20} {item.vo21} {item.vo22} {item.vo23} {item.vo24}\". Say it once, word for word; never add, repeat or loop. No background music."
+            },
+            {
+             "when": {
+              "op": "or",
+              "list": [
+               {
+                "op": "eq",
+                "a": "{item.arc}",
+                "b": "af:sf01"
+               },
+               {
+                "op": "eq",
+                "a": "{item.arc}",
+                "b": "af:wk01"
+               }
+              ]
+             },
+             "value": ". Script: \"{item.vo19}{item.vo20}{item.vo21}{item.vo22}{item.vo23}{item.vo24}\". Say it once, word for word, fast and lively like a short-video presenter, one continuous flow with no pauses or breaths between phrases; never add, repeat or loop. No background music."
+            }
+           ]
+          }
          ]
         }
        },
@@ -29830,7 +29962,7 @@
           }
          ]
         },
-        "value": "\n\nImage 1 is the exact first frame of this part and the given last frame is its exact final frame: the same handheld selfie take carries on with no cut; the owner keeps walking and talking along the open front of the kitchen, pointing at things already visible in Image 1 (the shelves with jars, the sink, the hanging lamp) and touching the installed product surfaces within reach (a cabinet front, a post), while the front of the kitchen stays visible behind him, never going deeper under the roof than the first steps and never showing any part of the kitchen that Image 1 does not show; at the end of the clip he faces the lens, smiles and keeps one hand resting flat on the nearest installed product surface (a cabinet front or a post) with the front of the kitchen behind him. Touching the installed product surface is a main action of this part: his hand rests flat on a surface (a cabinet front, a post or a panel) for about two seconds, at least twice. Same one owner, an ordinary 170 cm man shown from head to waist, phone never in view; nothing is held up to the lens, no loose sheet, panel or sample; the walls, roof, counter, shelf and sink stay exactly as in the two frames and nothing new appears; part of the kitchen is always in frame, never a blank wall, never the outside. He speaks the script to the lens with natural lip movement. "
+        "value": "\n\nImage 1 is the exact first frame of this part and the given last frame is its exact final frame: the same handheld selfie take carries on with no cut; the owner keeps walking and talking along the counter toward the posts on the far side, his hands busy with the kitchen: he touches the counter and cabinet fronts, handles a jar, the cutting board or the cloth and puts it back, points at the shelves, the sink and the hanging lamp, and touches the installed product panels and posts several times, while the rest of the kitchen stays visible behind him, never going past the counter line that Image 1 shows and never showing any part of the kitchen that Image 1 does not show; at the end of the clip he faces the lens, smiles and keeps one hand resting flat on the nearest installed product surface (a cabinet front or a post) with the front of the kitchen behind him. Touching the installed product surface is a main action of this part: his hand rests flat on a surface (a cabinet front, a post or a panel) for about two seconds, at least twice. Same one owner, an ordinary 170 cm man shown from head to waist, phone never in view; nothing is held up to the lens, no loose sheet, panel or sample; the walls, roof, counter, shelf and sink stay exactly as in the two frames and nothing new appears; part of the kitchen is always in frame, never a blank wall, never the outside. He speaks the script to the lens with natural lip movement. "
        }
       ]
      },
@@ -30539,7 +30671,51 @@
             }
            ]
           },
-          ". Script: \"{item.vo13} {item.vo14} {item.vo15} {item.vo16} {item.vo17} {item.vo18}\". Say it once, word for word; never add, repeat or loop. No background music."
+          {
+           "op": "block",
+           "sep": "",
+           "parts": [
+            {
+             "when": {
+              "op": "not",
+              "a": {
+               "op": "or",
+               "list": [
+                {
+                 "op": "eq",
+                 "a": "{item.arc}",
+                 "b": "af:sf01"
+                },
+                {
+                 "op": "eq",
+                 "a": "{item.arc}",
+                 "b": "af:wk01"
+                }
+               ]
+              }
+             },
+             "value": ". Script: \"{item.vo13} {item.vo14} {item.vo15} {item.vo16} {item.vo17} {item.vo18}\". Say it once, word for word; never add, repeat or loop. No background music."
+            },
+            {
+             "when": {
+              "op": "or",
+              "list": [
+               {
+                "op": "eq",
+                "a": "{item.arc}",
+                "b": "af:sf01"
+               },
+               {
+                "op": "eq",
+                "a": "{item.arc}",
+                "b": "af:wk01"
+               }
+              ]
+             },
+             "value": ". Script: \"{item.vo13}{item.vo14}{item.vo15}{item.vo16}{item.vo17}{item.vo18}\". Say it once, word for word, fast and lively like a short-video presenter, one continuous flow with no pauses or breaths between phrases; never add, repeat or loop. No background music."
+            }
+           ]
+          }
          ]
         }
        },
@@ -34925,7 +35101,7 @@
           }
          ]
         },
-        "value": "\n\nImage 1 is the exact first frame of this part and the given last frame is its exact final frame: the same handheld selfie take carries on with no cut; the owner keeps walking and talking along the open front of the kitchen, pointing at things already visible in Image 1 (the shelves with jars, the sink, the hanging lamp) and touching the installed product surfaces within reach (a cabinet front, a post), while the front of the kitchen stays visible behind him, never going deeper under the roof than the first steps and never showing any part of the kitchen that Image 1 does not show; at the end of the clip he faces the lens, smiles and keeps one hand resting flat on the nearest installed product surface (a cabinet front or a post) with the front of the kitchen behind him. Touching the installed product surface is a main action of this part: his hand rests flat on a surface (a cabinet front, a post or a panel) for about two seconds, at least twice. Same one owner, an ordinary 170 cm man shown from head to waist, phone never in view; nothing is held up to the lens, no loose sheet, panel or sample; the walls, roof, counter, shelf and sink stay exactly as in the two frames and nothing new appears; part of the kitchen is always in frame, never a blank wall, never the outside. He speaks the script to the lens with natural lip movement. "
+        "value": "\n\nImage 1 is the exact first frame of this part and the given last frame is its exact final frame: the same handheld selfie take carries on with no cut; the owner keeps walking and talking along the counter toward the posts on the far side, his hands busy with the kitchen: he touches the counter and cabinet fronts, handles a jar, the cutting board or the cloth and puts it back, points at the shelves, the sink and the hanging lamp, and touches the installed product panels and posts several times, while the rest of the kitchen stays visible behind him, never going past the counter line that Image 1 shows and never showing any part of the kitchen that Image 1 does not show; at the end of the clip he faces the lens, smiles and keeps one hand resting flat on the nearest installed product surface (a cabinet front or a post) with the front of the kitchen behind him. Touching the installed product surface is a main action of this part: his hand rests flat on a surface (a cabinet front, a post or a panel) for about two seconds, at least twice. Same one owner, an ordinary 170 cm man shown from head to waist, phone never in view; nothing is held up to the lens, no loose sheet, panel or sample; the walls, roof, counter, shelf and sink stay exactly as in the two frames and nothing new appears; part of the kitchen is always in frame, never a blank wall, never the outside. He speaks the script to the lens with natural lip movement. "
        }
       ]
      },
@@ -35634,7 +35810,51 @@
             }
            ]
           },
-          ". Script: \"{item.vo7} {item.vo8} {item.vo9} {item.vo10} {item.vo11} {item.vo12}\". Say it once, word for word; never add, repeat or loop. No background music."
+          {
+           "op": "block",
+           "sep": "",
+           "parts": [
+            {
+             "when": {
+              "op": "not",
+              "a": {
+               "op": "or",
+               "list": [
+                {
+                 "op": "eq",
+                 "a": "{item.arc}",
+                 "b": "af:sf01"
+                },
+                {
+                 "op": "eq",
+                 "a": "{item.arc}",
+                 "b": "af:wk01"
+                }
+               ]
+              }
+             },
+             "value": ". Script: \"{item.vo7} {item.vo8} {item.vo9} {item.vo10} {item.vo11} {item.vo12}\". Say it once, word for word; never add, repeat or loop. No background music."
+            },
+            {
+             "when": {
+              "op": "or",
+              "list": [
+               {
+                "op": "eq",
+                "a": "{item.arc}",
+                "b": "af:sf01"
+               },
+               {
+                "op": "eq",
+                "a": "{item.arc}",
+                "b": "af:wk01"
+               }
+              ]
+             },
+             "value": ". Script: \"{item.vo7}{item.vo8}{item.vo9}{item.vo10}{item.vo11}{item.vo12}\". Say it once, word for word, fast and lively like a short-video presenter, one continuous flow with no pauses or breaths between phrases; never add, repeat or loop. No background music."
+            }
+           ]
+          }
          ]
         }
        },
@@ -40018,7 +40238,7 @@
           }
          ]
         },
-        "value": "\n\nImage 1 is the exact first frame of this part (a wide view of the whole kitchen, nobody in it) and the given last frame is its exact final frame (the owner in a handheld selfie inside the same kitchen). The take opens on the wide kitchen view; within the first two seconds the camera turns around into a selfie view of the owner (a smooth handheld flip, no cut), and from then on the owner walks and talks along the open front of the kitchen (the counter on the left, the posts on the right), holding the phone toward himself, never going deeper under the roof than the first steps, while the front of the kitchen stays visible behind him; by the end he stands beside the nearest installed product surface (a cabinet front or a post) touching it with one hand and looking at the lens. Touching the installed product surface is a main action of this part: his hand rests flat on the surface (a cabinet front or a post) for about two seconds, at least once before the end of the part. The camera never shows any part of the kitchen that Image 1 does not show. One owner only, never a second person; an ordinary 170 cm man shown from head to waist, phone never in view; nothing is held up to the lens, no loose sheet, panel or sample; the walls, roof, counter, shelf and sink stay exactly as in the two frames and nothing new appears; part of the kitchen is always in frame, never a blank wall, never the outside. He speaks the script to the lens with natural lip movement. "
+        "value": "\n\nImage 1 is the exact first frame of this part (a wide view of the whole kitchen, nobody in it) and the given last frame is its exact final frame (the owner in a handheld selfie inside the same kitchen). The take opens on the wide kitchen view; within the first two seconds the camera turns around into a selfie view of the owner (a smooth handheld flip, no cut), and from then on the owner walks and talks from the entrance to the counter that Image 1 shows, holding the phone toward himself, his hands busy with the kitchen: he touches the counter and the cabinet fronts, turns the faucet, picks up a jar or the cutting board to look at it and puts it back, and by the end he stands at the counter with one hand on it, looking at the lens, the rest of the kitchen visible behind him, and he never goes past the counter line that Image 1 shows. Touching the installed product surface is a main action of this part: his hand rests flat on the surface (a cabinet front or a post) for about two seconds, at least once before the end of the part. The camera never shows any part of the kitchen that Image 1 does not show. One owner only, never a second person; an ordinary 170 cm man shown from head to waist, phone never in view; nothing is held up to the lens, no loose sheet, panel or sample; the walls, roof, counter, shelf and sink stay exactly as in the two frames and nothing new appears; part of the kitchen is always in frame, never a blank wall, never the outside. He speaks the script to the lens with natural lip movement. "
        }
       ]
      },
@@ -40765,7 +40985,51 @@
             }
            ]
           },
-          ". Script: \"{item.vo1} {item.vo2} {item.vo3} {item.vo4} {item.vo5} {item.vo6}\". Say it once, word for word; never add, repeat or loop. No background music."
+          {
+           "op": "block",
+           "sep": "",
+           "parts": [
+            {
+             "when": {
+              "op": "not",
+              "a": {
+               "op": "or",
+               "list": [
+                {
+                 "op": "eq",
+                 "a": "{item.arc}",
+                 "b": "af:sf01"
+                },
+                {
+                 "op": "eq",
+                 "a": "{item.arc}",
+                 "b": "af:wk01"
+                }
+               ]
+              }
+             },
+             "value": ". Script: \"{item.vo1} {item.vo2} {item.vo3} {item.vo4} {item.vo5} {item.vo6}\". Say it once, word for word; never add, repeat or loop. No background music."
+            },
+            {
+             "when": {
+              "op": "or",
+              "list": [
+               {
+                "op": "eq",
+                "a": "{item.arc}",
+                "b": "af:sf01"
+               },
+               {
+                "op": "eq",
+                "a": "{item.arc}",
+                "b": "af:wk01"
+               }
+              ]
+             },
+             "value": ". Script: \"{item.vo1}{item.vo2}{item.vo3}{item.vo4}{item.vo5}{item.vo6}\". Say it once, word for word, fast and lively like a short-video presenter, one continuous flow with no pauses or breaths between phrases; never add, repeat or loop. No background music."
+            }
+           ]
+          }
          ]
         }
        },
@@ -45586,7 +45850,7 @@
         }
        ]
       },
-      "value": "รูปแนบรูปแรก = ภาพเริ่มของช่วงที่ {values.stagePart} จาก {values.stageParts} (ภาพกว้างของครัว) · รูปแนบรูปที่สอง = ภาพจบของคลิป (ถ้ามี) ซึ่งมีเจ้าของคนนี้ · วาดภาพจบของช่วงนี้ ผลลัพธ์แนวตั้ง 9:16 หนึ่งภาพ\nภาพเซลฟี่: เจ้าของถือมือถือเซลฟี่อยู่ในครัวเดียวกับรูปแรก เห็นหน้าและครึ่งตัว (ศีรษะถึงเอว) ไม่เห็นโทรศัพท์ มองกล้อง มือข้างหนึ่งแตะผิวสินค้าที่ติดอยู่ใกล้ตัวที่ขอบหน้าครัว (หน้าตู้ เสา หรือแผงผนัง) ไม่เดินเข้าลึกกว่าที่เห็นในรูปแรก ฉากหลังคือด้านหน้าครัวเหมือนรูปแรก จุดที่แตะตามฉากสุดท้ายของช่วงนี้: {values.stageEN}\nคนเดียวกับรูปที่สอง (ถ้ามี): หน้า ผม ชุด และอายุเหมือนกันทุกอย่าง ชุดลำลองแบบอยู่บ้าน ขนาดตัวสมจริงเทียบกับเคาน์เตอร์ เคาน์เตอร์สูงระดับสะโพก\nห้องเดียวกับรูปแรก: ผนัง หลังคา พื้น วัสดุ สี และของทุกชิ้นที่เห็นด้านหลังต้องเหมือนรูปแรกทุกอย่าง ห้ามห้องใหม่ ห้ามเปลี่ยนวัสดุผนังหรือหลังคา ห้ามถือแผ่นสินค้าหรือของหลวม เห็นส่วนของครัวด้านหลังคนเสมอ ห้ามผนังเปล่าเต็มกรอบ\nงานนี้: {item.productName}\nภาพเดียวต่อเนื่องทั้งกรอบ ห้ามแบ่งภาพ ห้ามมีตัวหนังสือ ป้าย หรือโลโก้ในภาพ · แสงธรรมชาติกลางวัน สีตามจริง คมชัดทั้งภาพ"
+      "value": "รูปแนบรูปแรก = ภาพเริ่มของช่วงที่ {values.stagePart} จาก {values.stageParts} (ภาพกว้างของครัว) · รูปแนบรูปที่สอง = ภาพจบของคลิป (ถ้ามี) ซึ่งมีเจ้าของคนนี้ · วาดภาพจบของช่วงนี้ ผลลัพธ์แนวตั้ง 9:16 หนึ่งภาพ\nภาพเซลฟี่: เจ้าของถือมือถือเซลฟี่อยู่ในครัวเดียวกับรูปแรก เห็นหน้าและครึ่งตัว (ศีรษะถึงเอว) ไม่เห็นโทรศัพท์ มองกล้อง ยืนที่เคาน์เตอร์ที่เห็นในรูปแรก มือข้างหนึ่งวางแตะหรือจับของในครัว (เคาน์เตอร์ หน้าตู้ ก๊อกน้ำ หรือโหลบนเคาน์เตอร์) ฉากหลังเป็นส่วนของครัวที่เห็นในรูปแรก ไม่เดินเลยแนวเคาน์เตอร์ที่เห็นในรูปแรก จุดที่แตะตามฉากสุดท้ายของช่วงนี้: {values.stageEN}\nคนเดียวกับรูปที่สอง (ถ้ามี): หน้า ผม ชุด และอายุเหมือนกันทุกอย่าง ชุดลำลองแบบอยู่บ้าน ขนาดตัวสมจริงเทียบกับเคาน์เตอร์ เคาน์เตอร์สูงระดับสะโพก\nห้องเดียวกับรูปแรก: ผนัง หลังคา พื้น วัสดุ สี และของทุกชิ้นที่เห็นด้านหลังต้องเหมือนรูปแรกทุกอย่าง ห้ามห้องใหม่ ห้ามเปลี่ยนวัสดุผนังหรือหลังคา ห้ามถือแผ่นสินค้าหรือของหลวม เห็นส่วนของครัวด้านหลังคนเสมอ ห้ามผนังเปล่าเต็มกรอบ\nงานนี้: {item.productName}\nภาพเดียวต่อเนื่องทั้งกรอบ ห้ามแบ่งภาพ ห้ามมีตัวหนังสือ ป้าย หรือโลโก้ในภาพ · แสงธรรมชาติกลางวัน สีตามจริง คมชัดทั้งภาพ"
      }
     ]
    }
@@ -46112,12 +46376,12 @@
    "60|36": "องก์ 6"
   },
   "lenVo": {
-   "10": "กฎความยาวบทพากย์ (พากย์ต่อเนื่องจนสุดคลิป ห้ามเงียบ):\n- คลิป 10 วินาที 6 ฉาก; ทุก 10 วินาที = 6 ฉาก ทุกช่วง 10 วินาทีมีจังหวะ 2 · 1.5 · 1.5 · 1.5 · 1.5 · 2 วินาที (ฉากแรกและฉากสุดท้ายของช่วงยาวกว่า); vo1–vo6 ต้องมีบทครบทุกฉาก ห้ามเว้นฉากใด\n- ความยาวบทไทย นับเป็นตัวอักษรไทยจริง ไม่รวมเว้นวรรค (ภาษาไทยไม่มีช่องว่างคั่นคำ ห้ามนับเป็นคำ): ฉากแรกและฉากสุดท้ายของช่วงราว 16-20 ตัวอักษร 4 ฉากกลางราว 12-16 ตัวอักษร; ทั้งคลิปไม่เกิน 90 ตัวอักษร; ห้ามยาวกว่านี้ เพราะวิดีโอยัดบทให้จบในเวลาเดิม บทยาว = พูดรัวและถูกตัดท้าย; พูดเต็มเวลาฉากพอดี ไม่ทิ้งช่วงเงียบ\n- vo1–vo6 ร้อยเป็นย่อหน้าเดียว อ่านรวดเดียวได้พอดี 10 วินาที ห้ามเป็นวลีสั้นจบห้วนแยกท่อน (แยกเมื่อใดจะเงียบแทรกระหว่างฉาก)\n- voN พูดเฉพาะสิ่งที่ผู้ชมเห็นในฉาก N; ห้ามชิงพูดฉากถัดไป ห้ามย้อนฉากก่อน (ต่อเป็นย่อหน้าได้ แต่ประโยคฉากใดต้องตรงภาพฉากนั้น ไม่เหลื่อม)\n- ช่วงสุดท้ายของคลิปต้องพูดจบก่อนหมดเวลา: ช่วงนั้นรวมไม่เกิน 90 ตัวอักษร ฉากสุดท้ายไม่เกิน 18 ตัวอักษร และประโยคปิดต้องครบ เช่น กดสั่งซื้อได้เลยครับ · ก่อนตอบให้นับตัวอักษรของ vo ทุกช่วงจริง ถ้าเกินให้ตัดคำฟุ่มเฟือยออก ห้ามส่งเกิน",
-   "20": "กฎความยาวบทพากย์ (พากย์ต่อเนื่องจนสุดคลิป ห้ามเงียบ):\n- คลิป 20 วินาที 12 ฉาก; ทุก 10 วินาที = 6 ฉาก ทุกช่วง 10 วินาทีมีจังหวะ 2 · 1.5 · 1.5 · 1.5 · 1.5 · 2 วินาที (ฉากแรกและฉากสุดท้ายของช่วงยาวกว่า); vo1–vo12 ต้องมีบทครบทุกฉาก ห้ามเว้นฉากใด\n- ความยาวบทไทย นับเป็นตัวอักษรไทยจริง ไม่รวมเว้นวรรค (ภาษาไทยไม่มีช่องว่างคั่นคำ ห้ามนับเป็นคำ): ฉากแรกและฉากสุดท้ายของช่วงราว 16-20 ตัวอักษร 4 ฉากกลางราว 12-16 ตัวอักษร; ช่วงที่ไม่ใช่ช่วงสุดท้ายไม่เกิน 100 ตัวอักษร ทั้งคลิปไม่เกิน 190 ตัวอักษร; ห้ามยาวกว่านี้ เพราะวิดีโอยัดบทให้จบในเวลาเดิม บทยาว = พูดรัวและถูกตัดท้าย; พูดเต็มเวลาฉากพอดี ไม่ทิ้งช่วงเงียบ\n- vo1–vo12 ร้อยเป็นย่อหน้าเดียว อ่านรวดเดียวได้พอดี 20 วินาที ห้ามเป็นวลีสั้นจบห้วนแยกท่อน (แยกเมื่อใดจะเงียบแทรกระหว่างฉาก)\n- voN พูดเฉพาะสิ่งที่ผู้ชมเห็นในฉาก N; ห้ามชิงพูดฉากถัดไป ห้ามย้อนฉากก่อน (ต่อเป็นย่อหน้าได้ แต่ประโยคฉากใดต้องตรงภาพฉากนั้น ไม่เหลื่อม)\n- ช่วงสุดท้ายของคลิปต้องพูดจบก่อนหมดเวลา: ช่วงนั้นรวมไม่เกิน 90 ตัวอักษร ฉากสุดท้ายไม่เกิน 18 ตัวอักษร และประโยคปิดต้องครบ เช่น กดสั่งซื้อได้เลยครับ · ก่อนตอบให้นับตัวอักษรของ vo ทุกช่วงจริง ถ้าเกินให้ตัดคำฟุ่มเฟือยออก ห้ามส่งเกิน",
-   "30": "กฎความยาวบทพากย์ (พากย์ต่อเนื่องจนสุดคลิป ห้ามเงียบ):\n- คลิป 30 วินาที 18 ฉาก; ทุก 10 วินาที = 6 ฉาก ทุกช่วง 10 วินาทีมีจังหวะ 2 · 1.5 · 1.5 · 1.5 · 1.5 · 2 วินาที (ฉากแรกและฉากสุดท้ายของช่วงยาวกว่า); vo1–vo18 ต้องมีบทครบทุกฉาก ห้ามเว้นฉากใด\n- ความยาวบทไทย นับเป็นตัวอักษรไทยจริง ไม่รวมเว้นวรรค (ภาษาไทยไม่มีช่องว่างคั่นคำ ห้ามนับเป็นคำ): ฉากแรกและฉากสุดท้ายของช่วงราว 16-20 ตัวอักษร 4 ฉากกลางราว 12-16 ตัวอักษร; ช่วงที่ไม่ใช่ช่วงสุดท้ายไม่เกิน 100 ตัวอักษร ทั้งคลิปไม่เกิน 290 ตัวอักษร; ห้ามยาวกว่านี้ เพราะวิดีโอยัดบทให้จบในเวลาเดิม บทยาว = พูดรัวและถูกตัดท้าย; พูดเต็มเวลาฉากพอดี ไม่ทิ้งช่วงเงียบ\n- vo1–vo18 ร้อยเป็นย่อหน้าเดียว อ่านรวดเดียวได้พอดี 30 วินาที ห้ามเป็นวลีสั้นจบห้วนแยกท่อน (แยกเมื่อใดจะเงียบแทรกระหว่างฉาก)\n- voN พูดเฉพาะสิ่งที่ผู้ชมเห็นในฉาก N; ห้ามชิงพูดฉากถัดไป ห้ามย้อนฉากก่อน (ต่อเป็นย่อหน้าได้ แต่ประโยคฉากใดต้องตรงภาพฉากนั้น ไม่เหลื่อม)\n- ช่วงสุดท้ายของคลิปต้องพูดจบก่อนหมดเวลา: ช่วงนั้นรวมไม่เกิน 90 ตัวอักษร ฉากสุดท้ายไม่เกิน 18 ตัวอักษร และประโยคปิดต้องครบ เช่น กดสั่งซื้อได้เลยครับ · ก่อนตอบให้นับตัวอักษรของ vo ทุกช่วงจริง ถ้าเกินให้ตัดคำฟุ่มเฟือยออก ห้ามส่งเกิน",
-   "40": "กฎความยาวบทพากย์ (พากย์ต่อเนื่องจนสุดคลิป ห้ามเงียบ):\n- คลิป 40 วินาที 24 ฉาก; ทุก 10 วินาที = 6 ฉาก ทุกช่วง 10 วินาทีมีจังหวะ 2 · 1.5 · 1.5 · 1.5 · 1.5 · 2 วินาที (ฉากแรกและฉากสุดท้ายของช่วงยาวกว่า); vo1–vo24 ต้องมีบทครบทุกฉาก ห้ามเว้นฉากใด\n- ความยาวบทไทย นับเป็นตัวอักษรไทยจริง ไม่รวมเว้นวรรค (ภาษาไทยไม่มีช่องว่างคั่นคำ ห้ามนับเป็นคำ): ฉากแรกและฉากสุดท้ายของช่วงราว 16-20 ตัวอักษร 4 ฉากกลางราว 12-16 ตัวอักษร; ช่วงที่ไม่ใช่ช่วงสุดท้ายไม่เกิน 100 ตัวอักษร ทั้งคลิปไม่เกิน 390 ตัวอักษร; ห้ามยาวกว่านี้ เพราะวิดีโอยัดบทให้จบในเวลาเดิม บทยาว = พูดรัวและถูกตัดท้าย; พูดเต็มเวลาฉากพอดี ไม่ทิ้งช่วงเงียบ\n- vo1–vo24 ร้อยเป็นย่อหน้าเดียว อ่านรวดเดียวได้พอดี 40 วินาที ห้ามเป็นวลีสั้นจบห้วนแยกท่อน (แยกเมื่อใดจะเงียบแทรกระหว่างฉาก)\n- voN พูดเฉพาะสิ่งที่ผู้ชมเห็นในฉาก N; ห้ามชิงพูดฉากถัดไป ห้ามย้อนฉากก่อน (ต่อเป็นย่อหน้าได้ แต่ประโยคฉากใดต้องตรงภาพฉากนั้น ไม่เหลื่อม)\n- ช่วงสุดท้ายของคลิปต้องพูดจบก่อนหมดเวลา: ช่วงนั้นรวมไม่เกิน 90 ตัวอักษร ฉากสุดท้ายไม่เกิน 18 ตัวอักษร และประโยคปิดต้องครบ เช่น กดสั่งซื้อได้เลยครับ · ก่อนตอบให้นับตัวอักษรของ vo ทุกช่วงจริง ถ้าเกินให้ตัดคำฟุ่มเฟือยออก ห้ามส่งเกิน",
-   "50": "กฎความยาวบทพากย์ (พากย์ต่อเนื่องจนสุดคลิป ห้ามเงียบ):\n- คลิป 50 วินาที 30 ฉาก; ทุก 10 วินาที = 6 ฉาก ทุกช่วง 10 วินาทีมีจังหวะ 2 · 1.5 · 1.5 · 1.5 · 1.5 · 2 วินาที (ฉากแรกและฉากสุดท้ายของช่วงยาวกว่า); vo1–vo30 ต้องมีบทครบทุกฉาก ห้ามเว้นฉากใด\n- ความยาวบทไทย นับเป็นตัวอักษรไทยจริง ไม่รวมเว้นวรรค (ภาษาไทยไม่มีช่องว่างคั่นคำ ห้ามนับเป็นคำ): ฉากแรกและฉากสุดท้ายของช่วงราว 16-20 ตัวอักษร 4 ฉากกลางราว 12-16 ตัวอักษร; ช่วงที่ไม่ใช่ช่วงสุดท้ายไม่เกิน 100 ตัวอักษร ทั้งคลิปไม่เกิน 490 ตัวอักษร; ห้ามยาวกว่านี้ เพราะวิดีโอยัดบทให้จบในเวลาเดิม บทยาว = พูดรัวและถูกตัดท้าย; พูดเต็มเวลาฉากพอดี ไม่ทิ้งช่วงเงียบ\n- vo1–vo30 ร้อยเป็นย่อหน้าเดียว อ่านรวดเดียวได้พอดี 50 วินาที ห้ามเป็นวลีสั้นจบห้วนแยกท่อน (แยกเมื่อใดจะเงียบแทรกระหว่างฉาก)\n- voN พูดเฉพาะสิ่งที่ผู้ชมเห็นในฉาก N; ห้ามชิงพูดฉากถัดไป ห้ามย้อนฉากก่อน (ต่อเป็นย่อหน้าได้ แต่ประโยคฉากใดต้องตรงภาพฉากนั้น ไม่เหลื่อม)\n- ช่วงสุดท้ายของคลิปต้องพูดจบก่อนหมดเวลา: ช่วงนั้นรวมไม่เกิน 90 ตัวอักษร ฉากสุดท้ายไม่เกิน 18 ตัวอักษร และประโยคปิดต้องครบ เช่น กดสั่งซื้อได้เลยครับ · ก่อนตอบให้นับตัวอักษรของ vo ทุกช่วงจริง ถ้าเกินให้ตัดคำฟุ่มเฟือยออก ห้ามส่งเกิน",
-   "60": "กฎความยาวบทพากย์ (พากย์ต่อเนื่องจนสุดคลิป ห้ามเงียบ):\n- คลิป 60 วินาที 36 ฉาก; ทุก 10 วินาที = 6 ฉาก ทุกช่วง 10 วินาทีมีจังหวะ 2 · 1.5 · 1.5 · 1.5 · 1.5 · 2 วินาที (ฉากแรกและฉากสุดท้ายของช่วงยาวกว่า); vo1–vo36 ต้องมีบทครบทุกฉาก ห้ามเว้นฉากใด\n- ความยาวบทไทย นับเป็นตัวอักษรไทยจริง ไม่รวมเว้นวรรค (ภาษาไทยไม่มีช่องว่างคั่นคำ ห้ามนับเป็นคำ): ฉากแรกและฉากสุดท้ายของช่วงราว 16-20 ตัวอักษร 4 ฉากกลางราว 12-16 ตัวอักษร; ช่วงที่ไม่ใช่ช่วงสุดท้ายไม่เกิน 100 ตัวอักษร ทั้งคลิปไม่เกิน 590 ตัวอักษร; ห้ามยาวกว่านี้ เพราะวิดีโอยัดบทให้จบในเวลาเดิม บทยาว = พูดรัวและถูกตัดท้าย; พูดเต็มเวลาฉากพอดี ไม่ทิ้งช่วงเงียบ\n- vo1–vo36 ร้อยเป็นย่อหน้าเดียว อ่านรวดเดียวได้พอดี 60 วินาที ห้ามเป็นวลีสั้นจบห้วนแยกท่อน (แยกเมื่อใดจะเงียบแทรกระหว่างฉาก)\n- voN พูดเฉพาะสิ่งที่ผู้ชมเห็นในฉาก N; ห้ามชิงพูดฉากถัดไป ห้ามย้อนฉากก่อน (ต่อเป็นย่อหน้าได้ แต่ประโยคฉากใดต้องตรงภาพฉากนั้น ไม่เหลื่อม)\n- ช่วงสุดท้ายของคลิปต้องพูดจบก่อนหมดเวลา: ช่วงนั้นรวมไม่เกิน 90 ตัวอักษร ฉากสุดท้ายไม่เกิน 18 ตัวอักษร และประโยคปิดต้องครบ เช่น กดสั่งซื้อได้เลยครับ · ก่อนตอบให้นับตัวอักษรของ vo ทุกช่วงจริง ถ้าเกินให้ตัดคำฟุ่มเฟือยออก ห้ามส่งเกิน"
+   "10": "กฎความยาวบทพากย์ (พากย์ต่อเนื่องจนสุดคลิป ห้ามเงียบ):\n- คลิป 10 วินาที 6 ฉาก; ทุก 10 วินาที = 6 ฉาก ทุกช่วง 10 วินาทีมีจังหวะ 2 · 1.5 · 1.5 · 1.5 · 1.5 · 2 วินาที (ฉากแรกและฉากสุดท้ายของช่วงยาวกว่า); vo1–vo6 ต้องมีบทครบทุกฉาก ห้ามเว้นฉากใด\n- ความยาวบทไทย นับเป็นตัวอักษรไทยจริง ไม่รวมเว้นวรรค (ภาษาไทยไม่มีช่องว่างคั่นคำ ห้ามนับเป็นคำ): ฉากแรกและฉากสุดท้ายของช่วงราว 22-27 ตัวอักษร 4 ฉากกลางราว 17-22 ตัวอักษร; ทั้งคลิปไม่เกิน 115 ตัวอักษร; ห้ามยาวกว่านี้ เพราะวิดีโอยัดบทให้จบในเวลาเดิม บทยาว = พูดรัวและถูกตัดท้าย; พูดเต็มเวลาฉากพอดี ไม่ทิ้งช่วงเงียบ\n- vo1–vo6 ร้อยเป็นย่อหน้าเดียว อ่านรวดเดียวได้พอดี 10 วินาที ห้ามเป็นวลีสั้นจบห้วนแยกท่อน (แยกเมื่อใดจะเงียบแทรกระหว่างฉาก)\n- voN พูดเฉพาะสิ่งที่ผู้ชมเห็นในฉาก N; ห้ามชิงพูดฉากถัดไป ห้ามย้อนฉากก่อน (ต่อเป็นย่อหน้าได้ แต่ประโยคฉากใดต้องตรงภาพฉากนั้น ไม่เหลื่อม)\n- ช่วงสุดท้ายของคลิปต้องพูดจบก่อนหมดเวลา: ช่วงนั้นรวมไม่เกิน 115 ตัวอักษร ฉากสุดท้ายไม่เกิน 24 ตัวอักษร และประโยคปิดต้องครบ เช่น กดสั่งซื้อได้เลยครับ · ก่อนตอบให้นับตัวอักษรของ vo ทุกช่วงจริง ถ้าเกินให้ตัดคำฟุ่มเฟือยออก ห้ามส่งเกิน\n- FLOW-FAST: พูดเร็ว กระชับ ต่อเนื่องแบบครีเอเตอร์คลิปสั้น ไม่มีช่วงหยุด · ห้ามจบประโยคที่ขอบฉาก ยกเว้นฉากสุดท้ายของคลิป: ฉากอื่นต้องจบด้วยคำเชื่อมที่พาไปฉากถัดไป (แล้ว ที่ ซึ่ง พอ ก็ และ ทั้ง) ไม่ใช้ ครับ ค่ะ นะ กลางคลิป · ห้ามคำว่า \"งาน\" ทุกคำในบทพูด ใช้คำแทน: ใช้งาน = ใช้ ใช้ได้ ใช้นาน · ผลงาน = ครัวนี้ · ชิ้นงาน = ชิ้นนี้ · หน้างาน = หน้าครัว · งานเนียน = เนียน · ทำงาน = ทำ",
+   "20": "กฎความยาวบทพากย์ (พากย์ต่อเนื่องจนสุดคลิป ห้ามเงียบ):\n- คลิป 20 วินาที 12 ฉาก; ทุก 10 วินาที = 6 ฉาก ทุกช่วง 10 วินาทีมีจังหวะ 2 · 1.5 · 1.5 · 1.5 · 1.5 · 2 วินาที (ฉากแรกและฉากสุดท้ายของช่วงยาวกว่า); vo1–vo12 ต้องมีบทครบทุกฉาก ห้ามเว้นฉากใด\n- ความยาวบทไทย นับเป็นตัวอักษรไทยจริง ไม่รวมเว้นวรรค (ภาษาไทยไม่มีช่องว่างคั่นคำ ห้ามนับเป็นคำ): ฉากแรกและฉากสุดท้ายของช่วงราว 22-27 ตัวอักษร 4 ฉากกลางราว 17-22 ตัวอักษร; ช่วงที่ไม่ใช่ช่วงสุดท้ายไม่เกิน 130 ตัวอักษร ทั้งคลิปไม่เกิน 240 ตัวอักษร; ห้ามยาวกว่านี้ เพราะวิดีโอยัดบทให้จบในเวลาเดิม บทยาว = พูดรัวและถูกตัดท้าย; พูดเต็มเวลาฉากพอดี ไม่ทิ้งช่วงเงียบ\n- vo1–vo12 ร้อยเป็นย่อหน้าเดียว อ่านรวดเดียวได้พอดี 20 วินาที ห้ามเป็นวลีสั้นจบห้วนแยกท่อน (แยกเมื่อใดจะเงียบแทรกระหว่างฉาก)\n- voN พูดเฉพาะสิ่งที่ผู้ชมเห็นในฉาก N; ห้ามชิงพูดฉากถัดไป ห้ามย้อนฉากก่อน (ต่อเป็นย่อหน้าได้ แต่ประโยคฉากใดต้องตรงภาพฉากนั้น ไม่เหลื่อม)\n- ช่วงสุดท้ายของคลิปต้องพูดจบก่อนหมดเวลา: ช่วงนั้นรวมไม่เกิน 115 ตัวอักษร ฉากสุดท้ายไม่เกิน 24 ตัวอักษร และประโยคปิดต้องครบ เช่น กดสั่งซื้อได้เลยครับ · ก่อนตอบให้นับตัวอักษรของ vo ทุกช่วงจริง ถ้าเกินให้ตัดคำฟุ่มเฟือยออก ห้ามส่งเกิน\n- FLOW-FAST: พูดเร็ว กระชับ ต่อเนื่องแบบครีเอเตอร์คลิปสั้น ไม่มีช่วงหยุด · ห้ามจบประโยคที่ขอบฉาก ยกเว้นฉากสุดท้ายของคลิป: ฉากอื่นต้องจบด้วยคำเชื่อมที่พาไปฉากถัดไป (แล้ว ที่ ซึ่ง พอ ก็ และ ทั้ง) ไม่ใช้ ครับ ค่ะ นะ กลางคลิป · ห้ามคำว่า \"งาน\" ทุกคำในบทพูด ใช้คำแทน: ใช้งาน = ใช้ ใช้ได้ ใช้นาน · ผลงาน = ครัวนี้ · ชิ้นงาน = ชิ้นนี้ · หน้างาน = หน้าครัว · งานเนียน = เนียน · ทำงาน = ทำ",
+   "30": "กฎความยาวบทพากย์ (พากย์ต่อเนื่องจนสุดคลิป ห้ามเงียบ):\n- คลิป 30 วินาที 18 ฉาก; ทุก 10 วินาที = 6 ฉาก ทุกช่วง 10 วินาทีมีจังหวะ 2 · 1.5 · 1.5 · 1.5 · 1.5 · 2 วินาที (ฉากแรกและฉากสุดท้ายของช่วงยาวกว่า); vo1–vo18 ต้องมีบทครบทุกฉาก ห้ามเว้นฉากใด\n- ความยาวบทไทย นับเป็นตัวอักษรไทยจริง ไม่รวมเว้นวรรค (ภาษาไทยไม่มีช่องว่างคั่นคำ ห้ามนับเป็นคำ): ฉากแรกและฉากสุดท้ายของช่วงราว 22-27 ตัวอักษร 4 ฉากกลางราว 17-22 ตัวอักษร; ช่วงที่ไม่ใช่ช่วงสุดท้ายไม่เกิน 130 ตัวอักษร ทั้งคลิปไม่เกิน 370 ตัวอักษร; ห้ามยาวกว่านี้ เพราะวิดีโอยัดบทให้จบในเวลาเดิม บทยาว = พูดรัวและถูกตัดท้าย; พูดเต็มเวลาฉากพอดี ไม่ทิ้งช่วงเงียบ\n- vo1–vo18 ร้อยเป็นย่อหน้าเดียว อ่านรวดเดียวได้พอดี 30 วินาที ห้ามเป็นวลีสั้นจบห้วนแยกท่อน (แยกเมื่อใดจะเงียบแทรกระหว่างฉาก)\n- voN พูดเฉพาะสิ่งที่ผู้ชมเห็นในฉาก N; ห้ามชิงพูดฉากถัดไป ห้ามย้อนฉากก่อน (ต่อเป็นย่อหน้าได้ แต่ประโยคฉากใดต้องตรงภาพฉากนั้น ไม่เหลื่อม)\n- ช่วงสุดท้ายของคลิปต้องพูดจบก่อนหมดเวลา: ช่วงนั้นรวมไม่เกิน 115 ตัวอักษร ฉากสุดท้ายไม่เกิน 24 ตัวอักษร และประโยคปิดต้องครบ เช่น กดสั่งซื้อได้เลยครับ · ก่อนตอบให้นับตัวอักษรของ vo ทุกช่วงจริง ถ้าเกินให้ตัดคำฟุ่มเฟือยออก ห้ามส่งเกิน\n- FLOW-FAST: พูดเร็ว กระชับ ต่อเนื่องแบบครีเอเตอร์คลิปสั้น ไม่มีช่วงหยุด · ห้ามจบประโยคที่ขอบฉาก ยกเว้นฉากสุดท้ายของคลิป: ฉากอื่นต้องจบด้วยคำเชื่อมที่พาไปฉากถัดไป (แล้ว ที่ ซึ่ง พอ ก็ และ ทั้ง) ไม่ใช้ ครับ ค่ะ นะ กลางคลิป · ห้ามคำว่า \"งาน\" ทุกคำในบทพูด ใช้คำแทน: ใช้งาน = ใช้ ใช้ได้ ใช้นาน · ผลงาน = ครัวนี้ · ชิ้นงาน = ชิ้นนี้ · หน้างาน = หน้าครัว · งานเนียน = เนียน · ทำงาน = ทำ",
+   "40": "กฎความยาวบทพากย์ (พากย์ต่อเนื่องจนสุดคลิป ห้ามเงียบ):\n- คลิป 40 วินาที 24 ฉาก; ทุก 10 วินาที = 6 ฉาก ทุกช่วง 10 วินาทีมีจังหวะ 2 · 1.5 · 1.5 · 1.5 · 1.5 · 2 วินาที (ฉากแรกและฉากสุดท้ายของช่วงยาวกว่า); vo1–vo24 ต้องมีบทครบทุกฉาก ห้ามเว้นฉากใด\n- ความยาวบทไทย นับเป็นตัวอักษรไทยจริง ไม่รวมเว้นวรรค (ภาษาไทยไม่มีช่องว่างคั่นคำ ห้ามนับเป็นคำ): ฉากแรกและฉากสุดท้ายของช่วงราว 22-27 ตัวอักษร 4 ฉากกลางราว 17-22 ตัวอักษร; ช่วงที่ไม่ใช่ช่วงสุดท้ายไม่เกิน 130 ตัวอักษร ทั้งคลิปไม่เกิน 495 ตัวอักษร; ห้ามยาวกว่านี้ เพราะวิดีโอยัดบทให้จบในเวลาเดิม บทยาว = พูดรัวและถูกตัดท้าย; พูดเต็มเวลาฉากพอดี ไม่ทิ้งช่วงเงียบ\n- vo1–vo24 ร้อยเป็นย่อหน้าเดียว อ่านรวดเดียวได้พอดี 40 วินาที ห้ามเป็นวลีสั้นจบห้วนแยกท่อน (แยกเมื่อใดจะเงียบแทรกระหว่างฉาก)\n- voN พูดเฉพาะสิ่งที่ผู้ชมเห็นในฉาก N; ห้ามชิงพูดฉากถัดไป ห้ามย้อนฉากก่อน (ต่อเป็นย่อหน้าได้ แต่ประโยคฉากใดต้องตรงภาพฉากนั้น ไม่เหลื่อม)\n- ช่วงสุดท้ายของคลิปต้องพูดจบก่อนหมดเวลา: ช่วงนั้นรวมไม่เกิน 115 ตัวอักษร ฉากสุดท้ายไม่เกิน 24 ตัวอักษร และประโยคปิดต้องครบ เช่น กดสั่งซื้อได้เลยครับ · ก่อนตอบให้นับตัวอักษรของ vo ทุกช่วงจริง ถ้าเกินให้ตัดคำฟุ่มเฟือยออก ห้ามส่งเกิน\n- FLOW-FAST: พูดเร็ว กระชับ ต่อเนื่องแบบครีเอเตอร์คลิปสั้น ไม่มีช่วงหยุด · ห้ามจบประโยคที่ขอบฉาก ยกเว้นฉากสุดท้ายของคลิป: ฉากอื่นต้องจบด้วยคำเชื่อมที่พาไปฉากถัดไป (แล้ว ที่ ซึ่ง พอ ก็ และ ทั้ง) ไม่ใช้ ครับ ค่ะ นะ กลางคลิป · ห้ามคำว่า \"งาน\" ทุกคำในบทพูด ใช้คำแทน: ใช้งาน = ใช้ ใช้ได้ ใช้นาน · ผลงาน = ครัวนี้ · ชิ้นงาน = ชิ้นนี้ · หน้างาน = หน้าครัว · งานเนียน = เนียน · ทำงาน = ทำ",
+   "50": "กฎความยาวบทพากย์ (พากย์ต่อเนื่องจนสุดคลิป ห้ามเงียบ):\n- คลิป 50 วินาที 30 ฉาก; ทุก 10 วินาที = 6 ฉาก ทุกช่วง 10 วินาทีมีจังหวะ 2 · 1.5 · 1.5 · 1.5 · 1.5 · 2 วินาที (ฉากแรกและฉากสุดท้ายของช่วงยาวกว่า); vo1–vo30 ต้องมีบทครบทุกฉาก ห้ามเว้นฉากใด\n- ความยาวบทไทย นับเป็นตัวอักษรไทยจริง ไม่รวมเว้นวรรค (ภาษาไทยไม่มีช่องว่างคั่นคำ ห้ามนับเป็นคำ): ฉากแรกและฉากสุดท้ายของช่วงราว 22-27 ตัวอักษร 4 ฉากกลางราว 17-22 ตัวอักษร; ช่วงที่ไม่ใช่ช่วงสุดท้ายไม่เกิน 130 ตัวอักษร ทั้งคลิปไม่เกิน 620 ตัวอักษร; ห้ามยาวกว่านี้ เพราะวิดีโอยัดบทให้จบในเวลาเดิม บทยาว = พูดรัวและถูกตัดท้าย; พูดเต็มเวลาฉากพอดี ไม่ทิ้งช่วงเงียบ\n- vo1–vo30 ร้อยเป็นย่อหน้าเดียว อ่านรวดเดียวได้พอดี 50 วินาที ห้ามเป็นวลีสั้นจบห้วนแยกท่อน (แยกเมื่อใดจะเงียบแทรกระหว่างฉาก)\n- voN พูดเฉพาะสิ่งที่ผู้ชมเห็นในฉาก N; ห้ามชิงพูดฉากถัดไป ห้ามย้อนฉากก่อน (ต่อเป็นย่อหน้าได้ แต่ประโยคฉากใดต้องตรงภาพฉากนั้น ไม่เหลื่อม)\n- ช่วงสุดท้ายของคลิปต้องพูดจบก่อนหมดเวลา: ช่วงนั้นรวมไม่เกิน 115 ตัวอักษร ฉากสุดท้ายไม่เกิน 24 ตัวอักษร และประโยคปิดต้องครบ เช่น กดสั่งซื้อได้เลยครับ · ก่อนตอบให้นับตัวอักษรของ vo ทุกช่วงจริง ถ้าเกินให้ตัดคำฟุ่มเฟือยออก ห้ามส่งเกิน\n- FLOW-FAST: พูดเร็ว กระชับ ต่อเนื่องแบบครีเอเตอร์คลิปสั้น ไม่มีช่วงหยุด · ห้ามจบประโยคที่ขอบฉาก ยกเว้นฉากสุดท้ายของคลิป: ฉากอื่นต้องจบด้วยคำเชื่อมที่พาไปฉากถัดไป (แล้ว ที่ ซึ่ง พอ ก็ และ ทั้ง) ไม่ใช้ ครับ ค่ะ นะ กลางคลิป · ห้ามคำว่า \"งาน\" ทุกคำในบทพูด ใช้คำแทน: ใช้งาน = ใช้ ใช้ได้ ใช้นาน · ผลงาน = ครัวนี้ · ชิ้นงาน = ชิ้นนี้ · หน้างาน = หน้าครัว · งานเนียน = เนียน · ทำงาน = ทำ",
+   "60": "กฎความยาวบทพากย์ (พากย์ต่อเนื่องจนสุดคลิป ห้ามเงียบ):\n- คลิป 60 วินาที 36 ฉาก; ทุก 10 วินาที = 6 ฉาก ทุกช่วง 10 วินาทีมีจังหวะ 2 · 1.5 · 1.5 · 1.5 · 1.5 · 2 วินาที (ฉากแรกและฉากสุดท้ายของช่วงยาวกว่า); vo1–vo36 ต้องมีบทครบทุกฉาก ห้ามเว้นฉากใด\n- ความยาวบทไทย นับเป็นตัวอักษรไทยจริง ไม่รวมเว้นวรรค (ภาษาไทยไม่มีช่องว่างคั่นคำ ห้ามนับเป็นคำ): ฉากแรกและฉากสุดท้ายของช่วงราว 22-27 ตัวอักษร 4 ฉากกลางราว 17-22 ตัวอักษร; ช่วงที่ไม่ใช่ช่วงสุดท้ายไม่เกิน 130 ตัวอักษร ทั้งคลิปไม่เกิน 750 ตัวอักษร; ห้ามยาวกว่านี้ เพราะวิดีโอยัดบทให้จบในเวลาเดิม บทยาว = พูดรัวและถูกตัดท้าย; พูดเต็มเวลาฉากพอดี ไม่ทิ้งช่วงเงียบ\n- vo1–vo36 ร้อยเป็นย่อหน้าเดียว อ่านรวดเดียวได้พอดี 60 วินาที ห้ามเป็นวลีสั้นจบห้วนแยกท่อน (แยกเมื่อใดจะเงียบแทรกระหว่างฉาก)\n- voN พูดเฉพาะสิ่งที่ผู้ชมเห็นในฉาก N; ห้ามชิงพูดฉากถัดไป ห้ามย้อนฉากก่อน (ต่อเป็นย่อหน้าได้ แต่ประโยคฉากใดต้องตรงภาพฉากนั้น ไม่เหลื่อม)\n- ช่วงสุดท้ายของคลิปต้องพูดจบก่อนหมดเวลา: ช่วงนั้นรวมไม่เกิน 115 ตัวอักษร ฉากสุดท้ายไม่เกิน 24 ตัวอักษร และประโยคปิดต้องครบ เช่น กดสั่งซื้อได้เลยครับ · ก่อนตอบให้นับตัวอักษรของ vo ทุกช่วงจริง ถ้าเกินให้ตัดคำฟุ่มเฟือยออก ห้ามส่งเกิน\n- FLOW-FAST: พูดเร็ว กระชับ ต่อเนื่องแบบครีเอเตอร์คลิปสั้น ไม่มีช่วงหยุด · ห้ามจบประโยคที่ขอบฉาก ยกเว้นฉากสุดท้ายของคลิป: ฉากอื่นต้องจบด้วยคำเชื่อมที่พาไปฉากถัดไป (แล้ว ที่ ซึ่ง พอ ก็ และ ทั้ง) ไม่ใช้ ครับ ค่ะ นะ กลางคลิป · ห้ามคำว่า \"งาน\" ทุกคำในบทพูด ใช้คำแทน: ใช้งาน = ใช้ ใช้ได้ ใช้นาน · ผลงาน = ครัวนี้ · ชิ้นงาน = ชิ้นนี้ · หน้างาน = หน้าครัว · งานเนียน = เนียน · ทำงาน = ทำ"
   },
   "opIcons": {
    "mnPlan": "edit_note",
@@ -46181,7 +46445,7 @@
    "af:sp01": "โครงเรื่อง (ผู้ใช้เลือก) ชี้ปัญหาทีละจุด: ฉากแรกมือแตะสินค้าแล้วพูดปัญหาที่เจอ จากนั้นมือพาไปชี้จุดปัญหาจุดที่ 1 ใกล้ ๆ บอกว่าทำไมวิธีเดิมไม่ได้ผล มือถือสินค้าเล็งไปที่จุดนั้นแล้วบอกจุดเด่น ต่อด้วยจุดปัญหาจุดที่ 2 แบบเดียวกัน ทุกจุดอยู่ในสถานที่เดียวกันกับฉากแรก แล้วกลับมาแตะสินค้าปิดการขาย\n★ ข้อยกเว้นเฉพาะคลิปนี้ ใช้แทนกฎ \"ฉากลงมือต้องเห็นสินค้าถูกใช้จนเกิดผล\" และกฎ \"ฉากท้ายเห็นผลต่างในจุดเดิม\": คลิปนี้ไม่ต้องเห็นการลงมือครบทุกขั้น แต่ถ้าเป็นงานสร้าง ติดตั้ง หรือรีโนเวท ฉากท้ายต้องเห็นงานเสร็จสมบูรณ์ งานยังเป็นการซ่อม ทำความสะอาด จัดระเบียบ หรือรีโนเวทพื้นที่หรือของจริง สภาพจริงของปัญหาต้องเห็นชัดในภาพ และสินค้าอยู่ในคลิปตั้งแต่ฉากแรก\nแนวชี้จุดขาย: POV มุมสายตาคนถือมือถือ ภาพบ้านจริงไม่จัดแสง s*en ทุกฉากเห็นมือชี้ แตะ หรือผายไปที่จุดนั้นหรือที่สินค้า เห็นแค่มือไม่เห็นหน้า มือไม่เกินสองข้าง ฉากแรกและฉากสุดท้ายเป็นมุมเดียวกัน เห็นสินค้าวางอยู่ชัด ยี่ห้ออ่านออก มือแตะสินค้า สินค้าต้องคงรูปทรง สีและขนาดเดิม vo ทุกฉากเป็นคำขายจากคนถือกล้อง พูดถึงปัญหา เหตุผลที่วิธีเดิมไม่ได้ผล และจุดเด่นของสินค้า ห้ามเล่าขั้นตอนแบบสอนทำ ผลลัพธ์บอกด้วยเสียงได้ แต่พูดเฉพาะสิ่งที่สินค้าทำได้จริงจากข้อมูลสินค้า ห้ามแต่งตัวเลขหรือสรรพคุณ ฉากท้ายชวนซื้อตรง ๆ ไม่เกิน 8 คำ ถ้าผู้ใช้กรอกคำปิดมาให้ใช้คำนั้น",
    "af:sp02": "โครงเรื่อง (ผู้ใช้เลือก) ชี้จุดที่วิธีเดิมไปไม่ถึง: ฉากแรกมือแตะสินค้าแล้วถามผู้ชมว่าจุดนี้ทำยังไง มือชี้ซอกหรือมุมที่มือและของเดิมเข้าไม่ถึง ลองเอื้อมให้เห็นว่าไม่ถึง แล้วถือสินค้าเล็งไปที่จุดนั้นและบอกว่าส่วนไหนของสินค้าช่วยได้ ปิดด้วยการกลับมาแตะสินค้า\n★ ข้อยกเว้นเฉพาะคลิปนี้ ใช้แทนกฎ \"ฉากลงมือต้องเห็นสินค้าถูกใช้จนเกิดผล\" และกฎ \"ฉากท้ายเห็นผลต่างในจุดเดิม\": คลิปนี้ไม่ต้องเห็นการลงมือครบทุกขั้น แต่ถ้าเป็นงานสร้าง ติดตั้ง หรือรีโนเวท ฉากท้ายต้องเห็นงานเสร็จสมบูรณ์ งานยังเป็นการซ่อม ทำความสะอาด จัดระเบียบ หรือรีโนเวทพื้นที่หรือของจริง สภาพจริงของปัญหาต้องเห็นชัดในภาพ และสินค้าอยู่ในคลิปตั้งแต่ฉากแรก\nแนวชี้จุดขาย: POV มุมสายตาคนถือมือถือ ภาพบ้านจริงไม่จัดแสง s*en ทุกฉากเห็นมือชี้ แตะ หรือผายไปที่จุดนั้นหรือที่สินค้า เห็นแค่มือไม่เห็นหน้า มือไม่เกินสองข้าง ฉากแรกและฉากสุดท้ายเป็นมุมเดียวกัน เห็นสินค้าวางอยู่ชัด ยี่ห้ออ่านออก มือแตะสินค้า สินค้าต้องคงรูปทรง สีและขนาดเดิม vo ทุกฉากเป็นคำขายจากคนถือกล้อง พูดถึงปัญหา เหตุผลที่วิธีเดิมไม่ได้ผล และจุดเด่นของสินค้า ห้ามเล่าขั้นตอนแบบสอนทำ ผลลัพธ์บอกด้วยเสียงได้ แต่พูดเฉพาะสิ่งที่สินค้าทำได้จริงจากข้อมูลสินค้า ห้ามแต่งตัวเลขหรือสรรพคุณ ฉากท้ายชวนซื้อตรง ๆ ไม่เกิน 8 คำ ถ้าผู้ใช้กรอกคำปิดมาให้ใช้คำนั้น",
    "af:sp03": "โครงเรื่อง (ผู้ใช้เลือก) ชี้จุดเด่นบนตัวสินค้า: ฉากแรกมือแตะสินค้าและชี้จุดปัญหาในพื้นที่จริงหนึ่งจุด จากนั้นกลับมาที่สินค้า มือชี้ หมุน หรือกดทีละส่วน เล่าว่าส่วนนั้นแก้ปัญหาได้ยังไง ฉากท้ายกลับมามุมแรก มือแตะสินค้าปิดการขาย\n★ ข้อยกเว้นเฉพาะคลิปนี้ ใช้แทนกฎ \"ฉากลงมือต้องเห็นสินค้าถูกใช้จนเกิดผล\" และกฎ \"ฉากท้ายเห็นผลต่างในจุดเดิม\": คลิปนี้ไม่ต้องเห็นการลงมือครบทุกขั้น แต่ถ้าเป็นงานสร้าง ติดตั้ง หรือรีโนเวท ฉากท้ายต้องเห็นงานเสร็จสมบูรณ์ งานยังเป็นการซ่อม ทำความสะอาด จัดระเบียบ หรือรีโนเวทพื้นที่หรือของจริง สภาพจริงของปัญหาต้องเห็นชัดในภาพ และสินค้าอยู่ในคลิปตั้งแต่ฉากแรก\nแนวชี้จุดขาย: POV มุมสายตาคนถือมือถือ ภาพบ้านจริงไม่จัดแสง s*en ทุกฉากเห็นมือชี้ แตะ หรือผายไปที่จุดนั้นหรือที่สินค้า เห็นแค่มือไม่เห็นหน้า มือไม่เกินสองข้าง ฉากแรกและฉากสุดท้ายเป็นมุมเดียวกัน เห็นสินค้าวางอยู่ชัด ยี่ห้ออ่านออก มือแตะสินค้า สินค้าต้องคงรูปทรง สีและขนาดเดิม vo ทุกฉากเป็นคำขายจากคนถือกล้อง พูดถึงปัญหา เหตุผลที่วิธีเดิมไม่ได้ผล และจุดเด่นของสินค้า ห้ามเล่าขั้นตอนแบบสอนทำ ผลลัพธ์บอกด้วยเสียงได้ แต่พูดเฉพาะสิ่งที่สินค้าทำได้จริงจากข้อมูลสินค้า ห้ามแต่งตัวเลขหรือสรรพคุณ ฉากท้ายชวนซื้อตรง ๆ ไม่เกิน 8 คำ ถ้าผู้ใช้กรอกคำปิดมาให้ใช้คำนั้น",
-   "af:sf01": "โครงเรื่อง (ผู้ใช้เลือก) เซลฟี่พาชมงานเสร็จ ★ ข้อยกเว้นเฉพาะแนวนี้ ใช้แทนกฎลำดับงาน กฎฉากแรกก่อนเริ่มงาน กฎห้ามเห็นงานเสร็จ กฎสัดส่วนระยะภาพ และกฎ vo จบห้วน: ทุกฉากเป็นงานที่เสร็จสมบูรณ์แล้ว ไม่มีสภาพเก่า การติดตั้ง ช่าง หรือเครื่องมือ\nแต่ละช่วงคือเทคเดียวไม่ตัดภาพ เจ้าของพูดกับกล้อง ไม่เห็นโทรศัพท์ คนเดียวชุดลำลองแบบอยู่บ้าน ไม่ใช่ชุดช่าง: ★ สำคัญกว่ามุมกล้องที่ผู้ใช้ตั้งไว้ (ตอนจบคลิปทำตามที่ผู้ใช้เลือกในช่องจบคลิป): คลิปเริ่มด้วยภาพกว้างของครัว แล้วกล้องหันกลับมาเป็นเซลฟี่ แล้วเจ้าของพาเดินดู · ฉาก 1: ภาพเปิดกว้างเห็นครัวทั้งหลัง ยังไม่เห็นคน เสียงพูดเริ่มด้วย hook ตั้งแต่วินาทีแรก (camN เดินชม) · ฉาก 2: กล้องหันกลับเป็นเซลฟี่ เห็นหน้าเจ้าของ ครัวอยู่ด้านหลัง ทักและเฉลยชื่อสินค้า (camN ติดตาม) · ฉาก 3-6 (ท้ายช่วงแรก): เจ้าของพูดไปเดินไปตามหน้าครัว แตะผิวสินค้าที่ติดอยู่ด้วยมือวางแนบผิว อย่างน้อยหนึ่งครั้งในช่วงนี้ กล้องเซลฟี่เดินตาม ครัวเห็นอยู่ด้านหลังเสมอ ฉาก 6 มือข้างหนึ่งแตะผิวสินค้าที่ติดอยู่ มองกล้อง (camN ซูมเข้า) · ช่วงถัดไป: เดินต่อ ชี้และแตะซิงก์ เตา ชั้นวาง ผนังที่ติดอยู่ทีละจุด ไม่วนกลับจุดเดิม (camN ติดตาม) · ฉากสุดท้ายของคลิป: เจ้าของหันหน้าเข้ากล้อง มือข้างหนึ่งวางแตะผิวสินค้าที่ติดอยู่ใกล้ตัว (หน้าตู้ เสา หรือแผงผนัง) ยิ้มมองกล้องแล้วชวนซื้อ เห็นด้านหน้าครัวอยู่ด้านหลัง (camN นิ่ง) · ทุกฉากหลังฉาก 1 เห็นหน้าเจ้าของกับส่วนของครัวในกรอบเสมอ ห้ามผนังเปล่าเต็มกรอบ ห้ามเห็นด้านนอกหรือด้านหลังผนัง ห้ามถือ ยก หรือชูแผ่นสินค้า มือแตะได้เฉพาะของที่ติดอยู่ในครัวแล้ว · ทุกฉากอยู่ในส่วนของครัวที่เห็นได้ในภาพเปิด · ประตูเปิดสุดแนบผนังเหมือนรูปแบบงานทุกฉาก vo ห้ามพูดถึงการเปิดหรือปิดประตู\nFRONT-WALK: (สำคัญกว่าข้อความเดินเข้าไปข้างบน) เจ้าของเดินได้เฉพาะตามแนวหน้าครัวที่เปิดโล่ง (เคาน์เตอร์ด้านซ้าย เสาและแผงผนังด้านขวา) ไม่เดินเข้าลึกใต้หลังคาเกินสองสามก้าวแรก ฉากหลังเป็นด้านหน้าครัวเหมือนภาพเปิดเสมอ · ชี้เฉพาะสิ่งที่เห็นอยู่ในภาพเปิดแล้ว (ชั้นขวดโหล ซิงก์ โคมห้อย เคาน์เตอร์) · แตะผิวสินค้าที่อยู่ใกล้ตัวที่ขอบหน้าครัว (หน้าตู้ เสา แผงผนัง) ห้ามเขียนฉากหรือคำพูดถึงห้องหรือของข้างในที่ภาพเปิดไม่เห็น ห้ามกล้องหันไปเห็นส่วนที่ภาพเปิดไม่เห็น\nvo เป็นประโยคเต็มต่อเนื่องแบบเจ้าของเล่าให้เพื่อนฟัง ใช้ ผม หรือ เรา ลงท้ายครับหรือค่ะตามเพศ บอกว่าเอาสินค้ามาทำอะไร แล้วดีขึ้นยังไง ห้ามคำโฆษณาเกินจริง จุดเด่นพูดเท่าที่เห็นในภาพ ประโยคปิดต้องชวนซื้อตรง ๆ เช่น สนใจกดสั่งซื้อได้เลยครับ ห้ามปิดกว้าง ๆ เช่น ใครชอบลองดู\nงานเสร็จต้องน่าอยู่ มีของแต่งจริง เช่น ต้นไม้ โคมไฟ และของใช้ตามหน้าที่พื้นที่",
+   "af:sf01": "โครงเรื่อง (ผู้ใช้เลือก) เซลฟี่พาชมงานเสร็จ ★ ข้อยกเว้นเฉพาะแนวนี้ ใช้แทนกฎลำดับงาน กฎฉากแรกก่อนเริ่มงาน กฎห้ามเห็นงานเสร็จ กฎสัดส่วนระยะภาพ และกฎ vo จบห้วน: ทุกฉากเป็นงานที่เสร็จสมบูรณ์แล้ว ไม่มีสภาพเก่า การติดตั้ง ช่าง หรือเครื่องมือ\nแต่ละช่วงคือเทคเดียวไม่ตัดภาพ เจ้าของพูดกับกล้อง ไม่เห็นโทรศัพท์ คนเดียวชุดลำลองแบบอยู่บ้าน ไม่ใช่ชุดช่าง: ★ สำคัญกว่ามุมกล้องที่ผู้ใช้ตั้งไว้ (ตอนจบคลิปทำตามที่ผู้ใช้เลือกในช่องจบคลิป): คลิปเริ่มด้วยภาพกว้างของครัว แล้วกล้องหันกลับมาเป็นเซลฟี่ แล้วเจ้าของพาเดินดู · ฉาก 1: ภาพเปิดกว้างเห็นครัวทั้งหลัง ยังไม่เห็นคน เสียงพูดเริ่มด้วย hook ตั้งแต่วินาทีแรก (camN เดินชม) · ฉาก 2: กล้องหันกลับเป็นเซลฟี่ เห็นหน้าเจ้าของ ครัวอยู่ด้านหลัง ทักและเฉลยชื่อสินค้า (camN ติดตาม) · ฉาก 3-6 (ท้ายช่วงแรก): เจ้าของพูดไปเดินไปตามหน้าครัว แตะผิวสินค้าที่ติดอยู่ด้วยมือวางแนบผิว อย่างน้อยหนึ่งครั้งในช่วงนี้ กล้องเซลฟี่เดินตาม ครัวเห็นอยู่ด้านหลังเสมอ ฉาก 6 มือข้างหนึ่งแตะผิวสินค้าที่ติดอยู่ มองกล้อง (camN ซูมเข้า) · ช่วงถัดไป: เดินต่อ ชี้และแตะซิงก์ เตา ชั้นวาง ผนังที่ติดอยู่ทีละจุด ไม่วนกลับจุดเดิม (camN ติดตาม) · ฉากสุดท้ายของคลิป: เจ้าของหันหน้าเข้ากล้อง มือข้างหนึ่งวางแตะผิวสินค้าที่ติดอยู่ใกล้ตัว (หน้าตู้ เสา หรือแผงผนัง) ยิ้มมองกล้องแล้วชวนซื้อ เห็นด้านหน้าครัวอยู่ด้านหลัง (camN นิ่ง) · ทุกฉากหลังฉาก 1 เห็นหน้าเจ้าของกับส่วนของครัวในกรอบเสมอ ห้ามผนังเปล่าเต็มกรอบ ห้ามเห็นด้านนอกหรือด้านหลังผนัง ห้ามถือ ยก หรือชูแผ่นสินค้า มือแตะได้เฉพาะของที่ติดอยู่ในครัวแล้ว · ทุกฉากอยู่ในส่วนของครัวที่เห็นได้ในภาพเปิด · ประตูเปิดสุดแนบผนังเหมือนรูปแบบงานทุกฉาก vo ห้ามพูดถึงการเปิดหรือปิดประตู\nCOUNTER-WALK: (สำคัญกว่าข้อความเดินข้างบน) เจ้าของเดินเข้าครัวจริง: จากทางเข้าไปที่เคาน์เตอร์ที่เห็นในภาพเปิด แล้วเดินตามแนวเคาน์เตอร์ไปถึงเสาหรือแผงผนังอีกด้าน ไม่เดินเลยแนวเคาน์เตอร์ที่เห็นในภาพเปิด ฉากหลังเป็นส่วนของครัวที่ภาพเปิดเห็นเสมอ · ใช้มือทำสิ่งต่าง ๆ กับของในครัวที่เห็นในภาพเปิด: แตะเคาน์เตอร์และหน้าตู้ เปิด-ปิดก๊อกน้ำ หยิบโหลหรือเขียงขึ้นมาดูแล้ววางกลับ จับผ้าเช็ดมือ แตะแผงผนังสินค้าหลายจุด · ฉาก 3-6 อย่างน้อย 2 ฉากมีการหยิบจับหรือแตะ ช่วงถัดไปอย่างน้อย 3 ฉากมีการหยิบจับหรือแตะ ไม่ยืนนิ่งอยู่ที่เดิมเกินสองฉากติด · ห้ามถือ ยก ชู หรือหยิบแผ่นสินค้าหรือแผ่นวัสดุหลวม · ห้ามเขียนฉากหรือคำพูดถึงห้องหรือของที่ภาพเปิดไม่เห็น\nvo เป็นประโยคเต็มต่อเนื่องแบบเจ้าของเล่าให้เพื่อนฟัง ใช้ ผม หรือ เรา ลงท้ายครับหรือค่ะตามเพศ บอกว่าเอาสินค้ามาทำอะไร แล้วดีขึ้นยังไง ห้ามคำโฆษณาเกินจริง จุดเด่นพูดเท่าที่เห็นในภาพ ประโยคปิดต้องชวนซื้อตรง ๆ เช่น สนใจกดสั่งซื้อได้เลยครับ ห้ามปิดกว้าง ๆ เช่น ใครชอบลองดู\nงานเสร็จต้องน่าอยู่ มีของแต่งจริง เช่น ต้นไม้ โคมไฟ และของใช้ตามหน้าที่พื้นที่",
    "af:wk01": "โครงเรื่อง (ผู้ใช้เลือก) เดินชมงานเสร็จ เข้าใกล้ผิววัสดุ ★ ข้อยกเว้นเฉพาะแนวนี้ ใช้แทนกฎลำดับงาน กฎฉากแรกก่อนเริ่มงาน กฎห้ามเห็นงานเสร็จ กฎสัดส่วนระยะภาพ และกฎ vo จบห้วน: ทุกฉากเป็นงานที่เสร็จสมบูรณ์แล้ว ไม่มีสภาพเก่า การติดตั้ง ช่าง หรือเครื่องมือ\nมุมสายตาคนถือมือถือเดินชมงานแบบเทคต่อเนื่อง เห็นแค่มือและแขนเสื้อ ไม่เห็นหน้า ไม่เห็นโทรศัพท์ มือไม่เกินสองข้าง ภาพบ้านจริงแสงธรรมชาติ ไม่จัดแสง · แต่ละช่วง 10 วินาทีคือเทคเดียวต่อเนื่อง ไม่ตัดภาพ: กล้องเดินจากภาพหนึ่งไปอีกภาพอย่างต่อเนื่องบนเส้นทางเดินเส้นเดียว ฉากทั้ง 6 ของช่วงคือตำแหน่งต่อเนื่องของกล้องบนเส้นทางนั้น ไม่ใช่ภาพคนละที่ (ตัดภาพได้เฉพาะรอยต่อระหว่างช่วง)\n★ กันฉากเพี้ยน สำคัญที่สุดของแนวนี้: ทั้งคลิปคืออาคารหรืองานหลังเดียวกันตามคำบรรยายห้อง (room) และภาพต้นแบบ ทรงหลังคา ตำแหน่งประตูและหน้าต่าง สี และของแต่งอยู่ที่เดิมทุกฉาก ห้ามเปลี่ยนทรงหรือสร้างหลังใหม่ระหว่างฉาก · ประตูอยู่ในสภาพเดียวกับภาพต้นแบบทุกฉาก ห้ามมือเปิดหรือปิดประตู vo ห้ามพูดถึงการเปิดปิดประตู · ถ้างานเป็นห้องปิด (shape: closed room) ห้ามเข้าไปข้างใน ชมเฉพาะด้านนอก: ผนังลายไม้ ขอบประตู มือจับ หน้าต่าง ชายคา หลังคา ไฟข้างผนัง · ถ้างานเปิดโล่ง (shape: open-front) เดินชมจุดต่าง ๆ ในพื้นที่ได้ แต่ห้ามเดินอ้อมไปด้านอื่นของอาคาร\nลำดับภาพวิ่งครั้งเดียวตลอดทั้งคลิป ไม่วนซ้ำทุกช่วง ตามเวลาของคลิปต้นแบบ แบ่งเป็น 4 ช่วง (คลิป 20 วินาที = ฉาก 1-3 ช่วงที่ 1 · ฉาก 4-6 ช่วงที่ 2 · ฉาก 7-9 ช่วงที่ 3 · ฉาก 10-12 ช่วงที่ 4 · คลิป 10 วินาที = ฉาก 1-2 ช่วงที่ 1 · ฉาก 3 ช่วงที่ 2 · ฉาก 4-5 ช่วงที่ 3 · ฉาก 6 ช่วงที่ 4 · คลิปยาวกว่า 20 วินาที = ช่วงที่ 1 และ 2 ใช้ 3 ฉากแรกและ 3 ฉากถัดมา ช่วงที่ 4 ใช้ 3 ฉากสุดท้าย ฉากที่เหลือตรงกลางทั้งหมดเป็นช่วงที่ 3 ที่ไล่ดูจุดใหม่ทีละจุด):\nช่วงที่ 1 (ต้นคลิป): ภาพกว้างเห็นครัวทั้งหลัง กล้องเดินเข้ามา แล้วมือผายหรือชี้ไปที่ส่วนเด่นของงาน · คำพูดคือคำทึ่งและเฉลยชื่อสินค้า (camN: เดินชม แล้ว ซูมเข้า)\nช่วงที่ 2: ภาพใกล้มากที่ผิววัสดุ มือลูบให้เห็นลายและประกายแสง ค้างอยู่ในภาพใกล้นี้นานเกือบเท่าช่วงอื่น · คำพูดคือข้อดีหลักของวัสดุ พูดตอนมือลูบผิว เช่น สวยเหมือนไม้จริง (camN: ลูบผิว หรือ มาโคร)\nช่วงที่ 3: ภาพกลางถึงใกล้ที่ส่วนต่าง ๆ ของงาน เช่น เตา ฮูด ชั้นวาง เคาน์เตอร์ ซิงก์ ที่คว่ำจาน มือผายฝ่ามือเปิดไปที่ของนั้นหรือแตะ · คำพูดคือเอาวัสดุไปทำอะไรได้ พูดตอนเห็นของนั้นในภาพ เช่น ทำผนัง ทำเคาน์เตอร์ (camN: โคลสอัพ หรือ ติดตาม)\nช่วงที่ 4 (ท้ายคลิป): กล้องถอยออกทีละขั้น ให้ระยะภาพต่างกันชัดในแต่ละฉาก: ฉากแรกของช่วงเป็นภาพกลาง เห็นเคาน์เตอร์ทั้งแนว (camN: ถอยกว้าง) · ฉากถัดมาเป็นภาพกว้าง เห็นครัวส่วนใหญ่ (camN: ถอยกว้าง) · ฉากสุดท้ายเป็นภาพกว้างสุด เห็นครัวทั้งหลังแล้วค้างนิ่งในวิดีโอ ไม่มีมือในภาพ (camN: นิ่ง) · คำพูดคือปิดชวนซื้อ พูดตอนภาพกว้าง · ห้ามสามฉากท้ายเป็นภาพเดียวกัน\nห้ามภาพกว้างกลางคลิป ห้ามภาพมุมเดียวกันหรือระยะเดียวกันซ้ำสองฉากติด (รวมถึงสามฉากท้าย) · คำพูดทุกประโยคต้องตรงกับภาพที่เห็นขณะนั้น\ncamN ทุกฉากเขียนด้วยคำในวงเล็บข้างบนเพื่อให้กล้องขยับจริง ห้ามเขียนว่านิ่งหรือตั้งกล้อง ยกเว้นฉากท้ายสุดของช่วงที่ 4 ที่ค้างนิ่ง\nสินค้าคือวัสดุที่ทำให้งานเสร็จนี้ ในฉากใกล้ต้องเห็นลายและสีตรงกับรูปสินค้า ห้ามแต่งสีหรือลายเอง\nนี่คือคลิปรีวิวสินค้า ไม่ใช่คลิปสร้างงาน: คนหลังกล้องเดินเข้ามารีวิวด้วยตัวเองให้เพื่อนฟัง สินค้าคือพระเอก vo เป็นประโยคเต็มต่อเนื่องแบบเล่าให้เพื่อนฟัง ใช้ ผม หรือ เรา ลงท้ายครับหรือค่ะตามเพศเสียง\nโครงคำพูด: ฉากแรกเปิดด้วยความทึ่งสั้น ๆ ของคนเห็นงานเสร็จ (เช่น ว่าดูแพงขนาดนี้ ทำจากอะไร) แล้วเฉลยชื่อสินค้า · ฉากกลางบอกว่าสินค้าดีและสวยยังไง 2-3 ข้อ ให้ตรงกับที่มือชี้หรือแตะในภาพ เช่น ลายเหมือนวัสดุจริง ผิวเรียบ ทำความสะอาดง่าย แข็งแรง ใช้ได้ทั้งผนังและเคาน์เตอร์ · ใช้ข้อมูลจากช่องจุดเด่นสินค้า ราคา และโปรของสินค้าก่อน ถ้าไม่มีให้พูดเฉพาะคุณสมบัติทั่วไปของวัสดุนั้นที่เห็นได้จากภาพ ห้ามแต่งตัวเลข ราคา หรือสรรพคุณที่ไม่มีในข้อมูล · ห้ามเล่าขั้นตอนติดตั้ง · ประโยคปิดต้องชวนซื้อตรง ๆ เช่น กดสั่งซื้อได้เลยครับ ห้ามปิดกว้าง ๆ\nงานเสร็จต้องดูพร้อมใช้และน่าอยู่ มีของใช้จริงตามหน้าที่พื้นที่ 4-6 อย่าง เช่น ครัว: ขวดโหลบนชั้น จานชาม เขียง ผ้าแขวน กระถางต้นไม้ ไฟใต้ชั้น ห้ามพื้นที่โล่งเปล่า · ฉากกลางให้มือชี้หรือแตะของเหล่านี้บ้างระหว่างเดินชม (ชั้นวาง ซิงก์ ที่คว่ำจาน) ไม่ใช่ลูบแต่ผนังอย่างเดียว"
   },
   "camPlan": {
