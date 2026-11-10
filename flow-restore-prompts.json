@@ -1,8 +1,8 @@
 {
  "app": "flow-reno",
  "version": 5,
- "build": 192,
- "label": "3.0.55",
+ "build": 193,
+ "label": "3.0.56",
  "ops": {
   "mnPlan": {
    "id": "mnPlan",
@@ -14058,7 +14058,7 @@
          "a": "{item.arc}",
          "b": "af:wk01"
         },
-        "value": "FRAME RULE: one unbroken full-screen handheld take with NO cuts between beats; the camera walks and moves through the beats in order and never jumps to another place; no morphing, split screen, grid or small boxes; no jump cuts or transitions; hands and sleeve only, never a face, head, body or reflection; no tools, drill, camera, phone or gear anywhere in shot.\n\n"
+        "value": "FRAME RULE: one unbroken full-screen handheld take with NO cuts between beats; the camera walks and moves through the beats in order and never jumps to another place; no morphing, split screen, grid or small boxes; no jump cuts or transitions; no tools, drill, camera, phone or gear anywhere in shot.\n\n"
        },
        {
         "when": {
@@ -14530,7 +14530,7 @@
           }
          ]
         },
-        "value": "\n\nImage 1 is the exact first frame and the given last frame is the exact final frame: one unbroken first-person handheld take between them in the same kitchen, camera at standing eye level. Only one right hand and forearm in a dark navy long sleeve appears (never a face, body or bare arm; five normal fingers); nothing is held or lifted. The hands touch only the flat corrugated walls and the door of the kitchen that Image 1 shows; the counter top stays black granite; no new wall, panel, post or slab appears; the shelf with its jars, the sink and the stove keep their places and at least one of them stays in frame (never a frame of bare wall only), and this part continues at once from the touch: the hand is already on the inner wall and moves along it from the first second (beside the shelf, then the sink) without stepping back, always facing the same wall; it pulls back out only if the last frame is the whole kitchen. "
+        "value": "\n\nImage 1 is the exact first frame and the given last frame the exact final frame: one unbroken first-person handheld take in the same kitchen at standing eye level. Only one right hand and forearm in a dark navy long sleeve appears (no face, body or bare arm; five fingers); nothing held. The hands touch only the flat corrugated walls and the door of the kitchen that Image 1 shows; the counter top stays black granite; no new wall, panel, post or slab appears; the shelf with its jars, the sink and the stove keep their places and at least one of them stays in frame (never a frame of bare wall only), and this part continues at once from the touch: the hand is already on the inner wall and moves along it from the first second (beside the shelf, then the sink) without stepping back, always facing the same wall; it pulls back out only if the last frame is the whole kitchen. "
        },
        {
         "when": {
@@ -19238,7 +19238,7 @@
          "a": "{item.arc}",
          "b": "af:wk01"
         },
-        "value": "FRAME RULE: one unbroken full-screen handheld take with NO cuts between beats; the camera walks and moves through the beats in order and never jumps to another place; no morphing, split screen, grid or small boxes; no jump cuts or transitions; hands and sleeve only, never a face, head, body or reflection; no tools, drill, camera, phone or gear anywhere in shot.\n\n"
+        "value": "FRAME RULE: one unbroken full-screen handheld take with NO cuts between beats; the camera walks and moves through the beats in order and never jumps to another place; no morphing, split screen, grid or small boxes; no jump cuts or transitions; no tools, drill, camera, phone or gear anywhere in shot.\n\n"
        },
        {
         "when": {
@@ -19710,7 +19710,7 @@
           }
          ]
         },
-        "value": "\n\nImage 1 is the exact first frame and the given last frame is the exact final frame: one unbroken first-person handheld take between them in the same kitchen, camera at standing eye level. Only one right hand and forearm in a dark navy long sleeve appears (never a face, body or bare arm; five normal fingers); nothing is held or lifted. The hands touch only the flat corrugated walls and the door of the kitchen that Image 1 shows; the counter top stays black granite; no new wall, panel, post or slab appears; the shelf with its jars, the sink and the stove keep their places and at least one of them stays in frame (never a frame of bare wall only), and this part continues at once from the touch: the hand is already on the inner wall and moves along it from the first second (beside the shelf, then the sink) without stepping back, always facing the same wall; it pulls back out only if the last frame is the whole kitchen. "
+        "value": "\n\nImage 1 is the exact first frame and the given last frame the exact final frame: one unbroken first-person handheld take in the same kitchen at standing eye level. Only one right hand and forearm in a dark navy long sleeve appears (no face, body or bare arm; five fingers); nothing held. The hands touch only the flat corrugated walls and the door of the kitchen that Image 1 shows; the counter top stays black granite; no new wall, panel, post or slab appears; the shelf with its jars, the sink and the stove keep their places and at least one of them stays in frame (never a frame of bare wall only), and this part continues at once from the touch: the hand is already on the inner wall and moves along it from the first second (beside the shelf, then the sink) without stepping back, always facing the same wall; it pulls back out only if the last frame is the whole kitchen. "
        },
        {
         "when": {
@@ -24418,7 +24418,7 @@
          "a": "{item.arc}",
          "b": "af:wk01"
         },
-        "value": "FRAME RULE: one unbroken full-screen handheld take with NO cuts between beats; the camera walks and moves through the beats in order and never jumps to another place; no morphing, split screen, grid or small boxes; no jump cuts or transitions; hands and sleeve only, never a face, head, body or reflection; no tools, drill, camera, phone or gear anywhere in shot.\n\n"
+        "value": "FRAME RULE: one unbroken full-screen handheld take with NO cuts between beats; the camera walks and moves through the beats in order and never jumps to another place; no morphing, split screen, grid or small boxes; no jump cuts or transitions; no tools, drill, camera, phone or gear anywhere in shot.\n\n"
        },
        {
         "when": {
@@ -24890,7 +24890,7 @@
           }
          ]
         },
-        "value": "\n\nImage 1 is the exact first frame and the given last frame is the exact final frame: one unbroken first-person handheld take between them in the same kitchen, camera at standing eye level. Only one right hand and forearm in a dark navy long sleeve appears (never a face, body or bare arm; five normal fingers); nothing is held or lifted. The hands touch only the flat corrugated walls and the door of the kitchen that Image 1 shows; the counter top stays black granite; no new wall, panel, post or slab appears; the shelf with its jars, the sink and the stove keep their places and at least one of them stays in frame (never a frame of bare wall only), and this part continues at once from the touch: the hand is already on the inner wall and moves along it from the first second (beside the shelf, then the sink) without stepping back, always facing the same wall; it pulls back out only if the last frame is the whole kitchen. "
+        "value": "\n\nImage 1 is the exact first frame and the given last frame the exact final frame: one unbroken first-person handheld take in the same kitchen at standing eye level. Only one right hand and forearm in a dark navy long sleeve appears (no face, body or bare arm; five fingers); nothing held. The hands touch only the flat corrugated walls and the door of the kitchen that Image 1 shows; the counter top stays black granite; no new wall, panel, post or slab appears; the shelf with its jars, the sink and the stove keep their places and at least one of them stays in frame (never a frame of bare wall only), and this part continues at once from the touch: the hand is already on the inner wall and moves along it from the first second (beside the shelf, then the sink) without stepping back, always facing the same wall; it pulls back out only if the last frame is the whole kitchen. "
        },
        {
         "when": {
@@ -29598,7 +29598,7 @@
          "a": "{item.arc}",
          "b": "af:wk01"
         },
-        "value": "FRAME RULE: one unbroken full-screen handheld take with NO cuts between beats; the camera walks and moves through the beats in order and never jumps to another place; no morphing, split screen, grid or small boxes; no jump cuts or transitions; hands and sleeve only, never a face, head, body or reflection; no tools, drill, camera, phone or gear anywhere in shot.\n\n"
+        "value": "FRAME RULE: one unbroken full-screen handheld take with NO cuts between beats; the camera walks and moves through the beats in order and never jumps to another place; no morphing, split screen, grid or small boxes; no jump cuts or transitions; no tools, drill, camera, phone or gear anywhere in shot.\n\n"
        },
        {
         "when": {
@@ -30070,7 +30070,7 @@
           }
          ]
         },
-        "value": "\n\nImage 1 is the exact first frame and the given last frame is the exact final frame: one unbroken first-person handheld take between them in the same kitchen, camera at standing eye level. Only one right hand and forearm in a dark navy long sleeve appears (never a face, body or bare arm; five normal fingers); nothing is held or lifted. The hands touch only the flat corrugated walls and the door of the kitchen that Image 1 shows; the counter top stays black granite; no new wall, panel, post or slab appears; the shelf with its jars, the sink and the stove keep their places and at least one of them stays in frame (never a frame of bare wall only), and this part continues at once from the touch: the hand is already on the inner wall and moves along it from the first second (beside the shelf, then the sink) without stepping back, always facing the same wall; it pulls back out only if the last frame is the whole kitchen. "
+        "value": "\n\nImage 1 is the exact first frame and the given last frame the exact final frame: one unbroken first-person handheld take in the same kitchen at standing eye level. Only one right hand and forearm in a dark navy long sleeve appears (no face, body or bare arm; five fingers); nothing held. The hands touch only the flat corrugated walls and the door of the kitchen that Image 1 shows; the counter top stays black granite; no new wall, panel, post or slab appears; the shelf with its jars, the sink and the stove keep their places and at least one of them stays in frame (never a frame of bare wall only), and this part continues at once from the touch: the hand is already on the inner wall and moves along it from the first second (beside the shelf, then the sink) without stepping back, always facing the same wall; it pulls back out only if the last frame is the whole kitchen. "
        },
        {
         "when": {
@@ -34779,7 +34779,7 @@
          "a": "{item.arc}",
          "b": "af:wk01"
         },
-        "value": "FRAME RULE: one unbroken full-screen handheld take with NO cuts between beats; the camera walks and moves through the beats in order and never jumps to another place; no morphing, split screen, grid or small boxes; no jump cuts or transitions; hands and sleeve only, never a face, head, body or reflection; no tools, drill, camera, phone or gear anywhere in shot.\n\n"
+        "value": "FRAME RULE: one unbroken full-screen handheld take with NO cuts between beats; the camera walks and moves through the beats in order and never jumps to another place; no morphing, split screen, grid or small boxes; no jump cuts or transitions; no tools, drill, camera, phone or gear anywhere in shot.\n\n"
        },
        {
         "when": {
@@ -35251,7 +35251,7 @@
           }
          ]
         },
-        "value": "\n\nImage 1 is the exact first frame and the given last frame is the exact final frame: one unbroken first-person handheld take between them in the same kitchen, camera at standing eye level. Only one right hand and forearm in a dark navy long sleeve appears (never a face, body or bare arm; five normal fingers); nothing is held or lifted. The hands touch only the flat corrugated walls and the door of the kitchen that Image 1 shows; the counter top stays black granite; no new wall, panel, post or slab appears; the shelf with its jars, the sink and the stove keep their places and at least one of them stays in frame (never a frame of bare wall only), and this part continues at once from the touch: the hand is already on the inner wall and moves along it from the first second (beside the shelf, then the sink) without stepping back, always facing the same wall; it pulls back out only if the last frame is the whole kitchen. "
+        "value": "\n\nImage 1 is the exact first frame and the given last frame the exact final frame: one unbroken first-person handheld take in the same kitchen at standing eye level. Only one right hand and forearm in a dark navy long sleeve appears (no face, body or bare arm; five fingers); nothing held. The hands touch only the flat corrugated walls and the door of the kitchen that Image 1 shows; the counter top stays black granite; no new wall, panel, post or slab appears; the shelf with its jars, the sink and the stove keep their places and at least one of them stays in frame (never a frame of bare wall only), and this part continues at once from the touch: the hand is already on the inner wall and moves along it from the first second (beside the shelf, then the sink) without stepping back, always facing the same wall; it pulls back out only if the last frame is the whole kitchen. "
        },
        {
         "when": {
@@ -39959,7 +39959,7 @@
          "a": "{item.arc}",
          "b": "af:wk01"
         },
-        "value": "FRAME RULE: one unbroken full-screen handheld take with NO cuts between beats; the camera walks and moves through the beats in order and never jumps to another place; no morphing, split screen, grid or small boxes; no jump cuts or transitions; hands and sleeve only, never a face, head, body or reflection; no tools, drill, camera, phone or gear anywhere in shot.\n\n"
+        "value": "FRAME RULE: one unbroken full-screen handheld take with NO cuts between beats; the camera walks and moves through the beats in order and never jumps to another place; no morphing, split screen, grid or small boxes; no jump cuts or transitions; no tools, drill, camera, phone or gear anywhere in shot.\n\n"
        },
        {
         "when": {
@@ -40430,7 +40430,84 @@
           }
          ]
         },
-        "value": "\n\nImage 1 is the exact first frame and the given last frame is the exact final frame: one unbroken first-person handheld take between them in the same kitchen, camera at standing eye level, walking smoothly. Only one right hand and forearm in a dark navy long sleeve appears (never a face, body or bare arm; five normal fingers); nothing is held or lifted. This part starts wide at the front of the kitchen (the hand opens toward it for about two seconds), then steps in through the open front and walks to the inner wall above the counter that Image 1 shows, pointing at it on the way, with the palm landing on it in the last two seconds and still resting there at the end of the part. The hands touch only the flat corrugated walls and the door of the kitchen that Image 1 shows; the counter top stays black granite; no new wall, panel, post or slab appears; the shelf with its jars, the sink and the stove keep their places and at least one of them stays in frame (never a frame of bare wall only), and the pull-back ends exactly at the framing of Image 1. "
+        "value": "\n\nImage 1 is the exact first frame and the given last frame the exact final frame: one unbroken first-person handheld take in the same kitchen at standing eye level, walking smoothly. Only one right hand and forearm in a dark navy long sleeve appears (no face, body or bare arm; five fingers); nothing held. This part starts wide at the front of the kitchen (the hand opens toward it for about two seconds), then steps in through the open front and walks to the inner wall above the counter that Image 1 shows, pointing at it on the way"
+       },
+       {
+        "when": {
+         "op": "and",
+         "list": [
+          {
+           "op": "and",
+           "list": [
+            {
+             "op": "eq",
+             "a": "{item.arc}",
+             "b": "af:wk01"
+            },
+            {
+             "op": "eq",
+             "a": "{values.keyMode}",
+             "b": "1"
+            }
+           ]
+          },
+          {
+           "op": "not",
+           "a": {
+            "op": "eq",
+            "a": "{values.svSec}",
+            "b": "10"
+           }
+          }
+         ]
+        },
+        "value": ", with the palm landing on it in the last two seconds and still resting there at the end of the part. "
+       },
+       {
+        "when": {
+         "op": "and",
+         "list": [
+          {
+           "op": "and",
+           "list": [
+            {
+             "op": "eq",
+             "a": "{item.arc}",
+             "b": "af:wk01"
+            },
+            {
+             "op": "eq",
+             "a": "{values.keyMode}",
+             "b": "1"
+            }
+           ]
+          },
+          {
+           "op": "eq",
+           "a": "{values.svSec}",
+           "b": "10"
+          }
+         ]
+        },
+        "value": ", touches it with the palm for about two seconds, then pulls back out smoothly to the exact framing of Image 1 in the last three seconds. "
+       },
+       {
+        "when": {
+         "op": "and",
+         "list": [
+          {
+           "op": "eq",
+           "a": "{item.arc}",
+           "b": "af:wk01"
+          },
+          {
+           "op": "eq",
+           "a": "{values.keyMode}",
+           "b": "1"
+          }
+         ]
+        },
+        "value": "The hands touch only the flat corrugated walls and the door of the kitchen that Image 1 shows; the counter top stays black granite; no new wall, panel, post or slab appears; the shelf with its jars, the sink and the stove keep their places and at least one of them stays in frame (never a frame of bare wall only), and the pull-back ends exactly at the framing of Image 1. "
        },
        {
         "when": {
