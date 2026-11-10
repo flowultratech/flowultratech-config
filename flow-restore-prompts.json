@@ -1,8 +1,8 @@
 {
  "app": "flow-reno",
  "version": 5,
- "build": 193,
- "label": "3.0.56",
+ "build": 194,
+ "label": "3.0.57",
  "ops": {
   "mnPlan": {
    "id": "mnPlan",
@@ -14058,7 +14058,7 @@
          "a": "{item.arc}",
          "b": "af:wk01"
         },
-        "value": "FRAME RULE: one unbroken full-screen handheld take with NO cuts between beats; the camera walks and moves through the beats in order and never jumps to another place; no morphing, split screen, grid or small boxes; no jump cuts or transitions; no tools, drill, camera, phone or gear anywhere in shot.\n\n"
+        "value": "FRAME RULE: one unbroken full-screen handheld take with NO cuts between beats; the camera stays at one standing spot and the hand moves through the beats in order; no morphing, split screen, grid or small boxes; no jump cuts or transitions; no tools, drill, camera, phone or gear anywhere in shot.\n\n"
        },
        {
         "when": {
@@ -14151,7 +14151,7 @@
            "a": "{item.arc}",
            "b": "af:wk01"
           },
-          "value": "one unbroken handheld walking take, smooth and slow, travelling from beat to beat; the whole building only at the very start and the very end, every beat between is a medium or close view"
+          "value": "one unbroken handheld take from one fixed standing spot, the same framing from the first to the last frame, only the hand moves from beat to beat"
          },
          {
           "when": {
@@ -14530,7 +14530,7 @@
           }
          ]
         },
-        "value": "\n\nImage 1 is the exact first frame and the given last frame the exact final frame: one unbroken first-person handheld take in the same kitchen at standing eye level. Only one right hand and forearm in a dark navy long sleeve appears (no face, body or bare arm; five fingers); nothing held. The hands touch only the flat corrugated walls and the door of the kitchen that Image 1 shows; the counter top stays black granite; no new wall, panel, post or slab appears; the shelf with its jars, the sink and the stove keep their places and at least one of them stays in frame (never a frame of bare wall only), and this part continues at once from the touch: the hand is already on the inner wall and moves along it from the first second (beside the shelf, then the sink) without stepping back, always facing the same wall; it pulls back out only if the last frame is the whole kitchen. "
+        "value": "\n\nImage 1 is the exact first frame and the given last frame the exact final frame: one unbroken first-person handheld take from ONE fixed standing spot inside the kitchen at chest height, mostly looking at the hand. The camera does not walk, turn, zoom or tilt; only a small natural handheld sway; the framing of Image 1 holds for the whole part, and the wall, shelf, jars, counter top and sink stay exactly as in Image 1. Only one right hand and forearm in a dark navy long sleeve appears (no face, body or bare arm; five fingers), entering from the bottom or right edge; nothing held. The hand works on the corrugated wood-grain wall in the frame: the palm pats it, strokes along the ribs, the knuckles knock, and it points at the shelf and the black granite counter top, one action after another in the order of the beats, ending exactly as in the last frame. "
        },
        {
         "when": {
@@ -19238,7 +19238,7 @@
          "a": "{item.arc}",
          "b": "af:wk01"
         },
-        "value": "FRAME RULE: one unbroken full-screen handheld take with NO cuts between beats; the camera walks and moves through the beats in order and never jumps to another place; no morphing, split screen, grid or small boxes; no jump cuts or transitions; no tools, drill, camera, phone or gear anywhere in shot.\n\n"
+        "value": "FRAME RULE: one unbroken full-screen handheld take with NO cuts between beats; the camera stays at one standing spot and the hand moves through the beats in order; no morphing, split screen, grid or small boxes; no jump cuts or transitions; no tools, drill, camera, phone or gear anywhere in shot.\n\n"
        },
        {
         "when": {
@@ -19331,7 +19331,7 @@
            "a": "{item.arc}",
            "b": "af:wk01"
           },
-          "value": "one unbroken handheld walking take, smooth and slow, travelling from beat to beat; the whole building only at the very start and the very end, every beat between is a medium or close view"
+          "value": "one unbroken handheld take from one fixed standing spot, the same framing from the first to the last frame, only the hand moves from beat to beat"
          },
          {
           "when": {
@@ -19710,7 +19710,7 @@
           }
          ]
         },
-        "value": "\n\nImage 1 is the exact first frame and the given last frame the exact final frame: one unbroken first-person handheld take in the same kitchen at standing eye level. Only one right hand and forearm in a dark navy long sleeve appears (no face, body or bare arm; five fingers); nothing held. The hands touch only the flat corrugated walls and the door of the kitchen that Image 1 shows; the counter top stays black granite; no new wall, panel, post or slab appears; the shelf with its jars, the sink and the stove keep their places and at least one of them stays in frame (never a frame of bare wall only), and this part continues at once from the touch: the hand is already on the inner wall and moves along it from the first second (beside the shelf, then the sink) without stepping back, always facing the same wall; it pulls back out only if the last frame is the whole kitchen. "
+        "value": "\n\nImage 1 is the exact first frame and the given last frame the exact final frame: one unbroken first-person handheld take from ONE fixed standing spot inside the kitchen at chest height, mostly looking at the hand. The camera does not walk, turn, zoom or tilt; only a small natural handheld sway; the framing of Image 1 holds for the whole part, and the wall, shelf, jars, counter top and sink stay exactly as in Image 1. Only one right hand and forearm in a dark navy long sleeve appears (no face, body or bare arm; five fingers), entering from the bottom or right edge; nothing held. The hand works on the corrugated wood-grain wall in the frame: the palm pats it, strokes along the ribs, the knuckles knock, and it points at the shelf and the black granite counter top, one action after another in the order of the beats, ending exactly as in the last frame. "
        },
        {
         "when": {
@@ -24418,7 +24418,7 @@
          "a": "{item.arc}",
          "b": "af:wk01"
         },
-        "value": "FRAME RULE: one unbroken full-screen handheld take with NO cuts between beats; the camera walks and moves through the beats in order and never jumps to another place; no morphing, split screen, grid or small boxes; no jump cuts or transitions; no tools, drill, camera, phone or gear anywhere in shot.\n\n"
+        "value": "FRAME RULE: one unbroken full-screen handheld take with NO cuts between beats; the camera stays at one standing spot and the hand moves through the beats in order; no morphing, split screen, grid or small boxes; no jump cuts or transitions; no tools, drill, camera, phone or gear anywhere in shot.\n\n"
        },
        {
         "when": {
@@ -24511,7 +24511,7 @@
            "a": "{item.arc}",
            "b": "af:wk01"
           },
-          "value": "one unbroken handheld walking take, smooth and slow, travelling from beat to beat; the whole building only at the very start and the very end, every beat between is a medium or close view"
+          "value": "one unbroken handheld take from one fixed standing spot, the same framing from the first to the last frame, only the hand moves from beat to beat"
          },
          {
           "when": {
@@ -24890,7 +24890,7 @@
           }
          ]
         },
-        "value": "\n\nImage 1 is the exact first frame and the given last frame the exact final frame: one unbroken first-person handheld take in the same kitchen at standing eye level. Only one right hand and forearm in a dark navy long sleeve appears (no face, body or bare arm; five fingers); nothing held. The hands touch only the flat corrugated walls and the door of the kitchen that Image 1 shows; the counter top stays black granite; no new wall, panel, post or slab appears; the shelf with its jars, the sink and the stove keep their places and at least one of them stays in frame (never a frame of bare wall only), and this part continues at once from the touch: the hand is already on the inner wall and moves along it from the first second (beside the shelf, then the sink) without stepping back, always facing the same wall; it pulls back out only if the last frame is the whole kitchen. "
+        "value": "\n\nImage 1 is the exact first frame and the given last frame the exact final frame: one unbroken first-person handheld take from ONE fixed standing spot inside the kitchen at chest height, mostly looking at the hand. The camera does not walk, turn, zoom or tilt; only a small natural handheld sway; the framing of Image 1 holds for the whole part, and the wall, shelf, jars, counter top and sink stay exactly as in Image 1. Only one right hand and forearm in a dark navy long sleeve appears (no face, body or bare arm; five fingers), entering from the bottom or right edge; nothing held. The hand works on the corrugated wood-grain wall in the frame: the palm pats it, strokes along the ribs, the knuckles knock, and it points at the shelf and the black granite counter top, one action after another in the order of the beats, ending exactly as in the last frame. "
        },
        {
         "when": {
@@ -29598,7 +29598,7 @@
          "a": "{item.arc}",
          "b": "af:wk01"
         },
-        "value": "FRAME RULE: one unbroken full-screen handheld take with NO cuts between beats; the camera walks and moves through the beats in order and never jumps to another place; no morphing, split screen, grid or small boxes; no jump cuts or transitions; no tools, drill, camera, phone or gear anywhere in shot.\n\n"
+        "value": "FRAME RULE: one unbroken full-screen handheld take with NO cuts between beats; the camera stays at one standing spot and the hand moves through the beats in order; no morphing, split screen, grid or small boxes; no jump cuts or transitions; no tools, drill, camera, phone or gear anywhere in shot.\n\n"
        },
        {
         "when": {
@@ -29691,7 +29691,7 @@
            "a": "{item.arc}",
            "b": "af:wk01"
           },
-          "value": "one unbroken handheld walking take, smooth and slow, travelling from beat to beat; the whole building only at the very start and the very end, every beat between is a medium or close view"
+          "value": "one unbroken handheld take from one fixed standing spot, the same framing from the first to the last frame, only the hand moves from beat to beat"
          },
          {
           "when": {
@@ -30070,7 +30070,7 @@
           }
          ]
         },
-        "value": "\n\nImage 1 is the exact first frame and the given last frame the exact final frame: one unbroken first-person handheld take in the same kitchen at standing eye level. Only one right hand and forearm in a dark navy long sleeve appears (no face, body or bare arm; five fingers); nothing held. The hands touch only the flat corrugated walls and the door of the kitchen that Image 1 shows; the counter top stays black granite; no new wall, panel, post or slab appears; the shelf with its jars, the sink and the stove keep their places and at least one of them stays in frame (never a frame of bare wall only), and this part continues at once from the touch: the hand is already on the inner wall and moves along it from the first second (beside the shelf, then the sink) without stepping back, always facing the same wall; it pulls back out only if the last frame is the whole kitchen. "
+        "value": "\n\nImage 1 is the exact first frame and the given last frame the exact final frame: one unbroken first-person handheld take from ONE fixed standing spot inside the kitchen at chest height, mostly looking at the hand. The camera does not walk, turn, zoom or tilt; only a small natural handheld sway; the framing of Image 1 holds for the whole part, and the wall, shelf, jars, counter top and sink stay exactly as in Image 1. Only one right hand and forearm in a dark navy long sleeve appears (no face, body or bare arm; five fingers), entering from the bottom or right edge; nothing held. The hand works on the corrugated wood-grain wall in the frame: the palm pats it, strokes along the ribs, the knuckles knock, and it points at the shelf and the black granite counter top, one action after another in the order of the beats, ending exactly as in the last frame. "
        },
        {
         "when": {
@@ -34779,7 +34779,7 @@
          "a": "{item.arc}",
          "b": "af:wk01"
         },
-        "value": "FRAME RULE: one unbroken full-screen handheld take with NO cuts between beats; the camera walks and moves through the beats in order and never jumps to another place; no morphing, split screen, grid or small boxes; no jump cuts or transitions; no tools, drill, camera, phone or gear anywhere in shot.\n\n"
+        "value": "FRAME RULE: one unbroken full-screen handheld take with NO cuts between beats; the camera stays at one standing spot and the hand moves through the beats in order; no morphing, split screen, grid or small boxes; no jump cuts or transitions; no tools, drill, camera, phone or gear anywhere in shot.\n\n"
        },
        {
         "when": {
@@ -34872,7 +34872,7 @@
            "a": "{item.arc}",
            "b": "af:wk01"
           },
-          "value": "one unbroken handheld walking take, smooth and slow, travelling from beat to beat; the whole building only at the very start and the very end, every beat between is a medium or close view"
+          "value": "one unbroken handheld take from one fixed standing spot, the same framing from the first to the last frame, only the hand moves from beat to beat"
          },
          {
           "when": {
@@ -35251,7 +35251,7 @@
           }
          ]
         },
-        "value": "\n\nImage 1 is the exact first frame and the given last frame the exact final frame: one unbroken first-person handheld take in the same kitchen at standing eye level. Only one right hand and forearm in a dark navy long sleeve appears (no face, body or bare arm; five fingers); nothing held. The hands touch only the flat corrugated walls and the door of the kitchen that Image 1 shows; the counter top stays black granite; no new wall, panel, post or slab appears; the shelf with its jars, the sink and the stove keep their places and at least one of them stays in frame (never a frame of bare wall only), and this part continues at once from the touch: the hand is already on the inner wall and moves along it from the first second (beside the shelf, then the sink) without stepping back, always facing the same wall; it pulls back out only if the last frame is the whole kitchen. "
+        "value": "\n\nImage 1 is the exact first frame and the given last frame the exact final frame: one unbroken first-person handheld take from ONE fixed standing spot inside the kitchen at chest height, mostly looking at the hand. The camera does not walk, turn, zoom or tilt; only a small natural handheld sway; the framing of Image 1 holds for the whole part, and the wall, shelf, jars, counter top and sink stay exactly as in Image 1. Only one right hand and forearm in a dark navy long sleeve appears (no face, body or bare arm; five fingers), entering from the bottom or right edge; nothing held. The hand works on the corrugated wood-grain wall in the frame: the palm pats it, strokes along the ribs, the knuckles knock, and it points at the shelf and the black granite counter top, one action after another in the order of the beats, ending exactly as in the last frame. "
        },
        {
         "when": {
@@ -39959,7 +39959,7 @@
          "a": "{item.arc}",
          "b": "af:wk01"
         },
-        "value": "FRAME RULE: one unbroken full-screen handheld take with NO cuts between beats; the camera walks and moves through the beats in order and never jumps to another place; no morphing, split screen, grid or small boxes; no jump cuts or transitions; no tools, drill, camera, phone or gear anywhere in shot.\n\n"
+        "value": "FRAME RULE: one unbroken full-screen handheld take with NO cuts between beats; the camera stays at one standing spot and the hand moves through the beats in order; no morphing, split screen, grid or small boxes; no jump cuts or transitions; no tools, drill, camera, phone or gear anywhere in shot.\n\n"
        },
        {
         "when": {
@@ -40051,7 +40051,7 @@
            "a": "{item.arc}",
            "b": "af:wk01"
           },
-          "value": "one unbroken handheld walking take, smooth and slow, travelling from beat to beat; the whole building only at the very start and the very end, every beat between is a medium or close view"
+          "value": "one unbroken handheld take from one fixed standing spot, the same framing from the first to the last frame, only the hand moves from beat to beat"
          },
          {
           "when": {
@@ -40430,7 +40430,7 @@
           }
          ]
         },
-        "value": "\n\nImage 1 is the exact first frame and the given last frame the exact final frame: one unbroken first-person handheld take in the same kitchen at standing eye level, walking smoothly. Only one right hand and forearm in a dark navy long sleeve appears (no face, body or bare arm; five fingers); nothing held. This part starts wide at the front of the kitchen (the hand opens toward it for about two seconds), then steps in through the open front and walks to the inner wall above the counter that Image 1 shows, pointing at it on the way"
+        "value": "\n\nImage 1 is the exact first frame and the given last frame the exact final frame: one unbroken first-person handheld take from ONE fixed standing spot inside the kitchen at chest height, mostly looking at the hand. The camera does not walk, turn, zoom or tilt; only a small natural handheld sway; the framing of Image 1 holds for the whole part, and the wall, shelf, jars, counter top and sink stay exactly as in Image 1. Only one right hand and forearm in a dark navy long sleeve appears (no face, body or bare arm; five fingers), entering from the bottom or right edge; nothing held. The hand works on the corrugated wood-grain wall in the frame: the palm pats it, strokes along the ribs, the knuckles knock, and it points at the shelf and the black granite counter top, one action after another in the order of the beats, ending exactly as in the last frame. "
        },
        {
         "when": {
@@ -40461,7 +40461,7 @@
           }
          ]
         },
-        "value": ", with the palm landing on it in the last two seconds and still resting there at the end of the part. "
+        "value": ""
        },
        {
         "when": {
@@ -40489,7 +40489,7 @@
           }
          ]
         },
-        "value": ", touches it with the palm for about two seconds, then pulls back out smoothly to the exact framing of Image 1 in the last three seconds. "
+        "value": ""
        },
        {
         "when": {
@@ -40507,7 +40507,7 @@
           }
          ]
         },
-        "value": "The hands touch only the flat corrugated walls and the door of the kitchen that Image 1 shows; the counter top stays black granite; no new wall, panel, post or slab appears; the shelf with its jars, the sink and the stove keep their places and at least one of them stays in frame (never a frame of bare wall only), and the pull-back ends exactly at the framing of Image 1. "
+        "value": ""
        },
        {
         "when": {
@@ -45604,7 +45604,7 @@
         }
        ]
       },
-      "value": "รูปแนบรูปแรก = ภาพเปิดคลิป · วาดภาพเดียวกันอีกครั้งเป็นภาพจบของคลิป ผลลัพธ์แนวตั้ง 9:16 หนึ่งภาพ\nกล้องถอยกลับมาที่ตำแหน่ง ระดับความสูง ทิศ และกรอบภาพเดียวกับรูปแรกทุกอย่าง เห็นครัวทั้งหลังเหมือนตอนเปิด ไม่มีคน ไม่เห็นมือ\nผนัง หลังคา พื้น วัสดุ สี และของทุกชิ้นเหมือนรูปแรก ห้ามเปลี่ยนมุม ห้ามซูม ห้ามเพิ่มหรือย้ายของ\nงานนี้: {item.productName}\nภาพเดียวต่อเนื่องทั้งกรอบ ห้ามแบ่งภาพ ห้ามมีตัวหนังสือ ป้าย หรือโลโก้ในภาพ · แสงธรรมชาติกลางวัน สีตามจริง คมชัดทั้งภาพ"
+      "value": "รูปแนบรูปแรก = ภาพเปิดคลิป · วาดภาพเดียวกันอีกครั้งเป็นภาพจบของคลิป ผลลัพธ์แนวตั้ง 9:16 หนึ่งภาพ\nกล้องอยู่ตำแหน่ง ระดับความสูง ทิศ และกรอบภาพเดียวกับรูปแรกทุกอย่าง ไม่มีคน ไม่เห็นมือ\nผนัง หลังคา พื้น วัสดุ สี และของทุกชิ้นเหมือนรูปแรก ห้ามเปลี่ยนมุม ห้ามซูม ห้ามเพิ่มหรือย้ายของ\nงานนี้: {item.productName}\nภาพเดียวต่อเนื่องทั้งกรอบ ห้ามแบ่งภาพ ห้ามมีตัวหนังสือ ป้าย หรือโลโก้ในภาพ · แสงธรรมชาติกลางวัน สีตามจริง คมชัดทั้งภาพ"
      },
      {
       "when": {
@@ -45900,7 +45900,7 @@
         }
        ]
       },
-      "value": "วาดภาพถ่ายจริงแนวตั้ง 9:16 หนึ่งภาพเต็มกรอบ เป็นเฟรมแรกของคลิปมุมมองบุคคลที่หนึ่ง (กล้องคือสายตาคนเดินชมครัว)\nภาพกว้างของด้านในครัวจากหน้าครัว: ยืนในลานห่างหน้าครัวราว 4-5 เมตร กล้องระดับสายตาคนยืนสูงราว 1.5 เมตร มองตรง ไม่เงยไม่ก้ม เลนส์มือถือปกติ ครัวใหญ่กว้างอย่างน้อย 5 เมตร เห็นความกว้างทั้งหมด มีเคาน์เตอร์ตัวแอลยาว ชั้นวาง โต๊ะกินข้าวใหญ่ และพื้นเป็นส่วนใหญ่ของภาพ ห้ามเป็นตู้ครัวเล็กหรือศาลาเล็ก ห้ามมีแผ่นสินค้าเป็นวัตถุแยกในภาพ · ผนังด้านในของครัว: ผนังด้านหลังเคาน์เตอร์ตัวแอลที่ชั้นวางและเตาติดอยู่ เป็นผนังเมทัลชีตลอนคลื่นเรียบต่อเนื่อง สูงจากพื้นถึงชายคา เห็นชัดในภาพ (ผนังนี้คือจุดที่ตัวละครเดินเข้าไปลูบ) ห้ามมีเสาใหญ่ แผงตั้งโดดๆ ขอบแผ่น หรือผนังที่ยื่นออกมาใกล้กล้อง ห้ามเพิ่มผนังใหม่ที่ไม่อยู่ในรูปแบบงานเสร็จ · ท็อปเคาน์เตอร์เป็นหินแกรนิตดำเรียบเท่านั้น ห้ามเป็นแผ่นลอน เห็นขอบหลังคาแค่แถบบนสุด ห้ามเห็นพื้นผิวด้านบนของหลังคา ห้ามเห็นอาคารทั้งหลัง ห้ามท้องฟ้าหรือบ้านข้างเคียงเกินหนึ่งในห้าของภาพ\nรูปแบบงานเสร็จที่แนบ (ภาพไม่มีคน) คือต้นแบบ: ห้อง ผนัง หลังคา เคาน์เตอร์ ชั้น พื้น วัสดุ สี และของทุกชิ้นต้องเหมือนรูปนั้นทุกอย่าง ห้ามเปลี่ยนรูปทรง ห้ามเพิ่มหรือย้ายของ\nไม่มีคน ใบหน้า ลำตัว มือ เครื่องมือ หรือแผ่นวัสดุหลวมในภาพนี้\nงานนี้: {item.productName}\nแบบของงาน: {item.room}\nภาพเดียวต่อเนื่องทั้งกรอบ ห้ามแบ่งภาพ ห้ามมีตัวหนังสือ ป้าย หรือโลโก้ในภาพ · แสงธรรมชาติกลางวัน สีตามจริง คมชัดทั้งภาพ"
+      "value": "วาดภาพถ่ายจริงแนวตั้ง 9:16 หนึ่งภาพเต็มกรอบ เป็นเฟรมแรกของคลิปมุมมองบุคคลที่หนึ่ง (กล้องคือสายตาคนที่ยืนอยู่ในครัว และอยู่จุดนี้ตลอดคลิป)\nจุดยืน: ยืนในครัวชิดเคาน์เตอร์ หันหน้าเข้าหาผนังด้านหลังที่ชั้นวางติดอยู่ ห่างผนังราว 1 เมตร กล้องระดับอกสูงราว 1.3 เมตร มองตรง ไม่เงยไม่ก้ม เลนส์มือถือปกติ · ในกรอบเห็น: ผนังลอนเมทัลชีตลายไม้เหนือเคาน์เตอร์เป็นส่วนใหญ่ของภาพ เห็นลอนคลื่นชัด ชั้นวางพร้อมขวดโหล ท็อปเคาน์เตอร์หินแกรนิตดำกับซิงก์หรือเตาในส่วนล่างของกรอบ และผนังข้างกับเพดานที่เป็นแผ่นเดียวกันบางส่วนที่ขอบภาพ · ตู้และชั้นเป็นไม้หรือปูนธรรมดา\nรูปแบบงานเสร็จที่แนบ (ภาพไม่มีคน) คือต้นแบบ: ห้อง ผนัง หลังคา เคาน์เตอร์ ชั้น พื้น วัสดุ สี และของทุกชิ้นต้องเหมือนรูปนั้นทุกอย่าง ห้ามเปลี่ยนรูปทรง ห้ามเพิ่มหรือย้ายของ\nไม่มีคน ใบหน้า ลำตัว มือ เครื่องมือ หรือแผ่นวัสดุหลวมในภาพนี้\nงานนี้: {item.productName}\nแบบของงาน: {item.room}\nภาพเดียวต่อเนื่องทั้งกรอบ ห้ามแบ่งภาพ ห้ามมีตัวหนังสือ ป้าย หรือโลโก้ในภาพ · แสงธรรมชาติกลางวัน สีตามจริง คมชัดทั้งภาพ"
      },
      {
       "when": {
@@ -46161,7 +46161,7 @@
         }
        ]
       },
-      "value": "รูปแนบรูปแรก = ภาพเริ่มของช่วงที่ {values.stagePart} จาก {values.stageParts} · วาดภาพเดียวกันอีกครั้งเป็นภาพจบของช่วงนี้ ผลลัพธ์แนวตั้ง 9:16 หนึ่งภาพ\nภาพนี้คือกล้องมุมมองคนเดินเข้าไปใกล้ส่วนหนึ่งของครัวที่เห็นอยู่ในรูปแรกแล้ว (เลือกได้เฉพาะ: ผนังด้านในของครัวด้านที่มีชั้นวางอยู่เหนือเคาน์เตอร์ตัวแอลที่เห็นในรูปแรก ยืนในครัวห่างผนังราวหนึ่งเมตร (ไม่ชิดผนัง) ให้เห็นในกรอบเดียวกัน: ชั้นวางพร้อมขวดโหลที่เห็นในรูปแรก ท็อปเคาน์เตอร์หินดำ และซิงก์หรือเตา มือแนบผนังข้างชั้นวางนั้น · ห้ามภาพที่เห็นแต่ผนังเปล่าเต็มกรอบ ต้องเห็นชั้นวางหรือซิงก์หรือเตาอยู่ในกรอบเสมอ) · กล้องหันหาผนังด้านในเสมอ และต่อเนื่องจากภาพก่อนหน้าโดยไม่ถอยออก ผิวผนังต้องเหมือนผนังในรูปแรกทุกอย่าง ทั้งลายและลอน ห้ามเปลี่ยนลายหรือวาดแผ่นใหม่เพื่อให้เห็นลอน มือข้างเดียวกับแขนเสื้อยื่นเข้าจากขอบล่างหรือข้างของภาพ แตะผนังหรือของที่ติดอยู่ เห็นแต่มือและท่อนแขน ไม่เห็นหน้าหรือลำตัว · มือขวาข้างเดียว สวมแขนเสื้อแขนยาวสีกรมท่าตลอดทุกภาพ ห้ามเห็นท่อนแขนเปล่า นิ้วครบห้านิ้ว สัดส่วนปกติ ฝ่ามือแนบผนังนิ้วชิดกัน · จุดที่แตะตามฉากสุดท้ายของช่วงนี้: {values.stageEN}\nห้องเดียวกับรูปแรก: ผนัง หลังคา พื้น วัสดุ สี และของทุกชิ้นที่เห็นต้องเหมือนรูปแรกทุกอย่าง ห้ามห้องใหม่ ห้ามเปลี่ยนวัสดุผนังหรือหลังคา ห้ามถือแผ่นสินค้าหรือของหลวม ห้ามมีผนังหรือแผ่นใหม่ที่รูปแรกไม่เห็น ห้ามมีเสาใหญ่ ขอบแผ่น หรือแผงตั้งโดดๆ อยู่หน้ากล้องบังภาพ ห้ามมีแผ่นหรือแผงตั้งบนพื้นหน้าเคาน์เตอร์หรือที่ปลายเคาน์เตอร์ ห้ามมือแตะของที่อยู่ระดับพื้น ห้ามมือแตะขอบเสาหรือขอบผนังที่ยื่นออกมา แตะที่หน้าผนังเรียบเท่านั้น ท็อปเคาน์เตอร์ยังเป็นหินแกรนิตดำเรียบเหมือนรูปแรก ห้ามเป็นแผ่นลอน\nงานนี้: {item.productName}\nภาพเดียวต่อเนื่องทั้งกรอบ ห้ามแบ่งภาพ ห้ามมีตัวหนังสือ ป้าย หรือโลโก้ในภาพ · แสงธรรมชาติกลางวัน สีตามจริง คมชัดทั้งภาพ"
+      "value": "รูปแนบรูปแรก = ภาพเริ่มของช่วงที่ {values.stagePart} จาก {values.stageParts} · วาดภาพเดียวกันอีกครั้งเป็นภาพจบของช่วงนี้ ผลลัพธ์แนวตั้ง 9:16 หนึ่งภาพ\nภาพนี้คือรูปแรกทุกอย่าง: กล้องตำแหน่งเดิม ระยะเดิม ทิศเดิม ขอบภาพเดิม ไม่ซูม ไม่ครอป ไม่หัน ของทุกชิ้นอยู่ที่เดิม ขนาดเดิม · ต่างจากรูปแรกแค่มีมือขวาข้างเดียวสวมแขนเสื้อแขนยาวสีกรมท่า ยื่นเข้าจากขอบล่างหรือขอบขวาของภาพ ฝ่ามือแนบผนังลอนเมทัลชีตที่เห็นในรูปแรก นิ้วชิดกัน นิ้วครบห้านิ้ว สัดส่วนปกติ เห็นแต่มือและท่อนแขน ไม่เห็นหน้าหรือลำตัว · ท่าของมือตามฉากสุดท้ายของช่วงนี้: {values.stageEN}\nห้องเดียวกับรูปแรก: ผนัง หลังคา พื้น วัสดุ สี และของทุกชิ้นที่เห็นต้องเหมือนรูปแรกทุกอย่าง ตำแหน่งเดิม ขนาดเดิม ลายและลอนของผนังเดิม · ท็อปเคาน์เตอร์ยังเป็นหินแกรนิตดำเรียบเหมือนรูปแรก\nงานนี้: {item.productName}\nภาพเดียวต่อเนื่องทั้งกรอบ ห้ามแบ่งภาพ ห้ามมีตัวหนังสือ ป้าย หรือโลโก้ในภาพ · แสงธรรมชาติกลางวัน สีตามจริง คมชัดทั้งภาพ"
      },
      {
       "when": {
@@ -46854,7 +46854,7 @@
    "af:sp02": "โครงเรื่อง (ผู้ใช้เลือก) ชี้จุดที่วิธีเดิมไปไม่ถึง: ฉากแรกมือแตะสินค้าแล้วถามผู้ชมว่าจุดนี้ทำยังไง มือชี้ซอกหรือมุมที่มือและของเดิมเข้าไม่ถึง ลองเอื้อมให้เห็นว่าไม่ถึง แล้วถือสินค้าเล็งไปที่จุดนั้นและบอกว่าส่วนไหนของสินค้าช่วยได้ ปิดด้วยการกลับมาแตะสินค้า\n★ ข้อยกเว้นเฉพาะคลิปนี้ ใช้แทนกฎ \"ฉากลงมือต้องเห็นสินค้าถูกใช้จนเกิดผล\" และกฎ \"ฉากท้ายเห็นผลต่างในจุดเดิม\": คลิปนี้ไม่ต้องเห็นการลงมือครบทุกขั้น แต่ถ้าเป็นงานสร้าง ติดตั้ง หรือรีโนเวท ฉากท้ายต้องเห็นงานเสร็จสมบูรณ์ งานยังเป็นการซ่อม ทำความสะอาด จัดระเบียบ หรือรีโนเวทพื้นที่หรือของจริง สภาพจริงของปัญหาต้องเห็นชัดในภาพ และสินค้าอยู่ในคลิปตั้งแต่ฉากแรก\nแนวชี้จุดขาย: POV มุมสายตาคนถือมือถือ ภาพบ้านจริงไม่จัดแสง s*en ทุกฉากเห็นมือชี้ แตะ หรือผายไปที่จุดนั้นหรือที่สินค้า เห็นแค่มือไม่เห็นหน้า มือไม่เกินสองข้าง ฉากแรกและฉากสุดท้ายเป็นมุมเดียวกัน เห็นสินค้าวางอยู่ชัด ยี่ห้ออ่านออก มือแตะสินค้า สินค้าต้องคงรูปทรง สีและขนาดเดิม vo ทุกฉากเป็นคำขายจากคนถือกล้อง พูดถึงปัญหา เหตุผลที่วิธีเดิมไม่ได้ผล และจุดเด่นของสินค้า ห้ามเล่าขั้นตอนแบบสอนทำ ผลลัพธ์บอกด้วยเสียงได้ แต่พูดเฉพาะสิ่งที่สินค้าทำได้จริงจากข้อมูลสินค้า ห้ามแต่งตัวเลขหรือสรรพคุณ ฉากท้ายชวนซื้อตรง ๆ ไม่เกิน 8 คำ ถ้าผู้ใช้กรอกคำปิดมาให้ใช้คำนั้น",
    "af:sp03": "โครงเรื่อง (ผู้ใช้เลือก) ชี้จุดเด่นบนตัวสินค้า: ฉากแรกมือแตะสินค้าและชี้จุดปัญหาในพื้นที่จริงหนึ่งจุด จากนั้นกลับมาที่สินค้า มือชี้ หมุน หรือกดทีละส่วน เล่าว่าส่วนนั้นแก้ปัญหาได้ยังไง ฉากท้ายกลับมามุมแรก มือแตะสินค้าปิดการขาย\n★ ข้อยกเว้นเฉพาะคลิปนี้ ใช้แทนกฎ \"ฉากลงมือต้องเห็นสินค้าถูกใช้จนเกิดผล\" และกฎ \"ฉากท้ายเห็นผลต่างในจุดเดิม\": คลิปนี้ไม่ต้องเห็นการลงมือครบทุกขั้น แต่ถ้าเป็นงานสร้าง ติดตั้ง หรือรีโนเวท ฉากท้ายต้องเห็นงานเสร็จสมบูรณ์ งานยังเป็นการซ่อม ทำความสะอาด จัดระเบียบ หรือรีโนเวทพื้นที่หรือของจริง สภาพจริงของปัญหาต้องเห็นชัดในภาพ และสินค้าอยู่ในคลิปตั้งแต่ฉากแรก\nแนวชี้จุดขาย: POV มุมสายตาคนถือมือถือ ภาพบ้านจริงไม่จัดแสง s*en ทุกฉากเห็นมือชี้ แตะ หรือผายไปที่จุดนั้นหรือที่สินค้า เห็นแค่มือไม่เห็นหน้า มือไม่เกินสองข้าง ฉากแรกและฉากสุดท้ายเป็นมุมเดียวกัน เห็นสินค้าวางอยู่ชัด ยี่ห้ออ่านออก มือแตะสินค้า สินค้าต้องคงรูปทรง สีและขนาดเดิม vo ทุกฉากเป็นคำขายจากคนถือกล้อง พูดถึงปัญหา เหตุผลที่วิธีเดิมไม่ได้ผล และจุดเด่นของสินค้า ห้ามเล่าขั้นตอนแบบสอนทำ ผลลัพธ์บอกด้วยเสียงได้ แต่พูดเฉพาะสิ่งที่สินค้าทำได้จริงจากข้อมูลสินค้า ห้ามแต่งตัวเลขหรือสรรพคุณ ฉากท้ายชวนซื้อตรง ๆ ไม่เกิน 8 คำ ถ้าผู้ใช้กรอกคำปิดมาให้ใช้คำนั้น",
    "af:sf01": "โครงเรื่อง (ผู้ใช้เลือก) เซลฟี่พาชมงานเสร็จ ★ ข้อยกเว้นเฉพาะแนวนี้ ใช้แทนกฎลำดับงาน กฎฉากแรกก่อนเริ่มงาน กฎห้ามเห็นงานเสร็จ กฎสัดส่วนระยะภาพ และกฎ vo จบห้วน: ทุกฉากเป็นงานที่เสร็จสมบูรณ์แล้ว ไม่มีสภาพเก่า การติดตั้ง ช่าง หรือเครื่องมือ\nแต่ละช่วงคือเทคเดียวไม่ตัดภาพ เจ้าของพูดกับกล้อง ไม่เห็นโทรศัพท์ คนเดียวชุดลำลองแบบอยู่บ้าน ไม่ใช่ชุดช่าง: ★ สำคัญกว่ามุมกล้องที่ผู้ใช้ตั้งไว้ (ตอนจบคลิปทำตามที่ผู้ใช้เลือกในช่องจบคลิป): คลิปเริ่มด้วยภาพกว้างของครัว แล้วกล้องหันกลับมาเป็นเซลฟี่ แล้วเจ้าของพาเดินดู · ฉาก 1: ภาพเปิดกว้างเห็นครัวทั้งหลัง ยังไม่เห็นคน เสียงพูดเริ่มด้วย hook ตั้งแต่วินาทีแรก (camN เดินชม) · ฉาก 2: กล้องหันกลับเป็นเซลฟี่ เห็นหน้าเจ้าของ ครัวอยู่ด้านหลัง ทักและเฉลยชื่อสินค้า (camN ติดตาม) · ฉาก 3-6 (ท้ายช่วงแรก): เจ้าของพูดไปเดินไปตามหน้าครัว แตะผิวสินค้าที่ติดอยู่ด้วยมือวางแนบผิว อย่างน้อยหนึ่งครั้งในช่วงนี้ กล้องเซลฟี่เดินตาม ครัวเห็นอยู่ด้านหลังเสมอ ฉาก 6 มือข้างหนึ่งแตะผิวสินค้าที่ติดอยู่ มองกล้อง (camN ซูมเข้า) · ช่วงถัดไป: เดินต่อ ชี้และแตะซิงก์ เตา ชั้นวาง ผนังที่ติดอยู่ทีละจุด ไม่วนกลับจุดเดิม (camN ติดตาม) · ฉากสุดท้ายของคลิป: เจ้าของหันหน้าเข้ากล้อง มือข้างหนึ่งวางแตะผิวสินค้าที่ติดอยู่ใกล้ตัว (ผนัง เสา หรือประตู) ยิ้มมองกล้องแล้วชวนซื้อ เห็นด้านหน้าครัวอยู่ด้านหลัง (camN นิ่ง) · ทุกฉากหลังฉาก 1 เห็นหน้าเจ้าของกับส่วนของครัวในกรอบเสมอ ห้ามผนังเปล่าเต็มกรอบ ห้ามเห็นด้านนอกหรือด้านหลังผนัง ห้ามถือ ยก หรือชูแผ่นสินค้า มือแตะได้เฉพาะของที่ติดอยู่ในครัวแล้ว · ทุกฉากอยู่ในส่วนของครัวที่เห็นได้ในภาพเปิด · ประตูเปิดสุดแนบผนังเหมือนรูปแบบงานทุกฉาก vo ห้ามพูดถึงการเปิดหรือปิดประตู\nPANEL-TOUCH: (สำคัญกว่าข้อความเดินข้างบน) ช่วงแรกเจ้าของเดินเข้าไปใกล้แผ่นสินค้าให้เห็นลอนใกล้ ๆ: จากทางเข้าไปที่แผงผนังหรือเสาที่เป็นแผ่นสินค้าที่เห็นในภาพเปิด แล้วทำที่แผ่นสินค้า: ตบเบา ๆ ด้วยฝ่ามือ ลูบตามลอนคลื่น เคาะด้วยนิ้วให้ได้ยินว่าเป็นเมทัลชีต แตะผนัง ประตู และเสา · ฉาก 3-6 อย่างน้อย 3 ฉากเป็นการแตะ ลูบ หรือเคาะแผ่นสินค้าในระยะใกล้ (camN ซูมเข้า) ไม่ยืนนิ่งอยู่ที่เดิมเกินสองฉากติด · ห้ามเดินเลยแนวที่ภาพเปิดเห็น ฉากหลังเป็นส่วนของครัวที่ภาพเปิดเห็นเสมอ · ห้ามถือ ยก ชู หรือหยิบแผ่นสินค้าหรือแผ่นวัสดุหลวม · ทุกฉากหลังฉาก 1 เป็นเซลฟี่ระยะแขนเหยียด เห็นหน้ากับครึ่งตัว ห้ามภาพกว้างที่เห็นเจ้าของตัวเล็กหรือเห็นทั้งตัว · ห้ามเขียนฉากหรือคำพูดถึงห้องหรือของที่ภาพเปิดไม่เห็น · คำพูดผูกกับการกระทำ เช่น ผิวเหมือนไม้จริงตอนมือลูบลอน ทนแน่นตอนเคาะ\nPART-TWO: ช่วงที่สองเป็นทางกลับ (ฉาก 7 เป็นต้นไป): เจ้าของเดินกลับจากเคาน์เตอร์ไปทางเสาและแผงผนังด้านหน้าของครัว (ส่วนที่ภาพเปิดเห็น) ในเซลฟี่ระยะแขนเหยียด เห็นหน้ากับครึ่งตัว ห้ามภาพกว้างที่เห็นเจ้าของตัวเล็กหรือเห็นทั้งตัว · ระหว่างทางทำกับแผ่นสินค้า: ตบเบา ๆ ด้วยฝ่ามือ ลูบตามลอนลายไม้ เคาะด้วยนิ้ว แตะประตูหรือบานที่เป็นแผ่นสินค้า และเสา อย่างน้อย 3 ฉาก สลับกับชี้ของในครัวที่เห็นในภาพเปิด · ฉากสุดท้าย: มือวางแนบแผงหรือเสาที่เป็นแผ่นสินค้าที่ขอบหน้าครัว ยิ้มมองกล้อง ชวนซื้อ ไม่ผายมือสองข้าง · ห้ามเดินไปที่ใหม่ ห้ามเขียนฉากหรือคำพูดถึงสิ่งที่ภาพเปิดไม่เห็น (ไม่มีโต๊ะเกาะ ต้นกล้วยจากข้างใน หรือหลังคาที่ภาพเปิดไม่เห็น) · คำพูดผูกกับการกระทำ เช่น ผิวเหมือนไม้จริงตอนมือลูบลอน ทนแน่นตอนเคาะ\nMATERIAL: ถ้าสินค้าเป็นแผ่นเมทัลชีตหรือแผ่นผนัง/หลังคา สินค้านี้คือวัสดุที่ใช้สร้างโครงสร้างภายนอกของครัวทั้งหลัง (หลังคา ชายคา เพดานใต้หลังคา ผนังนอกและใน เสา ประตูหรือบานกั้นของครัว) ไม่ใช่ของตกแต่ง: ข้อความ room ต้องบอกชัดว่าทั้งหมดนี้เป็นแผ่นสินค้าแบบมีลอนคลื่น เห็นลอนเรียงขนาน · ห้ามไม้ระแนงเรียบ ไม้กระดาน เพดานไม้ระแนง ผนังฉาบปูน หลังคากระเบื้อง · ตู้ครัว หน้าตู้ ชั้นวาง โต๊ะ ท็อปเคาน์เตอร์ ซิงก์ เตา พื้นปูน และของใช้ เป็นวัสดุธรรมดา ห้ามใช้เมทัลชีตทำตู้ ชั้น หรือหน้าตู้ · บทพูดบอกได้ว่าทั้งครัวสร้างจากแผ่นนี้ ไม่ใช่ตกแต่ง · ห้ามฉากที่แสดงแผ่นสินค้าเป็นวัตถุแยก (ตั้งพื้น พิงผนัง วางโชว์ ถือ ยก) ตัวละครไปแตะผนัง หลังคา ประตู ที่สร้างเสร็จแล้วเท่านั้น\nvo เป็นประโยคเต็มต่อเนื่องแบบเจ้าของเล่าให้เพื่อนฟัง ใช้ ผม หรือ เรา ลงท้ายครับหรือค่ะตามเพศ บอกว่าเอาสินค้ามาทำอะไร แล้วดีขึ้นยังไง ห้ามคำโฆษณาเกินจริง จุดเด่นพูดเท่าที่เห็นในภาพ ประโยคปิดต้องชวนซื้อตรง ๆ เช่น สนใจกดสั่งซื้อได้เลยครับ ห้ามปิดกว้าง ๆ เช่น ใครชอบลองดู\nงานเสร็จต้องน่าอยู่ มีของแต่งจริง เช่น ต้นไม้ โคมไฟ และของใช้ตามหน้าที่พื้นที่",
-   "af:wk01": "โครงเรื่อง (ผู้ใช้เลือก) เดินชมงานเสร็จ เข้าใกล้ผิววัสดุ ★ ข้อยกเว้นเฉพาะแนวนี้ ใช้แทนกฎลำดับงาน กฎฉากแรกก่อนเริ่มงาน กฎห้ามเห็นงานเสร็จ กฎสัดส่วนระยะภาพ และกฎ vo จบห้วน: ทุกฉากเป็นงานที่เสร็จสมบูรณ์แล้ว ไม่มีสภาพเก่า การติดตั้ง ช่าง หรือเครื่องมือ\nมุมสายตาคนถือมือถือเดินชมงานแบบเทคต่อเนื่อง เห็นแค่มือและแขนเสื้อ ไม่เห็นหน้า ไม่เห็นโทรศัพท์ มือไม่เกินสองข้าง ภาพบ้านจริงแสงธรรมชาติ ไม่จัดแสง · แต่ละช่วง 10 วินาทีคือเทคเดียวต่อเนื่อง ไม่ตัดภาพ: กล้องเดินจากภาพหนึ่งไปอีกภาพอย่างต่อเนื่องบนเส้นทางเดินเส้นเดียว ฉากทั้ง 6 ของช่วงคือตำแหน่งต่อเนื่องของกล้องบนเส้นทางนั้น ไม่ใช่ภาพคนละที่ (ตัดภาพได้เฉพาะรอยต่อระหว่างช่วง)\n★ กันฉากเพี้ยน สำคัญที่สุดของแนวนี้: ทั้งคลิปคืออาคารหรืองานหลังเดียวกันตามคำบรรยายห้อง (room) และภาพต้นแบบ ทรงหลังคา ตำแหน่งประตูและหน้าต่าง สี และของแต่งอยู่ที่เดิมทุกฉาก ห้ามเปลี่ยนทรงหรือสร้างหลังใหม่ระหว่างฉาก · ประตูอยู่ในสภาพเดียวกับภาพต้นแบบทุกฉาก ห้ามมือเปิดหรือปิดประตู vo ห้ามพูดถึงการเปิดปิดประตู · ถ้างานเป็นห้องปิด (shape: closed room) ห้ามเข้าไปข้างใน ชมเฉพาะด้านนอก: ผนังลายไม้ ขอบประตู มือจับ หน้าต่าง ชายคา หลังคา ไฟข้างผนัง · ถ้างานเปิดโล่ง (shape: open-front) เดินชมจุดต่าง ๆ ในพื้นที่ได้ แต่ห้ามเดินอ้อมไปด้านอื่นของอาคาร\nลำดับภาพวิ่งครั้งเดียวตลอดทั้งคลิป ไม่วนซ้ำทุกช่วง ตามเวลาของคลิปต้นแบบ แบ่งเป็น 4 ช่วง (คลิป 20 วินาที = ฉาก 1-3 ช่วงที่ 1 · ฉาก 4-6 ช่วงที่ 2 · ฉาก 7-9 ช่วงที่ 3 · ฉาก 10-12 ช่วงที่ 4 · คลิป 10 วินาที = ฉาก 1-2 ช่วงที่ 1 · ฉาก 3 ช่วงที่ 2 · ฉาก 4-5 ช่วงที่ 3 · ฉาก 6 ช่วงที่ 4 · คลิปยาวกว่า 20 วินาที = ช่วงที่ 1 และ 2 ใช้ 3 ฉากแรกและ 3 ฉากถัดมา ช่วงที่ 4 ใช้ 3 ฉากสุดท้าย ฉากที่เหลือตรงกลางทั้งหมดเป็นช่วงที่ 3 ที่ไล่ดูจุดใหม่ทีละจุด):\nช่วงที่ 1 (ต้นคลิป): ภาพกว้างเห็นครัวทั้งหลัง กล้องเดินเข้ามา แล้วมือผายหรือชี้ไปที่ส่วนเด่นของงาน · คำพูดคือคำทึ่งและเฉลยชื่อสินค้า (camN: เดินชม แล้ว ซูมเข้า)\nช่วงที่ 2: ภาพใกล้มากที่ผิววัสดุ มือลูบให้เห็นลายและประกายแสง ค้างอยู่ในภาพใกล้นี้นานเกือบเท่าช่วงอื่น · คำพูดคือข้อดีหลักของวัสดุ พูดตอนมือลูบผิว เช่น สวยเหมือนไม้จริง (camN: ลูบผิว หรือ มาโคร)\nช่วงที่ 3: ภาพกลางถึงใกล้ที่ส่วนต่าง ๆ ของงาน เช่น เตา ฮูด ชั้นวาง เคาน์เตอร์ ซิงก์ ที่คว่ำจาน มือผายฝ่ามือเปิดไปที่ของนั้นหรือแตะ · คำพูดคือเอาวัสดุไปทำอะไรได้ พูดตอนเห็นของนั้นในภาพ เช่น ทำผนัง ทำเคาน์เตอร์ (camN: โคลสอัพ หรือ ติดตาม)\nช่วงที่ 4 (ท้ายคลิป): กล้องถอยออกทีละขั้น ให้ระยะภาพต่างกันชัดในแต่ละฉาก: ฉากแรกของช่วงเป็นภาพกลาง เห็นเคาน์เตอร์ทั้งแนว (camN: ถอยกว้าง) · ฉากถัดมาเป็นภาพกว้าง เห็นครัวส่วนใหญ่ (camN: ถอยกว้าง) · ฉากสุดท้ายเป็นภาพกว้างสุด เห็นครัวทั้งหลังแล้วค้างนิ่งในวิดีโอ ไม่มีมือในภาพ (camN: นิ่ง) · คำพูดคือปิดชวนซื้อ พูดตอนภาพกว้าง · ห้ามสามฉากท้ายเป็นภาพเดียวกัน\nห้ามภาพกว้างกลางคลิป ห้ามภาพมุมเดียวกันหรือระยะเดียวกันซ้ำสองฉากติด (รวมถึงสามฉากท้าย) · คำพูดทุกประโยคต้องตรงกับภาพที่เห็นขณะนั้น\ncamN ทุกฉากเขียนด้วยคำในวงเล็บข้างบนเพื่อให้กล้องขยับจริง ห้ามเขียนว่านิ่งหรือตั้งกล้อง ยกเว้นฉากท้ายสุดของช่วงที่ 4 ที่ค้างนิ่ง\nสินค้าคือวัสดุที่ทำให้งานเสร็จนี้ ในฉากใกล้ต้องเห็นลายและสีตรงกับรูปสินค้า ห้ามแต่งสีหรือลายเอง\nนี่คือคลิปรีวิวสินค้า ไม่ใช่คลิปสร้างงาน: คนหลังกล้องเดินเข้ามารีวิวด้วยตัวเองให้เพื่อนฟัง สินค้าคือพระเอก vo เป็นประโยคเต็มต่อเนื่องแบบเล่าให้เพื่อนฟัง ใช้ ผม หรือ เรา ลงท้ายครับหรือค่ะตามเพศเสียง\nโครงคำพูด (แบบคลิปรีวิวขายตรงที่ผู้ใช้ชอบ): ฉากแรก (ภายใน 3 วินาที) เปิดด้วยเรื่องเงินหรือความเชื่อผิดที่คนอยากรู้ต่อ เช่น มีงบแค่นี้ ผมก็สร้างครัวได้ (ถ้าข้อมูลสินค้ามีราคา) หรือ ไม่ใช่ไม้จริงนะ ผมใช้เมทัลชีตลายไม้แทน แล้วเฉลยชื่อสินค้า · ฉากกลาง: บอกข้อเท็จจริงสั้น ๆ 2-3 ข้อ ให้ตรงกับที่มือชี้หรือแตะในภาพ เช่น ราคาต่อแผ่น ขนาดแผ่น กันน้ำ กันฝน ทนสนิม มีหลายสี ผนังและหลังคาทำจากแผ่นนี้ · ใช้ตัวเลขและจุดเด่นจากช่องข้อมูลสินค้า ราคา และโปรก่อน ห้ามแต่งตัวเลข ราคา หรือสรรพคุณที่ไม่มีในข้อมูล ถ้าไม่มีให้พูดเฉพาะคุณสมบัติทั่วไปของวัสดุที่เห็นได้จากภาพ · ภาษากันเองแบบคนขายพูดกับเพื่อน ใช้ ผม หรือ เรา ลงท้ายครับหรือค่ะตามเพศเสียง แทรกคำเรียกเบา ๆ ได้ไม่เกินหนึ่งครั้ง เช่น พี่น้อง นะพี่ · ห้ามทักทาย (สวัสดี) ห้ามแนะนำตัว ห้ามคำกำกับฉาก ห้ามพูดคำว่า ติดตั้ง ทุกรูปแบบ (ติดตั้งง่าย ติดตั้งเสร็จ) เพราะเสียงพากย์ออกเสียงไม่ชัด ใช้คำสั้นออกเสียงง่ายแทน เช่น ทำผนัง ทำหลังคา ห้ามเล่าขั้นตอนติดตั้ง · ประโยคปิดชวนกดตรง ๆ พร้อมโปรถ้ามี เช่น กดสั่งซื้อได้เลยครับ ตอนนี้มีโปรอยู่ ห้ามปิดกว้าง ๆ\nMATERIAL: ถ้าสินค้าเป็นแผ่นเมทัลชีตหรือแผ่นผนัง/หลังคา สินค้านี้คือวัสดุที่ใช้สร้างโครงสร้างภายนอกของครัวทั้งหลัง (หลังคา ชายคา เพดานใต้หลังคา ผนังนอกและใน เสา ประตูหรือบานกั้นของครัว) ไม่ใช่ของตกแต่ง: ข้อความ room ต้องบอกชัดว่าทั้งหมดนี้เป็นแผ่นสินค้าแบบมีลอนคลื่น เห็นลอนเรียงขนาน · ห้ามไม้ระแนงเรียบ ไม้กระดาน เพดานไม้ระแนง ผนังฉาบปูน หลังคากระเบื้อง · ตู้ครัว หน้าตู้ ชั้นวาง โต๊ะ ท็อปเคาน์เตอร์ ซิงก์ เตา พื้นปูน และของใช้ เป็นวัสดุธรรมดา ห้ามใช้เมทัลชีตทำตู้ ชั้น หรือหน้าตู้ · บทพูดบอกได้ว่าทั้งครัวสร้างจากแผ่นนี้ ไม่ใช่ตกแต่ง · ห้ามฉากที่แสดงแผ่นสินค้าเป็นวัตถุแยก (ตั้งพื้น พิงผนัง วางโชว์ ถือ ยก) ตัวละครไปลูบผนังเรียบเมทัลชีตของครัวที่เห็นในภาพเปิด (ตรงหน้าผนัง ไม่ใช่เสาหรือขอบแผ่น) หรือประตูของครัวที่สร้างเสร็จแล้วเท่านั้น (ตู้และชั้นชี้ได้ แต่ไม่ใช่จุดที่ลูบโชว์สินค้า) ห้ามเดินไปที่ผนังหรือแผ่นที่ภาพเปิดไม่เห็น · ช่วงหลัง (10 วินาทีหลัง) เดินอยู่ในครัวใต้หลังคาตามเคาน์เตอร์ ผ่านซิงก์ เตา ชั้นวาง ไม่ออกนอกครัวจนถึง 2 วินาทีสุดท้ายที่ถอยออกมาเป็นภาพกว้าง · ท็อปเคาน์เตอร์เป็นหินแกรนิตดำเรียบทุกฉาก ห้ามเป็นแผ่นลอน\nWALL-IN (แบบคลิปตัวอย่างครัวนอกบ้าน): เริ่มภาพกว้างจากหน้าครัว มือผายเข้าไป 2-3 วินาที แล้วเดินเข้าครัวทางด้านหน้าที่เปิดโล่ง เวลาที่เหลือทั้งหมดอยู่ข้างในครัว · จุดที่แตะต้องมีอยู่แล้วในภาพเปิด: ผนังด้านในด้านหลังเคาน์เตอร์ที่ชั้นวางและเตาติดอยู่ ลูบไล่ตามลอน ตบฝ่ามือ เคาะ อย่างน้อย 3 ฉากเป็นการแตะผนังด้านในในระยะใกล้ สลับกับชี้ซิงก์ เตา ชั้นวาง โต๊ะ · 2 วินาทีสุดท้ายถอยออกเป็นภาพกว้างมุมเดียวกับภาพเปิด · ห้ามฉากที่แตะหรือเดินไปที่ผนังหรือแผ่นที่ภาพเปิดไม่เห็น (รวมผนังด้านนอก) ห้ามเดินอ้อมไปหลังผนัง · คำพูดผูกกับสิ่งที่มือชี้หรือแตะ เช่น ผนังด้านในก็เป็นแผ่นเดียวกัน ตอนมือไล่ตามลอน · ห้ามฉากที่เห็นแต่ผนังเปล่าเต็มกรอบ ทุกฉากที่มือแตะผนังต้องเห็นชั้นวางพร้อมขวดโหลหรือซิงก์หรือเตาในกรอบด้วย กล้องอยู่ห่างผนังราวหนึ่งเมตร ไม่ชิดผนัง · ของบนผนังด้านใน (ชั้นวาง ขวดโหล ผ้าแขวน ที่แขวน) คงเดิมทุกฉาก ห้ามเปลี่ยนเป็นของอื่น · ช่วงแรกจบด้วยการแตะผนังด้านในในวินาทีท้ายของช่วง ช่วงถัดไปเริ่มต่อจากการแตะทันทีที่ตำแหน่งเดิม ทำการกระทำต่อไปทันที (ลูบไล่ตามลอน ชี้ที่ชั้น แล้วไล่มือไปที่ซิงก์) ไม่ถอยออกเดิน กล้องหันหาผนังด้านในตลอดช่วงกลางคลิป\nงานเสร็จต้องดูพร้อมใช้และน่าอยู่ มีของใช้จริงตามหน้าที่พื้นที่ 4-6 อย่าง เช่น ครัว: ขวดโหลบนชั้น จานชาม เขียง ผ้าแขวน กระถางต้นไม้ ไฟใต้ชั้น ห้ามพื้นที่โล่งเปล่า · ฉากกลางให้มือชี้หรือแตะของเหล่านี้บ้างระหว่างเดินชม (ชั้นวาง ซิงก์ ที่คว่ำจาน) ไม่ใช่ลูบแต่ผนังอย่างเดียว"
+   "af:wk01": "โครงเรื่อง (ผู้ใช้เลือก) รีวิวงานเสร็จ มือแตะผิววัสดุ กล้องยืนจุดเดียว ★ ข้อยกเว้นเฉพาะแนวนี้ ใช้แทนกฎลำดับงาน กฎฉากแรกก่อนเริ่มงาน กฎห้ามเห็นงานเสร็จ กฎสัดส่วนระยะภาพ และกฎ vo จบห้วน: ทุกฉากเป็นงานที่เสร็จสมบูรณ์แล้ว ไม่มีสภาพเก่า การติดตั้ง ช่าง หรือเครื่องมือ\nมุมสายตาคนถือมือถือที่ยืนอยู่จุดเดียวในครัว (แบบ POV มือ) ระดับอก มองที่มือเป็นหลัก เห็นแค่มือและแขนเสื้อ ไม่เห็นหน้า ไม่เห็นโทรศัพท์ มือไม่เกินสองข้าง ภาพบ้านจริงแสงธรรมชาติ ไม่จัดแสง · แต่ละช่วง 10 วินาทีคือเทคเดียวต่อเนื่อง ไม่ตัดภาพ · กล้องอยู่จุดเดิมตลอดทั้งคลิป ไม่เดิน ไม่หัน ไม่ซูม มีแค่การสั่นเล็กน้อยแบบถือมือถือ มือเป็นสิ่งที่ขยับ ฉากทั้งหมดคือการกระทำต่อเนื่องของมือในกรอบเดียวกัน\n★ กันฉากเพี้ยน สำคัญที่สุดของแนวนี้: ทั้งคลิปคืออาคารหรืองานหลังเดียวกันตามคำบรรยายห้อง (room) และภาพต้นแบบ ทรงหลังคา ตำแหน่งประตูและหน้าต่าง สี และของแต่งอยู่ที่เดิมทุกฉาก ห้ามเปลี่ยนทรงหรือสร้างหลังใหม่ระหว่างฉาก · ประตูอยู่ในสภาพเดียวกับภาพต้นแบบทุกฉาก ห้ามมือเปิดหรือปิดประตู vo ห้ามพูดถึงการเปิดปิดประตู · ถ้างานเป็นห้องปิด (shape: closed room) ห้ามเข้าไปข้างใน ชมเฉพาะด้านนอก: ผนังลายไม้ ขอบประตู มือจับ หน้าต่าง ชายคา หลังคา ไฟข้างผนัง · ทุกฉากอยู่ในกรอบเดียวกับภาพเปิด\nจุดยืนของกล้อง (ทั้งคลิป): ยืนในครัวชิดเคาน์เตอร์ หันหน้าเข้าหาผนังด้านหลังที่ชั้นวางติดอยู่ ห่างผนังราว 1 เมตร มือเอื้อมถึงผนังได้ ในกรอบเห็นผนังลอนเมทัลชีตเหนือเคาน์เตอร์ ชั้นวางพร้อมขวดโหล ท็อปหินดำส่วนล่างของกรอบ และเห็นผนังข้างกับเพดานบางส่วนที่ขอบภาพ\nลำดับการกระทำ (ทุกฉากกรอบเดิม): ฉาก 1 มือเข้ามาจากขอบล่าง ชี้ผนัง · ฉากต่อไปทีละอย่าง: ตบฝ่ามือแนบผนัง ลูบไล่ตามลอน เคาะด้วยข้อนิ้ว ชี้ขวดโหลบนชั้น ชี้หรือแตะท็อปหิน แล้วกลับมาที่ผนัง · ฉากสุดท้ายของคลิป มือแนบผนังครั้งสุดท้ายแล้วออกจากกรอบ · คำพูดทุกประโยคต้องตรงกับสิ่งที่มือทำขณะนั้น\ncamN ทุกฉากเขียนว่า จุดเดิม หรือ ลูบผิว เท่านั้น (ห้ามคำที่ทำให้กล้องเคลื่อน เช่น เดินชม ซูมเข้า ถอยกว้าง ติดตาม มาโคร)\nสินค้าคือวัสดุที่ทำให้งานเสร็จนี้ ในฉากใกล้ต้องเห็นลายและสีตรงกับรูปสินค้า ห้ามแต่งสีหรือลายเอง\nนี่คือคลิปรีวิวสินค้า ไม่ใช่คลิปสร้างงาน: คนหลังกล้องรีวิวด้วยตัวเองให้เพื่อนฟัง สินค้าคือพระเอก vo เป็นประโยคเต็มต่อเนื่องแบบเล่าให้เพื่อนฟัง ใช้ ผม หรือ เรา ลงท้ายครับหรือค่ะตามเพศเสียง\nโครงคำพูด (แบบคลิปรีวิวขายตรงที่ผู้ใช้ชอบ): ฉากแรก (ภายใน 3 วินาที) เปิดด้วยเรื่องเงินหรือความเชื่อผิดที่คนอยากรู้ต่อ เช่น มีงบแค่นี้ ผมก็สร้างครัวได้ (ถ้าข้อมูลสินค้ามีราคา) หรือ ไม่ใช่ไม้จริงนะ ผมใช้เมทัลชีตลายไม้แทน แล้วเฉลยชื่อสินค้า · ฉากกลาง: บอกข้อเท็จจริงสั้น ๆ 2-3 ข้อ ให้ตรงกับที่มือชี้หรือแตะในภาพ เช่น ราคาต่อแผ่น ขนาดแผ่น กันน้ำ กันฝน ทนสนิม มีหลายสี ผนังและหลังคาทำจากแผ่นนี้ · ใช้ตัวเลขและจุดเด่นจากช่องข้อมูลสินค้า ราคา และโปรก่อน ห้ามแต่งตัวเลข ราคา หรือสรรพคุณที่ไม่มีในข้อมูล ถ้าไม่มีให้พูดเฉพาะคุณสมบัติทั่วไปของวัสดุที่เห็นได้จากภาพ · ภาษากันเองแบบคนขายพูดกับเพื่อน ใช้ ผม หรือ เรา ลงท้ายครับหรือค่ะตามเพศเสียง แทรกคำเรียกเบา ๆ ได้ไม่เกินหนึ่งครั้ง เช่น พี่น้อง นะพี่ · ห้ามทักทาย (สวัสดี) ห้ามแนะนำตัว ห้ามคำกำกับฉาก ห้ามพูดคำว่า ติดตั้ง ทุกรูปแบบ (ติดตั้งง่าย ติดตั้งเสร็จ) เพราะเสียงพากย์ออกเสียงไม่ชัด ใช้คำสั้นออกเสียงง่ายแทน เช่น ทำผนัง ทำหลังคา ห้ามเล่าขั้นตอนติดตั้ง · ประโยคปิดชวนกดตรง ๆ พร้อมโปรถ้ามี เช่น กดสั่งซื้อได้เลยครับ ตอนนี้มีโปรอยู่ ห้ามปิดกว้าง ๆ\nMATERIAL: ถ้าสินค้าเป็นแผ่นเมทัลชีตหรือแผ่นผนัง/หลังคา สินค้านี้คือวัสดุที่ใช้สร้างโครงสร้างภายนอกของครัวทั้งหลัง (หลังคา ชายคา เพดานใต้หลังคา ผนังนอกและใน เสา ประตูหรือบานกั้นของครัว) ไม่ใช่ของตกแต่ง: ข้อความ room ต้องบอกชัดว่าทั้งหมดนี้เป็นแผ่นสินค้าแบบมีลอนคลื่น เห็นลอนเรียงขนาน · ห้ามไม้ระแนงเรียบ ไม้กระดาน เพดานไม้ระแนง ผนังฉาบปูน หลังคากระเบื้อง · ตู้ครัว หน้าตู้ ชั้นวาง โต๊ะ ท็อปเคาน์เตอร์ ซิงก์ เตา พื้นปูน และของใช้ เป็นวัสดุธรรมดา ห้ามใช้เมทัลชีตทำตู้ ชั้น หรือหน้าตู้ · บทพูดบอกได้ว่าทั้งครัวสร้างจากแผ่นนี้ ไม่ใช่ตกแต่ง · ห้ามฉากที่แสดงแผ่นสินค้าเป็นวัตถุแยก (ตั้งพื้น พิงผนัง วางโชว์ ถือ ยก) ตัวละครไปลูบผนังเรียบเมทัลชีตของครัวที่เห็นในภาพเปิด (ตรงหน้าผนัง ไม่ใช่เสาหรือขอบแผ่น) หรือประตูของครัวที่สร้างเสร็จแล้วเท่านั้น (ตู้และชั้นชี้ได้ แต่ไม่ใช่จุดที่ลูบโชว์สินค้า) มือแตะเฉพาะของที่อยู่ในกรอบภาพเปิด · ท็อปเคาน์เตอร์เป็นหินแกรนิตดำเรียบทุกฉาก ห้ามเป็นแผ่นลอน\nSTATIC (แบบ POV มือของ AWFLOW และคลิปตัวอย่าง 08): กล้องอยู่จุดเดิมตลอดคลิป ภาพจบช่วงและภาพจบคลิปเป็นกรอบเดียวกับภาพเปิด · มือขวาข้างเดียวทำกับสิ่งที่อยู่ในกรอบ ทีละอย่าง ไม่รีบ · อย่างน้อยครึ่งหนึ่งของฉากเป็นมือแตะผนังเมทัลชีต (ตบ ลูบลอน เคาะ) ที่เหลือชี้ชั้นวาง ขวดโหล และท็อปหิน · ของบนผนังและเคาน์เตอร์คงเดิมทุกฉาก · คำพูดผูกกับสิ่งที่มือทำ เช่น ทั้งครัวทำจากแผ่นนี้ ตอนมือลูบลอน เคาะแล้วแน่น ตอนมือเคาะ\nงานเสร็จต้องดูพร้อมใช้และน่าอยู่ มีของใช้จริงตามหน้าที่พื้นที่ 4-6 อย่าง เช่น ครัว: ขวดโหลบนชั้น จานชาม เขียง ผ้าแขวน กระถางต้นไม้ ไฟใต้ชั้น ห้ามพื้นที่โล่งเปล่า · ฉากกลางให้มือชี้หรือแตะของเหล่านี้บ้างระหว่างคลิป (ชั้นวาง ซิงก์ ที่คว่ำจาน) ไม่ใช่ลูบแต่ผนังอย่างเดียว"
   },
   "camPlan": {
    "ตั้งนิ่งเห็นทั้งพื้นที่": "มุมกล้องหลักแบบตั้งกล้องนิ่ง: มุมเดียวตลอดคลิป เห็นพื้นที่ทั้งหมด; camN ของทุกฉากเป็นมุมเดิม เปลี่ยนได้แค่งานที่ทำเสร็จแล้วในเฟรม; แม้ฉากโชว์รายละเอียดก็ใช้มุมกว้างเดียวกันนี้ (ยกของ/มือมาใกล้กล้องแทน) ห้ามสลับไปมุมอื่น ทั้งโคลสอัพและมาโคร แม้แต่ฉากเดียว",
@@ -47403,12 +47403,12 @@
       {
        "value": "af:wk01",
        "label": "เดินชมงานเสร็จ เข้าใกล้ผิววัสดุ",
-       "desc": "เห็นแต่มือ เดินเข้าหางาน ลูบผิวใกล้ ๆ ผายไปจุดอื่น แล้วถอยกว้างเห็นทั้งงาน",
+       "desc": "เห็นแต่มือ กล้องยืนจุดเดียวในครัว มือตบ ลูบลอน เคาะผนัง ชี้ชั้นและท็อป (ล็อกกล้องกันฉากเพี้ยน)",
        "icon": "directions_walk"
       }
      ],
-     "see": "มุมสายตาคนถือมือถือ เห็นแต่มือ กล้องเดินเข้าใกล้และถอยออก",
-     "say": "คนหลังกล้องเล่าเองเหมือนพาเพื่อนเดินดู"
+     "see": "มุมสายตาคนถือมือถือ เห็นแต่มือ กล้องยืนจุดเดียว ไม่เดิน",
+     "say": "คนหลังกล้องเล่าเองเหมือนรีวิวให้เพื่อนดู"
     },
     {
      "value": "g_restore_1",
@@ -47561,10 +47561,10 @@
    "hurry": "★ ตอนจบ (ผู้ใช้เลือก ใช้แทนคำสั่งฉากท้ายอื่นทั้งหมดของแนวนี้): ฉากสุดท้ายเจ้าของหันหน้าเข้ากล้อง ยิ้ม มือข้างหนึ่งวางแนบผิวสินค้าที่ติดอยู่ใกล้ตัว (หน้าตู้ เสา หรือแผงผนัง) เห็นด้านหน้าครัวอยู่ด้านหลัง ห้ามถือ ยก ชู หรือหยิบสินค้าหรือแผ่นสินค้า ห้ามภาพใกล้ยี่ห้อ · vo ชวนกดตะกร้าตอนนี้ด้วยน้ำเสียงกระตือรือร้น อ้างได้เฉพาะโปรโมชันที่ผู้ใช้กรอกไว้ ห้ามแต่งว่าของใกล้หมดหรือเวลาจำกัดเอง"
   },
   "clipEndPlanWk": {
-   "touch": "★ ตอนจบ (ผู้ใช้เลือก ใช้แทนคำสั่งฉากท้ายอื่นทั้งหมดของแนวนี้): ฉากสุดท้ายกล้องถอยกลับเป็นภาพกว้างมุมเดียวกับฉากแรก เห็นครัวเสร็จทั้งหลังตามฉากก่อนหน้า ไม่มีคน มือ เครื่องมือ หรือแผ่นวัสดุในภาพ ห้ามถือ ยก ชู หรือหยิบสินค้าหรือแผ่นสินค้า ห้ามภาพใกล้ยี่ห้อ · vo ปิดด้วยคำชวนซื้อตรง ๆ สั้น ๆ",
-   "result": "★ ตอนจบ (ผู้ใช้เลือก ใช้แทนคำสั่งฉากท้ายอื่นทั้งหมดของแนวนี้): ฉากสุดท้ายกล้องถอยกลับเป็นภาพกว้างมุมเดียวกับฉากแรก เห็นครัวเสร็จทั้งหลังตามฉากก่อนหน้า ไม่มีคน มือ เครื่องมือ หรือแผ่นวัสดุในภาพ ห้ามถือ ยก ชู หรือหยิบสินค้าหรือแผ่นสินค้า ห้ามภาพใกล้ยี่ห้อ · vo สรุปว่าครัวเสร็จสมบูรณ์พร้อมใช้งาน แล้วปิดด้วยคำชวนซื้อตรง ๆ สั้น ๆ",
-   "price": "★ ตอนจบ (ผู้ใช้เลือก ใช้แทนคำสั่งฉากท้ายอื่นทั้งหมดของแนวนี้): ฉากสุดท้ายกล้องถอยกลับเป็นภาพกว้างมุมเดียวกับฉากแรก เห็นครัวเสร็จทั้งหลังตามฉากก่อนหน้า ไม่มีคน มือ เครื่องมือ หรือแผ่นวัสดุในภาพ ห้ามถือ ยก ชู หรือหยิบสินค้าหรือแผ่นสินค้า ห้ามภาพใกล้ยี่ห้อ · vo พูดราคาหรือโปรโมชันที่ผู้ใช้กรอกไว้ตรงตามนั้นแล้วชวนซื้อ ถ้าไม่ได้กรอกไว้ให้ชวนซื้อโดยไม่พูดตัวเลข ห้ามแต่งราคาหรือโปรโมชันเอง",
-   "hurry": "★ ตอนจบ (ผู้ใช้เลือก ใช้แทนคำสั่งฉากท้ายอื่นทั้งหมดของแนวนี้): ฉากสุดท้ายกล้องถอยกลับเป็นภาพกว้างมุมเดียวกับฉากแรก เห็นครัวเสร็จทั้งหลังตามฉากก่อนหน้า ไม่มีคน มือ เครื่องมือ หรือแผ่นวัสดุในภาพ ห้ามถือ ยก ชู หรือหยิบสินค้าหรือแผ่นสินค้า ห้ามภาพใกล้ยี่ห้อ · vo ชวนกดตะกร้าตอนนี้ด้วยน้ำเสียงกระตือรือร้น อ้างได้เฉพาะโปรโมชันที่ผู้ใช้กรอกไว้ ห้ามแต่งว่าของใกล้หมดหรือเวลาจำกัดเอง"
+   "touch": "★ ตอนจบ (ผู้ใช้เลือก ใช้แทนคำสั่งฉากท้ายอื่นทั้งหมดของแนวนี้): ฉากสุดท้ายกล้องอยู่จุดเดิม กรอบเดียวกับฉากแรก มือแนบผนังเมทัลชีตครั้งสุดท้ายแล้วออกจากกรอบ ภาพสุดท้ายไม่มีคน มือ เครื่องมือ หรือแผ่นวัสดุ ห้ามถือ ยก ชู หรือหยิบสินค้าหรือแผ่นสินค้า ห้ามภาพใกล้ยี่ห้อ · vo ปิดด้วยคำชวนซื้อตรง ๆ สั้น ๆ",
+   "result": "★ ตอนจบ (ผู้ใช้เลือก ใช้แทนคำสั่งฉากท้ายอื่นทั้งหมดของแนวนี้): ฉากสุดท้ายกล้องอยู่จุดเดิม กรอบเดียวกับฉากแรก มือแนบผนังเมทัลชีตครั้งสุดท้ายแล้วออกจากกรอบ ภาพสุดท้ายไม่มีคน มือ เครื่องมือ หรือแผ่นวัสดุ ห้ามถือ ยก ชู หรือหยิบสินค้าหรือแผ่นสินค้า ห้ามภาพใกล้ยี่ห้อ · vo สรุปว่าครัวเสร็จสมบูรณ์พร้อมใช้งาน แล้วปิดด้วยคำชวนซื้อตรง ๆ สั้น ๆ",
+   "price": "★ ตอนจบ (ผู้ใช้เลือก ใช้แทนคำสั่งฉากท้ายอื่นทั้งหมดของแนวนี้): ฉากสุดท้ายกล้องอยู่จุดเดิม กรอบเดียวกับฉากแรก มือแนบผนังเมทัลชีตครั้งสุดท้ายแล้วออกจากกรอบ ภาพสุดท้ายไม่มีคน มือ เครื่องมือ หรือแผ่นวัสดุ ห้ามถือ ยก ชู หรือหยิบสินค้าหรือแผ่นสินค้า ห้ามภาพใกล้ยี่ห้อ · vo พูดราคาหรือโปรโมชันที่ผู้ใช้กรอกไว้ตรงตามนั้นแล้วชวนซื้อ ถ้าไม่ได้กรอกไว้ให้ชวนซื้อโดยไม่พูดตัวเลข ห้ามแต่งราคาหรือโปรโมชันเอง",
+   "hurry": "★ ตอนจบ (ผู้ใช้เลือก ใช้แทนคำสั่งฉากท้ายอื่นทั้งหมดของแนวนี้): ฉากสุดท้ายกล้องอยู่จุดเดิม กรอบเดียวกับฉากแรก มือแนบผนังเมทัลชีตครั้งสุดท้ายแล้วออกจากกรอบ ภาพสุดท้ายไม่มีคน มือ เครื่องมือ หรือแผ่นวัสดุ ห้ามถือ ยก ชู หรือหยิบสินค้าหรือแผ่นสินค้า ห้ามภาพใกล้ยี่ห้อ · vo ชวนกดตะกร้าตอนนี้ด้วยน้ำเสียงกระตือรือร้น อ้างได้เฉพาะโปรโมชันที่ผู้ใช้กรอกไว้ ห้ามแต่งว่าของใกล้หมดหรือเวลาจำกัดเอง"
   }
  },
  "brain": {
