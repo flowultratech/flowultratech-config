@@ -1,8 +1,8 @@
 {
  "app": "flow-reno",
  "version": 5,
- "build": 202,
- "label": "3.0.65",
+ "build": 203,
+ "label": "3.0.66",
  "ops": {
   "mnPlan": {
    "id": "mnPlan",
@@ -14522,23 +14522,46 @@
            "op": "and",
            "list": [
             {
-             "op": "eq",
-             "a": "{item.arc}",
-             "b": "af:wk01"
+             "op": "and",
+             "list": [
+              {
+               "op": "eq",
+               "a": "{item.arc}",
+               "b": "af:wk01"
+              },
+              {
+               "op": "eq",
+               "a": "{values.keyMode}",
+               "b": "1"
+              }
+             ]
             },
             {
-             "op": "eq",
-             "a": "{values.keyMode}",
-             "b": "1"
+             "op": "not",
+             "a": {
+              "op": "eq",
+              "a": "{item.people}",
+              "b": "พรีเซนเตอร์พาชมสินค้า"
+             }
             }
            ]
           },
           {
            "op": "not",
            "a": {
-            "op": "eq",
-            "a": "{item.people}",
-            "b": "พรีเซนเตอร์พาชมสินค้า"
+            "op": "and",
+            "list": [
+             {
+              "op": "eq",
+              "a": "{values.svSec}",
+              "b": "60"
+             },
+             {
+              "op": "eq",
+              "a": "{item.clipEnd}",
+              "b": "touch"
+             }
+            ]
            }
           }
          ]
@@ -14553,25 +14576,147 @@
            "op": "and",
            "list": [
             {
-             "op": "eq",
-             "a": "{item.arc}",
-             "b": "af:wk01"
+             "op": "and",
+             "list": [
+              {
+               "op": "eq",
+               "a": "{item.arc}",
+               "b": "af:wk01"
+              },
+              {
+               "op": "eq",
+               "a": "{values.keyMode}",
+               "b": "1"
+              }
+             ]
             },
             {
-             "op": "eq",
-             "a": "{values.keyMode}",
-             "b": "1"
+             "op": "not",
+             "a": {
+              "op": "eq",
+              "a": "{item.people}",
+              "b": "พรีเซนเตอร์พาชมสินค้า"
+             }
             }
            ]
           },
           {
-           "op": "eq",
-           "a": "{item.people}",
-           "b": "พรีเซนเตอร์พาชมสินค้า"
+           "op": "and",
+           "list": [
+            {
+             "op": "eq",
+             "a": "{values.svSec}",
+             "b": "60"
+            },
+            {
+             "op": "eq",
+             "a": "{item.clipEnd}",
+             "b": "touch"
+            }
+           ]
+          }
+         ]
+        },
+        "value": "\n\nImage 1 is the exact first frame and the given last frame the exact final frame. This part is FOUR short steady shots joined by hard cuts, like a phone review, with one right hand in a dark navy long sleeve (no face or body, five fingers, nothing held); every shot is the same kitchen as Image 1, same walls, roof, colours, counter and objects. Shot 1 (0-2.5 s): the wide view of Image 1, camera still, the hand stays low in the bottom-right corner (forearm and index finger only, never raised high) and points gently up at the kitchen. Hard cut. Shot 2 (2.5-5 s): a close view of the black granite counter top and the corrugated wall behind the sink, the finger points along the wall. Hard cut. Shot 3 (5-7.5 s): a close view of the corrugated wood-grain wall, the palm rests flat on the sheet, touching the product. Hard cut. Shot 4 (7.5-10 s): exactly the wide view of Image 1 again, the low finger points at the kitchen, ending exactly as the last frame (if the last frame has no hand, the hand leaves first). "
+       },
+       {
+        "when": {
+         "op": "and",
+         "list": [
+          {
+           "op": "and",
+           "list": [
+            {
+             "op": "and",
+             "list": [
+              {
+               "op": "eq",
+               "a": "{item.arc}",
+               "b": "af:wk01"
+              },
+              {
+               "op": "eq",
+               "a": "{values.keyMode}",
+               "b": "1"
+              }
+             ]
+            },
+            {
+             "op": "eq",
+             "a": "{item.people}",
+             "b": "พรีเซนเตอร์พาชมสินค้า"
+            }
+           ]
+          },
+          {
+           "op": "not",
+           "a": {
+            "op": "and",
+            "list": [
+             {
+              "op": "eq",
+              "a": "{values.svSec}",
+              "b": "60"
+             },
+             {
+              "op": "eq",
+              "a": "{item.clipEnd}",
+              "b": "touch"
+             }
+            ]
+           }
           }
          ]
         },
         "value": "\n\nImage 1 is the exact first frame and the given last frame the exact final frame. This part is FOUR short steady shots joined by hard cuts, like a phone review, with the same presenter as Image 1 (same face, hair and clothes; nothing held); every shot is the same kitchen as Image 1, same walls, roof, colours, counter and objects. Shot 1 (0-2.5 s): the wide view of Image 1, camera still, the presenter talks to the lens and opens a hand toward the kitchen. Hard cut. Shot 2 (2.5-5 s): a close view of the black granite counter top and the corrugated wall behind the sink, his hand points along the wall. Hard cut. Shot 3 (5-7.5 s): a medium shot of the presenter knocking once on the side wall, smiling at the lens. Hard cut. Shot 4 (7.5-10 s): exactly the wide view of Image 1 again, the presenter smiles and gestures to the kitchen, ending exactly as the last frame. "
+       },
+       {
+        "when": {
+         "op": "and",
+         "list": [
+          {
+           "op": "and",
+           "list": [
+            {
+             "op": "and",
+             "list": [
+              {
+               "op": "eq",
+               "a": "{item.arc}",
+               "b": "af:wk01"
+              },
+              {
+               "op": "eq",
+               "a": "{values.keyMode}",
+               "b": "1"
+              }
+             ]
+            },
+            {
+             "op": "eq",
+             "a": "{item.people}",
+             "b": "พรีเซนเตอร์พาชมสินค้า"
+            }
+           ]
+          },
+          {
+           "op": "and",
+           "list": [
+            {
+             "op": "eq",
+             "a": "{values.svSec}",
+             "b": "60"
+            },
+            {
+             "op": "eq",
+             "a": "{item.clipEnd}",
+             "b": "touch"
+            }
+           ]
+          }
+         ]
+        },
+        "value": "\n\nImage 1 is the exact first frame and the given last frame the exact final frame. This part is FOUR short steady shots joined by hard cuts, like a phone review, with the same presenter as Image 1 (same face, hair and clothes; nothing held); every shot is the same kitchen as Image 1, same walls, roof, colours, counter and objects. Shot 1 (0-2.5 s): the wide view of Image 1, camera still, the presenter talks to the lens and opens a hand toward the kitchen. Hard cut. Shot 2 (2.5-5 s): a close view of the black granite counter top and the corrugated wall behind the sink, his hand points along the wall. Hard cut. Shot 3 (5-7.5 s): a medium shot of the presenter, palm flat on the wood-grain wall, touching the product. Hard cut. Shot 4 (7.5-10 s): exactly the wide view of Image 1 again, the presenter smiles and gestures to the kitchen, ending exactly as the last frame. "
        },
        {
         "when": {
@@ -19743,23 +19888,46 @@
            "op": "and",
            "list": [
             {
-             "op": "eq",
-             "a": "{item.arc}",
-             "b": "af:wk01"
+             "op": "and",
+             "list": [
+              {
+               "op": "eq",
+               "a": "{item.arc}",
+               "b": "af:wk01"
+              },
+              {
+               "op": "eq",
+               "a": "{values.keyMode}",
+               "b": "1"
+              }
+             ]
             },
             {
-             "op": "eq",
-             "a": "{values.keyMode}",
-             "b": "1"
+             "op": "not",
+             "a": {
+              "op": "eq",
+              "a": "{item.people}",
+              "b": "พรีเซนเตอร์พาชมสินค้า"
+             }
             }
            ]
           },
           {
            "op": "not",
            "a": {
-            "op": "eq",
-            "a": "{item.people}",
-            "b": "พรีเซนเตอร์พาชมสินค้า"
+            "op": "and",
+            "list": [
+             {
+              "op": "eq",
+              "a": "{values.svSec}",
+              "b": "50"
+             },
+             {
+              "op": "eq",
+              "a": "{item.clipEnd}",
+              "b": "touch"
+             }
+            ]
            }
           }
          ]
@@ -19774,25 +19942,147 @@
            "op": "and",
            "list": [
             {
-             "op": "eq",
-             "a": "{item.arc}",
-             "b": "af:wk01"
+             "op": "and",
+             "list": [
+              {
+               "op": "eq",
+               "a": "{item.arc}",
+               "b": "af:wk01"
+              },
+              {
+               "op": "eq",
+               "a": "{values.keyMode}",
+               "b": "1"
+              }
+             ]
             },
             {
-             "op": "eq",
-             "a": "{values.keyMode}",
-             "b": "1"
+             "op": "not",
+             "a": {
+              "op": "eq",
+              "a": "{item.people}",
+              "b": "พรีเซนเตอร์พาชมสินค้า"
+             }
             }
            ]
           },
           {
-           "op": "eq",
-           "a": "{item.people}",
-           "b": "พรีเซนเตอร์พาชมสินค้า"
+           "op": "and",
+           "list": [
+            {
+             "op": "eq",
+             "a": "{values.svSec}",
+             "b": "50"
+            },
+            {
+             "op": "eq",
+             "a": "{item.clipEnd}",
+             "b": "touch"
+            }
+           ]
+          }
+         ]
+        },
+        "value": "\n\nImage 1 is the exact first frame and the given last frame the exact final frame. This part is FOUR short steady shots joined by hard cuts, like a phone review, with one right hand in a dark navy long sleeve (no face or body, five fingers, nothing held); every shot is the same kitchen as Image 1, same walls, roof, colours, counter and objects. Shot 1 (0-2.5 s): the wide view of Image 1, camera still, the hand stays low in the bottom-right corner (forearm and index finger only, never raised high) and points gently up at the kitchen. Hard cut. Shot 2 (2.5-5 s): a close view of the black granite counter top and the corrugated wall behind the sink, the finger points along the wall. Hard cut. Shot 3 (5-7.5 s): a close view of the corrugated wood-grain wall, the palm rests flat on the sheet, touching the product. Hard cut. Shot 4 (7.5-10 s): exactly the wide view of Image 1 again, the low finger points at the kitchen, ending exactly as the last frame (if the last frame has no hand, the hand leaves first). "
+       },
+       {
+        "when": {
+         "op": "and",
+         "list": [
+          {
+           "op": "and",
+           "list": [
+            {
+             "op": "and",
+             "list": [
+              {
+               "op": "eq",
+               "a": "{item.arc}",
+               "b": "af:wk01"
+              },
+              {
+               "op": "eq",
+               "a": "{values.keyMode}",
+               "b": "1"
+              }
+             ]
+            },
+            {
+             "op": "eq",
+             "a": "{item.people}",
+             "b": "พรีเซนเตอร์พาชมสินค้า"
+            }
+           ]
+          },
+          {
+           "op": "not",
+           "a": {
+            "op": "and",
+            "list": [
+             {
+              "op": "eq",
+              "a": "{values.svSec}",
+              "b": "50"
+             },
+             {
+              "op": "eq",
+              "a": "{item.clipEnd}",
+              "b": "touch"
+             }
+            ]
+           }
           }
          ]
         },
         "value": "\n\nImage 1 is the exact first frame and the given last frame the exact final frame. This part is FOUR short steady shots joined by hard cuts, like a phone review, with the same presenter as Image 1 (same face, hair and clothes; nothing held); every shot is the same kitchen as Image 1, same walls, roof, colours, counter and objects. Shot 1 (0-2.5 s): the wide view of Image 1, camera still, the presenter talks to the lens and opens a hand toward the kitchen. Hard cut. Shot 2 (2.5-5 s): a close view of the black granite counter top and the corrugated wall behind the sink, his hand points along the wall. Hard cut. Shot 3 (5-7.5 s): a medium shot of the presenter knocking once on the side wall, smiling at the lens. Hard cut. Shot 4 (7.5-10 s): exactly the wide view of Image 1 again, the presenter smiles and gestures to the kitchen, ending exactly as the last frame. "
+       },
+       {
+        "when": {
+         "op": "and",
+         "list": [
+          {
+           "op": "and",
+           "list": [
+            {
+             "op": "and",
+             "list": [
+              {
+               "op": "eq",
+               "a": "{item.arc}",
+               "b": "af:wk01"
+              },
+              {
+               "op": "eq",
+               "a": "{values.keyMode}",
+               "b": "1"
+              }
+             ]
+            },
+            {
+             "op": "eq",
+             "a": "{item.people}",
+             "b": "พรีเซนเตอร์พาชมสินค้า"
+            }
+           ]
+          },
+          {
+           "op": "and",
+           "list": [
+            {
+             "op": "eq",
+             "a": "{values.svSec}",
+             "b": "50"
+            },
+            {
+             "op": "eq",
+             "a": "{item.clipEnd}",
+             "b": "touch"
+            }
+           ]
+          }
+         ]
+        },
+        "value": "\n\nImage 1 is the exact first frame and the given last frame the exact final frame. This part is FOUR short steady shots joined by hard cuts, like a phone review, with the same presenter as Image 1 (same face, hair and clothes; nothing held); every shot is the same kitchen as Image 1, same walls, roof, colours, counter and objects. Shot 1 (0-2.5 s): the wide view of Image 1, camera still, the presenter talks to the lens and opens a hand toward the kitchen. Hard cut. Shot 2 (2.5-5 s): a close view of the black granite counter top and the corrugated wall behind the sink, his hand points along the wall. Hard cut. Shot 3 (5-7.5 s): a medium shot of the presenter, palm flat on the wood-grain wall, touching the product. Hard cut. Shot 4 (7.5-10 s): exactly the wide view of Image 1 again, the presenter smiles and gestures to the kitchen, ending exactly as the last frame. "
        },
        {
         "when": {
@@ -24964,23 +25254,46 @@
            "op": "and",
            "list": [
             {
-             "op": "eq",
-             "a": "{item.arc}",
-             "b": "af:wk01"
+             "op": "and",
+             "list": [
+              {
+               "op": "eq",
+               "a": "{item.arc}",
+               "b": "af:wk01"
+              },
+              {
+               "op": "eq",
+               "a": "{values.keyMode}",
+               "b": "1"
+              }
+             ]
             },
             {
-             "op": "eq",
-             "a": "{values.keyMode}",
-             "b": "1"
+             "op": "not",
+             "a": {
+              "op": "eq",
+              "a": "{item.people}",
+              "b": "พรีเซนเตอร์พาชมสินค้า"
+             }
             }
            ]
           },
           {
            "op": "not",
            "a": {
-            "op": "eq",
-            "a": "{item.people}",
-            "b": "พรีเซนเตอร์พาชมสินค้า"
+            "op": "and",
+            "list": [
+             {
+              "op": "eq",
+              "a": "{values.svSec}",
+              "b": "40"
+             },
+             {
+              "op": "eq",
+              "a": "{item.clipEnd}",
+              "b": "touch"
+             }
+            ]
            }
           }
          ]
@@ -24995,25 +25308,147 @@
            "op": "and",
            "list": [
             {
-             "op": "eq",
-             "a": "{item.arc}",
-             "b": "af:wk01"
+             "op": "and",
+             "list": [
+              {
+               "op": "eq",
+               "a": "{item.arc}",
+               "b": "af:wk01"
+              },
+              {
+               "op": "eq",
+               "a": "{values.keyMode}",
+               "b": "1"
+              }
+             ]
             },
             {
-             "op": "eq",
-             "a": "{values.keyMode}",
-             "b": "1"
+             "op": "not",
+             "a": {
+              "op": "eq",
+              "a": "{item.people}",
+              "b": "พรีเซนเตอร์พาชมสินค้า"
+             }
             }
            ]
           },
           {
-           "op": "eq",
-           "a": "{item.people}",
-           "b": "พรีเซนเตอร์พาชมสินค้า"
+           "op": "and",
+           "list": [
+            {
+             "op": "eq",
+             "a": "{values.svSec}",
+             "b": "40"
+            },
+            {
+             "op": "eq",
+             "a": "{item.clipEnd}",
+             "b": "touch"
+            }
+           ]
+          }
+         ]
+        },
+        "value": "\n\nImage 1 is the exact first frame and the given last frame the exact final frame. This part is FOUR short steady shots joined by hard cuts, like a phone review, with one right hand in a dark navy long sleeve (no face or body, five fingers, nothing held); every shot is the same kitchen as Image 1, same walls, roof, colours, counter and objects. Shot 1 (0-2.5 s): the wide view of Image 1, camera still, the hand stays low in the bottom-right corner (forearm and index finger only, never raised high) and points gently up at the kitchen. Hard cut. Shot 2 (2.5-5 s): a close view of the black granite counter top and the corrugated wall behind the sink, the finger points along the wall. Hard cut. Shot 3 (5-7.5 s): a close view of the corrugated wood-grain wall, the palm rests flat on the sheet, touching the product. Hard cut. Shot 4 (7.5-10 s): exactly the wide view of Image 1 again, the low finger points at the kitchen, ending exactly as the last frame (if the last frame has no hand, the hand leaves first). "
+       },
+       {
+        "when": {
+         "op": "and",
+         "list": [
+          {
+           "op": "and",
+           "list": [
+            {
+             "op": "and",
+             "list": [
+              {
+               "op": "eq",
+               "a": "{item.arc}",
+               "b": "af:wk01"
+              },
+              {
+               "op": "eq",
+               "a": "{values.keyMode}",
+               "b": "1"
+              }
+             ]
+            },
+            {
+             "op": "eq",
+             "a": "{item.people}",
+             "b": "พรีเซนเตอร์พาชมสินค้า"
+            }
+           ]
+          },
+          {
+           "op": "not",
+           "a": {
+            "op": "and",
+            "list": [
+             {
+              "op": "eq",
+              "a": "{values.svSec}",
+              "b": "40"
+             },
+             {
+              "op": "eq",
+              "a": "{item.clipEnd}",
+              "b": "touch"
+             }
+            ]
+           }
           }
          ]
         },
         "value": "\n\nImage 1 is the exact first frame and the given last frame the exact final frame. This part is FOUR short steady shots joined by hard cuts, like a phone review, with the same presenter as Image 1 (same face, hair and clothes; nothing held); every shot is the same kitchen as Image 1, same walls, roof, colours, counter and objects. Shot 1 (0-2.5 s): the wide view of Image 1, camera still, the presenter talks to the lens and opens a hand toward the kitchen. Hard cut. Shot 2 (2.5-5 s): a close view of the black granite counter top and the corrugated wall behind the sink, his hand points along the wall. Hard cut. Shot 3 (5-7.5 s): a medium shot of the presenter knocking once on the side wall, smiling at the lens. Hard cut. Shot 4 (7.5-10 s): exactly the wide view of Image 1 again, the presenter smiles and gestures to the kitchen, ending exactly as the last frame. "
+       },
+       {
+        "when": {
+         "op": "and",
+         "list": [
+          {
+           "op": "and",
+           "list": [
+            {
+             "op": "and",
+             "list": [
+              {
+               "op": "eq",
+               "a": "{item.arc}",
+               "b": "af:wk01"
+              },
+              {
+               "op": "eq",
+               "a": "{values.keyMode}",
+               "b": "1"
+              }
+             ]
+            },
+            {
+             "op": "eq",
+             "a": "{item.people}",
+             "b": "พรีเซนเตอร์พาชมสินค้า"
+            }
+           ]
+          },
+          {
+           "op": "and",
+           "list": [
+            {
+             "op": "eq",
+             "a": "{values.svSec}",
+             "b": "40"
+            },
+            {
+             "op": "eq",
+             "a": "{item.clipEnd}",
+             "b": "touch"
+            }
+           ]
+          }
+         ]
+        },
+        "value": "\n\nImage 1 is the exact first frame and the given last frame the exact final frame. This part is FOUR short steady shots joined by hard cuts, like a phone review, with the same presenter as Image 1 (same face, hair and clothes; nothing held); every shot is the same kitchen as Image 1, same walls, roof, colours, counter and objects. Shot 1 (0-2.5 s): the wide view of Image 1, camera still, the presenter talks to the lens and opens a hand toward the kitchen. Hard cut. Shot 2 (2.5-5 s): a close view of the black granite counter top and the corrugated wall behind the sink, his hand points along the wall. Hard cut. Shot 3 (5-7.5 s): a medium shot of the presenter, palm flat on the wood-grain wall, touching the product. Hard cut. Shot 4 (7.5-10 s): exactly the wide view of Image 1 again, the presenter smiles and gestures to the kitchen, ending exactly as the last frame. "
        },
        {
         "when": {
@@ -30185,23 +30620,46 @@
            "op": "and",
            "list": [
             {
-             "op": "eq",
-             "a": "{item.arc}",
-             "b": "af:wk01"
+             "op": "and",
+             "list": [
+              {
+               "op": "eq",
+               "a": "{item.arc}",
+               "b": "af:wk01"
+              },
+              {
+               "op": "eq",
+               "a": "{values.keyMode}",
+               "b": "1"
+              }
+             ]
             },
             {
-             "op": "eq",
-             "a": "{values.keyMode}",
-             "b": "1"
+             "op": "not",
+             "a": {
+              "op": "eq",
+              "a": "{item.people}",
+              "b": "พรีเซนเตอร์พาชมสินค้า"
+             }
             }
            ]
           },
           {
            "op": "not",
            "a": {
-            "op": "eq",
-            "a": "{item.people}",
-            "b": "พรีเซนเตอร์พาชมสินค้า"
+            "op": "and",
+            "list": [
+             {
+              "op": "eq",
+              "a": "{values.svSec}",
+              "b": "30"
+             },
+             {
+              "op": "eq",
+              "a": "{item.clipEnd}",
+              "b": "touch"
+             }
+            ]
            }
           }
          ]
@@ -30216,25 +30674,147 @@
            "op": "and",
            "list": [
             {
-             "op": "eq",
-             "a": "{item.arc}",
-             "b": "af:wk01"
+             "op": "and",
+             "list": [
+              {
+               "op": "eq",
+               "a": "{item.arc}",
+               "b": "af:wk01"
+              },
+              {
+               "op": "eq",
+               "a": "{values.keyMode}",
+               "b": "1"
+              }
+             ]
             },
             {
-             "op": "eq",
-             "a": "{values.keyMode}",
-             "b": "1"
+             "op": "not",
+             "a": {
+              "op": "eq",
+              "a": "{item.people}",
+              "b": "พรีเซนเตอร์พาชมสินค้า"
+             }
             }
            ]
           },
           {
-           "op": "eq",
-           "a": "{item.people}",
-           "b": "พรีเซนเตอร์พาชมสินค้า"
+           "op": "and",
+           "list": [
+            {
+             "op": "eq",
+             "a": "{values.svSec}",
+             "b": "30"
+            },
+            {
+             "op": "eq",
+             "a": "{item.clipEnd}",
+             "b": "touch"
+            }
+           ]
+          }
+         ]
+        },
+        "value": "\n\nImage 1 is the exact first frame and the given last frame the exact final frame. This part is FOUR short steady shots joined by hard cuts, like a phone review, with one right hand in a dark navy long sleeve (no face or body, five fingers, nothing held); every shot is the same kitchen as Image 1, same walls, roof, colours, counter and objects. Shot 1 (0-2.5 s): the wide view of Image 1, camera still, the hand stays low in the bottom-right corner (forearm and index finger only, never raised high) and points gently up at the kitchen. Hard cut. Shot 2 (2.5-5 s): a close view of the black granite counter top and the corrugated wall behind the sink, the finger points along the wall. Hard cut. Shot 3 (5-7.5 s): a close view of the corrugated wood-grain wall, the palm rests flat on the sheet, touching the product. Hard cut. Shot 4 (7.5-10 s): exactly the wide view of Image 1 again, the low finger points at the kitchen, ending exactly as the last frame (if the last frame has no hand, the hand leaves first). "
+       },
+       {
+        "when": {
+         "op": "and",
+         "list": [
+          {
+           "op": "and",
+           "list": [
+            {
+             "op": "and",
+             "list": [
+              {
+               "op": "eq",
+               "a": "{item.arc}",
+               "b": "af:wk01"
+              },
+              {
+               "op": "eq",
+               "a": "{values.keyMode}",
+               "b": "1"
+              }
+             ]
+            },
+            {
+             "op": "eq",
+             "a": "{item.people}",
+             "b": "พรีเซนเตอร์พาชมสินค้า"
+            }
+           ]
+          },
+          {
+           "op": "not",
+           "a": {
+            "op": "and",
+            "list": [
+             {
+              "op": "eq",
+              "a": "{values.svSec}",
+              "b": "30"
+             },
+             {
+              "op": "eq",
+              "a": "{item.clipEnd}",
+              "b": "touch"
+             }
+            ]
+           }
           }
          ]
         },
         "value": "\n\nImage 1 is the exact first frame and the given last frame the exact final frame. This part is FOUR short steady shots joined by hard cuts, like a phone review, with the same presenter as Image 1 (same face, hair and clothes; nothing held); every shot is the same kitchen as Image 1, same walls, roof, colours, counter and objects. Shot 1 (0-2.5 s): the wide view of Image 1, camera still, the presenter talks to the lens and opens a hand toward the kitchen. Hard cut. Shot 2 (2.5-5 s): a close view of the black granite counter top and the corrugated wall behind the sink, his hand points along the wall. Hard cut. Shot 3 (5-7.5 s): a medium shot of the presenter knocking once on the side wall, smiling at the lens. Hard cut. Shot 4 (7.5-10 s): exactly the wide view of Image 1 again, the presenter smiles and gestures to the kitchen, ending exactly as the last frame. "
+       },
+       {
+        "when": {
+         "op": "and",
+         "list": [
+          {
+           "op": "and",
+           "list": [
+            {
+             "op": "and",
+             "list": [
+              {
+               "op": "eq",
+               "a": "{item.arc}",
+               "b": "af:wk01"
+              },
+              {
+               "op": "eq",
+               "a": "{values.keyMode}",
+               "b": "1"
+              }
+             ]
+            },
+            {
+             "op": "eq",
+             "a": "{item.people}",
+             "b": "พรีเซนเตอร์พาชมสินค้า"
+            }
+           ]
+          },
+          {
+           "op": "and",
+           "list": [
+            {
+             "op": "eq",
+             "a": "{values.svSec}",
+             "b": "30"
+            },
+            {
+             "op": "eq",
+             "a": "{item.clipEnd}",
+             "b": "touch"
+            }
+           ]
+          }
+         ]
+        },
+        "value": "\n\nImage 1 is the exact first frame and the given last frame the exact final frame. This part is FOUR short steady shots joined by hard cuts, like a phone review, with the same presenter as Image 1 (same face, hair and clothes; nothing held); every shot is the same kitchen as Image 1, same walls, roof, colours, counter and objects. Shot 1 (0-2.5 s): the wide view of Image 1, camera still, the presenter talks to the lens and opens a hand toward the kitchen. Hard cut. Shot 2 (2.5-5 s): a close view of the black granite counter top and the corrugated wall behind the sink, his hand points along the wall. Hard cut. Shot 3 (5-7.5 s): a medium shot of the presenter, palm flat on the wood-grain wall, touching the product. Hard cut. Shot 4 (7.5-10 s): exactly the wide view of Image 1 again, the presenter smiles and gestures to the kitchen, ending exactly as the last frame. "
        },
        {
         "when": {
@@ -35407,23 +35987,46 @@
            "op": "and",
            "list": [
             {
-             "op": "eq",
-             "a": "{item.arc}",
-             "b": "af:wk01"
+             "op": "and",
+             "list": [
+              {
+               "op": "eq",
+               "a": "{item.arc}",
+               "b": "af:wk01"
+              },
+              {
+               "op": "eq",
+               "a": "{values.keyMode}",
+               "b": "1"
+              }
+             ]
             },
             {
-             "op": "eq",
-             "a": "{values.keyMode}",
-             "b": "1"
+             "op": "not",
+             "a": {
+              "op": "eq",
+              "a": "{item.people}",
+              "b": "พรีเซนเตอร์พาชมสินค้า"
+             }
             }
            ]
           },
           {
            "op": "not",
            "a": {
-            "op": "eq",
-            "a": "{item.people}",
-            "b": "พรีเซนเตอร์พาชมสินค้า"
+            "op": "and",
+            "list": [
+             {
+              "op": "eq",
+              "a": "{values.svSec}",
+              "b": "20"
+             },
+             {
+              "op": "eq",
+              "a": "{item.clipEnd}",
+              "b": "touch"
+             }
+            ]
            }
           }
          ]
@@ -35438,25 +36041,147 @@
            "op": "and",
            "list": [
             {
-             "op": "eq",
-             "a": "{item.arc}",
-             "b": "af:wk01"
+             "op": "and",
+             "list": [
+              {
+               "op": "eq",
+               "a": "{item.arc}",
+               "b": "af:wk01"
+              },
+              {
+               "op": "eq",
+               "a": "{values.keyMode}",
+               "b": "1"
+              }
+             ]
             },
             {
-             "op": "eq",
-             "a": "{values.keyMode}",
-             "b": "1"
+             "op": "not",
+             "a": {
+              "op": "eq",
+              "a": "{item.people}",
+              "b": "พรีเซนเตอร์พาชมสินค้า"
+             }
             }
            ]
           },
           {
-           "op": "eq",
-           "a": "{item.people}",
-           "b": "พรีเซนเตอร์พาชมสินค้า"
+           "op": "and",
+           "list": [
+            {
+             "op": "eq",
+             "a": "{values.svSec}",
+             "b": "20"
+            },
+            {
+             "op": "eq",
+             "a": "{item.clipEnd}",
+             "b": "touch"
+            }
+           ]
+          }
+         ]
+        },
+        "value": "\n\nImage 1 is the exact first frame and the given last frame the exact final frame. This part is FOUR short steady shots joined by hard cuts, like a phone review, with one right hand in a dark navy long sleeve (no face or body, five fingers, nothing held); every shot is the same kitchen as Image 1, same walls, roof, colours, counter and objects. Shot 1 (0-2.5 s): the wide view of Image 1, camera still, the hand stays low in the bottom-right corner (forearm and index finger only, never raised high) and points gently up at the kitchen. Hard cut. Shot 2 (2.5-5 s): a close view of the inner back wall with the shelf and jars, the palm pats the corrugated sheet. Hard cut. Shot 3 (5-7.5 s): a close view of the corrugated wood-grain wall, the palm rests flat on the sheet, touching the product. Hard cut. Shot 4 (7.5-10 s): exactly the wide view of Image 1 again, the low finger points at the kitchen, ending exactly as the last frame (if the last frame has no hand, the hand leaves first). "
+       },
+       {
+        "when": {
+         "op": "and",
+         "list": [
+          {
+           "op": "and",
+           "list": [
+            {
+             "op": "and",
+             "list": [
+              {
+               "op": "eq",
+               "a": "{item.arc}",
+               "b": "af:wk01"
+              },
+              {
+               "op": "eq",
+               "a": "{values.keyMode}",
+               "b": "1"
+              }
+             ]
+            },
+            {
+             "op": "eq",
+             "a": "{item.people}",
+             "b": "พรีเซนเตอร์พาชมสินค้า"
+            }
+           ]
+          },
+          {
+           "op": "not",
+           "a": {
+            "op": "and",
+            "list": [
+             {
+              "op": "eq",
+              "a": "{values.svSec}",
+              "b": "20"
+             },
+             {
+              "op": "eq",
+              "a": "{item.clipEnd}",
+              "b": "touch"
+             }
+            ]
+           }
           }
          ]
         },
         "value": "\n\nImage 1 is the exact first frame and the given last frame the exact final frame. This part is FOUR short steady shots joined by hard cuts, like a phone review, with the same presenter as Image 1 (same face, hair and clothes; nothing held); every shot is the same kitchen as Image 1, same walls, roof, colours, counter and objects. Shot 1 (0-2.5 s): the wide view of Image 1, camera still, the presenter talks to the lens and opens a hand toward the kitchen. Hard cut. Shot 2 (2.5-5 s): the camera moves slowly straight into the kitchen through its open front. Hard cut. Shot 3 (5-7.5 s): a close view of the inner back wall with the shelf and jars, the presenter's hand pats the corrugated sheet. Hard cut. Shot 4 (7.5-10 s): exactly the wide view of Image 1 again, the presenter smiles and gestures to the kitchen, ending exactly as the last frame. "
+       },
+       {
+        "when": {
+         "op": "and",
+         "list": [
+          {
+           "op": "and",
+           "list": [
+            {
+             "op": "and",
+             "list": [
+              {
+               "op": "eq",
+               "a": "{item.arc}",
+               "b": "af:wk01"
+              },
+              {
+               "op": "eq",
+               "a": "{values.keyMode}",
+               "b": "1"
+              }
+             ]
+            },
+            {
+             "op": "eq",
+             "a": "{item.people}",
+             "b": "พรีเซนเตอร์พาชมสินค้า"
+            }
+           ]
+          },
+          {
+           "op": "and",
+           "list": [
+            {
+             "op": "eq",
+             "a": "{values.svSec}",
+             "b": "20"
+            },
+            {
+             "op": "eq",
+             "a": "{item.clipEnd}",
+             "b": "touch"
+            }
+           ]
+          }
+         ]
+        },
+        "value": "\n\nImage 1 is the exact first frame and the given last frame the exact final frame. This part is FOUR short steady shots joined by hard cuts, like a phone review, with the same presenter as Image 1 (same face, hair and clothes; nothing held); every shot is the same kitchen as Image 1, same walls, roof, colours, counter and objects. Shot 1 (0-2.5 s): the wide view of Image 1, camera still, the presenter talks to the lens and opens a hand toward the kitchen. Hard cut. Shot 2 (2.5-5 s): the camera moves slowly straight into the kitchen through its open front. Hard cut. Shot 3 (5-7.5 s): a medium shot of the presenter, palm flat on the wood-grain wall, touching the product. Hard cut. Shot 4 (7.5-10 s): exactly the wide view of Image 1 again, the presenter smiles and gestures to the kitchen, ending exactly as the last frame. "
        },
        {
         "when": {
@@ -40808,30 +41533,53 @@
              "op": "and",
              "list": [
               {
-               "op": "eq",
-               "a": "{item.arc}",
-               "b": "af:wk01"
+               "op": "and",
+               "list": [
+                {
+                 "op": "eq",
+                 "a": "{item.arc}",
+                 "b": "af:wk01"
+                },
+                {
+                 "op": "eq",
+                 "a": "{values.keyMode}",
+                 "b": "1"
+                }
+               ]
               },
               {
                "op": "eq",
-               "a": "{values.keyMode}",
-               "b": "1"
+               "a": "{values.svSec}",
+               "b": "10"
               }
              ]
             },
             {
-             "op": "eq",
-             "a": "{values.svSec}",
-             "b": "10"
+             "op": "not",
+             "a": {
+              "op": "eq",
+              "a": "{item.people}",
+              "b": "พรีเซนเตอร์พาชมสินค้า"
+             }
             }
            ]
           },
           {
            "op": "not",
            "a": {
-            "op": "eq",
-            "a": "{item.people}",
-            "b": "พรีเซนเตอร์พาชมสินค้า"
+            "op": "and",
+            "list": [
+             {
+              "op": "eq",
+              "a": "{values.svSec}",
+              "b": "10"
+             },
+             {
+              "op": "eq",
+              "a": "{item.clipEnd}",
+              "b": "touch"
+             }
+            ]
            }
           }
          ]
@@ -40849,32 +41597,174 @@
              "op": "and",
              "list": [
               {
-               "op": "eq",
-               "a": "{item.arc}",
-               "b": "af:wk01"
+               "op": "and",
+               "list": [
+                {
+                 "op": "eq",
+                 "a": "{item.arc}",
+                 "b": "af:wk01"
+                },
+                {
+                 "op": "eq",
+                 "a": "{values.keyMode}",
+                 "b": "1"
+                }
+               ]
               },
               {
                "op": "eq",
-               "a": "{values.keyMode}",
-               "b": "1"
+               "a": "{values.svSec}",
+               "b": "10"
+              }
+             ]
+            },
+            {
+             "op": "not",
+             "a": {
+              "op": "eq",
+              "a": "{item.people}",
+              "b": "พรีเซนเตอร์พาชมสินค้า"
+             }
+            }
+           ]
+          },
+          {
+           "op": "and",
+           "list": [
+            {
+             "op": "eq",
+             "a": "{values.svSec}",
+             "b": "10"
+            },
+            {
+             "op": "eq",
+             "a": "{item.clipEnd}",
+             "b": "touch"
+            }
+           ]
+          }
+         ]
+        },
+        "value": "\n\nImage 1 is the exact first frame and the given last frame the exact final frame. This part is FOUR short steady shots joined by hard cuts, like a phone review, with one right hand in a dark navy long sleeve (no face or body, five fingers, nothing held); every shot is the same kitchen as Image 1, same walls, roof, colours, counter and objects. Shot 1 (0-2.5 s): the wide view of Image 1, camera still, the hand stays low in the bottom-right corner (forearm and index finger only, never raised high) and points gently up at the kitchen. Hard cut. Shot 2 (2.5-5 s): a close view of the corrugated wood-grain side wall that Image 1 shows, the waves clear, the finger points at it and slides along one rib. Hard cut. Shot 3 (5-7.5 s): a close view of the corrugated wood-grain wall, the palm rests flat on the sheet, touching the product. Hard cut. Shot 4 (7.5-10 s): exactly the wide view of Image 1 again, the low finger points at the kitchen, ending exactly as the last frame (if the last frame has no hand, the hand leaves first). "
+       },
+       {
+        "when": {
+         "op": "and",
+         "list": [
+          {
+           "op": "and",
+           "list": [
+            {
+             "op": "and",
+             "list": [
+              {
+               "op": "and",
+               "list": [
+                {
+                 "op": "eq",
+                 "a": "{item.arc}",
+                 "b": "af:wk01"
+                },
+                {
+                 "op": "eq",
+                 "a": "{values.keyMode}",
+                 "b": "1"
+                }
+               ]
+              },
+              {
+               "op": "eq",
+               "a": "{values.svSec}",
+               "b": "10"
               }
              ]
             },
             {
              "op": "eq",
-             "a": "{values.svSec}",
-             "b": "10"
+             "a": "{item.people}",
+             "b": "พรีเซนเตอร์พาชมสินค้า"
             }
            ]
           },
           {
-           "op": "eq",
-           "a": "{item.people}",
-           "b": "พรีเซนเตอร์พาชมสินค้า"
+           "op": "not",
+           "a": {
+            "op": "and",
+            "list": [
+             {
+              "op": "eq",
+              "a": "{values.svSec}",
+              "b": "10"
+             },
+             {
+              "op": "eq",
+              "a": "{item.clipEnd}",
+              "b": "touch"
+             }
+            ]
+           }
           }
          ]
         },
         "value": "\n\nImage 1 is the exact first frame and the given last frame the exact final frame. This part is FOUR short steady shots joined by hard cuts, like a phone review, with the same presenter as Image 1 (same face, hair and clothes; nothing held); every shot is the same kitchen as Image 1, same walls, roof, colours, counter and objects. Shot 1 (0-2.5 s): the wide view of Image 1, camera still, the presenter talks to the lens and opens a hand toward the kitchen. Hard cut. Shot 2 (2.5-5 s): a medium shot of the presenter beside the corrugated wood-grain side wall, his palm flat on the sheet, talking to the lens. Hard cut. Shot 3 (5-7.5 s): a close view of the wall waves, only his hand slides along one rib. Hard cut. Shot 4 (7.5-10 s): exactly the wide view of Image 1 again, the presenter smiles and gestures to the kitchen, ending exactly as the last frame. "
+       },
+       {
+        "when": {
+         "op": "and",
+         "list": [
+          {
+           "op": "and",
+           "list": [
+            {
+             "op": "and",
+             "list": [
+              {
+               "op": "and",
+               "list": [
+                {
+                 "op": "eq",
+                 "a": "{item.arc}",
+                 "b": "af:wk01"
+                },
+                {
+                 "op": "eq",
+                 "a": "{values.keyMode}",
+                 "b": "1"
+                }
+               ]
+              },
+              {
+               "op": "eq",
+               "a": "{values.svSec}",
+               "b": "10"
+              }
+             ]
+            },
+            {
+             "op": "eq",
+             "a": "{item.people}",
+             "b": "พรีเซนเตอร์พาชมสินค้า"
+            }
+           ]
+          },
+          {
+           "op": "and",
+           "list": [
+            {
+             "op": "eq",
+             "a": "{values.svSec}",
+             "b": "10"
+            },
+            {
+             "op": "eq",
+             "a": "{item.clipEnd}",
+             "b": "touch"
+            }
+           ]
+          }
+         ]
+        },
+        "value": "\n\nImage 1 is the exact first frame and the given last frame the exact final frame. This part is FOUR short steady shots joined by hard cuts, like a phone review, with the same presenter as Image 1 (same face, hair and clothes; nothing held); every shot is the same kitchen as Image 1, same walls, roof, colours, counter and objects. Shot 1 (0-2.5 s): the wide view of Image 1, camera still, the presenter talks to the lens and opens a hand toward the kitchen. Hard cut. Shot 2 (2.5-5 s): a medium shot of the presenter beside the corrugated wood-grain side wall, his palm flat on the sheet, talking to the lens. Hard cut. Shot 3 (5-7.5 s): a medium shot of the presenter, palm flat on the wood-grain wall, touching the product. Hard cut. Shot 4 (7.5-10 s): exactly the wide view of Image 1 again, the presenter smiles and gestures to the kitchen, ending exactly as the last frame. "
        },
        {
         "when": {
@@ -48038,20 +48928,20 @@
     },
     {
      "value": "g_restore_8",
-     "label": "เดินถ่ายใกล้ ๆ",
-     "desc": "มือถือเดินชมงานเสร็จ เข้าใกล้ผิววัสดุ ลูบให้เห็นลาย แล้วถอยกว้าง · 1 แบบ",
-     "icon": "directions_walk",
+     "label": "พาชมตัดช็อตสั้น",
+     "desc": "พาชมงานเสร็จแบบคลิปตัวอย่าง 09: ภาพกว้างมุมเดิม สลับช็อตใกล้ทุกราว 2.5 วินาที ไม่เดิน · สำหรับสินค้าแผ่นผนังหรือหลังคา · 1 แบบ",
+     "icon": "movie",
      "people": "เห็นแต่มือ ไม่เห็นหน้า",
      "items": [
       {
        "value": "af:wk01",
-       "label": "เดินชมงานเสร็จ เข้าใกล้ผิววัสดุ",
-       "desc": "เห็นแต่มือ ตัดช็อตสั้นแบบคลิปตัวอย่าง 09: ภาพกว้าง นิ้วชี้ → ผนังใกล้ → ข้างใน → กลับภาพกว้าง (ช็อตนิ่ง ไม่เดิน กันฉากเพี้ยน) · ตั้งคนเป็น พรีเซนเตอร์พาชมสินค้า = มีคนพูดกับกล้องแบบคลิป 03",
-       "icon": "directions_walk"
+       "label": "พาชมงานเสร็จ ตัดช็อตสั้น",
+       "desc": "ภาพกว้างล็อกมุมเดิมทุก 10 วินาที ระหว่างนั้นช็อตใกล้ผนัง ชั้น เพดาน ทีละช็อต · คนในภาพตั้งเป็นเห็นแต่มือ เปลี่ยนเป็น พรีเซนเตอร์พาชมสินค้า ได้ (แบบคลิป 03) · ใช้กับสินค้าที่เป็นแผ่นผนังหรือหลังคา เช่น เมทัลชีต",
+       "icon": "movie"
       }
      ],
-     "see": "มุมสายตาคนถือมือถือ เห็นแต่มือ ช็อตสั้นตัดภาพ ไม่เดิน",
-     "say": "คนหลังกล้องเล่าเองเหมือนรีวิวให้เพื่อนดู"
+     "see": "มุมสายตาคนถือมือถือ ภาพกว้างระดับอกมุมเดิม สลับช็อตใกล้ ไม่เดิน",
+     "say": "คนหลังกล้องหรือพรีเซนเตอร์เล่าเองแบบคุยกับเพื่อน"
     },
     {
      "value": "g_restore_1",
@@ -48204,7 +49094,7 @@
    "hurry": "★ ตอนจบ (ผู้ใช้เลือก ใช้แทนคำสั่งฉากท้ายอื่นทั้งหมดของแนวนี้): ฉากสุดท้ายเจ้าของหันหน้าเข้ากล้อง ยิ้ม มือข้างหนึ่งวางแนบผิวสินค้าที่ติดอยู่ใกล้ตัว (หน้าตู้ เสา หรือแผงผนัง) เห็นด้านหน้าครัวอยู่ด้านหลัง ห้ามถือ ยก ชู หรือหยิบสินค้าหรือแผ่นสินค้า ห้ามภาพใกล้ยี่ห้อ · vo ชวนกดตะกร้าตอนนี้ด้วยน้ำเสียงกระตือรือร้น อ้างได้เฉพาะโปรโมชันที่ผู้ใช้กรอกไว้ ห้ามแต่งว่าของใกล้หมดหรือเวลาจำกัดเอง"
   },
   "clipEndPlanWk": {
-   "touch": "★ ตอนจบ (ผู้ใช้เลือก ใช้แทนคำสั่งฉากท้ายอื่นทั้งหมดของแนวนี้): ฉากสุดท้ายเป็นภาพกว้างเดียวกับฉากแรก นิ้วชี้ไปที่ผนังเมทัลชีตแล้วมือออกจากกรอบ ภาพสุดท้ายไม่มีคน มือ เครื่องมือ หรือแผ่นวัสดุ ห้ามถือ ยก ชู หรือหยิบสินค้าหรือแผ่นสินค้า ห้ามภาพใกล้ยี่ห้อ · vo ปิดด้วยคำชวนซื้อตรง ๆ สั้น ๆ",
+   "touch": "★ ตอนจบ (ผู้ใช้เลือก ใช้แทนคำสั่งฉากท้ายอื่นทั้งหมดของแนวนี้): ฉาก 4-5 ของช่วงสุดท้าย (ช็อต 3) เป็นภาพใกล้ฝ่ามือแนบผนังเมทัลชีต (แตะสินค้า) ถ้าเป็นพรีเซนเตอร์ให้เป็นภาพกลางพรีเซนเตอร์ยืนข้างผนังฝ่ามือแนบผนัง · ฉากสุดท้าย (ช็อต 4) กลับภาพกว้างเดิม พูดประโยคชวนซื้อ มือออกจากกรอบ (พรีเซนเตอร์ยังอยู่ในภาพ ยิ้มผายมือ) ห้ามถือ ยก ชู หรือหยิบสินค้าหรือแผ่นสินค้า ห้ามภาพใกล้ยี่ห้อ · vo ปิดด้วยคำชวนซื้อตรง ๆ สั้น ๆ",
    "result": "★ ตอนจบ (ผู้ใช้เลือก ใช้แทนคำสั่งฉากท้ายอื่นทั้งหมดของแนวนี้): ฉากสุดท้ายเป็นภาพกว้างเดียวกับฉากแรก นิ้วชี้ไปที่ผนังเมทัลชีตแล้วมือออกจากกรอบ ภาพสุดท้ายไม่มีคน มือ เครื่องมือ หรือแผ่นวัสดุ ห้ามถือ ยก ชู หรือหยิบสินค้าหรือแผ่นสินค้า ห้ามภาพใกล้ยี่ห้อ · vo สรุปว่าครัวเสร็จสมบูรณ์พร้อมใช้งาน แล้วปิดด้วยคำชวนซื้อตรง ๆ สั้น ๆ",
    "price": "★ ตอนจบ (ผู้ใช้เลือก ใช้แทนคำสั่งฉากท้ายอื่นทั้งหมดของแนวนี้): ฉากสุดท้ายเป็นภาพกว้างเดียวกับฉากแรก นิ้วชี้ไปที่ผนังเมทัลชีตแล้วมือออกจากกรอบ ภาพสุดท้ายไม่มีคน มือ เครื่องมือ หรือแผ่นวัสดุ ห้ามถือ ยก ชู หรือหยิบสินค้าหรือแผ่นสินค้า ห้ามภาพใกล้ยี่ห้อ · vo พูดราคาหรือโปรโมชันที่ผู้ใช้กรอกไว้ตรงตามนั้นแล้วชวนซื้อ ถ้าไม่ได้กรอกไว้ให้ชวนซื้อโดยไม่พูดตัวเลข ห้ามแต่งราคาหรือโปรโมชันเอง",
    "hurry": "★ ตอนจบ (ผู้ใช้เลือก ใช้แทนคำสั่งฉากท้ายอื่นทั้งหมดของแนวนี้): ฉากสุดท้ายเป็นภาพกว้างเดียวกับฉากแรก นิ้วชี้ไปที่ผนังเมทัลชีตแล้วมือออกจากกรอบ ภาพสุดท้ายไม่มีคน มือ เครื่องมือ หรือแผ่นวัสดุ ห้ามถือ ยก ชู หรือหยิบสินค้าหรือแผ่นสินค้า ห้ามภาพใกล้ยี่ห้อ · vo ชวนกดตะกร้าตอนนี้ด้วยน้ำเสียงกระตือรือร้น อ้างได้เฉพาะโปรโมชันที่ผู้ใช้กรอกไว้ ห้ามแต่งว่าของใกล้หมดหรือเวลาจำกัดเอง"
